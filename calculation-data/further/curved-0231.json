@@ -1,0 +1,4888 @@
+{
+  "domain": "Q,t>=0;u,z in [0,1]; actual application Q>0,0<u<1,0<z<=1",
+  "source_substitution": "S=Q+1,p=zS,r=3S/z+t,q=uQ/2,y=Q-q",
+  "targets": {
+    "cleared_gap": {
+      "bernstein_degrees_u_z": [
+        2,
+        2
+      ],
+      "rows": [
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "36"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "24"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "16"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "117/4"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "87/4"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "61/4"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "117/4"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "105/4"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "47/2"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "12"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "16"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "87/8"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "67/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "87/8"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "79/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "108"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "72"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "48"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "405/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "297/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "213/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "405/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "333/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "135/2"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "24"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "32"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "24"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "35"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "24"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "38"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "108"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "72"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "48"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "108"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "153/2"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "54"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "108"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "81"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "60"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "12"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "16"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "12"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "16"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "12"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "16"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "36"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "24"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "16"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "36"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "24"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "16"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "36"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "24"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "16"
+        }
+      ],
+      "groups_Q_t": 9,
+      "power_terms": 36,
+      "coefficient_entries": 81,
+      "positive_entries": 60,
+      "zero_entries": 21,
+      "constant_group_minimum": "16"
+    },
+    "cleared_obstruction": {
+      "bernstein_degrees_u_z": [
+        4,
+        4
+      ],
+      "rows": [
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "36"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "153/4"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "37"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "69/2"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "31"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "99/2"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "399/8"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "375/8"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "677/16"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "147/4"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "117/2"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "913/16"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "1885/36"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "4393/96"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "151/4"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "63"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "957/16"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "5137/96"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "45"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "549/16"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "63"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "465/8"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "4831/96"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "1281/32"
+        },
+        {
+          "powers_Q_t": [
+            4,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "423/16"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "51/4"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "53/2"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "38"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "48"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "15"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "725/24"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "679/16"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "207/4"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "33/2"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "2335/72"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "4289/96"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "421/8"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "69/4"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "199/6"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "1431/32"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "405/8"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "69/4"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "389/12"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "681/16"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "183/4"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "144"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "147"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "137"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "124"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "110"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "171"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "2661/16"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "901/6"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "2089/16"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "439/4"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "189"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "355/2"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "5623/36"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "525/4"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "1255/12"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "198"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "2889/16"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "1861/12"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "2017/16"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "189/2"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "198"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "351/2"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "881/6"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "115"
+        },
+        {
+          "powers_Q_t": [
+            3,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "159/2"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "11/3"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "45/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "21"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "47/12"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "189/16"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "87/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "49/12"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "97/8"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "22"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "25/6"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "195/16"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "87/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "25/6"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "12"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "21"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "153/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "451/6"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "203/2"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "120"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "81/2"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "621/8"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "1647/16"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "237/2"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "42"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "5671/72"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "9857/96"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "921/8"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "171/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "943/12"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "3223/32"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "879/8"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "171/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "925/12"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "1553/16"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "411/4"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "216"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "423/2"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "1129/6"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "325/2"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "139"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "459/2"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "435/2"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "2275/12"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "2553/16"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "263/2"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "477/2"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "3517/16"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "27103/144"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "14881/96"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "989/8"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "243"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "3495/16"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "2945/16"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "4763/32"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "923/8"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "243"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "1707/8"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "1417/8"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "2257/16"
+        },
+        {
+          "powers_Q_t": [
+            2,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "427/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            3
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "22/3"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "21"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "36"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "22/3"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "333/16"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "141/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "22/3"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "165/8"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "69/2"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "22/3"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "327/16"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "135/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "22/3"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "81/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "33"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "153/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "425/6"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "89"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "96"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "153/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "841/12"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "175/2"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "375/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "153/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "208/3"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "86"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "183/2"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "153/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "823/12"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "169/2"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "357/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "153/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "407/6"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "83"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "87"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "144"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "135"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "340/3"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "91"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "72"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "144"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "2133/16"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "2675/24"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "1429/16"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "141/2"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "144"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "1053/8"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "1315/12"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "701/8"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "69"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "144"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "2079/16"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "2585/24"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "1375/16"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "135/2"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "144"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "513/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "635/6"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "337/4"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "66"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            3
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "11/3"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "39/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "15"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "11/3"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "39/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "15"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "11/3"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "39/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "15"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "11/3"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "39/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "15"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "11/3"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "39/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            2
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "15"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "51/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "133/6"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "51/2"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "24"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "51/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "133/6"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "51/2"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "24"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "51/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "133/6"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "51/2"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "24"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "51/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "133/6"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "51/2"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "24"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "51/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "133/6"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "51/2"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "24"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "36"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "129/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "151/6"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            3
+          ],
+          "coefficient": "18"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            4
+          ],
+          "coefficient": "12"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            0
+          ],
+          "coefficient": "36"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            1
+          ],
+          "coefficient": "129/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            2
+          ],
+          "coefficient": "151/6"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            3
+          ],
+          "coefficient": "18"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            1,
+            4
+          ],
+          "coefficient": "12"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            0
+          ],
+          "coefficient": "36"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            1
+          ],
+          "coefficient": "129/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            2
+          ],
+          "coefficient": "151/6"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            3
+          ],
+          "coefficient": "18"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            2,
+            4
+          ],
+          "coefficient": "12"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            0
+          ],
+          "coefficient": "36"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            1
+          ],
+          "coefficient": "129/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            2
+          ],
+          "coefficient": "151/6"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            3
+          ],
+          "coefficient": "18"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            3,
+            4
+          ],
+          "coefficient": "12"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            0
+          ],
+          "coefficient": "36"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            1
+          ],
+          "coefficient": "129/4"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            2
+          ],
+          "coefficient": "151/6"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            3
+          ],
+          "coefficient": "18"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            4,
+            4
+          ],
+          "coefficient": "12"
+        }
+      ],
+      "groups_Q_t": 14,
+      "power_terms": 109,
+      "coefficient_entries": 350,
+      "positive_entries": 270,
+      "zero_entries": 80,
+      "constant_group_minimum": "12"
+    },
+    "cleared_height": {
+      "bernstein_degrees_u_z": [
+        0,
+        2
+      ],
+      "rows": [
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "5/2"
+        },
+        {
+          "powers_Q_t": [
+            1,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "0"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            1
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            0
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            1
+          ],
+          "coefficient": "3/2"
+        },
+        {
+          "powers_Q_t": [
+            0,
+            0
+          ],
+          "indices_u_z": [
+            0,
+            2
+          ],
+          "coefficient": "1"
+        }
+      ],
+      "groups_Q_t": 3,
+      "power_terms": 7,
+      "coefficient_entries": 9,
+      "positive_entries": 8,
+      "zero_entries": 1,
+      "constant_group_minimum": "1"
+    }
+  }
+}
