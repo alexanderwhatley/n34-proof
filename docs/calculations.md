@@ -29,8 +29,8 @@ another output folder.
 | `python calculations/derive_c3_support.py` | Expands five zero-slope boundary polynomials and two lower-endpoint derivative polynomials after their positive-variable substitutions. | [C3 slope support](lemmas/positive/c3-upper-tail-quadratic-slope-support-theorem.md). |
 | `python calculations/derive_f24_expansions.py` | Uses the supplied integer multiplier identity to expand the two positive expressions in each of the two small-first-root parameter regions. | The [remaining upper-low middle pattern](lemmas/positive/upper-low-small-first-root-middle-pattern-theorem.md). |
 | `python calculations/derive_entropy_coefficients.py` | Expands the common degree-six forcing polynomial and the entropy-curve derivative numerator. | The [positive-coefficient arguments](appendix.md#positive-coefficient-arguments). |
-| `python calculations/derive_reciprocal_height.py` | Derives the normalized endpoint polynomials, the source-floor polynomial, and the four-dimensional Bernstein expansion. | The [additional reciprocal height lemma](further-lemmas/reciprocal-height.md). |
-| `python calculations/derive_regional_0231.py` | Expands the three linear parameter regions and the curved parameter region for the additional order-0231 exclusion. | The [additional shape exclusions](further-lemmas/shape-exclusions.md). |
+| `python calculations/derive_reciprocal_height.py` | Derives the normalized endpoint polynomials, the source-floor polynomial, and the four-dimensional Bernstein expansion. | The [reciprocal height lemma](lemmas/f3/reciprocal-height.md). |
+| `python calculations/derive_regional_0231.py` | Expands the three linear parameter regions and the curved parameter region for the order-0231 shape exclusions. | The [shape exclusions](lemmas/f3/shape-exclusions.md). |
 
 The largest symbolic expansions can take several minutes. To calculate only
 one part of the F3 expansion, use `--sector 0231`, `--sector 1320-positive`, or
@@ -94,17 +94,17 @@ indices, as defined in the F3 appendix. The digit strings `0231` and `1320`
 are short labels for two orders of four events; their interpretation is
 given there. They are not extra hypotheses or unidentified case numbers.
 
-## Tables for the additional simplifications
+## Tables for the reciprocal-coordinate lemmas
 
-The following tables accompany [the further simplifications](further-simplifications.md).
+The following tables accompany [the reciprocal-coordinate lemmas](appendix.md#reciprocal-coordinate-height-and-regional-bounds).
 Their stated parameter regions are part of each theorem.
 
 | File | Meaning |
 | --- | --- |
-| [Height source-floor identity](../calculation-data/further/height-floor.json) | The `support` rows express the source-floor target as a sum of positive monomials times the specified source inequalities. The target and named factors are derived in `height-floor-polynomials.json` by `derive_reciprocal_height.py`. |
-| [Full reciprocal-height Bernstein expansion](../calculation-data/further/full-height-bernstein.json) | The exact expansion of the cleared target polynomial on the stated box. It has 13,125 positive entries and 375 zero entries. `a_exponent` names the positive-variable group; the four `indices` name the Bernstein basis functions. Zero entries are omitted. |
-| [Three linear shape regions](../calculation-data/further/three-cone-0231.json) | Exact coefficient expansions after $y=q+e$, $p=c(q+y+1)+a$, and $r=kp+t$. The table specifies $c,k$ for each region. |
-| [Curved shape region](../calculation-data/further/curved-0231.json) | Mixed power/Bernstein expansions after $p=zS$, $r=3S/z+t$, $S=Q+1$, $q=uQ/2$, and $y=Q-q$. The theorem states the strict source conditions that allow these substitutions. |
+| [Height source-floor identity](../calculation-data/reciprocal/height-floor.json) | The `support` rows express the source-floor target as a sum of positive monomials times the specified source inequalities. The target and named factors are derived in `height-floor-polynomials.json` by `derive_reciprocal_height.py`. |
+| [Full reciprocal-height Bernstein expansion](../calculation-data/reciprocal/full-height-bernstein.json) | The exact expansion of the cleared target polynomial on the stated box. It has 13,125 positive entries and 375 zero entries. `a_exponent` names the positive-variable group; the four `indices` name the Bernstein basis functions. Zero entries are omitted. |
+| [Three linear shape regions](../calculation-data/reciprocal/three-cone-0231.json) | Exact coefficient expansions after $y=q+e$, $p=c(q+y+1)+a$, and $r=kp+t$. The table specifies $c,k$ for each region. |
+| [Curved shape region](../calculation-data/reciprocal/curved-0231.json) | Mixed power/Bernstein expansions after $p=zS$, $r=3S/z+t$, $S=Q+1$, $q=uQ/2$, and $y=Q-q$. The theorem states the strict source conditions that allow these substitutions. |
 
 The supplied polynomial calculations and coefficient tables are the
 supporting computational parts of the proof. They are intended to make

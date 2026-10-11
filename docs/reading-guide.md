@@ -6,7 +6,7 @@ The reduction in the main proof gives four positive functions of the form $x^a(1
 
 The supporting arguments turn a hypothetical excess of zeros into an excess of derivative zeros or tangencies. Polynomial identities and height comparisons then rule out that excess. The example at the end establishes that nine is attainable.
 
-The main proof contains the common argument. The appendix gives the specialized statements, their assumptions, and their longer proofs. A statement with extra assumptions is used only where those assumptions have been established. The further-simplifications document explains later replacements without discarding the original argument outside the replacement's region.
+The main proof contains the common argument. The appendix gives the specialized statements, their assumptions, and their longer proofs. A statement with extra assumptions is used only where those assumptions have been established. The reciprocal-coordinate height and regional bounds are included in the appendix, alongside the F3 arguments that cover all remaining parameters.
 
 ## Terms used in the documents
 
@@ -55,8 +55,8 @@ Standard mathematical words are retained when they are needed, and their meaning
 
 A numerical search can suggest an identity. The proof uses the resulting exact rational identity, together with its explicit sign assumptions. The calculation files construct the polynomials or exact coefficients used in those identities. Coefficient tables in `calculation-data/` record the finite sums, so the reader does not need any discovery search or optimization log.
 
-This distinction is especially important for a regional result. Showing a polynomial has the required sign on one region does not establish that sign on all possible parameters. The later simplifications keep their regions explicit.
+This distinction is especially important for a regional result. Showing a polynomial has the required sign on one region does not establish that sign on all possible parameters. The reciprocal-coordinate lemmas state their regions explicitly.
 
 ## What to read first
 
-For the theorem and its meaning, read the opening of the main proof and its final nine-solution example. For the reasoning behind the upper bound, continue through the common analytic tools and the two coefficient-sign cases. When a named lemma is invoked, follow its appendix link. Read the further simplifications after the baseline argument so that the reason for each replacement is clear.
+For the theorem and its meaning, read the opening of the main proof and its final nine-solution example. For the reasoning behind the upper bound, continue through the common analytic tools and the two coefficient-sign cases. When a named lemma is invoked, follow its appendix link. The appendix's [reciprocal-coordinate section](appendix.md#reciprocal-coordinate-height-and-regional-bounds) groups its common definitions and region-specific results.

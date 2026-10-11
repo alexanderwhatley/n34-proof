@@ -1,7 +1,7 @@
 # Positive height in the reciprocal coordinates
 
 Use the parameters and coefficients in
-[Further simplifications](../further-simplifications.md). The purpose of
+[the reciprocal-coordinate section of the appendix](../../appendix.md#reciprocal-coordinate-height-and-regional-bounds). The purpose of
 this lemma is to rule out $h\le0$ without dividing the possible event
 orders into separate cases. The proof combines elementary inequalities
 with two exact positive coefficient expansions.
@@ -217,7 +217,7 @@ $$
 
 In particular $F=E_2+v\ell>0$. A positive coefficient identity
 proves $L_0>0$. Its full list of 342 terms is in
-[height-floor.json](../../calculation-data/further/height-floor.json).
+[height-floor.json](../../../calculation-data/reciprocal/height-floor.json).
 It states
 
 $$
@@ -405,7 +405,7 @@ a=A-4\ge0,\quad \theta=4u/3\in(0,1),
 $$
 
 The complete table
-[full-height-bernstein.json](../../calculation-data/further/full-height-bernstein.json)
+[full-height-bernstein.json](../../../calculation-data/reciprocal/full-height-bernstein.json)
 states the exact polynomial identity
 
 $$
@@ -440,7 +440,7 @@ $$
 $$
 
 The calculation program
-[derive_reciprocal_height.py](../../calculations/derive_reciprocal_height.py)
+[derive_reciprocal_height.py](../../../calculations/derive_reciprocal_height.py)
 constructs (9) and the exact coefficients in (13). Identity (13) is
 the computer-algebra part of this proof. The use of a nonnegative basis
 explains why its coefficient signs prove the result for a continuous

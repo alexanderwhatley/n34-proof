@@ -1,8 +1,7 @@
 # Bounding exterior roots by their sum
 
 Use the parameters and polynomials in
-[Further simplifications](../further-simplifications.md). This lemma
-replaces several older sufficient conditions by one larger region.
+[the reciprocal-coordinate section of the appendix](../../appendix.md#reciprocal-coordinate-height-and-regional-bounds). This lemma bounds exterior contacts on the stated parameter region.
 Its proof uses inequalities and two short polynomial expansions.
 
 ## Statement

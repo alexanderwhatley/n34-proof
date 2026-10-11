@@ -2,7 +2,7 @@
 
 The [main proof](proof.md) gives the reduction, the case coverage, and the final nine-root example. This appendix expands its specialized arguments and links to their complete mathematical proofs. A named label is a reference to a proved statement under its displayed assumptions. In particular, the auxiliary polynomials are linked to the original exponent parameters; an assertion about those linked polynomials is not automatically an assertion about arbitrary polynomials.
 
-The [further simplifications](further-simplifications.md) record later proved regional replacements. The complete baseline argument below remains in force outside those regions. The [calculation guide](calculations.md) explains the exact identities and their supporting coefficient data. No verification, audit, replay, or test programs are included.
+The [reciprocal-coordinate lemmas](#reciprocal-coordinate-height-and-regional-bounds) give height and root bounds under explicit parameter conditions. The F3 coefficient arguments cover the parameters outside those regions. The [calculation guide](calculations.md) explains the exact identities and their supporting coefficient data.
 
 ## Terminology
 
@@ -1037,3 +1037,133 @@ $$
 
 This extends the the earlier argument no-$B$ $A\ge4$ theorem to $A\ge2$. Its original-proof use after (F3-CUT) remains within the unchanged qualified $A\ge2$, $G_T\le0$ theorem. The stronger original-root cuts provide all removed domains; they imply no contact cap there.
 
+## Reciprocal-coordinate height and regional bounds
+
+The F3 arguments also use the following height and root bounds. Each theorem states its parameter region and its polynomial hypotheses. The order-specific F3 arguments above provide the case coverage outside these regions.
+
+The variables in this section are local. The parameters $p,q,r,y,M,\lambda$ are those of the rational F3 source chart in the preceding section. The quantity $D$ below is written $D_*$ in that section; the local definitions of $T,W$ differ from its similarly named quantities. The coefficients $E_j$ below refer to the translated polynomial $R$ defined here.
+
+### Parameters and polynomials
+
+Throughout the reciprocal-coordinate lemmas, the parameters satisfy
+
+$$
+y>q>0,\qquad r>p>0,\qquad -pq<M<\min(pr,qy).
+$$
+
+The scale parameter is $\lambda$. Define
+
+$$
+\begin{aligned}
+h&=p+r-q-y-3, &Y&=pqry,\\
+D&=pr(q+y)-qy(p+r),
+&Z&=(q+y+1)(p+r-1)-pr-qy,\\
+T&=\lambda-2M-D, &W&=M(\lambda-M).
+\end{aligned}
+$$
+
+Here $h$ is a quantity in this particular change of variables. It is
+not the height in every other section of the proof. Put
+
+$$
+s=\sqrt Y,\qquad S=q+y+1,\qquad \mu=-Z/6.
+$$
+
+The four event polynomials are
+
+$$
+P_k(v)=(v^2-Y)(v+k^2)
+ +k\{-(h+2)v^2+Tv-W\},
+\qquad k\in\{p,r,-q,-y\}.
+$$
+
+An **event** in this section means a real zero of one of these
+polynomials with $v>M$. Thus the word describes an algebraic boundary
+value, rather than a new geometric object. When each polynomial has
+exactly one such zero, write it as
+
+$$
+\beta\ (P_p),\quad \gamma\ (P_r),\quad
+\delta\ (P_{-q}),\quad \alpha\ (P_{-y}).
+$$
+
+The two remaining orders considered here are
+
+$$
+\beta<\gamma<s<\delta<\alpha
+\quad\text{and}\quad
+\alpha<\delta<s<\gamma<\beta.
+$$
+
+The calculation filenames call these orders `0231` and `1320`,
+respectively. These labels are only abbreviations for the displayed
+inequalities. We use the inequalities in the proofs.
+
+The degree-six contact polynomial is
+
+$$
+R(v)=v^6+C_1v^5+C_2v^4+C_3v^3+C_4v^2+C_5v+C_6,
+$$
+
+where
+
+$$
+\begin{aligned}
+C_1={}&Z,\\
+C_2={}&hT-Y,\\
+C_3={}&(1-h)W-2T^2-DT-Y(h^2+h-2+2Z),\\
+C_4={}&(5T+2D)W+Y(h+2)(3T+2D)-Y^2,\\
+C_5={}&-3W^2-Y(3h+7)W-YT(T+D)+Y^2(Z-h-2),\\
+C_6={}&Y(WT+Y^2).
+\end{aligned}
+$$
+
+Calling a zero of $R$ a **contact** agrees with the geometric
+interpretation in the appendix. In this section a *physical* zero
+simply means a real zero satisfying $v>M$. The identity
+
+$$
+R(M)=(M+qr)(pr-M)(M+pq)(M+yr)(qy-M)(M+py)>0
+$$
+
+follows from the parameter inequalities. If all six zeros are real,
+their mean is $\mu$, by the coefficient of $v^5$.
+
+To state the necessary coefficient inequalities, expand
+
+$$
+R(M+x)=x^6-E_1x^5+E_2x^4-E_3x^3+E_4x^2-E_5x+E_6.
+$$
+
+With $C_0=1$, this means
+
+$$
+E_j=(-1)^j\sum_{i=0}^j C_i
+ {6-i\choose6-j}M^{j-i}.
+$$
+
+If all six contacts are physical, each $E_j$ is a positive elementary
+symmetric sum of their distances from $M$. Newton's inequalities for
+these six positive distances include
+
+$$
+N_2:=8E_2^2-15E_1E_3\ge0,\qquad
+N_3:=9E_3^2-16E_2E_4\ge0.
+$$
+
+These are necessary inequalities. Assuming them alone does not assert
+that $R$ has six physical roots.
+
+### Height and regional lemmas
+
+The table summarizes the premises; the full statements in the linked proofs govern their use.
+
+| Lemma | Premises and conclusion | Complete proof |
+| --- | --- | --- |
+| Positive reciprocal height | With $p+q>4$, $\lambda>(p+q)(M+yr)$, $E_1,E_2,E_3>0$ and $N_2,N_3\ge0$, one has $h>0$. No event order, nonreal-pair assumption or sign of $E_4$ is required. | [Reciprocal height](lemmas/f3/reciprocal-height.md) |
+| Exterior count from the sum of the roots | Suppose $p>S$, $r\ge7p/4$, $\mu\ge s$, and $P_p$ has one real root $\beta>M$, two nonreal conjugate roots, and $\beta>s$. Then $\beta>3\mu-2M$. For $\alpha<\delta<s<\gamma<\beta$, if also $R(\alpha),R(\beta)>0$, the total contact multiplicity in $(M,\alpha)\cup(\beta,\infty)$ is at most four. | [Exterior root bound](lemmas/f3/exterior-root-bound.md) |
+| Shape exclusions | Suppose $P_p$ has one real root and two nonreal conjugate roots, $V:=sT-W-(h+2)Y>0$, and $N_1:=5Z^2-12hT+12Y\ge0$. The regions $(p\ge5S/2,\ r\ge p)$, $(p\ge2S,\ r\ge2p)$, $(p\ge S,\ r\ge3p)$ and $(p\le S,\ pr\ge3S^2)$ are impossible. In particular, $r\ge3p$ and $pr\ge3S^2$ is impossible. These hypotheses apply to the order $\beta<\gamma<s<\delta<\alpha$ considered in the proof. | [Shape exclusions](lemmas/f3/shape-exclusions.md) |
+
+The reciprocal-height lemma uses the first two translated Newton inequalities and the scale bounds to exclude $h\le0$. The exterior-root lemma uses an analytical barrier for the real cubic root, then contradicts the sum of six exterior contacts. The shape exclusions use one common root argument and exact positive coefficient expansions for the four listed regions. Their exact identities and coefficient data are described in [the calculation guide](calculations.md#tables-for-the-reciprocal-coordinate-lemmas).
+
+Apply each lemma only after establishing its premises. A region-specific result does not exclude an entire event order. The preceding F3 coefficient arguments remain applicable for every parameter configuration outside the listed regions.

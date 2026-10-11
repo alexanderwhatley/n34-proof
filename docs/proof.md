@@ -2,7 +2,7 @@
 
 A trinomial has at most three nonzero terms; a quadrinomial has at most four. We prove that two such polynomial equations in two variables have at most nine isolated solutions with both coordinates positive, and we give an explicit example attaining nine.
 
-This document gives the full argument assembling the upper and lower bounds. The longer proofs of specialized lemmas and the exact polynomial calculations used in them are in [the appendix](appendix.md) and its accompanying source proofs. Those lemmas are mathematical dependencies, not consequences of a case label. Later regional shortcuts are explained separately in [further simplifications](further-simplifications.md); they do not replace the complete arguments outside their stated regions.
+This document gives the full argument assembling the upper and lower bounds. The longer proofs of specialized lemmas and the exact polynomial calculations used in them are in [the appendix](appendix.md) and its accompanying source proofs. Those lemmas are mathematical dependencies, not consequences of a case label. The appendix also includes the [reciprocal-coordinate height and regional bounds](appendix.md#reciprocal-coordinate-height-and-regional-bounds), with their precise assumptions and their place in the F3 argument.
 
 ## How to read the proof
 
@@ -1311,6 +1311,8 @@ This concerns common useful outer intervals of the actual source. The reductions
 Here is how this critical-point bound excludes ten original roots. All four anchors $01,03,12,23$ are monotone. The signed cofactor endpoint signs are $(-,-,+,+)$ at zero and $(+,+,-,-)$ at one. Consequently every complementary useful set has exactly two components. Under ten roots, Lemma 2A with $d=6$ forces the same six physical contacts into every one of these useful sets. Their complementary edges $23,12,03,01$ form a connected cycle, so all four values $c_i e_i$ have the same sign at each contact. Because each cofactor changes sign just once, this common-sign condition is precisely membership in $J$, contradicting [F3-JOINT].
 
 For clarity, the joint-contact theorem retains the following proof dependencies. A real extra root pair of $e_1$ or $e_3$ consumes two nonphysical degrees of $K$, including double pairs and shared exterior roots. Otherwise both variable pairs are nonreal, and the source null identities permit only the physical cofactor orders $0231$ and $1320$. These words list cofactor roots, not the exponent sums $S_i$.
+
+The [reciprocal-coordinate lemmas](appendix.md#reciprocal-coordinate-height-and-regional-bounds) supply positive height, a sum-of-roots bound on exterior contacts, and shape exclusions under their stated assumptions. They apply only in their specified regions. The two cofactor-order arguments below give the required joint-contact bound throughout the remaining F3 source, including every configuration outside those regions.
 
 In root order $0231$, the analytic left bound is exactly one simple contact. If five right contacts existed, all six degrees would be physical and real, counting multiplicity. The original-root cut $B=b+d<1$ already gives $b<1$ and $d<1$. The degree-six polynomial obtained by shifting to the last cofactor root has endpoint coefficients $q_0>0,q_6<0$, so five right roots require exactly five Descartes variations, deleting zero coefficients.
 

@@ -1,6 +1,6 @@
 # Excluding large parameter regions for one event order
 
-Use the definitions in [Further simplifications](../further-simplifications.md).
+Use the definitions in [the reciprocal-coordinate section of the appendix](../../appendix.md#reciprocal-coordinate-height-and-regional-bounds).
 This lemma applies to the order
 
 $$
@@ -141,7 +141,7 @@ positive rational coefficients. Their constant terms are:
 | 3 | (16) | (12) | (1) |
 
 The full identities are recorded in
-[three-cone-0231.json](../../calculation-data/further/three-cone-0231.json).
+[three-cone-0231.json](../../../calculation-data/reciprocal/three-cone-0231.json).
 There are 323 coefficients in these nine polynomials. Each term is its
 listed rational coefficient times the monomial described by its
 exponents. Because every variable is nonnegative and each constant is
@@ -149,7 +149,7 @@ positive, the identities prove $G,K,h>0$.
 
 Also $r>S$ in all three regions, so $L>0$. Applying (2) proves
 their exclusion. The calculation program
-[derive_regional_0231.py](../../calculations/derive_regional_0231.py)
+[derive_regional_0231.py](../../../calculations/derive_regional_0231.py)
 constructs these exact expansions from the displayed formulas.
 
 ## Region 4: coefficients in a nonnegative basis
@@ -181,7 +181,7 @@ $\sum_iB_i^d(x)=1$. Consequently an expansion with nonnegative
 coefficients proves a nonnegative value throughout that square.
 
 The complete exact expansions are in
-[curved-0231.json](../../calculation-data/further/curved-0231.json),
+[curved-0231.json](../../../calculation-data/reciprocal/curved-0231.json),
 and the same calculation program constructs them.
 
 | Polynomial | Bernstein degrees in $(u,z)$ | Groups of powers of $Q,t$ | Coefficients | Least coefficient in the $Q^0t^0$ group |
@@ -194,7 +194,7 @@ All 440 coefficients are nonnegative. Since the basis sums to one,
 the strictly positive constant groups give
 
 $$
-zG\ge16,qquad z^2K\ge12,qquad zh\ge1.
+zG\ge16,\qquad z^2K\ge12,\qquad zh\ge1.
 $$
 
 As $z>0$, this proves $G,K,h>0$. Also
