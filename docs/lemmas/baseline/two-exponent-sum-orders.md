@@ -6,7 +6,7 @@ The family is
 F=A_0+A_1x^a(1-x)^{-b}-B_0x^e(1-x)^d-B_1x^c(1-x)^{-f},
 ```
 
-where all four coefficient magnitudes are positive, $`0<e<a<c`$, $`0<f<b`$, and $`d>0`$. Put $`S=(0,a-b,e+d,c-f)`$. The label string $`0123`$ means $`S_0<S_1<S_2<S_3`$; it is an order of exponent sums, rather than an order of polynomial roots.
+where all four coefficient magnitudes are positive, $`0\lt e\lt a\lt c`$, $`0\lt f\lt b`$, and $`d\gt0`$. Put $`S=(0,a-b,e+d,c-f)`$. The label string $`0123`$ means $`S_0\lt S_1\lt S_2\lt S_3`$; it is an order of exponent sums, rather than an order of polynomial roots.
 
 Use the actual signed cubic cofactors $`e_i`$ and contact determinant $`K`$. A physical root means a root in $`(0,1)`$; an exterior root lies outside $`[0,1]`$. A monotone anchor pair allows two pole-free Rolle steps. On $`j`$ useful components, the reduced original equation has at most the useful contact count plus $`j`$ roots. These definitions and identities are the same as in [the disjoint-contact lemma](disjoint-contact-exclusion.md).
 

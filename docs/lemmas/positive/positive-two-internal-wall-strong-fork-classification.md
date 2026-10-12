@@ -17,7 +17,7 @@ V_0(x)=\sum_i\alpha_i(a_i-d_i x)^2.
 Then V0 has two distinct internal zeros in I if and only if, after relabeling,
 
 ```math
-\boxed{s_2=P s_1+Q s_3,\qquad P,Q>1.}
+\boxed{s_2=P s_1+Q s_3,\qquad P,Q\gt1.}
 ```
 
 The outer modes can be ordered theta1<theta3. Their coordinates may be comparable or incomparable; no strict coordinate permutation is required. The two walls are simple. Thus a master covering every positive strong fork P,Q>1 covers EVERY strictly positive affinely noncollinear source with two internal origin-quadratic walls, including comparable outer supports. The word internal here refers to the actual positive-normal interval I, rather than the larger interval (0,1) independently of the support modes.
@@ -34,7 +34,7 @@ The remaining case has two positive barycentric coordinates. Relabel them alpha1
 
 ```math
 s_2=\frac Aks_1+\frac Bks_3,
-\qquad P=\frac Ak>0,\quad Q=\frac Bk>0,\quad P+Q>1.
+\qquad P=\frac Ak\gt0,\quad Q=\frac Bk\gt0,\quad P+Q\gt1.
 ```
 
 The two outer supports are linearly independent: if they lay on the same ray, this positive representation would make all three supports affinely collinear. Order their distinct modes theta1<theta3. The middle mode is a strict positive weighted mean of them, so I=(theta1,theta3).
@@ -44,7 +44,7 @@ On I, set r=-lambda1/lambda3. This is an analytic increasing bijection I to (0,i
 ```math
 x=\frac{a_1+r a_3}{d_1+r d_3},\qquad
 \lambda_3=\frac\gamma{d_1+r d_3},\qquad
-\frac{dr}{dx}=\frac\gamma{\lambda_3^2}>0.
+\frac{dr}{dx}=\frac\gamma{\lambda_3^2}\gt0.
 ```
 
 Let D=P+Q-1>0. The origin barycentrics are exactly (P,-1,Q)/D, and lambda2=P lambda1+Q lambda3. Direct expansion yields

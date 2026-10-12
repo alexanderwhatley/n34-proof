@@ -9,20 +9,20 @@ Date: 2026-09-10. Together with *hge1 exclusion*, this extends the exclusion to 
 For an original strict comparable row
 
 ```math
-G=c_1-u+c_3v+c_4w,\quad c_1,c_3,c_4>0,
+G=c_1-u+c_3v+c_4w,\quad c_1,c_3,c_4\gt0,
 \quad0\prec\operatorname{supp}u\prec\operatorname{supp}v\prec\operatorname{supp}w,
 ```
 
 let q=w/v and reflect so that rho_q<rho_w<rho_v. Write u=v^h q^n. If
 
 ```math
-h>0,\qquad n<0,\qquad h-n\ge1,
+h\gt0,\qquad n\lt0,\qquad h-n\ge1,
 ```
 
 then G has at most nine distinct roots. This covers all h>=1, and also 0<h<1,n<=h-1. The remaining rightmost-u subregion is exactly
 
 ```math
-0<h<1,\qquad h-1<n<0.
+0\lt h\lt1,\qquad h-1\lt n\lt0.
 ```
 
 The h>=1 part is already proved in *hge1 exclusion*. The new proof below assumes 0<h<1 and n<=h-1. The key equivalent geometric condition is rho_{v/u}<=rho_w. Indeed
@@ -37,7 +37,7 @@ The h>=1 part is already proved in *hge1 exclusion*. The new proof below assumes
 Put a=v/u, b=w/u, R=G/u, and tau=rho_a. For 0<h<1,n<0, the modes obey
 
 ```math
-\rho_q<\rho_b<\rho_a\le\rho_w<\rho_v<\rho_u.
+\rho_q\lt\rho_b\lt\rho_a\le\rho_w\lt\rho_v\lt\rho_u.
 ```
 
 Indeed a=v^{1-h}q^{-n} is a positive combination of the support vectors of v and q, and b=a q moves the mode toward q. Both a,b decrease after tau. Consequently R=c1/u-1+c3a+c4b decreases strictly on (tau,rho_u). On (rho_u,1), the exact formula
@@ -77,7 +77,7 @@ with the original positive coefficients assigned to f,g. On (0,tau), all u',f',g
 Here the first term is a positive-exponent beta logarithm, whose second derivative is strictly negative. The last difference has second derivative
 
 ```math
--1/(\rho_f-x)^2+1/(\rho_u-x)^2<0.
+-1/(\rho_f-x)^2+1/(\rho_u-x)^2\lt0.
 ```
 
 Each ratio tends to zero at x=0, initially increases, and is strictly decreasing at tau: the beta ratio f/u (or g/u) has nonpositive logarithmic derivative there, and the linear-score ratio contributes a strictly negative derivative. Thus each S has exactly one stationary point alpha_f,alpha_g in (0,tau), a strict maximum.
@@ -100,7 +100,7 @@ Before tau, P' starts positive and ends negative. The number of its generic simp
 At every such node,
 
 ```math
--\frac{S_f'}{S_g'}=\frac{c_g}{c_f}>0.
+-\frac{S_f'}{S_g'}=\frac{c_g}{c_f}\gt0.
 ```
 
 Both derivative signs can be opposite only between alpha_f and alpha_g; if the maxima coincide, there is only one stationary P node and an immediate contradiction. Thus all seven nodes lie in one open interval where the ratio above is smooth, at the same original positive coefficient ratio. Rolle forces six roots of
@@ -128,7 +128,7 @@ The brace is positive. First L^2-Q^2>=0 since -L<=Q<=0. Next 3S_g omega+(L+Q)ome
 Thus W_raw(tau)<0. At x=0, strict support comparison gives
 
 ```math
-W_{\rm raw}(0)=a_u a_v a_w(a_v-a_u)(a_w-a_u)(a_w-a_v)>0.
+W_{\rm raw}(0)=a_u a_v a_w(a_v-a_u)(a_w-a_u)(a_w-a_v)\gt0.
 ```
 
 These are the required opposite endpoint signs.

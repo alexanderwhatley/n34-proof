@@ -26,7 +26,7 @@ Alexander Dyachenko, *Total nonnegativity of infinite Hurwitz matrices of entire
 
 The proof uses its polynomial consequence: for coprime real polynomials $`p,q`$, with $`p(0)=1`$ and $`q(0)\geq0`$, a ratio $`q/p`$ that maps the upper half-plane into itself and is regular and nonnegative on the nonnegative real axis yields the corresponding totally nonnegative Hurwitz-type coefficient matrix. “Coprime” means that the two polynomials have no common nonconstant factor. “Totally nonnegative” means that every finite minor is nonnegative. The matrix has alternating coefficient rows from $`q`$, $`zp`$, $`zq`$, $`z^2p`$, and their further shifts.
 
-The supporting argument applies this with $`p=e/e(0)`$ and $`q=d/e(0)`$, where $`e/d`$ is a positive sum of fractions $`a_j/(z+s_j)`$ with $`a_j,s_j>0`$. The relevant ratio is therefore $`d/e`$. The appendix's fractional-power argument explains how this matrix result gives the required zero bound, including strictness and the constant-function exception. That application is part of the included proof, rather than an additional unnamed external input.
+The supporting argument applies this with $`p=e/e(0)`$ and $`q=d/e(0)`$, where $`e/d`$ is a positive sum of fractions $`a_j/(z+s_j)`$ with $`a_j,s_j\gt0`$. The relevant ratio is therefore $`d/e`$. The appendix's fractional-power argument explains how this matrix result gives the required zero bound, including strictness and the constant-function exception. That application is part of the included proof, rather than an additional unnamed external input.
 
 ## Origins of the documents
 

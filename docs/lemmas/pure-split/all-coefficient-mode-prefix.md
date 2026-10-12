@@ -5,7 +5,7 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 ## Statement
 
 Use six positive actual PS support parameters $`u,p,a,b,q,z`$, with
-$`q<a`$, $`p<b`$, and $`p>u`$. Define
+$`q\lt a`$, $`p\lt b`$, and $`p\gt u`$. Define
 
 ```math
 \alpha=u+q\in(0,1),\qquad\beta=p+z\ge2,\qquad c=a/b.
@@ -25,15 +25,15 @@ Assume
 ```math
 A/A_3=(t+x)(t-Q)(t-R),\quad
 B/B_3=(t+y)(t-P)(t-S),\quad
-0<P<Q<c<S<R,
+0\lt P\lt Q\lt c\lt S\lt R,
 ```
 
-where $`x,y>0`$, and suppose
+where $`x,y\gt0`$, and suppose
 
 **(1)**
 
 ```math
-P>{2\over\beta-1}.
+P\gt{2\over\beta-1}.
 ```
 
 Then
@@ -42,7 +42,7 @@ Then
 
 ```math
 \boxed{K(c)={Q-P\over(c-Q)(c-P)}-
-                 {\alpha x\over c(c+x)}>0.}
+                 {\alpha x\over c(c+x)}\gt0.}
 ```
 
 There is no B coefficient sign, A coefficient word, unused-root
@@ -64,28 +64,28 @@ satisfies the exact identity
 {A(t)\over U(t)}+{B(t)\over V(t)}=(a-bt)N(t).
 ```
 
-For every $`t>0`$, $`N(t)>\alpha-1+(\beta-1)t`$: if $`T\le0`$
-this is immediate, and otherwise $`Tt<U(t)V(t)`$, whose positive
+For every $`t\gt0`$, $`N(t)\gt\alpha-1+(\beta-1)t`$: if $`T\le0`$
+this is immediate, and otherwise $`Tt\lt U(t)V(t)`$, whose positive
 difference is $`uq+2uzt+pzt^2`$. At the root $`P`$, therefore,
 
 **(4)**
 
 ```math
-A(P)=U(P)(a-bP)N(P),\qquad N(P)>1+\alpha.
+A(P)=U(P)(a-bP)N(P),\qquad N(P)\gt1+\alpha.
 ```
 
 Let $`\mu=(a-q)/(b+z)`$. Since
-$`B(\mu)=(az+bq)\mu(1+\mu)>0`$, the B factorization gives
-$`P<\mu<S`$. From (1) and $`b>p`$,
+$`B(\mu)=(az+bq)\mu(1+\mu)\gt0`$, the B factorization gives
+$`P\lt\mu\lt S`$. From (1) and $`b\gt p`$,
 
 **(5)**
 
 ```math
-a-q>\frac{2(b+z)}{\beta-1}>\frac{2\beta}{\beta-1}>2.
+a-q\gt\frac{2(b+z)}{\beta-1}\gt\frac{2\beta}{\beta-1}\gt2.
 ```
 
 The exact negative-one value
-$`A(-1)=-(p-u)(a+b)[a+b-(p-u)]<0`$ gives $`x<1`$.
+$`A(-1)=-(p-u)(a+b)[a+b-(p-u)]\lt0`$ gives $`x\lt1`$.
 At its negative root, with $`v=px-u`$,
 
 **(6)**
@@ -94,14 +94,14 @@ At its negative root, with $`v=px-u`$,
 v(a+bx)[a+u+(b-p)x]=(ap+bu)x(1-x).
 ```
 
-Thus $`v>0`$, and $`(ap+bu)/(a+bx)<p`$. The bracket in (6)
-is greater than $`a+u>2+\alpha`$, so
+Thus $`v\gt0`$, and $`(ap+bu)/(a+bx)\lt p`$. The bracket in (6)
+is greater than $`a+u\gt2+\alpha`$, so
 
 **(7)**
 
 ```math
-0<v<\frac{px}{2+\alpha},\qquad
-\varepsilon:=\frac vu<\frac1{1+\alpha}.
+0\lt v\lt\frac{px}{2+\alpha},\qquad
+\varepsilon:=\frac vu\lt\frac1{1+\alpha}.
 ```
 
 These are the only negative-root estimates used below.
@@ -170,7 +170,7 @@ Since $`px=u+v=u(1+\varepsilon)`$,
 ```
 
 The first ratio increases strictly with $`\varepsilon`$: its derivative
-is $`x(c-P)/[x+(1+\varepsilon)P]^2>0`$. Put
+is $`x(c-P)/[x+(1+\varepsilon)P]^2\gt0`$. Put
 
 ```math
 H=1+\alpha,\quad J=2+\alpha,\quad k=J/H.
@@ -181,7 +181,7 @@ By (7),
 **(12)**
 
 ```math
-\lambda<{x+kc\over x+kP}{P+x\over c+x}.
+\lambda\lt{x+kc\over x+kP}{P+x\over c+x}.
 ```
 
 In (8), dropping the positive term $`U/w`$ strictly increases the brace
@@ -190,7 +190,7 @@ in (11). Hence
 **(13)**
 
 ```math
-N(P)<\mathcal N(c,x,P):=
+N(P)\lt\mathcal N(c,x,P):=
 {\alpha x(1+c)\over c+x}
  {x+kc\over x+kP}{P+x\over c+x}
 \left\{2-{c-P\over1+c}
@@ -200,7 +200,7 @@ N(P)<\mathcal N(c,x,P):=
 Every replaced brace is positive because it bounds the positive brace
 in (11) from above.
 
-Set $`r=x/c>0`$ and $`t=P/c\in(0,1)`$. Then
+Set $`r=x/c\gt0`$ and $`t=P/c\in(0,1)`$. Then
 
 **(14)**
 
@@ -215,23 +215,23 @@ At fixed $`\alpha,r,t`$, this expression is affine and strictly increasing
 in $`c`$, since its linear coefficient has the positive factor
 
 ```math
-1+t-{(1-\alpha)r(1-t)\over1+r}>1+t-(1-t)=2t>0.
+1+t-{(1-\alpha)r(1-t)\over1+r}\gt1+t-(1-t)=2t\gt0.
 ```
 
-The source estimate $`x<1`$ means $`c<1/r`$. Therefore
+The source estimate $`x\lt1`$ means $`c\lt1/r`$. Therefore
 
 **(15)**
 
 ```math
-\mathcal N<\mathcal N_{*}:=
+\mathcal N\lt\mathcal N_{*}:=
 {\alpha(r+k)(t+r)[1+t+r\{H+(1-\alpha)t\}]
  \over(r+kt)(1+r)^2}.
 ```
 
 ## 4. Three visible positive products
 
-We claim $`\mathcal N_{*}<H=1+\alpha`$. After multiplication by its
-positive denominator, this is exactly $`\mathcal F>0`$, where
+We claim $`\mathcal N_{*}\lt H=1+\alpha`$. After multiplication by its
+positive denominator, this is exactly $`\mathcal F\gt0`$, where
 
 ```math
 \mathcal F=H(Hr+Jt)(1+r)^2
@@ -242,7 +242,7 @@ The gap is a strictly concave quadratic in $`t`$, whose quadratic
 coefficient is
 
 ```math
--\alpha(Hr+J)[1+(1-\alpha)r]<0.
+-\alpha(Hr+J)[1+(1-\alpha)r]\lt0.
 ```
 
 Its endpoint values are the visible positive products
@@ -256,7 +256,7 @@ Its endpoint values are the visible positive products
 \end{aligned}
 ```
 
-Therefore it is strictly positive throughout $`0<t<1`$. Equivalently,
+Therefore it is strictly positive throughout $`0\lt t\lt1`$. Equivalently,
 the entire sign proof is the one exact identity
 
 **(17)**
@@ -266,15 +266,15 @@ the entire sign proof is the one exact identity
  +\alpha(Hr+J)[1+(1-\alpha)r]t(1-t),
 ```
 
-whose three summands are positive. This proves $`\mathcal N_{*}<H`$.
+whose three summands are positive. This proves $`\mathcal N_{*}\lt H`$.
 
-Equations (11)--(17) now give $`N(P)<1+\alpha`$, contradicting (4).
+Equations (11)--(17) now give $`N(P)\lt1+\alpha`$, contradicting (4).
 This proves (2).
 
 ## Integration and limits
 
 The [central-critical prefix](central-critical-prefix.md)
-requires $`K(c)<0`$ at the mandatory actual central critical point
+requires $`K(c)\lt0`$ at the mandatory actual central critical point
 $`c=a/b`$. The present theorem contradicts that condition for every B
 coefficient word and excludes four distinct central critical points uniformly for
-$`\alpha<1,\beta\ge2`$. No split by the signs of individual B coefficients is needed.
+$`\alpha\lt1,\beta\ge2`$. No split by the signs of individual B coefficients is needed.

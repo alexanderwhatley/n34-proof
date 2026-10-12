@@ -16,7 +16,7 @@ Let theta_C be the physical common-entropy curve determined by
 ```math
 J(r,\theta)=\frac{P\log(1-P\theta)+\log(r-\theta)
 -\log\theta-P\log(1+r-P\theta)}P=C,
-\quad 0<\theta<\min(1/P,r).
+\quad 0\lt\theta\lt\min(1/P,r).
 ```
 
 If Y(xi)=0, the positive zeros of B+H theta_C-R have total analytic multiplicity at most six. No transverse-wall assumption is needed.
@@ -57,7 +57,7 @@ The Q<1 left law r/Q is therefore not asserted at this boundary. The source/actu
 Write
 
 ```math
-h=r-\xi,\qquad L=P(P-1)r>0,\qquad H=hL,
+h=r-\xi,\qquad L=P(P-1)r\gt0,\qquad H=hL,
 \qquad Y=hZ,
 ```
 

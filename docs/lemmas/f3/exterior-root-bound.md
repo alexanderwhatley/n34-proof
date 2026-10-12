@@ -11,25 +11,25 @@ Suppose
 **(1)**
 
 ```math
-g:=p-S>0,\qquad r\ge\frac74p,\qquad \mu\ge s.
+g:=p-S\gt0,\qquad r\ge\frac74p,\qquad \mu\ge s.
 ```
 
-Suppose $`P_p`$ has one real zero $`\beta>M`$ and two nonreal,
-complex-conjugate zeros, and that $`\beta>s`$. Then
+Suppose $`P_p`$ has one real zero $`\beta\gt M`$ and two nonreal,
+complex-conjugate zeros, and that $`\beta\gt s`$. Then
 
 **(2)**
 
 ```math
-\beta>3\mu-2M.
+\beta\gt3\mu-2M.
 ```
 
-In the order $`\alpha<\delta<s<\gamma<\beta`$, suppose in addition
+In the order $`\alpha\lt\delta\lt s\lt\gamma\lt\beta`$, suppose in addition
 that the contact polynomial has positive values at both extreme events:
 
 **(3)**
 
 ```math
-R(\alpha)>0,\qquad R(\beta)>0.
+R(\alpha)\gt0,\qquad R(\beta)\gt0.
 ```
 
 Then the number of physical contacts in the two exterior intervals
@@ -38,7 +38,7 @@ is at most four. The original geometric argument uses precisely these
 exterior contacts in this case.
 
 The inequality $`\mu\ge s`$ can be checked without square roots as
-$`Z<0`$ and $`Z^2\ge36Y`$. The strict parameter inequalities remain
+$`Z\lt0`$ and $`Z^2\ge36Y`$. The strict parameter inequalities remain
 in force; equality in $`r=7p/4`$ or $`\mu=s`$ is allowed.
 
 ## A barrier for the real root of the cubic
@@ -46,7 +46,7 @@ in force; equality in $`r=7p/4`$ or $`\mu=s`$ is allowed.
 Put
 
 ```math
-B=qy,\qquad C_{*}=(y+1)(y+g)+pq>0.
+B=qy,\qquad C_{*}=(y+1)(y+g)+pq\gt0.
 ```
 
 Then $`Z=C_{*}-gr`$. Translating the cubic gives
@@ -59,7 +59,7 @@ where the value of $`C`$ will not be needed and
 
 ```math
 L=p(r-S)-3M,\qquad
-K=(pr-M)(M+pq)(M+py)>0.
+K=(pr-M)(M+pq)(M+py)\gt0.
 ```
 
 If $`b=\beta-M`$, factor out the real root. The remaining quadratic is
@@ -73,16 +73,16 @@ Its zeros are nonreal, so its discriminant is negative. Equivalently,
 **(4)**
 
 ```math
-n(b):=b(L-b)^2-4K<0.
+n(b):=b(L-b)^2-4K\lt0.
 ```
 
 Put $`m=\mu-M`$ and $`\ell=s-M`$. We have
-$`m\ge\ell>0`$. Direct substitution gives
+$`m\ge\ell\gt0`$. Direct substitution gives
 
 **(5)**
 
 ```math
-2(L-3m)=(p+S)(r-p)+pg+C_{*}>0.
+2(L-3m)=(p+S)(r-p)+pg+C_{*}\gt0.
 ```
 
 On the interval $`[\ell,3m]`$, the derivative of $`n(b)`$ with respect
@@ -93,10 +93,10 @@ at an endpoint. We will prove
 **(6)**
 
 ```math
-n(s-M)>0,\qquad n(3(\mu-M))>0.
+n(s-M)\gt0,\qquad n(3(\mu-M))\gt0.
 ```
 
-Equations (4) and (6) then force $`b>3m`$, since $`b>\ell`$.
+Equations (4) and (6) then force $`b\gt3m`$, since $`b\gt\ell`$.
 This is (2).
 
 ## Reducing the two endpoint signs to $`M=qy`$
@@ -104,20 +104,20 @@ This is (2).
 Keep $`p,q,r,y`$ fixed and vary $`M`$. Literal differentiation gives
 
 ```math
-\frac{d^2}{dM^2}n(s-M)=-8p<0,
+\frac{d^2}{dM^2}n(s-M)=-8p\lt0,
 ```
 
 ```math
 \frac{d^2}{dM^2}n(3(\mu-M))
- =8\{3M+p(q+y-r)\}<0
+ =8\{3M+p(q+y-r)\}\lt0
  \quad(-pq\le M\le B).
 ```
 
-For the last sign, use $`q+y<p`$, $`B<p^2/4`$, and $`r\ge7p/4`$:
+For the last sign, use $`q+y\lt p`$, $`B\lt p^2/4`$, and $`r\ge7p/4`$:
 
 ```math
 3M+p(q+y-r)
- <\frac34p^2+p^2-\frac74p^2=0.
+ \lt\frac34p^2+p^2-\frac74p^2=0.
 ```
 
 Thus both functions are concave in $`M`$. At $`M=-pq`$, $`K=0`$
@@ -137,7 +137,7 @@ Set
 The assumptions give
 
 ```math
-gr\ge6s+C_{*}>6s,\qquad g/p>6/k,\qquad k>6,
+gr\ge6s+C_{*}\gt6s,\qquad g/p\gt6/k,\qquad k\gt6,
 \qquad pr=Bk^2,\qquad p^2\le pr/\rho.
 ```
 
@@ -151,33 +151,33 @@ J_\rho(k)&=\{(\rho-1)k^2+3(2-\rho)k\}/\rho.
 \end{aligned}
 ```
 
-They are positive for $`k>6`$. At $`M=B`$, put
+They are positive for $`k\gt6`$. At $`M=B`$, put
 $`Q=(p+q)(p+y)`$. The useful strict bounds are
 
 **(7)**
 
 ```math
-Q<BQ_\rho(k),\qquad
-L-(s-B)>BH_\rho(k),\qquad
-L-3(\mu-B)>BJ_\rho(k).
+Q\lt BQ_\rho(k),\qquad
+L-(s-B)\gt BH_\rho(k),\qquad
+L-3(\mu-B)\gt BJ_\rho(k).
 ```
 
 Here are exact decompositions of their differences, so no estimate in
 (7) is left implicit. Let
 
 ```math
-D_{*}=pr-\rho p^2\ge0,\qquad \kappa=g-6p/k>0.
+D_{*}=pr-\rho p^2\ge0,\qquad \kappa=g-6p/k\gt0.
 ```
 
 Then
 
 ```math
-BQ_\rho-Q=\frac{2-6/k}{\rho}D_{*}+p\kappa+p>0,
+BQ_\rho-Q=\frac{2-6/k}{\rho}D_{*}+p\kappa+p\gt0,
 ```
 
 ```math
 L-(s-B)-BH_\rho
- =\frac{1-6/k}{\rho}D_{*}+p\kappa>0,
+ =\frac{1-6/k}{\rho}D_{*}+p\kappa\gt0,
 ```
 
 ```math
@@ -185,23 +185,23 @@ L-(s-B)-BH_\rho
 L-3(\mu-B)-BJ_\rho
 ={}&\frac{S(r-\rho p)}2
  +\frac{2-\rho}{2\rho}(1-6/k)D_{*}\\
- &+\frac{(2-\rho)p\kappa}2+\frac{C_{*}}2>0.
+ &+\frac{(2-\rho)p\kappa}2+\frac{C_{*}}2\gt0.
 \end{aligned}
 ```
 
 At this boundary $`K=B(pr-B)Q`$ and $`s-B=B(k-1)`$. Using (7),
 
 ```math
-n(s-B)>B^3(k-1)
+n(s-B)\gt B^3(k-1)
  \{H_\rho^2-4(k+1)Q_\rho\},
 ```
 
 ```math
-n(3(\mu-B))>B^3(k-1)
+n(3(\mu-B))\gt B^3(k-1)
  \{3J_\rho^2-4(k+1)Q_\rho\}.
 ```
 
-The second inequality also uses $`\mu-B\ge s-B`$. With $`w=k-6>0`$,
+The second inequality also uses $`\mu-B\ge s-B`$. With $`w=k-6\gt0`$,
 the two braces, multiplied by (49), are exactly
 
 ```math
@@ -217,7 +217,7 @@ then (6), and finally (2).
 
 ## Counting the exterior contacts
 
-Since $`R(M)>0`$, (3), and the positive leading coefficient give
+Since $`R(M)\gt0`$, (3), and the positive leading coefficient give
 positive signs at both ends of each exterior interval, each interval
 contains an even number of roots counted with multiplicity. Repeated
 roots do not affect this parity statement: a root of odd multiplicity
@@ -229,12 +229,12 @@ the upper interval contains roots, it contains at least two. The sum of
 all six then exceeds
 
 ```math
-2\beta+4M>2(3\mu-2M)+4M=6\mu.
+2\beta+4M\gt2(3\mu-2M)+4M=6\mu.
 ```
 
 This contradicts the coefficient identity saying that the sum is
 $`-Z=6\mu`$. If the upper interval contains no roots, all six lie
-below $`\alpha<s\le\mu`$, so their sum is less than $`6\mu`$, again
+below $`\alpha\lt s\le\mu`$, so their sum is less than $`6\mu`$, again
 a contradiction. The exterior count is therefore at most four.
 
 This theorem proves a conditional bound on a region. It does not prove

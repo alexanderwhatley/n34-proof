@@ -7,26 +7,26 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 Retain the actual original row
 
 ```math
-G=c_1-u+c_3v+c_4w,\qquad c_1,c_3,c_4>0,
+G=c_1-u+c_3v+c_4w,\qquad c_1,c_3,c_4\gt0,
 \qquad 0\prec\operatorname{supp}u\prec\operatorname{supp}v
 \prec\operatorname{supp}w,
 ```
 
-with beta functions on $`0<x<1`$, $`q=w/v`$, and
+with beta functions on $`0\lt x\lt1`$, $`q=w/v`$, and
 
 ```math
 u=v^h q^{-m},\qquad H=1-h,\qquad
-0<h<1,\quad 0<m<H.
+0\lt h\lt1,\quad 0\lt m\lt H.
 ```
 
 In the reflected projective chart, write
 
 ```math
 p=L_v/L_q,\quad \Pi=\lambda\prod_{i=1}^3(p-r_i),\qquad
-\lambda>0,\quad m/h<r_1<r_2<r_3.
+\lambda\gt0,\quad m/h\lt r_1\lt r_2\lt r_3.
 ```
 
-The right original branch is $`p<r_1`$, with $`\Pi<0`$, and p increases
+The right original branch is $`p\lt r_1`$, with $`\Pi\lt0`$, and p increases
 with x. Use the unchanged polynomials
 
 **(1)**
@@ -59,7 +59,7 @@ $`P_v`$.
 **(3)**
 
 ```math
--1<p<0,\qquad C<0,\qquad D/C>0,\qquad A/C>0.
+-1\lt p\lt0,\qquad C\lt0,\qquad D/C\gt0,\qquad A/C\gt0.
 ```
 
 At every stationary point $`J=0`$ satisfying (3),
@@ -67,12 +67,12 @@ At every stationary point $`J=0`$ satisfying (3),
 **(4)**
 
 ```math
-\boxed{J'<0,\qquad V''<0.}
+\boxed{J'\lt0,\qquad V''\lt0.}
 ```
 
 In particular there is no local minimum or multiple stationary point under
 these strict inequalities. The remaining coefficient is automatically positive:
-$`B/C>0`$. These inequalities describe a positive original triple contact; they
+$`B/C\gt0`$. These inequalities describe a positive original triple contact; they
 are not asserted at arbitrary Wronskian roots or at arbitrary curvature nodes.
 
 ## 2. The support-moment inequality
@@ -80,8 +80,8 @@ are not asserted at arbitrary Wronskian roots or at arbitrary curvature nodes.
 Put $`z=-p`$, and introduce the following **local** quantities:
 
 ```math
-R=-C>0,\quad t=E/R,\quad \chi=D/C=H-t,\quad
-\mathcal P=-\Pi=z(1-z)-R>0,\quad a_{*}=hz+m>0.
+R=-C\gt0,\quad t=E/R,\quad \chi=D/C=H-t,\quad
+\mathcal P=-\Pi=z(1-z)-R\gt0,\quad a_{*}=hz+m\gt0.
 ```
 
 The symbol $`\mathcal P`$ here is not the actual derivative-ratio sum
@@ -90,8 +90,8 @@ $`P=c_3S_v+c_4S_w`$ used in the predecessor. From (3),
 **(5)**
 
 ```math
-0<t<H,\qquad zt>m,
-\qquad A/C=zt-m,\qquad B/C=h+m+(1-z)t>0.
+0\lt t\lt H,\qquad zt\gt m,
+\qquad A/C=zt-m,\qquad B/C=h+m+(1-z)t\gt0.
 ```
 
 Let
@@ -102,13 +102,13 @@ Let
 \beta=\mathcal P\sigma.
 ```
 
-The actual shared support condition $`r_i>m/h`$ gives both strict bounds
+The actual shared support condition $`r_i\gt m/h`$ gives both strict bounds
 
 **(6)**
 
 ```math
-\boxed{\sigma<\frac{3h}{a_{*}},\qquad
-\sigma_2<\frac{h\sigma}{a_{*}}.}
+\boxed{\sigma\lt\frac{3h}{a_{*}},\qquad
+\sigma_2\lt\frac{h\sigma}{a_{*}}.}
 ```
 
 No independently variable cubic coefficients have replaced the support roots.
@@ -117,7 +117,7 @@ In particular
 **(7)**
 
 ```math
-g:=3h\mathcal P/a_{*}-\beta>0.
+g:=3h\mathcal P/a_{*}-\beta\gt0.
 ```
 
 At a stationary point, (1) gives
@@ -180,14 +180,14 @@ a_{*}=z(h+Hv\mu),
 **(11)**
 
 ```math
-K-\mu=(1-v\mu)(h/v+H\mu)>0.
+K-\mu=(1-v\mu)(h/v+H\mu)\gt0.
 ```
 
-Thus $`q_{*}=zK/\mu\in(0,1)`$ and $`z=\mu q_{*}/K<1`$.
-Conversely this unit-cube parametrization gives R>0 and $`\mathcal P>0`$:
+Thus $`q_{*}=zK/\mu\in(0,1)`$ and $`z=\mu q_{*}/K\lt1`$.
+Conversely this unit-cube parametrization gives R>0 and $`\mathcal P\gt0`$:
 
 ```math
-\mathcal P/z=(1-q_{*})(1-\mu)+q_{*}(1-\mu/K)>0.
+\mathcal P/z=(1-q_{*})(1-\mu)+q_{*}(1-\mu/K)\gt0.
 ```
 
 Choose the strictly positive multiplier
@@ -195,7 +195,7 @@ Choose the strictly positive multiplier
 **(12)**
 
 ```math
-\boxed{\eta=\frac{tR(1+\mu)}{2z}>0.}
+\boxed{\eta=\frac{tR(1+\mu)}{2z}\gt0.}
 ```
 
 The certificate proves the stronger inequality
@@ -203,7 +203,7 @@ The certificate proves the stronger inequality
 **(13)**
 
 ```math
-\boxed{\mathcal U+\eta g<0}
+\boxed{\mathcal U+\eta g\lt0}
 ```
 
 throughout this open unit cube when beta is replaced by the stationary
@@ -246,7 +246,7 @@ All denominators in the identity
 ```
 
 are positive. The degree of $`\mathcal F`$ in z is four. Substitute
-$`z=\mu vq_{*}/K_n`$ and multiply by $`K_n^4>0`$. The resulting polynomial
+$`z=\mu vq_{*}/K_n`$ and multiply by $`K_n^4\gt0`$. The resulting polynomial
 $`\widetilde{\mathcal F}(h,v,\mu,q_{*})`$ has 1,133 nonzero monomial
 coefficients and coordinate degrees $`(5,13,13,4)`$.
 
@@ -260,9 +260,9 @@ $`d=(5,13,13,4)`$. The transformed polynomial has exactly:
 | Zero | 3,549 |
 | Negative | 0 |
 
-Every $`y_i>0`$, so at least one positive monomial and no negative
+Every $`y_i\gt0`$, so at least one positive monomial and no negative
 monomials prove strict positivity everywhere in the open cube. This proves
-$`\mathcal F>0`$ and hence (13). These are exact integer coefficients,
+$`\mathcal F\gt0`$ and hence (13). These are exact integer coefficients,
 not numerical Bernstein estimates. The full nonzero table is
 [the full positive-coefficient table](../../../calculation-data/height/CENTRAL_POSITIVE_COEFFICIENTS.tsv).
 
@@ -271,19 +271,19 @@ not numerical Bernstein estimates. The full nonzero table is
 By (6), the correction term in (9) is strictly negative. By (7), (12)-(13),
 
 ```math
-\frac{J'}R<\mathcal U<-\eta g<0.
+\frac{J'}R\lt\mathcal U\lt-\eta g\lt0.
 ```
 
 Since R>0, J'<0. At J=0, (2) gives
-$`V''=-uJ'/(\Pi C^2)<0`$, because $`\Pi<0`$.
+$`V''=-uJ'/(\Pi C^2)\lt0`$, because $`\Pi\lt0`$.
 This proves Theorem 1, including exclusion of a nontransverse stationary
 point under its strict inequalities. No genericity hypothesis on J is needed.
 
 ## 5. Central nodes when the E root precedes the C interval
 
 Now import the generic surviving configuration from the predecessors:
-C has two simple physical roots $`-1<\gamma_1<\gamma_2<0`$, its third
-root is $`\gamma_3>r_3`$, and the cubic
+C has two simple physical roots $`-1\lt\gamma_1\lt\gamma_2\lt0`$, its third
+root is $`\gamma_3\gt r_3`$, and the cubic
 
 **(16)**
 
@@ -292,15 +292,15 @@ Q_v=P_v/L_q^3=mC-pE=-A
 ```
 
 has exactly one simple real root. E has roots
-$`\epsilon_-\in(-1,0)`$, $`\epsilon_+>0`$, and the last positive
-maximum exclusion already requires $`\epsilon_-<\gamma_2`$.
+$`\epsilon_-\in(-1,0)`$, $`\epsilon_+\gt0`$, and the last positive
+maximum exclusion already requires $`\epsilon_-\lt\gamma_2`$.
 
-Assume first $`\epsilon_-<\gamma_1`$. Then E>0 throughout
+Assume first $`\epsilon_-\lt\gamma_1`$. Then E>0 throughout
 $`(\gamma_1,\gamma_2)`$, and Qv is positive at both endpoints. A cubic
 with just one simple real root cannot have a root between two values of
 the same strict sign. Thus Qv>0 throughout the interval; A/C>0 there.
 
-At either endpoint D=E>0. Also $`D(r_3)>0`$, while D tends to minus
+At either endpoint D=E>0. Also $`D(r_3)\gt0`$, while D tends to minus
 infinity as p tends to plus infinity. The cubic D therefore spends at
 least one root on $`(r_3,\infty)`$, leaving at most two roots in the
 central interval. Consequently its negative set inside that interval is
@@ -316,26 +316,26 @@ Finiteness follows directly from the degree-six numerator J. Hence any
 regular fixed positive level has at most two hits in the central interval.
 If there are two, their directions are upward then downward.
 
-**Corollary 2A.** If $`\epsilon_-<\gamma_1`$, the central interval has
-at most two hits of the one original level $`V=c_1>0`$. In a hypothetical
+**Corollary 2A.** If $`\epsilon_-\lt\gamma_1`$, the central interval has
+at most two hits of the one original level $`V=c_1\gt0`$. In a hypothetical
 ten-root row they are an L3 maximum followed by an L4 maximum, using the
 unchanged right-branch, C<0 crossing table.
 
 ## 6. Central nodes when the E root is inside the C interval
 
-Assume $`\gamma_1<\epsilon_-<\gamma_2`$. The signs of Qv at
+Assume $`\gamma_1\lt\epsilon_-\lt\gamma_2`$. The signs of Qv at
 $`\epsilon_-`$ and $`\gamma_2`$ are respectively negative and positive.
 Its unique real root, denoted $`\alpha_p`$ in the p coordinate, lies
 between them. Qv is negative below this root and positive above it. In
 particular Qv($`\gamma_3`$)>0, so E($`\gamma_3`$)<0 and
-$`\epsilon_+<\gamma_3`$.
+$`\epsilon_+\lt\gamma_3`$.
 
 The signs of D force exactly three simple real roots:
 
 **(17)**
 
 ```math
-\delta_1<\gamma_1<\epsilon_-<\delta_2<\gamma_2<r_3<\delta_3<\gamma_3.
+\delta_1\lt\gamma_1\lt\epsilon_-\lt\delta_2\lt\gamma_2\lt r_3\lt\delta_3\lt\gamma_3.
 ```
 
 Here D is positive for sufficiently negative p, negative at gamma1 and
@@ -343,16 +343,16 @@ epsilon-, positive at gamma2 and r3, and negative at gamma3. The degree
 leaves no extra root. The exact identity
 
 ```math
-Q_v(-m/H)=-m\Pi(-m/H)>0
+Q_v(-m/H)=-m\Pi(-m/H)\gt0
 ```
 
-gives $`\alpha_p<-m/H`$. At Qv=0 one has
+gives $`\alpha_p\lt-m/H`$. At Qv=0 one has
 $`D/C=H+m/p`$, so D($`\alpha_p`$)<0 and in fact
 
 **(18)**
 
 ```math
-\epsilon_-<\alpha_p<\delta_2.
+\epsilon_-\lt\alpha_p\lt\delta_2.
 ```
 
 The only positive central component is $`(\gamma_1,\delta_2)`$.
@@ -362,11 +362,11 @@ At $`\alpha_p`$, the exact identity
 **(19)**
 
 ```math
-J=\Pi E Q_v'/m<0
+J=\Pi E Q_v'/m\lt0
 ```
 
 holds: E>0 there, and Qv has a simple crossing from negative to positive.
-Thus $`V'(\alpha_p)<0`$. On $`(\alpha_p,\delta_2)`$, all the inequalities
+Thus $`V'(\alpha_p)\lt0`$. On $`(\alpha_p,\delta_2)`$, all the inequalities
 of Theorem 1 hold. Since V' starts negative, a first subsequent stationary
 point would contradict its being a strict maximum. Hence V is strictly
 decreasing throughout that interval.
@@ -386,14 +386,14 @@ interval. There is at most one, and its original height must satisfy
 **(20)**
 
 ```math
-\boxed{c_1<V(\alpha_p)
+\boxed{c_1\lt V(\alpha_p)
 =u(\alpha_p)\left(H+\frac{m}{\alpha_p}\right).}
 ```
 
 If (20) holds, this final interval has exactly one hit by its endpoint
 values. No independent height has been assigned at different nodes.
 
-**Corollary 2B.** If $`\gamma_1<\epsilon_-<\gamma_2`$, a hypothetical
+**Corollary 2B.** If $`\gamma_1\lt\epsilon_-\lt\gamma_2`$, a hypothetical
 ten-root row has at most one central common-height node, necessarily a
 downward crossing and an L4 maximum, and must obey (20). This is a
 conditional consequence of the actual shared coefficient requirements;
@@ -406,7 +406,7 @@ write $`x(\gamma_3)`$ for the left-branch physical C root and
 $`x(\delta_1)`$ for the right-branch physical D root from (17).
 The four positive components of V, listed in original x order, are
 
-1. $`(0,x(\delta_3))`$, corresponding to $`r_3<p<\delta_3`$.
+1. $`(0,x(\delta_3))`$, corresponding to $`r_3\lt p\lt\delta_3`$.
 2. $`(x(\gamma_3),x(\delta_1))`$, which contains the q-mode seam.
 3. $`(x(\gamma_1),x(\delta_2))`$, the central positive component.
 4. $`(x(\gamma_2),1)`$, the final positive tail.
@@ -430,7 +430,7 @@ in the second component:
 **(21)**
 
 ```math
-\boxed{x(\gamma_3)<x<x(\delta_1).}
+\boxed{x(\gamma_3)\lt x\lt x(\delta_1).}
 ```
 
 V is positive and continuous throughout this interval, including at the

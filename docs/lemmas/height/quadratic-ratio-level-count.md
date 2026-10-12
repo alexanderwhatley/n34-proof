@@ -17,8 +17,8 @@ Assume the two zero/pole pairs overlap: the order is one of
 **(1)**
 
 ```math
-r_1<h_1<r_2<h_2,\quad h_1<r_1<h_2<r_2,\quad
-h_1<r_1<r_2<h_2,\quad r_1<h_1<h_2<r_2.
+r_1\lt h_1\lt r_2\lt h_2,\quad h_1\lt r_1\lt h_2\lt r_2,\quad
+h_1\lt r_1\lt r_2\lt h_2,\quad r_1\lt h_1\lt h_2\lt r_2.
 ```
 
 If Phi has at most five distinct critical points on (a,b) away from its
@@ -79,8 +79,8 @@ Thus F_theta is strictly decreasing left of theta and strictly
 increasing right of theta. The root/pole order gives
 
 ```math
-F_\theta(r_1)>F_\theta(h_1),\qquad
-F_\theta(r_2)>F_\theta(h_2).
+F_\theta(r_1)\gt F_\theta(h_1),\qquad
+F_\theta(r_2)\gt F_\theta(h_2).
 ```
 
 Adding these inequalities proves the exact three-component relation
@@ -88,7 +88,7 @@ Adding these inequalities proves the exact three-component relation
 **(3)**
 
 ```math
-\log q(y)>(1-\theta)\log q(x)+\theta\log q(z).
+\log q(y)\gt(1-\theta)\log q(x)+\theta\log q(z).
 ```
 
 The affine length factors cancel because q has the same number of

@@ -7,7 +7,7 @@ This is a coordinate-free form of the proved positive-kernel theorem. It supplie
 Let
 
 ```math
-q=x^A(1-x)^B,\qquad A,B>0,
+q=x^A(1-x)^B,\qquad A,B\gt0,
 ```
 
 and let two beta monomials
@@ -19,15 +19,15 @@ and let two beta monomials
 satisfy
 
 ```math
-0<a_1<a_2,\qquad 0<b_1<b_2,
+0\lt a_1\lt a_2,\qquad 0\lt b_1\lt b_2,
 \qquad
-0<a_1B-b_1A<a_2B-b_2A.
+0\lt a_1B-b_1A\lt a_2B-b_2A.
 ```
 
-For each $`0<q_0<q_{\max}`$, let $`x_L<x_R`$ be the two original points where $`q=q_0`$, and set
+For each $`0\lt q_0\lt q_{\max}`$, let $`x_L\lt x_R`$ be the two original points where $`q=q_0`$, and set
 
 ```math
-\mathcal B_j(q_0)=\frac1{\beta_j(x_L)}-\frac1{\beta_j(x_R)}>0,
+\mathcal B_j(q_0)=\frac1{\beta_j(x_L)}-\frac1{\beta_j(x_R)}\gt0,
 \qquad s=\log q_0.
 ```
 
@@ -43,7 +43,7 @@ is positive and strictly increasing. Its quantitative derivative margin is
 
 ```math
 \frac{d\log\mathcal R_\tau}{d\log q_0}
->\frac{b_2-b_1}{B}>0.
+\gt\frac{b_2-b_1}{B}\gt0.
 ```
 
 The limits are
@@ -68,7 +68,7 @@ Put
 \alpha_j=b_j/B,\qquad \kappa_j=(a_jB-b_jA)/B.
 ```
 
-Then $`0<\alpha_1<\alpha_2`$, $`0<\kappa_1<\kappa_2`$, and at the equal-height points
+Then $`0\lt\alpha_1\lt\alpha_2`$, $`0\lt\kappa_1\lt\kappa_2`$, and at the equal-height points
 
 ```math
 \log\beta_j=\alpha_js+\kappa_j\log x.

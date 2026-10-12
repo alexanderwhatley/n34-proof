@@ -18,7 +18,7 @@ u,v,w\ge0,\quad v\le w,
 
 #### Extended global-least theorem.
 
-Let $`\alpha,\beta,\gamma>0`$ and
+Let $`\alpha,\beta,\gamma\gt0`$ and
 
 ```math
 F=1+\alpha m_u-\beta m_v-\gamma m_w\not\equiv0,
@@ -29,14 +29,14 @@ F=1+\alpha m_u-\beta m_v-\gamma m_w\not\equiv0,
 
 #### Proof.
 
-First use strict positive coordinates, distinct coordinate orders, simple original roots, and the same generic cofactor hypotheses used in the manuscript’s saturation argument. Comparable negative supports are covered by (GL$`_c`$), after interchanging them if necessary. Otherwise arrange $`v_1<w_1`$ and $`w_2<v_2`$. The positive support $`u`$ has just nine position cells:
+First use strict positive coordinates, distinct coordinate orders, simple original roots, and the same generic cofactor hypotheses used in the manuscript’s saturation argument. Comparable negative supports are covered by (GL$`_c`$), after interchanging them if necessary. Otherwise arrange $`v_1\lt w_1`$ and $`w_2\lt v_2`$. The positive support $`u`$ has just nine position cells:
 
 ```math
 \begin{array}{c|ccc}
- &u_2<w_2&w_2<u_2<v_2&v_2<u_2\\\hline
-u_1<v_1&\text{corner}&\text{Cross}&\text{corner}\\
-v_1<u_1<w_1&\text{Cross (reflected)}&\text{Disjoint}&\text{Cross}\\
-w_1<u_1&\text{corner}&\text{Cross (reflected)}&\text{corner}
+ &u_2\lt w_2&w_2\lt u_2\lt v_2&v_2\lt u_2\\\hline
+u_1\lt v_1&\text{corner}&\text{Cross}&\text{corner}\\
+v_1\lt u_1\lt w_1&\text{Cross (reflected)}&\text{Disjoint}&\text{Cross}\\
+w_1\lt u_1&\text{corner}&\text{Cross (reflected)}&\text{corner}
 \end{array}
 ```
 
@@ -46,18 +46,18 @@ All four corners have one common proof. Label $`0`$ the constant, $`1`$ the posi
 
 ```math
 \begin{aligned}
- e_0(0)&=(v_1-u_1)(w_1-u_1)(w_1-v_1)>0,\\
- e_0(1)&=-(v_2-u_2)(w_2-u_2)(w_2-v_2)>0,\\
- e_1(0)&=-v_1w_1(w_1-v_1)<0,\\
- e_1(1)&=v_2w_2(w_2-v_2)<0.
+ e_0(0)&=(v_1-u_1)(w_1-u_1)(w_1-v_1)\gt0,\\
+ e_0(1)&=-(v_2-u_2)(w_2-u_2)(w_2-v_2)\gt0,\\
+ e_1(0)&=-v_1w_1(w_1-v_1)\lt0,\\
+ e_1(1)&=v_2w_2(w_2-v_2)\lt0.
 \end{aligned}
 ```
 
  The same formulas give
 
 ```math
-K(0)=u_1v_1w_1 e_0(0)>0,\qquad
- K(1)=-u_2v_2w_2 e_0(1)<0.
+K(0)=u_1v_1w_1 e_0(0)\gt0,\qquad
+ K(1)=-u_2v_2w_2 e_0(1)\lt0.
 ```
 
  Use the monotone negative-pair anchor $`2,3`$, with complementary pair $`0,1`$. Each complementary cofactor has even endpoint parity and at most two physical roots; the coefficient-weighted pair product is negative at both ends. Thus the useful set has at most two components. The sextic $`K`$, with opposite endpoint signs, has at most five physical roots. The corresponding residual therefore has at most $`2+5=7`$ roots, whereas ten-root saturation would require eight. Ten original roots are impossible. The positive original endpoint signs and the preliminary ceiling ten now give at most eight simple roots in these cells too.

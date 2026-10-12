@@ -23,7 +23,7 @@ Some source proofs use short labels. The following explanations fix their meanin
 | Source | The original parameters and polynomials derived from the same four functions; their coefficients cannot be chosen independently. |
 | Chart | A change of variables, together with its inverse and domain conditions. |
 | Cofactor | A determinant obtained by deleting one column from the derivative matrix; its exact formula is (5). |
-| Physical root | A root in the interval corresponding to $`0<x<1`$ after a change of variable. Other real roots are called exterior roots. |
+| Physical root | A root in the interval corresponding to $`0\lt x\lt1`$ after a change of variable. Other real roots are called exterior roots. |
 | Pole or event | A denominator root, or a specified numerator/denominator root where the interval is divided. Root orders such as $`0231`$ record the labels in increasing order. |
 | Height and level | Height means the value of a real function; a level is one fixed value with which all the relevant intervals are compared. |
 | Contact | In the determinant argument, a stationary point of a logarithmic ratio. In later level-curve arguments, an intersection with the specified level. The defining equation is given in each use. |
@@ -40,7 +40,7 @@ The labels in square brackets identify named proofs in the appendix. The externa
 
 ## Statement and reduction to four beta monomials
 
-Write $`N(3,4)`$ for the largest number of **isolated solutions in $`\mathbb R_{>0}^2`$** of a system
+Write $`N(3,4)`$ for the largest number of **isolated solutions in $`\mathbb R_{\gt0}^2`$** of a system
 
 ```math
 P_{\rm tri}(X,Y)=P_{\rm quad}(X,Y)=0,
@@ -61,7 +61,7 @@ Here a solution is *isolated* if some neighborhood of it contains no other solut
 The univariate statement needed for the upper bound is stronger than the polynomial formulation. For $`s=(s_1,s_2)\in\mathbb R^2`$, put
 
 ```math
-m_s(x)=x^{s_1}(1-x)^{s_2},\qquad 0<x<1.
+m_s(x)=x^{s_1}(1-x)^{s_2},\qquad 0\lt x\lt1.
 ```
 
 We call $`m_s`$ a **beta monomial**: this means exactly a function of the displayed form, with arbitrary real exponents. Its exponent vector is $`s`$. These functions are positive and real analytic on $`(0,1)`$. A *nonidentity* function means one that is not identically zero. For such an analytic function $`F`$ and a subset $`J\subseteq(0,1)`$, write
@@ -72,7 +72,7 @@ We call $`m_s`$ a **beta monomial**: this means exactly a function of the displa
 
 allowing the value $`+\infty`$ until a finite bound is proved. A zero $`\xi`$ is *simple* if $`F'(\xi)\ne0`$.
 
-In a sum whose terms are labeled by $`i`$, write $`s_i=(a_i,b_i)`$ and $`m_i=m_{s_i}`$. Repeated exponent vectors and zero coefficients are allowed when expressly stated. For vectors $`u,v\in\mathbb R^2`$, write $`u\preceq v`$ when $`u_1\le v_1`$ and $`u_2\le v_2`$, and $`u\prec v`$ when both inequalities are strict. Thus weak and strict coordinatewise order are distinguished explicitly. They are *strictly coordinatewise incomparable* when $`(u_1-v_1)(u_2-v_2)<0`$. *Strict coordinate orders* mean that the first coordinates are pairwise distinct and the second coordinates are pairwise distinct.
+In a sum whose terms are labeled by $`i`$, write $`s_i=(a_i,b_i)`$ and $`m_i=m_{s_i}`$. Repeated exponent vectors and zero coefficients are allowed when expressly stated. For vectors $`u,v\in\mathbb R^2`$, write $`u\preceq v`$ when $`u_1\le v_1`$ and $`u_2\le v_2`$, and $`u\prec v`$ when both inequalities are strict. Thus weak and strict coordinatewise order are distinguished explicitly. They are *strictly coordinatewise incomparable* when $`(u_1-v_1)(u_2-v_2)\lt0`$. *Strict coordinate orders* mean that the first coordinates are pairwise distinct and the second coordinates are pairwise distinct.
 
 **Theorem 2 (four-term theorem).** If
 
@@ -99,7 +99,7 @@ where
 
 ```math
 U=A X^{u_1}Y^{u_2},\qquad V=B X^{v_1}Y^{v_2},
-\qquad A,B>0,
+\qquad A,B\gt0,
 ```
 
 and the two exponent vectors are linearly independent. Taking logarithms shows that $`(X,Y)\mapsto(U,V)`$ is a real analytic diffeomorphism of the positive quadrant onto itself. Each monomial in $`P_{\rm quad}`$ becomes a positive constant times $`U^aV^b`$, with $`a,b`$ real. On $`U+V=1`$ set $`x=U`$. The restriction of $`P_{\rm quad}`$ is a sum of at most four beta monomials.
@@ -152,10 +152,10 @@ This determinant is the Wronskian for the differentiation operator $`D`$. Using 
 F_{c,s}(x)=\sum_{i=1}^k c_i m_{s_i}(x),\qquad x\in(0,1).
 ```
 
-**(a)** Suppose $`F_{c,s}\not\equiv0`$, fix an index $`j`$ with $`c_j\ne0`$, and let $`\xi_1,\ldots,\xi_n`$ be any $`n\ge1`$ distinct zeros of $`F_{c,s}`$. Let $`J_1,\ldots,J_n`$ be pairwise disjoint open intervals containing these zeros, with closures contained in $`(0,1)`$. For every $`\varepsilon>0`$ there exists $`t\in\mathbb R`$ such that
+**(a)** Suppose $`F_{c,s}\not\equiv0`$, fix an index $`j`$ with $`c_j\ne0`$, and let $`\xi_1,\ldots,\xi_n`$ be any $`n\ge1`$ distinct zeros of $`F_{c,s}`$. Let $`J_1,\ldots,J_n`$ be pairwise disjoint open intervals containing these zeros, with closures contained in $`(0,1)`$. For every $`\varepsilon\gt0`$ there exists $`t\in\mathbb R`$ such that
 
 ```math
-0<|t|<\min\{\varepsilon,|c_j|/2\}
+0\lt|t|\lt\min\{\varepsilon,|c_j|/2\}
 ```
 
 and
@@ -170,7 +170,7 @@ has at least $`n`$ distinct simple zeros in $`\bigcup_{\nu=1}^n J_\nu`$. Moreove
 
 ```math
 \mathcal P_{\sigma,S}
-=\{(c,s)\in\mathbb R^k\times S:\sigma_i c_i>0\text{ for every }i\}.
+=\{(c,s)\in\mathbb R^k\times S:\sigma_i c_i\gt0\text{ for every }i\}.
 ```
 
 Let $`\mathcal G`$ be dense in $`\mathcal P_{\sigma,S}`$ in the relative Euclidean topology. Assume that for every $`(c,s)\in\mathcal G`$, the function $`F_{c,s}`$ is not identically zero, all its zeros in $`(0,1)`$ are simple, and $`\mathop{Z}(F_{c,s})\le N_0`$. Then
@@ -190,7 +190,7 @@ h(x)=A_\nu(x-\xi_\nu)^{r_\nu}
 
 Shrink a neighborhood of each $`\xi_\nu`$ inside $`J_\nu`$ so that $`h`$ is strictly monotone on each side of $`\xi_\nu`$. If $`r_\nu`$ is odd, each sufficiently small positive or negative level $`t`$ is attained once near $`\xi_\nu`$. If $`r_\nu`$ is even, a sufficiently small level with the sign of $`A_\nu`$ is attained twice, once on each side; a level of the opposite sign is not attained there.
 
-Let $`o`$ count the selected odd-order zeros. Among the selected even-order zeros, let $`e_+`$ count those with $`A_\nu>0`$ and $`e_-`$ those with $`A_\nu<0`$. Thus the two signs of a sufficiently small $`t`$ give at least $`o+2e_+`$ and $`o+2e_-`$ nearby roots, respectively. One of these numbers is at least
+Let $`o`$ count the selected odd-order zeros. Among the selected even-order zeros, let $`e_+`$ count those with $`A_\nu\gt0`$ and $`e_-`$ those with $`A_\nu\lt0`$. Thus the two signs of a sufficiently small $`t`$ give at least $`o+2e_+`$ and $`o+2e_-`$ nearby roots, respectively. One of these numbers is at least
 
 ```math
 o+2\max(e_+,e_-)\ge o+e_++e_-=n.
@@ -202,7 +202,7 @@ Choose that sign. The zeros of the nonzero analytic function $`h'`$ form a discr
 F_t'=m_{s_j}h'\ne0.
 ```
 
-This proves both simplicity and the asserted nearby root count. The inequality $`|t|<|c_j|/2`$ gives $`c_j(c_j-t)>0`$.
+This proves both simplicity and the asserted nearby root count. The inequality $`|t|\lt|c_j|/2`$ gives $`c_j(c_j-t)\gt0`$.
 
 For (b), suppose a function in the claimed closure has $`n=N_0+1`$ distinct zeros. Since it is not identically zero, at least one coefficient $`c_j`$ is nonzero. Apply (a). The perturbed parameter still belongs to
 
@@ -300,7 +300,7 @@ W_D(Dm_p,Dm_q)
 **Lemma 2.** Let $`F=\sum_{i=0}^3 c_i m_{s_i}\not\equiv0`$, where $`c_i\in\mathbb R`$ and $`s_i\in\mathbb R^2`$. If $`c_ic_j\ne0`$ and the corresponding exponent vectors satisfy
 
 ```math
-(s_{i,1}-s_{j,1})(s_{i,2}-s_{j,2})<0,
+(s_{i,1}-s_{j,1})(s_{i,2}-s_{j,2})\lt0,
 ```
 
 then $`\mathop{Z}(F)\le10`$.
@@ -309,10 +309,10 @@ then $`\mathop{Z}(F)\le10`$.
 
 ```math
 F_0=c_0+c_1m_p+c_2m_q+c_3m_r,
-\qquad p_1>0>p_2.
+\qquad p_1\gt0\gt p_2.
 ```
 
-Here $`p,q,r\in\mathbb R^2`$ are exponent differences after division and relabeling, and $`F_0`$ is $`F`$ divided by a positive beta monomial; hence $`\mathop{Z}(F_0)=\mathop{Z}(F)`$. Since $`\lambda_p(x)=p_1(1-x)-p_2x>0`$, we have $`Dm_p>0`$ throughout $`(0,1)`$. Using (3a) in the quotient rule gives
+Here $`p,q,r\in\mathbb R^2`$ are exponent differences after division and relabeling, and $`F_0`$ is $`F`$ divided by a positive beta monomial; hence $`\mathop{Z}(F_0)=\mathop{Z}(F)`$. Since $`\lambda_p(x)=p_1(1-x)-p_2x\gt0`$, we have $`Dm_p\gt0`$ throughout $`(0,1)`$. Using (3a) in the quotient rule gives
 
 **(4)**
 
@@ -322,7 +322,7 @@ D\left(\frac{DF_0}{Dm_p}\right)
 \{c_2m_qH(p,q;x)+c_3m_rH(p,r;x)\}.
 ```
 
-After division by $`m_q>0`$, the expression in braces becomes
+After division by $`m_q\gt0`$, the expression in braces becomes
 
 ```math
 c_2H(p,q;x)+c_3x^{r_1-q_1}(1-x)^{r_2-q_2}H(p,r;x).
@@ -345,7 +345,7 @@ F\longmapsto D(F/m_i)
 \longmapsto D\left(\frac{D(F/m_i)}{D(m_j/m_i)}\right).
 ```
 
-The order $`i,j`$ specifies the first divisor. The anchor is *monotone* when $`D(m_j/m_i)`$ has no zero on $`(0,1)`$, as for a strictly incomparable exponent pair; an *oriented* monotone anchor is ordered so this derivative is positive. A *same-sign* anchor has $`c_ic_j>0`$; a *positive-pair* or *negative-pair* anchor has both coefficients positive or both negative, respectively. Its *complementary pair* consists of the two labels not in the anchor. These coefficient signs are separate from the signs of exponent coordinates. The phrase *derivative anchor* refers to this division-and-differentiation construction. The remaining two-term expression after removal of nonvanishing factors is the *residual*. A polynomial *core* is the polynomial factor left in a derivative or determinant after its specified nonvanishing factors have been removed. A *physical* root lies in the interval corresponding to $`0<x<1`$ under the current coordinate; an *exterior* root lies outside it. No exterior root is counted as a root of the original problem.
+The order $`i,j`$ specifies the first divisor. The anchor is *monotone* when $`D(m_j/m_i)`$ has no zero on $`(0,1)`$, as for a strictly incomparable exponent pair; an *oriented* monotone anchor is ordered so this derivative is positive. A *same-sign* anchor has $`c_ic_j\gt0`$; a *positive-pair* or *negative-pair* anchor has both coefficients positive or both negative, respectively. Its *complementary pair* consists of the two labels not in the anchor. These coefficient signs are separate from the signs of exponent coordinates. The phrase *derivative anchor* refers to this division-and-differentiation construction. The remaining two-term expression after removal of nonvanishing factors is the *residual*. A polynomial *core* is the polynomial factor left in a derivative or determinant after its specified nonvanishing factors have been removed. A *physical* root lies in the interval corresponding to $`0\lt x\lt1`$ under the current coordinate; an *exterior* root lies outside it. No exterior root is counted as a root of the original problem.
 
 For four labeled exponent vectors $`s_i=(a_i,b_i)`$, $`i=0,1,2,3`$, recall the abbreviations $`m_i=m_{s_i}`$ and $`\lambda_i=\lambda_{s_i}`$. Define
 
@@ -375,7 +375,7 @@ The unsigned polynomial $`T_i=(-1)^ie_i`$ satisfies
 **(6)**
 
 ```math
-T_i=\prod_{r<s,\ r,s\ne i}(\lambda_s-\lambda_r)-\rho\Delta_i.
+T_i=\prod_{r\lt s,\ r,s\ne i}(\lambda_s-\lambda_r)-\rho\Delta_i.
 ```
 
 In particular,
@@ -383,8 +383,8 @@ In particular,
 **(7)**
 
 ```math
-T_i(0)=\prod_{r<s,\ r,s\ne i}(a_s-a_r),\quad
-T_i(1)=-\prod_{r<s,\ r,s\ne i}(b_s-b_r),
+T_i(0)=\prod_{r\lt s,\ r,s\ne i}(a_s-a_r),\quad
+T_i(1)=-\prod_{r\lt s,\ r,s\ne i}(b_s-b_r),
 ```
 
 
@@ -392,13 +392,13 @@ T_i(1)=-\prod_{r<s,\ r,s\ne i}(b_s-b_r),
 **(8)**
 
 ```math
-K(0)=\prod_{r<s}(a_s-a_r),\qquad
-K(1)=\prod_{r<s}(b_s-b_r).
+K(0)=\prod_{r\lt s}(a_s-a_r),\qquad
+K(1)=\prod_{r\lt s}(b_s-b_r).
 ```
 
 The products in (7)–(8) are Vandermonde products, namely products of all pairwise differences in the stated order. The products for three and four columns have three and six factors, respectively. At $`x=1`$, each difference becomes $`\lambda_s(1)-\lambda_r(1)=-(b_s-b_r)`$. The odd factor count in (7) gives a minus sign, while the even factor count in (8) gives a plus sign. Below, *cubic* and *sextic* describe the relevant degree bounds unless a nonzero leading coefficient is specified.
 
-For complementary ordered pairs $`i<j`$, $`k<l`$, let $`\varepsilon(i,j,k,l)`$ be the sign of that permutation of $`(0,1,2,3)`$. Jacobi’s complementary-minor identity for these Wronskians gives, wherever $`e_ke_l\ne0`$,
+For complementary ordered pairs $`i\lt j`$, $`k\lt l`$, let $`\varepsilon(i,j,k,l)`$ be the sign of that permutation of $`(0,1,2,3)`$. Jacobi’s complementary-minor identity for these Wronskians gives, wherever $`e_ke_l\ne0`$,
 
 **(9)**
 
@@ -439,7 +439,7 @@ R_{ij}:=D\left(\frac{D(F/m_i)}{Dr}\right)
 Indeed, multiplying each of three Wronskian columns by $`m_i`$ multiplies the determinant by $`m_i^3`$; derivatives of that common factor are eliminated by row operations. The ordering in (5) then gives $`W_D(m_i,m_j,m_k)=-\varepsilon(i,j,k,l)m_im_jm_ke_l`$ and $`W_D(m_i,m_j,m_l)=\varepsilon(i,j,k,l)m_im_jm_le_k`$. The prefactor in (10a) is nonzero, proving (10). Assume here that $`c_kc_l\ne0`$ and the relevant cofactors have no common physical zero, as required in the strict source cases. A residual root then has $`e_ke_l\ne0`$. Its *useful set*, the region where the signs permit (10), is
 
 ```math
-U_{kl}=\{x\in(0,1):c_kc_l e_k(x)e_l(x)>0\}.
+U_{kl}=\{x\in(0,1):c_kc_l e_k(x)e_l(x)\gt0\}.
 ```
 
 A useful component is a connected interval of this open set. Define the *phase*
@@ -478,7 +478,7 @@ P_2=-54x^3+44x^2-12x+1,&P_3=42x^3-37x^2+11x-1.
 
 The discriminant vanishes precisely when a polynomial has a repeated complex root; the resultant of two polynomials vanishes precisely when they share a complex root. Here the discriminants are $`-1668,-1156,-716,-507`$. Their pairwise resultants in the order $`01,02,03,12,13,23`$ are $`60,-378,972,36,-210,18`$. All are nonzero. Each corresponding discriminant or resultant is therefore a nonzero polynomial in the support coordinates; its zero set has empty interior in every strict coordinate-order case. A finite union of these sets still has empty interior. Regular coefficient shifts from Lemma 1 supply simple original roots on the resulting dense support set. Family-specific exceptional sets beyond these cofactor conditions retain their cited source proofs.
 
-**Lemma 2A (simultaneous anchor saturation).** Fix a nonidentity four-term beta sum with nonzero coefficients and strict coordinate orders. Suppose the signed cofactors have simple, pairwise disjoint physical roots. Let $`\mathcal A`$ be a collection of monotone anchors. For each anchor, write $`kl`$ for its complementary pair, $`U_{kl}=\{c_kc_l e_ke_l>0\}`$, and let $`b_{kl}`$ be its number of components. Let $`T=\mathop{Z}(K)`$ and suppose a proved degree or parity bound gives $`T\le d`$.
+**Lemma 2A (simultaneous anchor saturation).** Fix a nonidentity four-term beta sum with nonzero coefficients and strict coordinate orders. Suppose the signed cofactors have simple, pairwise disjoint physical roots. Let $`\mathcal A`$ be a collection of monotone anchors. For each anchor, write $`kl`$ for its complementary pair, $`U_{kl}=\{c_kc_l e_ke_l\gt0\}`$, and let $`b_{kl}`$ be its number of components. Let $`T=\mathop{Z}(K)`$ and suppose a proved degree or parity bound gives $`T\le d`$.
 
 If $`F`$ has $`n`$ distinct roots, then every anchor in $`\mathcal A`$ satisfies
 
@@ -524,7 +524,7 @@ The phrase *equality in the ten-root counting bounds* below refers to these forc
 
 ### A differential operator and an interpolation lemma
 
-For $`0<\theta<1`$, $`k\le1`$, define
+For $`0\lt\theta\lt1`$, $`k\le1`$, define
 
 **(15)**
 
@@ -546,11 +546,11 @@ p=2h_0'/h_0+k(\theta-x)/\rho,\qquad
 V=(1-k)\theta(1-\theta)/\rho^2\ge0.
 ```
 
-For an interior base point $`x_0`$, put $`\mu(x)=\exp(\int_{x_0}^x p(t)\,dt)>0`$. Initial data $`z(x_0)=1,z'(x_0)=0`$ produce a positive solution on both sides: while $`z>0`$, the identity $`(\mu z')'=\mu Vz\ge0`$ makes $`z`$ nondecreasing to the right and nonincreasing as $`x`$ increases on the left, so it cannot reach zero on either side. The two solutions $`h>0`$ and $`\theta-x`$ are independent, and Abel’s Wronskian identity makes $`\tau=(\theta-x)/h`$ a coordinate with nonzero derivative. More precisely, for $`f=h\,v(\tau)`$ one has $`\mathcal L_{\theta,k}f=\rho h(\tau')^2v''(\tau)`$. It therefore loses at most two distinct zeros by Rolle. This is the only property of this differential operator needed here. The source uses the term *disconjugate* for this property.
+For an interior base point $`x_0`$, put $`\mu(x)=\exp(\int_{x_0}^x p(t)\,dt)\gt0`$. Initial data $`z(x_0)=1,z'(x_0)=0`$ produce a positive solution on both sides: while $`z\gt0`$, the identity $`(\mu z')'=\mu Vz\ge0`$ makes $`z`$ nondecreasing to the right and nonincreasing as $`x`$ increases on the left, so it cannot reach zero on either side. The two solutions $`h\gt0`$ and $`\theta-x`$ are independent, and Abel’s Wronskian identity makes $`\tau=(\theta-x)/h`$ a coordinate with nonzero derivative. More precisely, for $`f=h\,v(\tau)`$ one has $`\mathcal L_{\theta,k}f=\rho h(\tau')^2v''(\tau)`$. It therefore loses at most two distinct zeros by Rolle. This is the only property of this differential operator needed here. The source uses the term *disconjugate* for this property.
 
 The following interpolation lemma is [F1-INT]. It will be used for both comparable orientations in Lemma 3A.
 
-**Lemma 3.** Let $`P,Q`$ be real polynomials of degree at most three, with $`P\ne0`$ and $`P(r)=0`$ for some $`r\in(0,1)`$. If $`0<a,b<1`$ and $`\kappa\ne0`$, the equation
+**Lemma 3.** Let $`P,Q`$ be real polynomials of degree at most three, with $`P\ne0`$ and $`P(r)=0`$ for some $`r\in(0,1)`$. If $`0\lt a,b\lt1`$ and $`\kappa\ne0`$, the equation
 
 ```math
 Q(x)=\kappa x^a(1-x)^bP(x)
@@ -572,15 +572,15 @@ Substitute the assumed equality and divide by $`\kappa`$. Choose principal branc
 ={}&-\frac{\sin\pi a}{\pi}\int_{-\infty}^0
 \frac{(-t)^a(1-t)^b(r-t)P_r(t)^2}{\omega(t)}\,dt\\
 &-\frac{\sin\pi b}{\pi}\int_1^\infty
-\frac{t^a(t-1)^b(t-r)P_r(t)^2}{\omega(t)}\,dt<0.
+\frac{t^a(t-1)^b(t-r)P_r(t)^2}{\omega(t)}\,dt\lt0.
 \end{split}
 ```
 
-Both integrals converge: the integrand at infinity is $`O(|t|^{a+b-3})`$, and $`a+b<2`$. The endpoint small-circle terms vanish because $`a,b>0`$. Both integrals are strictly positive before their displayed minus signs, since $`\omega>0`$ on the exterior cuts and $`P_r\ne0`$. This contradicts interpolation. $`\square`$
+Both integrals converge: the integrand at infinity is $`O(|t|^{a+b-3})`$, and $`a+b\lt2`$. The endpoint small-circle terms vanish because $`a,b\gt0`$. Both integrals are strictly positive before their displayed minus signs, since $`\omega\gt0`$ on the exterior cuts and $`P_r\ne0`$. This contradicts interpolation. $`\square`$
 
 ## Two positive and two negative coefficients
 
-**Theorem 3 (sign-case theorem).** Let $`s_0,s_1,s_2,s_3\in\mathbb R^2`$, let $`c_0,c_1>0`$ and $`c_2,c_3<0`$, and suppose $`F=\sum_{i=0}^3c_i m_{s_i}\not\equiv0`$. Then $`\mathop{Z}(F)\le9`$.
+**Theorem 3 (sign-case theorem).** Let $`s_0,s_1,s_2,s_3\in\mathbb R^2`$, let $`c_0,c_1\gt0`$ and $`c_2,c_3\lt0`$, and suppose $`F=\sum_{i=0}^3c_i m_{s_i}\not\equiv0`$. Then $`\mathop{Z}(F)\le9`$.
 
 We give the assembly, an eight-entry order reduction, and representative analytic mechanisms. The remaining specialized lemmas are the explicitly identified inputs [C22] in [the appendix](appendix.md).
 
@@ -619,11 +619,11 @@ These necessary signs apply to mixed-sign anchors as well as same-sign anchors. 
 
 For $`0213/1230`$, anchor $`1,2`$ has negative label $`3`$ as the dominant complementary beta monomial at the second endpoint, beyond both anchor labels; its residual sign violates (12). For $`0231/1203,0231/1230,0231/1320`$, anchor $`0,2`$ gives the same violation at the first endpoint. Finally physical reflection and swaps $`0\leftrightarrow1`$, $`2\leftrightarrow3`$ send $`0231/1302`$ to $`0213/1320`$.
 
-Only F2, F3 and F4 remain. Their first-coordinate order is $`a_0<a_2<a_1<a_3`$, and their respective second-coordinate orders are $`1203,1302,1320`$. For example, $`1203`$ means $`b_1<b_2<b_0<b_3`$. This eight-entry reduction is the argument [EIGHT-ORDER].
+Only F2, F3 and F4 remain. Their first-coordinate order is $`a_0\lt a_2\lt a_1\lt a_3`$, and their respective second-coordinate orders are $`1203,1302,1320`$. For example, $`1203`$ means $`b_1\lt b_2\lt b_0\lt b_3`$. This eight-entry reduction is the argument [EIGHT-ORDER].
 
 ### One comparable-term theorem
 
-**Lemma 3A (one comparable-term bound).** Let $`A,B,C>0`$ and
+**Lemma 3A (one comparable-term bound).** Let $`A,B,C\gt0`$ and
 
 ```math
 F=1+A m_u-Bm_v-Cm_w.
@@ -632,11 +632,11 @@ F=1+A m_u-Bm_v-Cm_w.
 Suppose all coordinates of $`u,v,w`$ are positive, $`u`$ and $`v`$ are comparable, and both lie northwest of $`w`$:
 
 ```math
-u_1<w_1,\quad v_1<w_1,\qquad
-u_2>w_2,\quad v_2>w_2,
+u_1\lt w_1,\quad v_1\lt w_1,\qquad
+u_2\gt w_2,\quad v_2\gt w_2,
 ```
 
-with either $`u_1<v_1,\ u_2<v_2`$ or $`u_1>v_1,\ u_2>v_2`$. Then $`F`$ has at most eight distinct roots in $`(0,1)`$.
+with either $`u_1\lt v_1,\ u_2\lt v_2`$ or $`u_1\gt v_1,\ u_2\gt v_2`$. Then $`F`$ has at most eight distinct roots in $`(0,1)`$.
 
 The parameters in this subsection are local support coordinates. The shared endpoint operator is (15).
 
@@ -672,10 +672,10 @@ First consider $`k_{*}\leq1`$ and choose $`k=k_{*}`$. Then $`T_i\geq r_i`$ for b
 **(C)**
 
 ```math
-C_\ell(0)>0,\qquad C_\ell(1)>0,
+C_\ell(0)\gt0,\qquad C_\ell(1)\gt0,
 ```
 
-since $`\ell_1<w_1`$, $`\ell_2>w_2`$ and $`\ell_i<r_i\leq T_i`$.
+since $`\ell_1\lt w_1`$, $`\ell_2\gt w_2`$ and $`\ell_i\lt r_i\leq T_i`$.
 
 The first beta annihilation gives the exact identity
 
@@ -696,13 +696,13 @@ Absorb the endpoint factor of the higher core into its beta exponent. The residu
 
 ##### The complementary region uses the same interpolation lemma.
 
-If $`k_{*}>1`$, (B) gives
+If $`k_{*}\gt1`$, (B) gives
 
 ```math
-r_1<1-\theta,\qquad r_2<\theta.
+r_1\lt1-\theta,\qquad r_2\lt\theta.
 ```
 
-In particular $`0<u_1,u_2<1`$. No information about the modes of $`u`$ or $`v`$, or about a nonvanishing third Wronskian, is needed.
+In particular $`0\lt u_1,u_2\lt1`$. No information about the modes of $`u`$ or $`v`$, or about a nonvanishing third Wronskian, is needed.
 
 Set
 
@@ -715,7 +715,7 @@ H(p,q)=\lambda_pD\lambda_q-\lambda_qD\lambda_p
 
 ```math
 P=H(w-v,u-v),\qquad Q=-H(w-v,-v),\qquad
-L=\lambda_{w-v}>0.
+L=\lambda_{w-v}\gt0.
 ```
 
 The negative-pair reduction, whose divisors do not vanish, is
@@ -734,9 +734,9 @@ P(0)=-(e-c)(e-a)(a-c),\qquad
 P(1)=(d-f)(b-f)(b-d).
 ```
 
-They have opposite signs because $`(a-c)(b-d)>0`$. Thus $`P`$ is nonzero and has an interior root.
+They have opposite signs because $`(a-c)(b-d)\gt0`$. Thus $`P`$ is nonzero and has an interior root.
 
-The interior-root interpolation lemma (Lemma 3) therefore applies: if $`P,Q`$ have degree at most three, $`P`$ has an interior root, and $`0<a,b<1`$, then $`Q=A x^a(1-x)^bP`$ has at most seven distinct solutions. Two Rolle steps in (E) give nine original roots, and positive endpoint parity gives eight in the generic case. The lemma is the same for both comparable orientations; its proof uses no source-specific cofactor order.
+The interior-root interpolation lemma (Lemma 3) therefore applies: if $`P,Q`$ have degree at most three, $`P`$ has an interior root, and $`0\lt a,b\lt1`$, then $`Q=A x^a(1-x)^bP`$ has at most seven distinct solutions. Two Rolle steps in (E) give nine original roots, and positive endpoint parity gives eight in the generic case. The lemma is the same for both comparable orientations; its proof uses no source-specific cofactor order.
 
 ##### Distinct roots and seams.
 
@@ -750,7 +750,7 @@ The exceptional parameter sets in both cancellation branches have empty interior
 
 ##### The two previously proved inputs.
 
-We use the preliminary bound ten, the equality implications of the derivative reductions, the signed cofactor endpoint formulas and the component count proved above. We also need the following previously proved global-least result [GL], for $`\alpha,\beta,\gamma>0`$:
+We use the preliminary bound ten, the equality implications of the derivative reductions, the signed cofactor endpoint formulas and the component count proved above. We also need the following previously proved global-least result [GL], for $`\alpha,\beta,\gamma\gt0`$:
 
 **(GL-c)**
 
@@ -762,7 +762,7 @@ u,v,w\ge0,\quad v\le w,
 
 Its detailed proof, including the two comparable-negative subcases, remains a needed input [GL]. We also use the analytic curvature lemma [DISJOINT] in the middle cell below. Lemma 3A handles the four entries labeled Cross. None of these inputs uses F2, F3, F4 or the full two-versus-two theorem, so this step is not circular.
 
-**Lemma 3B (extended global-least theorem).** Let $`\alpha,\beta,\gamma>0`$ and
+**Lemma 3B (extended global-least theorem).** Let $`\alpha,\beta,\gamma\gt0`$ and
 
 ```math
 F=1+\alpha m_u-\beta m_v-\gamma m_w\not\equiv0,
@@ -773,14 +773,14 @@ Then $`Z(F)\le8`$, with no comparability assumption on $`v,w`$. Equivalently, a 
 
 ##### Proof.
 
-First use strict positive coordinates, distinct coordinate orders, simple original roots, and the same generic cofactor hypotheses used in the equality argument in this document. Comparable negative supports are covered by (GL_c), after interchanging them if necessary. Otherwise arrange $`v_1<w_1`$ and $`w_2<v_2`$. The positive support $`u`$ has just nine position cells:
+First use strict positive coordinates, distinct coordinate orders, simple original roots, and the same generic cofactor hypotheses used in the equality argument in this document. Comparable negative supports are covered by (GL_c), after interchanging them if necessary. Otherwise arrange $`v_1\lt w_1`$ and $`w_2\lt v_2`$. The positive support $`u`$ has just nine position cells:
 
 ```math
 \begin{array}{c|ccc}
-&u_2<w_2&w_2<u_2<v_2&v_2<u_2\\\hline
-u_1<v_1&\text{corner}&\text{Cross}&\text{corner}\\
-v_1<u_1<w_1&\text{Cross (reflected)}&\text{Disjoint}&\text{Cross}\\
-w_1<u_1&\text{corner}&\text{Cross (reflected)}&\text{corner}
+&u_2\lt w_2&w_2\lt u_2\lt v_2&v_2\lt u_2\\\hline
+u_1\lt v_1&\text{corner}&\text{Cross}&\text{corner}\\
+v_1\lt u_1\lt w_1&\text{Cross (reflected)}&\text{Disjoint}&\text{Cross}\\
+w_1\lt u_1&\text{corner}&\text{Cross (reflected)}&\text{corner}
 \end{array}
 ```
 
@@ -790,18 +790,18 @@ All four corners have one common proof. Label $`0`$ the constant, $`1`$ the posi
 
 ```math
 \begin{aligned}
-e_0(0)&=(v_1-u_1)(w_1-u_1)(w_1-v_1)>0,\\
-e_0(1)&=-(v_2-u_2)(w_2-u_2)(w_2-v_2)>0,\\
-e_1(0)&=-v_1w_1(w_1-v_1)<0,\\
-e_1(1)&=v_2w_2(w_2-v_2)<0.
+e_0(0)&=(v_1-u_1)(w_1-u_1)(w_1-v_1)\gt0,\\
+e_0(1)&=-(v_2-u_2)(w_2-u_2)(w_2-v_2)\gt0,\\
+e_1(0)&=-v_1w_1(w_1-v_1)\lt0,\\
+e_1(1)&=v_2w_2(w_2-v_2)\lt0.
 \end{aligned}
 ```
 
 The same formulas give
 
 ```math
-K(0)=u_1v_1w_1 e_0(0)>0,\qquad
-K(1)=-u_2v_2w_2 e_0(1)<0.
+K(0)=u_1v_1w_1 e_0(0)\gt0,\qquad
+K(1)=-u_2v_2w_2 e_0(1)\lt0.
 ```
 
 Use the monotone negative-pair anchor $`2,3`$, with complementary pair $`0,1`$. Each complementary cofactor has even endpoint parity and at most two physical roots; the coefficient-weighted pair product is negative at both ends. Thus the useful set has at most two components. The sextic $`K`$, with opposite endpoint signs, has at most five physical roots. The corresponding residual therefore has at most $`2+5=7`$ roots, whereas equality in the ten-root counting bounds would require eight. Ten original roots are impossible. The positive original endpoint signs and the preliminary ceiling ten now give at most eight simple roots in these cells too.
@@ -818,17 +818,17 @@ The F2 normal form is
 
 ```math
 F=A_0+A_1x^a(1-x)^{-b}-B_0x^e(1-x)^{-f}-B_1x^c(1-x)^d,
-\quad0<e<a<c,\quad0<f<b,\quad d>0.
+\quad0\lt e\lt a\lt c,\quad0\lt f\lt b,\quad d\gt0.
 ```
 
-All four magnitudes are positive. The following height argument excludes ten roots for this entire domain. Here is its coordinate dictionary, so that its polynomial and interval claims have definite meanings. Set $`\Delta=af-be`$ and $`J_0=a(d+f)+b(c-e)>0`$. The common height argument below covers $`\Delta\le0`$. For the remaining $`\Delta>0`$ coordinate dictionary, define
+All four magnitudes are positive. The following height argument excludes ten roots for this entire domain. Here is its coordinate dictionary, so that its polynomial and interval claims have definite meanings. Set $`\Delta=af-be`$ and $`J_0=a(d+f)+b(c-e)\gt0`$. The common height argument below covers $`\Delta\le0`$. For the remaining $`\Delta\gt0`$ coordinate dictionary, define
 
 ```math
 \alpha=(bc+ad)/J_0,\qquad \beta=\Delta/J_0,\qquad
 \mu=(cf+de)/J_0.
 ```
 
-These parameters satisfy $`\alpha+\beta=1`$ and $`0<\beta<\mu<\alpha<1`$. Put $`m_1=x^a(1-x)^{-b}`$, $`m_2=x^e(1-x)^{-f}`$, $`m_3=x^c(1-x)^d`$, and
+These parameters satisfy $`\alpha+\beta=1`$ and $`0\lt\beta\lt\mu\lt\alpha\lt1`$. Put $`m_1=x^a(1-x)^{-b}`$, $`m_2=x^e(1-x)^{-f}`$, $`m_3=x^c(1-x)^d`$, and
 
 ```math
 t=\frac{x}{1-x},\quad z=\log m_1,\quad
@@ -840,7 +840,7 @@ This fractional linear change sends $`(0,1)`$ to $`(l,r)`$ monotonically. Its sp
 
 ```math
 q(y)=\frac{dy}{dz}
-=\frac{(ay+c-e)(d+f-by)(c-e+d+f+(a-b)y)}{J_0^2}>0.
+=\frac{(ay+c-e)(d+f-by)(c-e+d+f+(a-b)y)}{J_0^2}\gt0.
 ```
 
 Define $`h=\mu-\alpha y`$, $`k=\mu+\beta y`$, and
@@ -857,7 +857,7 @@ Thus $`p,g`$ are polynomials in $`y`$ of degree at most three, and $`p-g=s^2-y^2
 B_1m_3\alpha p-B_0m_2\beta g.
 ```
 
-On $`pg>0`$ its zeros are exactly
+On $`pg\gt0`$ its zeros are exactly
 
 ```math
 \Phi=\log|g/p|+\eta=\log\frac{\alpha B_1}{\beta B_0},
@@ -874,7 +874,7 @@ Here and in the next equation primes mean ordinary differentiation with respect 
 \quad\deg_y\mathcal C\le6.
 ```
 
-The coefficient level is fixed on every component. The four overlapping *band orders* ABBA, BAAB, ABAB, BABA list in increasing $`y`$ order the two physical zeros of $`p`$ (letter A) and the two physical zeros of $`g`$ (letter B). For example, ABAB means $`p_1<g_1<p_2<g_2`$. Overlap is proved below. These names record root order; all arguments use the actual source cubics: the displayed shared-support formulas are retained.
+The coefficient level is fixed on every component. The four overlapping *band orders* ABBA, BAAB, ABAB, BABA list in increasing $`y`$ order the two physical zeros of $`p`$ (letter A) and the two physical zeros of $`g`$ (letter B). For example, ABAB means $`p_1\lt g_1\lt p_2\lt g_2`$. Overlap is proved below. These names record root order; all arguments use the actual source cubics: the displayed shared-support formulas are retained.
 
 The proof uses one common-height theorem and one comparison involving the exterior roots of the original polynomials [F2-HEIGHT]. Only the two monotone anchors $`01,02`$ are needed. Ten generic original roots require eight residual roots for each. Their numerator and pole cores have degree at most three and equal endpoint signs, hence at most two physical roots each. The normalized four-column determinant has at most five roots in the interval. Eight positive-level intersections therefore force two roots of both cores, three positive components, and all five critical points useful for that same inverse phase.
 
@@ -882,7 +882,7 @@ If its two intervals between the two roots were disjoint, the inverse phase woul
 
 ##### One height comparison for a ratio with two denominator roots.
 
-Let $`w>0`$ have concave logarithm on an interval containing the four distinct events $`r_1<r_2`$, $`h_1<h_2`$, and put
+Let $`w\gt0`$ have concave logarithm on an interval containing the four distinct events $`r_1\lt r_2`$, $`h_1\lt h_2`$, and put
 
 ```math
 Q_{*}(x)=\frac{(x-r_1)(x-r_2)}{(x-h_1)(x-h_2)},\qquad
@@ -898,11 +898,11 @@ Q_{*}(y)-Q_{*}(x)-Q_{*}'(x)(y-x)
 =(y-x)^2\sum_{j=1}^2\frac{a_j}{(y-h_j)(x-h_j)^2}
 ```
 
-shows that, at a positive critical point $`x`$ of $`\Psi`$, a negative right-hand side implies $`\Psi(y)<\Psi(x)`$. To see this, apply $`\log t\le t-1`$ to $`Q_{*}(y)/Q_{*}(x)`$, and use the tangent bound for $`\log w`$; the linear terms cancel at $`x`$.
+shows that, at a positive critical point $`x`$ of $`\Psi`$, a negative right-hand side implies $`\Psi(y)\lt\Psi(x)`$. To see this, apply $`\log t\le t-1`$ to $`Q_{*}(y)/Q_{*}(x)`$, and use the tangent bound for $`\log w`$; the linear terms cancel at $`x`$.
 
 In RHRH both residues are positive: choose the left positive component. In HRHR both are negative: choose the right positive component. In HRRH their signs are $`(-,+)`$: choose the central numerator band. In each case (F2-H) is negative for every point of that component and every critical point on either other positive component. The chosen component has strictly concave $`\log Q_{*}`$, by pairing each numerator root with a farther pole, so it has at most two level intersections. If a level meets it, every critical height on either other component is greater than that level. Each such component has an infinite pole endpoint, hence at most one intersection. The total is then at most four. If the level misses the chosen component, componentwise Rolle gives at most $`5+2=7`$.
 
-For RHHR, $`r_1<h_1<h_2<r_2`$, and $`a_1>0>a_2`$. The central positive component has an attained global minimum $`x`$, since its height tends to infinity at both poles. Set
+For RHHR, $`r_1\lt h_1\lt h_2\lt r_2`$, and $`a_1\gt0\gt a_2`$. The central positive component has an attained global minimum $`x`$, since its height tends to infinity at both poles. Set
 
 ```math
 A_1=\frac{a_1}{(x-h_1)^2},\qquad
@@ -932,100 +932,100 @@ After clearing positive monomial and denominator factors, their derivative cores
 
 ```math
 \deg\mathcal K\le6,\quad
-\mathcal K(0)=-ace(a-e)(c-a)(c-e)<0,\quad
-\mathcal K(1)=bdf(b-f)(b+d)(d+f)>0.
+\mathcal K(0)=-ace(a-e)(c-a)(c-e)\lt0,\quad
+\mathcal K(1)=bdf(b-f)(b+d)(d+f)\gt0.
 ```
 
 There are therefore at most five physical critical points, counting multiplicity. Every level above is one fixed ratio of the original coefficients on all components.
 
-For $`\Delta\le0`$, $`\lambda_1>\lambda_2>0`$ and the source identity
+For $`\Delta\le0`$, $`\lambda_1\gt\lambda_2\gt0`$ and the source identity
 
 ```math
-E_3=-[\lambda_1\lambda_2(\lambda_2-\lambda_1)+x(1-x)\Delta]>0.
+E_3=-[\lambda_1\lambda_2(\lambda_2-\lambda_1)+x(1-x)\Delta]\gt0.
 ```
 
-The positive set of the cubic $`E_2`$, positive at both ends, has at most two components. The same $`5+2=7`$ bound excludes eight residual roots directly. This covers the whole region $`\Delta\le0`$. For $`\Delta>0`$ and $`a=b`$, $`\lambda_1=a`$ is constant, and $`E_2,E_3`$ are quadratic. Saturation forces two physical roots each; their inverse height has the strictly log-concave prefactor $`Cx^{c-e}(1-x)^{d+f}`$, with no exterior factor. The overlap and common-height arguments apply directly.
+The positive set of the cubic $`E_2`$, positive at both ends, has at most two components. The same $`5+2=7`$ bound excludes eight residual roots directly. This covers the whole region $`\Delta\le0`$. For $`\Delta\gt0`$ and $`a=b`$, $`\lambda_1=a`$ is constant, and $`E_2,E_3`$ are quadratic. Saturation forces two physical roots each; their inverse height has the strictly log-concave prefactor $`Cx^{c-e}(1-x)^{d+f}`$, with no exterior factor. The overlap and common-height arguments apply directly.
 
-Reflect and divide by $`m_1`$, if needed, to arrange $`a>b`$; the transformed support is $`(b,a,b+d,c-a,b-f,a-e)`$, still of the form (16). Put
+Reflect and divide by $`m_1`$, if needed, to arrange $`a\gt b`$; the transformed support is $`(b,a,b+d,c-a,b-f,a-e)`$, still of the form (16). Put
 
 ```math
-\xi=-\frac{c-e+d+f}{a-b}<l.
+\xi=-\frac{c-e+d+f}{a-b}\lt l.
 ```
 
-The centered cubics have negative leading coefficient, are negative at both physical endpoints, and hence have unused roots $`p_0,g_0<l`$. Since $`h(\xi)>h(l)=c/a>1`$, $`p(\xi)<0`$, giving $`p_0<\xi`$. The inverse map
+The centered cubics have negative leading coefficient, are negative at both physical endpoints, and hence have unused roots $`p_0,g_0\lt l`$. Since $`h(\xi)\gt h(l)=c/a\gt1`$, $`p(\xi)\lt0`$, giving $`p_0\lt\xi`$. The inverse map
 
 ```math
 x=\frac{ay+c-e}{(a-b)y+c-e+d+f}
 ```
 
-is increasing on each side of its pole $`\xi`$. Thus the unused root of $`E_2=-\lambda_1^3\alpha p`$ is an original right exterior root $`\eta_2>1`$.
+is increasing on each side of its pole $`\xi`$. Thus the unused root of $`E_2=-\lambda_1^3\alpha p`$ is an original right exterior root $`\eta_2\gt1`$.
 
-In the ordered sector $`p_0<g_0`$, there are two source possibilities. If $`g_0<\xi`$, the original $`E_3`$ exterior root is $`\gamma>\eta_2`$. Use anchor $`01`$, whose positive prefactor after division by the physical-root factors is
+In the ordered sector $`p_0\lt g_0`$, there are two source possibilities. If $`g_0\lt\xi`$, the original $`E_3`$ exterior root is $`\gamma\gt\eta_2`$. Use anchor $`01`$, whose positive prefactor after division by the physical-root factors is
 
 ```math
-w_2=C_2x^{c-e}(1-x)^{d+f}\frac{x-\eta_2}{x-\gamma},\qquad C_2>0.
+w_2=C_2x^{c-e}(1-x)^{d+f}\frac{x-\eta_2}{x-\gamma},\qquad C_2\gt0.
 ```
 
-Its logarithm is strictly concave: both beta powers contribute negatively, and $`1<\eta_2<\gamma`$ makes the numerator exterior contribution more negative than the pole contribution. If $`\xi<g_0<l`$, then $`\gamma<0`$. The original $`E_1`$ exterior root $`\eta_1`$ is also negative. At $`\gamma`$, the source identity
+Its logarithm is strictly concave: both beta powers contribute negatively, and $`1\lt\eta_2\lt\gamma`$ makes the numerator exterior contribution more negative than the pole contribution. If $`\xi\lt g_0\lt l`$, then $`\gamma\lt0`$. The original $`E_1`$ exterior root $`\eta_1`$ is also negative. At $`\gamma`$, the source identity
 
 ```math
 E_3=-[\lambda_1\lambda_2(\lambda_2-\lambda_1)+x(1-x)\Delta]
 ```
 
-forces $`\lambda_2(\gamma)<0`$. Since $`E_2(\gamma)>0`$, the cofactor null identity gives $`E_1(\gamma)=-\lambda_2(\gamma)E_2(\gamma)/\lambda_1(\gamma)>0`$. Its sign interval therefore implies $`\gamma<\eta_1<0`$. Use anchor $`02`$, with
+forces $`\lambda_2(\gamma)\lt0`$. Since $`E_2(\gamma)\gt0`$, the cofactor null identity gives $`E_1(\gamma)=-\lambda_2(\gamma)E_2(\gamma)/\lambda_1(\gamma)\gt0`$. Its sign interval therefore implies $`\gamma\lt\eta_1\lt0`$. Use anchor $`02`$, with
 
 ```math
-w_1=C_1x^{c-a}(1-x)^{d+b}\frac{x-\eta_1}{x-\gamma},\qquad C_1>0.
+w_1=C_1x^{c-a}(1-x)^{d+b}\frac{x-\eta_1}{x-\gamma},\qquad C_1\gt0.
 ```
 
 The closer numerator exterior root again gives strict log concavity. The common two-pole theorem applies to every ordered-sector event word, excluding the required eight residual roots.
 
 ##### One deflated height for the reversed sector.
 
-If $`g_0<p_0`$, source coupling forces $`-s<g_0<p_0<\xi<l`$, and among the four words only ABBA or ABAB remains. In either order, deflate $`g_2,p_2`$ from the phase and put
+If $`g_0\lt p_0`$, source coupling forces $`-s\lt g_0\lt p_0\lt\xi\lt l`$, and among the four words only ABBA or ABAB remains. In either order, deflate $`g_2,p_2`$ from the phase and put
 
 ```math
 H=\eta+\log\left|\frac{g/(y-g_2)}{p/(y-p_2)}\right|.
 ```
 
-Put $`\kappa=ab(a-b)/J_0^2>0`$, so $`q=\kappa(y-\xi)(y-l)(r-y)`$. Write $`\delta=p_2-g_2`$, and $`E=1+\kappa\delta`$. The root-sum identity gives $`g_1-p_1=(p_0-g_0)+E/\kappa`$, hence
+Put $`\kappa=ab(a-b)/J_0^2\gt0`$, so $`q=\kappa(y-\xi)(y-l)(r-y)`$. Write $`\delta=p_2-g_2`$, and $`E=1+\kappa\delta`$. The root-sum identity gives $`g_1-p_1=(p_0-g_0)+E/\kappa`$, hence
 
 ```math
-H'>
+H'\gt
 \frac{E}{\kappa(y-g_1)(y-p_1)}+\frac yq
-\quad(g_1<y<r).
+\quad(g_1\lt y\lt r).
 ```
 
-If $`\delta>0`$, then $`E>1`$; for $`y<0`$ positivity follows termwise from
+If $`\delta\gt0`$, then $`E\gt1`$; for $`y\lt0`$ positivity follows termwise from
 
 ```math
 qE/\kappa
 =E(y-\xi)(y-l)(r-y)
->(-y)(y-g_1)(y-p_1).
+\gt(-y)(y-g_1)(y-p_1).
 ```
 
-For $`\delta<0`$, the source coupling instead gives $`G=g_2>p_2>s>0`$. Set $`u=-p_0`$, $`v=-p_1`$. Evaluation at $`G`$ gives the compact identity
+For $`\delta\lt0`$, the source coupling instead gives $`G=g_2\gt p_2\gt s\gt0`$. Set $`u=-p_0`$, $`v=-p_1`$. Evaluation at $`G`$ gives the compact identity
 
 ```math
-E=\frac{s^2+uv+G(u+v)}{(G+u)(G+v)}>0.
+E=\frac{s^2+uv+G(u+v)}{(G+u)(G+v)}\gt0.
 ```
 
-For $`y=-w\in(g_1,0)`$, $`u>v>w>0`$, and
+For $`y=-w\in(g_1,0)`$, $`u\gt v\gt w\gt0`$, and
 
 ```math
 E(G+w)-w
-=\frac{G(s^2+uv)+G^2(u+v-w)+ws^2}{(G+u)(G+v)}>0.
+=\frac{G(s^2+uv)+G^2(u+v-w)+ws^2}{(G+u)(G+v)}\gt0.
 ```
 
-Since $`r>G`$, this proves $`E(r-y)>-y`$, supplying the same comparison of three factors. For $`y\ge0`$, positivity is immediate. Thus $`H'>0`$ throughout $`(g_1,r)`$ in both orders.
+Since $`r\gt G`$, this proves $`E(r-y)\gt-y`$, supplying the same comparison of three factors. For $`y\ge0`$, positivity is immediate. Thus $`H'\gt0`$ throughout $`(g_1,r)`$ in both orders.
 
 In ABBA, the deflated singular logarithm adds a positive cross-ratio when passing from the middle to the right component. Every right height exceeds every middle height, so a common level occupies at most two components. In ABAB, restore the adjacent factor:
 
 ```math
-\Phi'=H'+\frac{g_2-p_2}{(y-g_2)(y-p_2)}>0
+\Phi'=H'+\frac{g_2-p_2}{(y-g_2)(y-p_2)}\gt0
 ```
 
-on both the middle and right components. On the left component $`L=(\log|g/p|)'`$ is strictly increasing, as is $`q/(-y)`$. Where $`L\le0`$ there is no stationary phase point; where $`L>0`$, the product $`(q/(-y))L`$ increases from zero to infinity. There is exactly one left stationary point and at most four residual roots in total. This removes the separate negative/nonnegative/switch interval comparisons from the old reversed ABAB proof.
+on both the middle and right components. On the left component $`L=(\log|g/p|)'`$ is strictly increasing, as is $`q/(-y)`$. Where $`L\le0`$ there is no stationary phase point; where $`L\gt0`$, the product $`(q/(-y))L`$ increases from zero to infinity. There is exactly one left stationary point and at most four residual roots in total. This removes the separate negative/nonnegative/switch interval comparisons from the old reversed ABAB proof.
 
 This exhausts the generic F2 saturation domain. Two applications of Rolle's theorem, with divisors that do not vanish, give at most nine original roots; the positive endpoint signs give eight for simple roots. Lemma 1(b), with the exponent domain in (16), the displayed coefficient signs and $`N_0=8`$, supplies the full distinct-root bound and finite closure, including the $`e=f`$ cofactor degree seam. The proof uses the two displayed derivative reductions, the five-critical-point bound and the left-interval calculation. No additional ordering of all the cofactor roots is needed.
 
@@ -1035,7 +1035,7 @@ For F4, the normal form is
 
 ```math
 F=A_0+A_1x^a(1-x)^{-b}-B_0x^e(1-x)^{-f}-B_1x^c(1-x)^{-d},
-\qquad0<e<a<c,\quad0<f<d<b.
+\qquad0\lt e\lt a\lt c,\quad0\lt f\lt d\lt b.
 ```
 
 All four magnitudes are positive. Here the endpoint signs of the signed cofactors are $`(-,-,+,+)`$ at zero and $`(+,-,-,+)`$ at one. Thus $`e_1,e_3`$ have at most two physical roots and $`e_0,e_2`$ at most three. The sextic has opposite endpoint signs and at most five physical contacts. Use just anchors $`02,03,12`$, whose complementary pairs are $`13,12,03`$. Each useful set has at most three components. Ten original roots would force eight residual roots for each anchor, so Lemma 2A with $`d=5`$ forces equality: the cofactor counts are $`(3,2,3,2)`$ and all five contacts are useful for each of the three complementary pairs. Their graph $`2`$–$`1`$–$`3`$–$`0`$ is connected, proving joint usefulness. No cofactor-count allocation is required for this implication.
@@ -1048,11 +1048,11 @@ y=\frac{a-c+(b-d)t}{e+ft},\quad t=\frac{x}{1-x},
 \qquad \mu=\frac{bc-ad}{J},\quad\eta=\frac{cf-de}{J}.
 ```
 
-At saturation $`\mu>1`$, $`\eta>1`$. Put $`m=\mu-1`$, $`s^2=\mu m/[\eta(\eta-1)]`$, and use the source flow $`q=dy/d\log m_2>0`$. The retained parameter inequalities proved in the source include $`f>e`$ and
+At saturation $`\mu\gt1`$, $`\eta\gt1`$. Put $`m=\mu-1`$, $`s^2=\mu m/[\eta(\eta-1)]`$, and use the source flow $`q=dy/d\log m_2\gt0`$. The retained parameter inequalities proved in the source include $`f\gt e`$ and
 
 ```math
 q=\kappa(y-l)(r-y)(\xi-y),\qquad
-\kappa>0,\quad l<0<r<\xi<m/\eta.
+\kappa\gt0,\quad l\lt0\lt r\lt\xi\lt m/\eta.
 ```
 
 These inequalities follow from the hypothetical ten roots as well as from the source identities. The exponent ordering alone does not imply them. The two cubics needed for the ordering argument are
@@ -1063,20 +1063,20 @@ g=q-\frac{[\mu-(\eta-1)y][\mu-1-(\eta-1)y]}{\eta-1},
 \mathscr D=mq+y[\mu-1-\eta y][\mu-1-(\eta-1)y].
 ```
 
-They are nonzero multiples of the original $`e_3,e_0`$, respectively. Write their negative physical roots as $`g_1<g_2<0`$ and $`d_1<d_2<d_3<0`$. The other two cofactor cubics enter only through the source identities proving, for $`y<0`$,
+They are nonzero multiples of the original $`e_3,e_0`$, respectively. Write their negative physical roots as $`g_1\lt g_2\lt0`$ and $`d_1\lt d_2\lt d_3\lt0`$. The other two cofactor cubics enter only through the source identities proving, for $`y\lt0`$,
 
 ```math
 \begin{array}{ll}
--s<y<0:&\text{joint usefulness}\iff\mathscr D<0\ \text{or}\ g>0,\\
-y<-s:&\text{joint usefulness}\iff g<0\ \text{or}\ \mathscr D>0.
+-s\lt y\lt0:&\text{joint usefulness}\iff\mathscr D\lt0\ \text{or}\ g\gt0,\\
+y\lt-s:&\text{joint usefulness}\iff g\lt0\ \text{or}\ \mathscr D\gt0.
 \end{array}
 ```
 
-Coefficient comparison with the positive physical flow gives $`\sigma_2<\zeta^2<s^2`$, where $`\sigma_2`$ is the sum of pairwise products of $`-d_i`$ and $`\zeta^2=m^2/[\eta(\eta-1)]`$. In particular $`d_2,d_3>-s`$. This short inequality also supplies the strict positivity of the remaining coefficients of $`q`$; the last interval is handled analytically below.
+Coefficient comparison with the positive physical flow gives $`\sigma_2\lt\zeta^2\lt s^2`$, where $`\sigma_2`$ is the sum of pairwise products of $`-d_i`$ and $`\zeta^2=m^2/[\eta(\eta-1)]`$. In particular $`d_2,d_3\gt-s`$. This short inequality also supplies the strict positivity of the remaining coefficients of $`q`$; the last interval is handled analytically below.
 
-There are only three cases. If $`g_1<g_2<-s`$, source evaluation at the two $`g`$ roots forces a $`K`$ root in their intervening interval outside the common allowed set, contradicting the equality requirement that all five critical points lie on the common allowed intervals. If $`g_1<-s<g_2`$, the switch identities force $`g_1<d_1<-s<g_2<d_2<d_3`$, and the joint intervals have contact bounds $`(0,0,1)`$. If $`-s<g_1<g_2`$, then $`d_1>-s`$ and $`d_1<g_1`$; the joint intervals are $`(l,d_1),(g_1,g_2),(d_2,d_3)`$, where $`l`$ is the physical left endpoint. The last two may occur in either order. The interval proofs below give one contact in each, totaling three. Both totals are below the required five.
+There are only three cases. If $`g_1\lt g_2\lt-s`$, source evaluation at the two $`g`$ roots forces a $`K`$ root in their intervening interval outside the common allowed set, contradicting the equality requirement that all five critical points lie on the common allowed intervals. If $`g_1\lt-s\lt g_2`$, the switch identities force $`g_1\lt d_1\lt-s\lt g_2\lt d_2\lt d_3`$, and the joint intervals have contact bounds $`(0,0,1)`$. If $`-s\lt g_1\lt g_2`$, then $`d_1\gt-s`$ and $`d_1\lt g_1`$; the joint intervals are $`(l,d_1),(g_1,g_2),(d_2,d_3)`$, where $`l`$ is the physical left endpoint. The last two may occur in either order. The interval proofs below give one contact in each, totaling three. Both totals are below the required five.
 
-The central interval $`(g_1,g_2)`$ has a direct analytic one-contact proof [F4-CENTRAL], replacing its coefficient certificate. The source root bounds give $`-s<g_1<g_2<0<g_3<s`$, and $`g=\kappa(y-g_1)(y-g_2)(y-g_3)`$, $`\kappa>0`$. Put $`\Delta=s^2-y^2`$, $`f_{*}=g+\Delta`$, $`n=\eta-1>0`$, $`b_{*}=2\mu-1>0`$. The source flow is exactly
+The central interval $`(g_1,g_2)`$ has a direct analytic one-contact proof [F4-CENTRAL], replacing its coefficient certificate. The source root bounds give $`-s\lt g_1\lt g_2\lt0\lt g_3\lt s`$, and $`g=\kappa(y-g_1)(y-g_2)(y-g_3)`$, $`\kappa\gt0`$. Put $`\Delta=s^2-y^2`$, $`f_{*}=g+\Delta`$, $`n=\eta-1\gt0`$, $`b_{*}=2\mu-1\gt0`$. The source flow is exactly
 
 ```math
 q=g+ny^2-b_{*}y+(n+1)s^2,
@@ -1089,7 +1089,7 @@ and the contact polynomial is
 \qquad K/\lambda_2^6=-\eta(\eta-1)\mathcal C.
 ```
 
-On this interval $`g,\Delta,f_{*},q>0`$. Write
+On this interval $`g,\Delta,f_{*},q\gt0`$. Write
 
 ```math
 \rho=g/\Delta,\quad L=\log\rho,\quad p=-y\in(0,s),\quad
@@ -1099,9 +1099,9 @@ M=\frac{p(1+\rho)}q,\quad H=L'-M.
 Then $`\mathcal C=-q\Delta gH`$. Pairing the two $`\Delta`$ poles against the nearest $`g`$ poles gives
 
 ```math
-a_{*}=\frac1{y-g_1}-\frac1{y+s}>0,\quad
-b_\circ=\frac1{g_3-y}-\frac1{s-y}>0,\quad
-c_{*}=\frac1{g_2-y}>\frac1p,
+a_{*}=\frac1{y-g_1}-\frac1{y+s}\gt0,\quad
+b_\circ=\frac1{g_3-y}-\frac1{s-y}\gt0,\quad
+c_{*}=\frac1{g_2-y}\gt\frac1p,
 ```
 
 
@@ -1112,12 +1112,12 @@ L''=-a_{*}^2-\frac{2a_{*}}{y+s}
 -b_\circ^2-\frac{2b_\circ}{s-y}-c_{*}^2.
 ```
 
-At a zero of $`H`$, $`a_{*}=M+b_\circ+c_{*}>M+1/p`$, so
+At a zero of $`H`$, $`a_{*}=M+b_\circ+c_{*}\gt M+1/p`$, so
 
 **(F4-C1)**
 
 ```math
-L''<-\left(M+\frac1p\right)^2
+L''\lt-\left(M+\frac1p\right)^2
 -\frac{2(M+1/p)}{s-p}-\frac1{p^2}.
 ```
 
@@ -1128,7 +1128,7 @@ M'=-\frac{(1+\rho)[\rho(s^2+p^2)+n\Delta+s^2]}{q^2}
 +\frac{p^2\rho(1+\rho)(Z-\Delta)}{q^3}.
 ```
 
-The last term is positive because $`Z-\Delta=(n+1)p^2+b_{*}p+ns^2>0`$. Consequently
+The last term is positive because $`Z-\Delta=(n+1)p^2+b_{*}p+ns^2\gt0`$. Consequently
 
 **(F4-C2)**
 
@@ -1136,9 +1136,9 @@ The last term is positive because $`Z-\Delta=(n+1)p^2+b_{*}p+ns^2>0`$. Consequen
 \begin{split}
 M'+\left(M+\frac1p\right)^2
 +\frac{2(M+1/p)}{s-p}+\frac1{p^2}
->{}&\frac{2s}{p^2(s-p)}\\
+\gt{}&\frac{2s}{p^2(s-p)}\\
 &+\frac{1+\rho}{q^2}
-\left[\frac{2sq}{s-p}-\rho s^2-(n+1)\Delta\right]>0.
+\left[\frac{2sq}{s-p}-\rho s^2-(n+1)\Delta\right]\gt0.
 \end{split}
 ```
 
@@ -1150,13 +1150,13 @@ The bracket is positive by the exact decomposition
 +\frac{2s(np^2+b_{*}p)}{s-p},
 ```
 
-since $`2s^3/(s-p)>2s^2>\Delta`$. Equations (F4-C1)–(F4-C2) give $`H'<0`$ at every zero. At the two $`g`$ endpoints, $`L'\to+\infty,-\infty`$, respectively, while $`\rho\to0`$ and $`M`$ stays finite. Hence $`H`$ has exactly one zero, a strict downward crossing. The contact is therefore unique and simple. This proof uses no other cofactor-root placement or coefficient ratio.
+since $`2s^3/(s-p)\gt2s^2\gt\Delta`$. Equations (F4-C1)–(F4-C2) give $`H'\lt0`$ at every zero. At the two $`g`$ endpoints, $`L'\to+\infty,-\infty`$, respectively, while $`\rho\to0`$ and $`M`$ stays finite. Hence $`H`$ has exactly one zero, a strict downward crossing. The contact is therefore unique and simple. This proof uses no other cofactor-root placement or coefficient ratio.
 
-The last dual-root interval $`(d_2,d_3)`$ also has an analytic one-contact proof [F4-LASTD]. Write $`d_i=-r_i`$, so $`r_1>r_2>r_3>0`$; the source bounds already proved give $`r_2<s`$. Its cubic coefficient is $`m\kappa+\eta(\eta-1)>0`$. Put $`p=-y\in(r_3,r_2)`$, $`n=\eta-1`$, and
+The last dual-root interval $`(d_2,d_3)`$ also has an analytic one-contact proof [F4-LASTD]. Write $`d_i=-r_i`$, so $`r_1\gt r_2\gt r_3\gt0`$; the source bounds already proved give $`r_2\lt s`$. Its cubic coefficient is $`m\kappa+\eta(\eta-1)\gt0`$. Put $`p=-y\in(r_3,r_2)`$, $`n=\eta-1`$, and
 
 ```math
-u=-\mathscr D=\kappa_D(r_1-p)(r_2-p)(p-r_3)>0,
-\qquad\Delta=s^2-p^2>0,
+u=-\mathscr D=\kappa_D(r_1-p)(r_2-p)(p-r_3)\gt0,
+\qquad\Delta=s^2-p^2\gt0,
 \qquad\rho=\frac{s^2u}{mp\Delta}.
 ```
 
@@ -1180,9 +1180,9 @@ The prefactor is positive on this interval.
 Pair the nearest numerator poles against 0 and $`s`$:
 
 ```math
-a_{*} =\frac1{p-r_3}-\frac1p>0,\quad
-b_{*} =\frac1{r_2-p}-\frac1{s-p}>0,\quad
-c_{*} =\frac1{r_1-p}>0,\quad e_{*} =\frac1{s+p}>0.
+a_{*} =\frac1{p-r_3}-\frac1p\gt0,\quad
+b_{*} =\frac1{r_2-p}-\frac1{s-p}\gt0,\quad
+c_{*} =\frac1{r_1-p}\gt0,\quad e_{*} =\frac1{s+p}\gt0.
 ```
 
 Exactly
@@ -1192,16 +1192,16 @@ L'=a_{*}-b_{*}-c_{*}-e_{*},\qquad
 L''=-a_{*}^2-\frac{2a_{*}}p-b_{*}^2-\frac{2b_{*}}{s-p}-c_{*}^2+e_{*}^2.
 ```
 
-At a zero of $`H`$, $`a_{*}=M+b_{*}+c_{*}+e_{*}>M+e_{*}`$, hence
+At a zero of $`H`$, $`a_{*}=M+b_{*}+c_{*}+e_{*}\gt M+e_{*}`$, hence
 
 **(F4-L1)**
 
 ```math
-L''<-(M+e_{*})^2-\frac{2(M+e_{*})}p+e_{*}^2
-<-M^2-\frac{2M}p.
+L''\lt-(M+e_{*})^2-\frac{2(M+e_{*})}p+e_{*}^2
+\lt-M^2-\frac{2M}p.
 ```
 
-This pays the unfavorable $`-s`$ pole even when $`r_1>s`$.
+This pays the unfavorable $`-s`$ pole even when $`r_1\gt s`$.
 
 The source equation $`\mathscr D=mq-p(m+\eta p)(m+np)=-u`$ gives
 
@@ -1217,16 +1217,16 @@ At the same contact $`\rho'=\rho M`$. Differentiating $`M`$ with this actual flo
 ```math
 M'+M^2+\frac{2M}p
 =\frac{(1+\rho)(m+1+\rho)\Delta}{s^2q^2}
-+\frac{\rho(1+\rho)^2p\Delta}{s^2q^3}>0.
++\frac{\rho(1+\rho)^2p\Delta}{s^2q^3}\gt0.
 ```
 
-Equations (F4-L1)–(F4-L2) give $`H'<0`$ at every zero. At the two endpoints $`L'\to+\infty,-\infty`$, respectively, while $`\rho\to0`$ and $`M`$ stays finite. Thus there is exactly one contact, and it is simple. No positive-slack coefficient table or separate placement of the first $`\mathscr D`$ root is used.
+Equations (F4-L1)–(F4-L2) give $`H'\lt0`$ at every zero. At the two endpoints $`L'\to+\infty,-\infty`$, respectively, while $`\rho\to0`$ and $`M`$ stays finite. Thus there is exactly one contact, and it is simple. No positive-slack coefficient table or separate placement of the first $`\mathscr D`$ root is used.
 
 For the next argument, write $`D=\mathscr D`$. Primes in the reciprocal lemma denote $`z`$ derivatives.
 
 ##### Initial intervals: a reciprocal cubic ratio [F4-INITIAL].
 
-Let $`r_i,t_i>0`$, $`s>0`$, $`\alpha>s^{-2}`$, and
+Let $`r_i,t_i\gt0`$, $`s\gt0`$, $`\alpha\gt s^{-2}`$, and
 
 ```math
 P(z)=\prod_{i=1}^3(1-r_i z),\qquad
@@ -1234,23 +1234,23 @@ N(z)=\alpha P(z)+z^2-s^{-2}
 =(\alpha-s^{-2})\prod_{i=1}^3(1-t_i z).
 ```
 
-On any positive interval $`z>0`$ where all six factors are positive, set $`\Lambda=(\log(N/P))'`$. Then $`\Lambda'>0`$ wherever $`\Lambda\ge0`$.
+On any positive interval $`z\gt0`$ where all six factors are positive, set $`\Lambda=(\log(N/P))'`$. Then $`\Lambda'\gt0`$ wherever $`\Lambda\ge0`$.
 
-*Proof.* Put $`A=-P'/P=\sum_i r_i/(1-r_i z)>0`$ and $`V=z^2-s^{-2}`$. Then $`N>0`$, $`N'<0`$, $`A'<A^2`$, and
+*Proof.* Put $`A=-P'/P=\sum_i r_i/(1-r_i z)\gt0`$ and $`V=z^2-s^{-2}`$. Then $`N\gt0`$, $`N'\lt0`$, $`A'\lt A^2`$, and
 
 ```math
 \Lambda=\frac BN,\qquad B=2z+VA.
 ```
 
-If $`V\ge0`$, then $`B'=2+2zA+VA'>0`$. If $`V<0`$ and $`B\ge0`$, use
+If $`V\ge0`$, then $`B'=2+2zA+VA'\gt0`$. If $`V\lt0`$ and $`B\ge0`$, use
 
 ```math
-B'=2+BA+V(A'-A^2)>2.
+B'=2+BA+V(A'-A^2)\gt2.
 ```
 
-Hence $`\Lambda'=B'/N-BN'/N^2>0`$ wherever $`\Lambda\ge0`$. ◻
+Hence $`\Lambda'=B'/N-BN'/N^2\gt0`$ wherever $`\Lambda\ge0`$. ◻
 
-For the actual F4 source, write $`m=\mu-1`$, $`n=\eta-1`$, $`s^2=\mu m/(\eta n)`$, and $`D/m=\alpha\prod_i(y+r_i)`$, where $`\alpha=\kappa+\eta n/m`$. Thus $`\alpha s^2=\kappa s^2+\mu>1`$, as required by the reciprocal lemma. The inequalities for the change of variable give $`y<r<\xi<m/\eta`$, hence $`\mu-\eta y>1`$ and $`\mu-ny>1`$ on the physical interval. In particular $`C,D>0`$ for $`y\ge0`$. Saturation supplies three physical roots of both $`C`$ and $`D`$, all negative. Thus $`r_i>0`$ and, writing the $`C`$ roots as $`-t_i`$, also $`t_i>0`$. The exact source identity gives, for $`p=-y`$ and $`z=1/p`$,
+For the actual F4 source, write $`m=\mu-1`$, $`n=\eta-1`$, $`s^2=\mu m/(\eta n)`$, and $`D/m=\alpha\prod_i(y+r_i)`$, where $`\alpha=\kappa+\eta n/m`$. Thus $`\alpha s^2=\kappa s^2+\mu\gt1`$, as required by the reciprocal lemma. The inequalities for the change of variable give $`y\lt r\lt\xi\lt m/\eta`$, hence $`\mu-\eta y\gt1`$ and $`\mu-ny\gt1`$ on the physical interval. In particular $`C,D\gt0`$ for $`y\ge0`$. Saturation supplies three physical roots of both $`C`$ and $`D`$, all negative. Thus $`r_i\gt0`$ and, writing the $`C`$ roots as $`-t_i`$, also $`t_i\gt0`$. The exact source identity gives, for $`p=-y`$ and $`z=1/p`$,
 
 ```math
 \frac CD=\frac\mu{m\alpha}\frac{N(z)}{P(z)}.
@@ -1263,63 +1263,63 @@ q(-p)=-\kappa p^3+(\alpha\sigma_1+2\eta-1)p^2
 +(m-\alpha\sigma_2)p+\alpha\sigma_3,
 ```
 
-with $`m-\alpha\sigma_2>0`$: indeed, $`\kappa(L-r-\xi)=\alpha\sigma_1+2\eta-1>0`$, where $`L=-l`$, and $`m-\alpha\sigma_2=\kappa[L(r+\xi)-r\xi]>0`$. Consequently $`q(-p)/p^2`$ is strictly decreasing.
+with $`m-\alpha\sigma_2\gt0`$: indeed, $`\kappa(L-r-\xi)=\alpha\sigma_1+2\eta-1\gt0`$, where $`L=-l`$, and $`m-\alpha\sigma_2=\kappa[L(r+\xi)-r\xi]\gt0`$. Consequently $`q(-p)/p^2`$ is strictly decreasing.
 
-On either initial joint interval, $`D<0`$ and $`g<0`$. The source identities, with $`k=\mu-ny`$ and $`\Delta=s^2-y^2`$, are
+On either initial joint interval, $`D\lt0`$ and $`g\lt0`$. The source identities, with $`k=\mu-ny`$ and $`\Delta=s^2-y^2`$, are
 
 ```math
 C=\mu g+\eta k\Delta,\qquad
 mC=\mu D+\eta n y\Delta.
 ```
 
-The first gives $`C<0`$ for $`y\le-s`$; the second gives $`C<0`$ for $`-s<y<0`$. Thus $`C,D<0`$ throughout each initial interval, so every one of their physical roots is to the right of that interval. All factors in $`P,N`$ are positive there. Put
+The first gives $`C\lt0`$ for $`y\le-s`$; the second gives $`C\lt0`$ for $`-s\lt y\lt0`$. Thus $`C,D\lt0`$ throughout each initial interval, so every one of their physical roots is to the right of that interval. All factors in $`P,N`$ are positive there. Put
 
 ```math
 G(p)=\frac{q(-p)}{p^2}\Lambda(1/p).
 ```
 
-The reciprocal lemma and the decreasing positive factor coming from the change of variable show $`G'<0`$ wherever $`G\ge0`$. The dual source contact identity is
+The reciprocal lemma and the decreasing positive factor coming from the change of variable show $`G'\lt0`$ wherever $`G\ge0`$. The dual source contact identity is
 
 ```math
 K_{\rm can}=-\frac{CD}{y}(G-1).
 ```
 
-If both physical $`g`$ roots exceed $`-s`$, the initial component is $`(l,d_1)`$. Here $`C(d_1)<0`$, so $`G\to+\infty`$ as $`p\downarrow r_1=-d_1`$. At $`p=L`$, $`G\to0`$ because $`q(l)=0`$ while $`C(l),D(l)<0`$. Thus $`G=1`$ has exactly one simple crossing, and the initial component contains exactly one simple contact.
+If both physical $`g`$ roots exceed $`-s`$, the initial component is $`(l,d_1)`$. Here $`C(d_1)\lt0`$, so $`G\to+\infty`$ as $`p\downarrow r_1=-d_1`$. At $`p=L`$, $`G\to0`$ because $`q(l)=0`$ while $`C(l),D(l)\lt0`$. Thus $`G=1`$ has exactly one simple crossing, and the initial component contains exactly one simple contact.
 
-If the $`g`$ roots straddle $`-s`$, the initial component is $`(l,g_1)`$. At $`g_1<-s`$, one has $`\Delta<0`$, $`g'(g_1)>0`$ and
+If the $`g`$ roots straddle $`-s`$, the initial component is $`(l,g_1)`$. At $`g_1\lt-s`$, one has $`\Delta\lt0`$, $`g'(g_1)\gt0`$ and
 
 ```math
-\mathcal C(g_1)=-q(g_1)\Delta(g_1)g'(g_1)>0,
-\qquad K_{\rm can}(g_1)<0.
+\mathcal C(g_1)=-q(g_1)\Delta(g_1)g'(g_1)\gt0,
+\qquad K_{\rm can}(g_1)\lt0.
 ```
 
-Hence $`G(-g_1)<1`$. Since $`G'<0`$ wherever $`G\ge0`$, no larger $`p`$ can give $`G=1`$. This initial component contains no contact.
+Hence $`G(-g_1)\lt1`$. Since $`G'\lt0`$ wherever $`G\ge0`$, no larger $`p`$ can give $`G=1`$. This initial component contains no contact.
 
-In the following middle-interval argument, all displayed primes denote $`y`$ derivatives. The straddling middle interval $`(d_1,g_2)`$ is contact-free by a short pole comparison. Write $`d_i=-r_i`$. The source inequality $`\sigma_2<s^2`$ and $`r_1>s`$ give $`r_2+r_3<s`$. On $`(d_1,-s)`$, put $`T=\eta(\eta-1)y(s^2-y^2)>0`$; then $`mC=\mu\mathscr D+T`$, and for $`z=-y\in(s,r_1)`$,
+In the following middle-interval argument, all displayed primes denote $`y`$ derivatives. The straddling middle interval $`(d_1,g_2)`$ is contact-free by a short pole comparison. Write $`d_i=-r_i`$. The source inequality $`\sigma_2\lt s^2`$ and $`r_1\gt s`$ give $`r_2+r_3\lt s`$. On $`(d_1,-s)`$, put $`T=\eta(\eta-1)y(s^2-y^2)\gt0`$; then $`mC=\mu\mathscr D+T`$, and for $`z=-y\in(s,r_1)`$,
 
 ```math
 \left(\log\frac{T}{\mathscr D}\right)'
 =-\frac1{r_1-z}-\left[
 \frac1{z-s}+\frac1z+\frac1{z+s}
--\frac1{z-r_2}-\frac1{z-r_3}\right]<0.
+-\frac1{z-r_2}-\frac1{z-r_3}\right]\lt0.
 ```
 
-Indeed, for positive $`u,v`$ with $`u+v<z`$, subtracting $`2/z`$ shows
+Indeed, for positive $`u,v`$ with $`u+v\lt z`$, subtracting $`2/z`$ shows
 
 ```math
-\frac1{z-u}+\frac1{z-v}<\frac1z+\frac1{z-u-v}.
+\frac1{z-u}+\frac1{z-v}\lt\frac1z+\frac1{z-u-v}.
 ```
 
-The bracket is therefore greater than $`1/(z+s)`$. Thus $`(\log(C/\mathscr D))'<0`$, and the dual contact identity gives $`K<0`$ on $`(d_1,-s)`$. On $`(-s,g_2)`$, the three source roots of $`g`$ give
+The bracket is therefore greater than $`1/(z+s)`$. Thus $`(\log(C/\mathscr D))'\lt0`$, and the dual contact identity gives $`K\lt0`$ on $`(d_1,-s)`$. On $`(-s,g_2)`$, the three source roots of $`g`$ give
 
 ```math
 \left(\log\frac{s^2-y^2}{g}\right)'
 =\left(\frac1{y+s}-\frac1{y-g_1}\right)
 +\left(\frac1{y-s}-\frac1{y-g_3}\right)
--\frac1{y-g_2}>0.
+-\frac1{y-g_2}\gt0.
 ```
 
-Hence $`(f_{*}/g)'>0`$, so $`\mathcal C=q(f_{*}'g-f_{*}g')-yf_{*}g>0`$ and $`K<0`$. At $`-s`$, $`f_{*}=g>0`$ and $`f_{*}'g-f_{*}g'=2sg>0`$. This proves the middle contact bound zero, without the expanded degree-four numerator of the former argument.
+Hence $`(f_{*}/g)'\gt0`$, so $`\mathcal C=q(f_{*}'g-f_{*}g')-yf_{*}g\gt0`$ and $`K\lt0`$. At $`-s`$, $`f_{*}=g\gt0`$ and $`f_{*}'g-f_{*}g'=2sg\gt0`$. This proves the middle contact bound zero, without the expanded degree-four numerator of the former argument.
 
 [F4-TWO] in the appendix supplies the parameter inequalities and the three possible root placements used above. The displayed central, last-$`D`$, initial and straddling-middle arguments prove all their required critical-point counts analytically. The original endpoint signs give at most eight simple roots, and Lemma 1 extends this to distinct roots and finite parameter limits.
 
@@ -1331,7 +1331,7 @@ Normalize F3 as
 
 ```math
 F=A_0+A_1x^a(1-x)^{-b}-B_0x^e(1-x)^d-B_1x^c(1-x)^{-f},
-\qquad0<e<a<c,\quad0<f<b,\quad d>0.
+\qquad0\lt e\lt a\lt c,\quad0\lt f\lt b,\quad d\gt0.
 ```
 
 All four coefficient magnitudes are positive. The sums $`(S_0,S_1,S_2,S_3)=(0,a-b,e+d,c-f)`$ have six strict orders. The orders $`0123,1032`$ use [F3-SUM]; $`0132,1023`$ use [F3-ORDER-I]. The other two orders, $`0213,1302`$, are related by physical reflection. It is therefore enough to treat
@@ -1339,10 +1339,10 @@ All four coefficient magnitudes are positive. The sums $`(S_0,S_1,S_2,S_3)=(0,a-
 **(20)**
 
 ```math
-0<e+d<a-b<c-f.
+0\lt e+d\lt a-b\lt c-f.
 ```
 
-Apply the original-root reductions before splitting into cases according to the order of the cofactor roots. Put $`A=a-e`$, $`B=b+d`$; condition (20) gives $`0<B<A`$. Each of the following conditions gives at most eight distinct zeros of the original function (19), uniformly in its four positive coefficient magnitudes:
+Apply the original-root reductions before splitting into cases according to the order of the cofactor roots. Put $`A=a-e`$, $`B=b+d`$; condition (20) gives $`0\lt B\lt A`$. Each of the following conditions gives at most eight distinct zeros of the original function (19), uniformly in its four positive coefficient magnitudes:
 
 **(F3-CUT)**
 
@@ -1355,7 +1355,7 @@ The proofs use an anchor reduction with nonvanishing divisors, a signed interpol
 **(F3-LIVE)**
 
 ```math
-A>4,\qquad 0<B<1,\qquad bc-af<a-2b.
+A\gt4,\qquad 0\lt B\lt1,\qquad bc-af\lt a-2b.
 ```
 
 The fixed cofactors $`e_0,e_2`$ have exactly one simple physical root. Each variable cofactor $`e_1,e_3`$ has one or three physical roots at strict generic supports. If either has three, the uniform three-root theorem [F3-THREE] gives at most eight original roots. Its proof avoids assigning roots to many individual interval cases; it uses a sum of residues on the outer interval and a common-level count using a degree-five polynomial, as described in [the appendix](appendix.md). This input has no additional bound on the exponent gaps. It remains to treat exactly one simple physical root $`r_i`$ for each cofactor, with these four roots distinct.
@@ -1376,9 +1376,9 @@ For clarity, the joint-contact theorem retains the following proof dependencies.
 
 The [reciprocal-coordinate lemmas](appendix.md#reciprocal-coordinate-height-and-regional-bounds) supply positive height, a sum-of-roots bound on exterior contacts, and shape exclusions under their stated assumptions. They apply only in their specified regions. The two cofactor-order arguments below give the required joint-contact bound throughout the remaining F3 source, including every configuration outside those regions.
 
-In root order $`0231`$, the analytic left bound is exactly one simple contact. If five right contacts existed, all six degrees would be physical and real, counting multiplicity. The original-root cut $`B=b+d<1`$ already gives $`b<1`$ and $`d<1`$. The degree-six polynomial obtained by shifting to the last cofactor root has endpoint coefficients $`q_0>0,q_6<0`$, so five right roots require exactly five Descartes variations, deleting zero coefficients.
+In root order $`0231`$, the analytic left bound is exactly one simple contact. If five right contacts existed, all six degrees would be physical and real, counting multiplicity. The original-root cut $`B=b+d\lt1`$ already gives $`b\lt1`$ and $`d\lt1`$. The degree-six polynomial obtained by shifting to the last cofactor root has endpoint coefficients $`q_0\gt0,q_6\lt0`$, so five right roots require exactly five Descartes variations, deleting zero coefficients.
 
-Newton’s inequalities give necessary bounds between coefficients of a polynomial whose roots are all real and of the specified sign. They also apply to repeated roots. There are only two coefficient cases. If $`q_2\ge0`$, these inequalities give the strict height inequality with factor $`5/2`$ stated in the appendix. Two uniform identities for the coefficients of the source polynomial force $`q_3>0,q_4>0`$, including $`q_2=0`$. These coefficient signs allow at most three variations, contradicting five right roots. If $`q_2<0`$, five variations force $`q_3>0,q_4<0,q_5>0`$. A third identity for the polynomial coefficients, using no height, forces $`q_4>0`$ and gives the contradiction directly. Thus the right-root multiplicity is at most three; with the retained one-simple-left input the total multiplicity of the critical points on the common allowed intervals is at most four. This proves the local bound on the common allowed intervals. Its hypotheses include the source formulas, the nonreal companion pairs, the left-interval bound and (F3-LIVE).
+Newton’s inequalities give necessary bounds between coefficients of a polynomial whose roots are all real and of the specified sign. They also apply to repeated roots. There are only two coefficient cases. If $`q_2\ge0`$, these inequalities give the strict height inequality with factor $`5/2`$ stated in the appendix. Two uniform identities for the coefficients of the source polynomial force $`q_3\gt0,q_4\gt0`$, including $`q_2=0`$. These coefficient signs allow at most three variations, contradicting five right roots. If $`q_2\lt0`$, five variations force $`q_3\gt0,q_4\lt0,q_5\gt0`$. A third identity for the polynomial coefficients, using no height, forces $`q_4\gt0`$ and gives the contradiction directly. Thus the right-root multiplicity is at most three; with the retained one-simple-left input the total multiplicity of the critical points on the common allowed intervals is at most four. This proves the local bound on the common allowed intervals. Its hypotheses include the source formulas, the nonreal companion pairs, the left-interval bound and (F3-LIVE).
 
 For the cofactor root order $`1320`$, retain the strict conditions (19)–(20), both variable extra pairs genuinely nonreal, and the original-root reductions (F3-LIVE). The analytic joint-left bound is two, counting multiplicity. Put
 
@@ -1397,17 +1397,17 @@ The face $`G_T=0`$ is covered by both proofs. The $`B\ge1`$ sector has already b
 
 ##### Two exclusions involving adjacent coefficients when $`G_T\ge0`$.
 
-At the actual $`E_2`$ root $`x_2`$, use the positive odds coordinate $`t=x/(1-x)`$ and the right coordinate $`w=t/t_2-1`$, $`t_2=x_2/(1-x_2)`$. After positive source normalization, write the actual right-tail sextic as $`\sum_{i=0}^6 c_iw^i`$. Its endpoint coefficients satisfy $`c_0,c_1,c_6<0`$. For the source (19)–(20) with exactly one simple root of each cofactor, in the order $`1320`$,
+At the actual $`E_2`$ root $`x_2`$, use the positive odds coordinate $`t=x/(1-x)`$ and the right coordinate $`w=t/t_2-1`$, $`t_2=x_2/(1-x_2)`$. After positive source normalization, write the actual right-tail sextic as $`\sum_{i=0}^6 c_iw^i`$. Its endpoint coefficients satisfy $`c_0,c_1,c_6\lt0`$. For the source (19)–(20) with exactly one simple root of each cofactor, in the order $`1320`$,
 
 **(AH1)**
 
 ```math
-A\ge4,\quad B<1,\quad G_T\ge0
+A\ge4,\quad B\lt1,\quad G_T\ge0
 \quad\Longrightarrow\quad
 \text{not }(c_2\ge0\text{ and }c_3\le0).
 ```
 
-An exact identity writes the relevant degree-six polynomial as a sum of nonnegative products and proves (AH1). Its variable substitution and the signs of all its factors are given in the appendix. With the additional original-cut complement $`bc-af<a-2b`$,
+An exact identity writes the relevant degree-six polynomial as a sum of nonnegative products and proves (AH1). Its variable substitution and the signs of all its factors are given in the appendix. With the additional original-cut complement $`bc-af\lt a-2b`$,
 
 **(AH2)**
 
@@ -1415,9 +1415,9 @@ An exact identity writes the relevant degree-six polynomial as a sum of nonnegat
 \text{not }(c_3\ge0\text{ and }c_4\le0).
 ```
 
-A degree-eight identity of the same kind proves (AH2). Neither local coefficient theorem needs a nonreal extra pair. The identities use two cofactor evaluations whose positive signs follow from the root order. The appendix defines their local variables $`F_1,F_3,L,G`$, proves $`F_1(1/2)/(L+G)>0`$ and $`F_3(1)/L>0`$, and gives the exact expansions and the sign of every factor.
+A degree-eight identity of the same kind proves (AH2). Neither local coefficient theorem needs a nonreal extra pair. The identities use two cofactor evaluations whose positive signs follow from the root order. The appendix defines their local variables $`F_1,F_3,L,G`$, proves $`F_1(1/2)/(L+G)\gt0`$ and $`F_3(1)/L\gt0`$, and gives the exact expansions and the sign of every factor.
 
-Here is a table-free sign proof of their joint consequence. If $`c_3<0`$, (AH1) forces $`c_2<0`$, so a positive block starts only at $`c_4`$ or $`c_5`$. If $`c_3=0`$, the two exclusions force $`c_2<0`$ and $`c_4>0`$; after deleting the zero there is again at most one positive block. If $`c_3>0`$, (AH2) forces $`c_4>0`$; a positive $`c_2`$ extends the same block, and $`c_5`$ can extend or end it. The sequence $`(-,-,c_2,c_3,c_4,c_5,-)`$ therefore has at most two variations. Descartes’ rule of signs bounds positive roots, with multiplicity, by the number of coefficient sign changes after zero coefficients are deleted. It gives multiplicity of roots in the right interval at most two, including repeated roots. Together with the separate left cap, this proves the required joint cap four.
+Here is a table-free sign proof of their joint consequence. If $`c_3\lt0`$, (AH1) forces $`c_2\lt0`$, so a positive block starts only at $`c_4`$ or $`c_5`$. If $`c_3=0`$, the two exclusions force $`c_2\lt0`$ and $`c_4\gt0`$; after deleting the zero there is again at most one positive block. If $`c_3\gt0`$, (AH2) forces $`c_4\gt0`$; a positive $`c_2`$ extends the same block, and $`c_5`$ can extend or end it. The sequence $`(-,-,c_2,c_3,c_4,c_5,-)`$ therefore has at most two variations. Descartes’ rule of signs bounds positive roots, with multiplicity, by the number of coefficient sign changes after zero coefficients are deleted. It gives multiplicity of roots in the right interval at most two, including repeated roots. Together with the separate left cap, this proves the required joint cap four.
 
 **First-two-Newton source theorem [F3-NEWTON].** For the strict F3 source (19)–(20), with cofactor root order $`1320`$ and both additional root pairs genuinely nonreal,
 
@@ -1437,29 +1437,29 @@ the multiplicity of positive roots of $`\widehat K`$ is at most four, equivalent
 Suppose instead that $`\widehat K`$ had six positive roots counting multiplicity. Use the rational change of variables in the [appendix](appendix.md). The letters $`\Delta,Z,M,h,\lambda,\lambda_G,T_G,Q_{GN},D_{3G}`$ in the rest of this paragraph refer to that change of variables. They are different from the local variables of F2 and F4. The normalized coefficients satisfy
 
 ```math
-H=c_1<0,\quad c_2>0,\quad c_3<0,
+H=c_1\lt0,\quad c_2\gt0,\quad c_3\lt0,
 \qquad N_1=5H^2-12c_2\ge0,
 \quad N_2=8c_2^2-15Hc_3\ge0.
 ```
 
-The source change of variables, under these precise hypotheses, gives $`\Delta>0`$. If $`Z\le0`$, the compact integer first-Newton identity gives $`N_1<0`$. For $`Z>0`$, put $`m=-M>0`$. If $`0<\Delta\le3`$, a direct evaluation of the one-positive-root first cofactor gives the strict crossing gate $`T_G>0`$. With $`G_T\le0`$, the 297-product positive-generator identity then gives $`c_2\le c_2(\lambda_G)<0`$, contradicting the second coefficient. Thus a hypothetical six-root source must have $`h=\Delta-3>0`$.
+The source change of variables, under these precise hypotheses, gives $`\Delta\gt0`$. If $`Z\le0`$, the compact integer first-Newton identity gives $`N_1\lt0`$. For $`Z\gt0`$, put $`m=-M\gt0`$. If $`0\lt\Delta\le3`$, a direct evaluation of the one-positive-root first cofactor gives the strict crossing gate $`T_G\gt0`$. With $`G_T\le0`$, the 297-product positive-generator identity then gives $`c_2\le c_2(\lambda_G)\lt0`$, contradicting the second coefficient. Thus a hypothetical six-root source must have $`h=\Delta-3\gt0`$.
 
 In this positive-$`h`$ cone, $`N_1\ge0`$ and $`G_T\le0`$ supply the necessary nonnegative generator $`Q_{GN}`$. Two exact positive-generator identities, with 29 and 283 products, give
 
 ```math
-D_{3G}>0,\qquad c_3(\lambda_G)-\frac5{54}H^3<0.
+D_{3G}\gt0,\qquad c_3(\lambda_G)-\frac5{54}H^3\lt0.
 ```
 
-The first makes $`c_3`$ strictly decreasing for $`\lambda\ge\lambda_G`$, while $`G_T\le0`$ gives precisely that lower bound on the actual scale. Hence $`c_3(\lambda)<5H^3/54`$. The two necessary Newton inequalities give the opposite conclusion through
+The first makes $`c_3`$ strictly decreasing for $`\lambda\ge\lambda_G`$, while $`G_T\le0`$ gives precisely that lower bound on the actual scale. Hence $`c_3(\lambda)\lt5H^3/54`$. The two necessary Newton inequalities give the opposite conclusion through
 
 ```math
 15H\left(c_3-\frac5{54}H^3\right)
 =-N_2-\frac23N_1\left(c_2+\frac5{12}H^2\right).
 ```
 
-Since $`H<0`$, $`c_2>0`$, $`N_1,N_2\ge0`$, the bracketed gap $`c_3-5H^3/54`$ must be nonnegative. This contradiction excludes six positive odds roots. The negative signs of $`k_0,k_6`$ make positive-root multiplicity even, so the cap is four, including repeated roots. The equality faces $`A=2`$ and $`G_T=0`$ are included by strict products which avoid the weak generators.
+Since $`H\lt0`$, $`c_2\gt0`$, $`N_1,N_2\ge0`$, the bracketed gap $`c_3-5H^3/54`$ must be nonnegative. This contradiction excludes six positive odds roots. The negative signs of $`k_0,k_6`$ make positive-root multiplicity even, so the cap is four, including repeated roots. The equality faces $`A=2`$ and $`G_T=0`$ are included by strict products which avoid the weak generators.
 
-The constant positive beta monomial dominates near zero, and the positive beta monomial with exponent $`-b`$ dominates near one because $`b>f`$. Simple original roots therefore have even cardinality. The preliminary ceiling of ten, the contradiction above, the three-root input and the other sum orders give the bound eight at generic strict F3 supports. Lemma 1(b), with the coefficients free within their signs, transfers this to distinct roots and all finite boundary parameters of the domain in (19).
+The constant positive beta monomial dominates near zero, and the positive beta monomial with exponent $`-b`$ dominates near one because $`b\gt f`$. Simple original roots therefore have even cardinality. The preliminary ceiling of ten, the contradiction above, the three-root input and the other sum orders give the bound eight at generic strict F3 supports. Lemma 1(b), with the coefficients free within their signs, transfers this to distinct roots and all finite boundary parameters of the domain in (19).
 
 ### Conclusion of the two-versus-two sign case
 
@@ -1473,16 +1473,16 @@ After sign reversal and division by the unique term of the other sign, the norma
 
 ```math
 f(x)=1-\sum_{i=1}^3 E_i x^{a_i}(1-x)^{b_i},
-\qquad E_i>0,\quad a_i,b_i\in\mathbb R.
+\qquad E_i\gt0,\quad a_i,b_i\in\mathbb R.
 ```
 
-**Theorem 4 (sign-case theorem).** For all $`E_i>0`$ and $`a_i,b_i\in\mathbb R`$, the function $`f`$ in (25) satisfies $`\mathop{Z}(f)\le9`$ whenever $`f\not\equiv0`$.
+**Theorem 4 (sign-case theorem).** For all $`E_i\gt0`$ and $`a_i,b_i\in\mathbb R`$, the function $`f`$ in (25) satisfies $`\mathop{Z}(f)\le9`$ whenever $`f\not\equiv0`$.
 
 We use the endpoint and parameter-perturbation lemmas [C31] and [SUPPORT] from the appendix. The following four exponent-sign classes state where each specialized theorem is needed.
 
 ### Endpoint reduction and support classes
 
-For the use of Lemma 1, first allow the constant coefficient in (25) to vary over the positive numbers. Equivalently, a constant shift with $`|t|<1/2`$ is returned to the displayed normalization by
+For the use of Lemma 1, first allow the constant coefficient in (25) to vary over the positive numbers. Equivalently, a constant shift with $`|t|\lt1/2`$ is returned to the displayed normalization by
 
 ```math
 \frac{f-t}{1-t}
@@ -1504,7 +1504,7 @@ This partition follows from the hypothetical ten *original* roots and the endpoi
 
 ### One theorem when all exponents are positive
 
-**Positive-support theorem [AP-MASTER].** Let $`L,E_1,E_2,E_3>0`$ and $`a_i,b_i>0`$. If the three supports $`s_i=(a_i,b_i)`$ are affinely independent, then
+**Positive-support theorem [AP-MASTER].** Let $`L,E_1,E_2,E_3\gt0`$ and $`a_i,b_i\gt0`$. If the three supports $`s_i=(a_i,b_i)`$ are affinely independent, then
 
 ```math
 L-\sum_{i=1}^3E_i x^{a_i}(1-x)^{b_i}
@@ -1541,8 +1541,8 @@ makes $`V_0`$ nonvanishing on the interval on the actual level curve where the n
 With two positive barycentrics, write
 
 ```math
-s_2=P s_1+Q s_3,\qquad P,Q>0,
-\qquad K_{*}=P+Q-1>0.
+s_2=P s_1+Q s_3,\qquad P,Q\gt0,
+\qquad K_{*}=P+Q-1\gt0.
 ```
 
 The projective normal coordinate $`r=-\lambda_1/\lambda_3`$ runs over $`(0,\infty)`$ and
@@ -1564,9 +1564,9 @@ All its coefficients are positive and all three roots are negative, counting rep
 | Parameters                    | Actual-level curvature argument                                                     |
 |:------------------------------|:------------------------------------------------------------------------------------|
 | $`P,Q\le1`$                     | The quadratic has no positive zero; use the nonvanishing normal calculation.                                 |
-| $`P>1`$, $`0<Q<1`$, or reflection | The quadratic has one positive zero. The factored cubic $`R`$ gives a curvature-root count of at most six, including multiplicity.       |
-| $`P>1`$, $`Q=1`$, or reflection   | Treat $`Q=1`$ directly, including its zero at the endpoint. The three interval arguments give a curvature-root count of at most six.  |
-| $`P,Q>1`$                       | The quadratic has two positive zeros. Compare the same actual function values across both; the total curvature-root count is at most six. |
+| $`P\gt1`$, $`0\lt Q\lt1`$, or reflection | The quadratic has one positive zero. The factored cubic $`R`$ gives a curvature-root count of at most six, including multiplicity.       |
+| $`P\gt1`$, $`Q=1`$, or reflection   | Treat $`Q=1`$ directly, including its zero at the endpoint. The three interval arguments give a curvature-root count of at most six.  |
+| $`P,Q\gt1`$                       | The quadratic has two positive zeros. Compare the same actual function values across both; the total curvature-root count is at most six. |
 
 The proof mechanisms and precise source locations are given in [the appendix](appendix.md); the case $`Q=1`$ is proved directly, rather than by transferring multiplicities from a neighboring parameter cell. The four cases exhaust the source parameters and require no additional hypothesis on the order of the exponent coordinates or auxiliary roots.
 
@@ -1580,7 +1580,7 @@ For supports $`(-,+),(+,+),(+,-)`$, label the beta monomials $`h_1,h_2,h_3`$ in 
 C_s=b_1-b_2,\qquad \Delta_s=a_3-a_2.
 ```
 
-The four strict sign combinations now use three source theorems. $`C_s,\Delta_s>0`$ is the nested theorem below; the two mixed combinations are reflections of one source; and $`C_s,\Delta_s<0`$ is the double-reversed theorem for the displayed equation. The change of variables and the boundary transfer use the original coefficients throughout each argument.
+The four strict sign combinations now use three source theorems. $`C_s,\Delta_s\gt0`$ is the nested theorem below; the two mixed combinations are reflections of one source; and $`C_s,\Delta_s\lt0`$ is the double-reversed theorem for the displayed equation. The change of variables and the boundary transfer use the original coefficients throughout each argument.
 
 ##### The entire nested source [PS-NESTED].
 
@@ -1588,7 +1588,7 @@ For
 
 ```math
 s_1=(-U,b_1),\quad s_2=(a_2,b_2),\quad s_3=(a_3,-F),
-\qquad U,F,a_2,b_2>0,\quad a_3>a_2,\quad b_1>b_2,
+\qquad U,F,a_2,b_2\gt0,\quad a_3\gt a_2,\quad b_1\gt b_2,
 ```
 
 every positive level has at most eight roots counted with multiplicity if the supports are noncollinear, and at most eight distinct roots on the collinear seam. Finite limits of its parameters also satisfy the bound eight for distinct roots, unless the function becomes identically zero. Here is the source proof. The numerators of the three barycentric coordinates of the origin are
@@ -1598,15 +1598,15 @@ N_1=-(a_2F+a_3b_2),\quad N_2=a_3b_1-UF,
 \quad N_3=-(Ub_2+a_2b_1).
 ```
 
-If $`N_2<0`$, all barycentric coordinates of the origin are positive. The argument on the closed strictly convex level curve in [the appendix](appendix.md) gives at most eight roots counted with multiplicity. If $`N_2\ge0`$, the vector $`(b_1,U)`$ separates the convex hull of the three exponent points from the open negative quadrant. Also $`\lambda_1<\lambda_2<\lambda_3`$, with $`\lambda_1<0<\lambda_3`$ on the entire physical interval. When the determinant of the matrix with rows $`(1,a_i,b_i)`$ is positive, the origin identity writes $`\lambda_2=\theta\lambda_1+\eta\lambda_3`$, $`\theta,\eta>0`$, $`\theta+\eta<1`$, giving
+If $`N_2\lt0`$, all barycentric coordinates of the origin are positive. The argument on the closed strictly convex level curve in [the appendix](appendix.md) gives at most eight roots counted with multiplicity. If $`N_2\ge0`$, the vector $`(b_1,U)`$ separates the convex hull of the three exponent points from the open negative quadrant. Also $`\lambda_1\lt\lambda_2\lt\lambda_3`$, with $`\lambda_1\lt0\lt\lambda_3`$ on the entire physical interval. When the determinant of the matrix with rows $`(1,a_i,b_i)`$ is positive, the origin identity writes $`\lambda_2=\theta\lambda_1+\eta\lambda_3`$, $`\theta,\eta\gt0`$, $`\theta+\eta\lt1`$, giving
 
 ```math
 V_0=-\alpha_2\bigl[(1-\theta-\eta)
 (\theta\lambda_1^2+\eta\lambda_3^2)
-+\theta\eta(\lambda_1-\lambda_3)^2\bigr]<0.
++\theta\eta(\lambda_1-\lambda_3)^2\bigr]\lt0.
 ```
 
-For a negative determinant, $`\alpha_1,\alpha_3>0`$, $`\alpha_2=-k\le0`$, and, according to the sign of $`\lambda_2`$,
+For a negative determinant, $`\alpha_1,\alpha_3\gt0`$, $`\alpha_2=-k\le0`$, and, according to the sign of $`\lambda_2`$,
 
 ```math
 \begin{aligned}
@@ -1624,10 +1624,10 @@ Both are strictly positive. Thus the normal theorem for this separated convex hu
 Reflect if necessary so that
 
 ```math
-a_1<0<a_2<a_3,\qquad b_3<0<b_1<b_2.
+a_1\lt0\lt a_2\lt a_3,\qquad b_3\lt0\lt b_1\lt b_2.
 ```
 
-Write $`w=x(1-x)`$, $`D=w\,d/dx`$, $`\lambda_i=a_i-(a_i+b_i)x`$, $`J=\lambda_2-\lambda_1`$ and $`L=\lambda_3-\lambda_2>0`$. Define the actual cubics
+Write $`w=x(1-x)`$, $`D=w\,d/dx`$, $`\lambda_i=a_i-(a_i+b_i)x`$, $`J=\lambda_2-\lambda_1`$ and $`L=\lambda_3-\lambda_2\gt0`$. Define the actual cubics
 
 ```math
 \begin{aligned}
@@ -1647,11 +1647,11 @@ LP_1+JP=\lambda_2G_{*},\qquad
 \qquad\deg K_6\le6.
 ```
 
-$`P_1`$ has two simple physical roots straddling the mode $`c=a_2/(a_2+b_2)`$, and $`P>0`$ on $`(0,c]`$. These are literal source identities, not properties of arbitrary cubics.
+$`P_1`$ has two simple physical roots straddling the mode $`c=a_2/(a_2+b_2)`$, and $`P\gt0`$ on $`(0,c]`$. These are literal source identities, not properties of arbitrary cubics.
 
 ##### A common-level theorem [PS-LEVEL].
 
-If $`P`$ has exactly one odd-order physical root, or $`P,G_{*}`$ have a common physical root, then for every $`\kappa>0`$
+If $`P`$ has exactly one odd-order physical root, or $`P,G_{*}`$ have a common physical root, then for every $`\kappa\gt0`$
 
 **(PS2)**
 
@@ -1669,13 +1669,13 @@ Suppose instead that $`P`$ has three simple physical roots and $`P_1,P`$ are wit
 F_{*}=-\frac{h_1P_1}{h_3P},\qquad W_{*} =\frac{h_1G_{*}}{P},
 ```
 
-every positive level of $`F_{*}`$ has at most seven intersections counted with multiplicity. If it has seven simple level intersections $`r_1<\cdots<r_7`$, no real number $`\tau`$ can satisfy
+every positive level of $`F_{*}`$ has at most seven intersections counted with multiplicity. If it has seven simple level intersections $`r_1\lt\cdots\lt r_7`$, no real number $`\tau`$ can satisfy
 
 **(PS3)**
 
 ```math
-W_{*}(r_i)<\tau\ (i\text{ odd}),\qquad
-W_{*}(r_i)>\tau\ (i\text{ even}).
+W_{*}(r_i)\lt\tau\ (i\text{ odd}),\qquad
+W_{*}(r_i)\gt\tau\ (i\text{ even}).
 ```
 
 No physical-root count of $`G_{*}`$, phase tag, cofactor interlacing or origin-wall restriction is imposed.
@@ -1699,23 +1699,23 @@ DW_{*}=-\frac{h_3L}{\lambda_2}\,DF_{*}.
 
 At an odd-indexed preceding contact, $`F_{*}`$ has its unique maximum between that pair while $`W_{*}`$ strictly decreases across the entire gap. At an even-indexed contact the signs reverse. Each contradicts (PS3). This proves the two-profile theorem without the former allocation table.
 
-To apply it to the original function, retain the original projective equality entry with its actual coefficients $`\rho=E_3/E_1>0`$, $`\kappa=E_1>0`$ and
+To apply it to the original function, retain the original projective equality entry with its actual coefficients $`\rho=E_3/E_1\gt0`$, $`\kappa=E_1\gt0`$ and
 
 ```math
 B_{*}=h_1J-\rho h_3L,\qquad X_{*}=\lambda_2/B_{*}.
 ```
 
-The mixed denominator count is elementary. $`J`$ has one physical zero $`\ell`$ and is positive before it. On $`(0,\ell)`$, $`J/L`$ is strictly decreasing, as is $`h_1/h_3`$ because $`\lambda_1<0<\lambda_3`$. Their positive product decreases from infinity to zero, so $`B_{*}=h_3L[(h_1/h_3)(J/L)-\rho]`$ has exactly one simple physical zero. After $`\ell`$ it is strictly negative. This replaces the general linear/linear polynomial–beta count in the mixed source only; a coincidence with $`c`$ still belongs to the original interval-location lemma or original-function boundary transfer. Ten simple original roots force seven transverse $`F_{*}=\rho`$ contacts and the interval-location inequalities forced by equality in the nine-root derivative count. At these contacts (PS1) gives the undivided identity $`\lambda_2G_{*}=P B_{*}/h_1`$, hence $`W_{*}=1/X_{*}`$. The window requires $`X_{*}>\kappa`$ at useful odd nodes and $`0<X_{*}<\kappa`$ at even nodes. Its possible non-useful odd node has $`X_{*}<0`$, so also $`W_{*}<0<1/\kappa`$. All seven nodes therefore obey (PS3) with the *same* $`\tau=1/\kappa`$, a contradiction. This replaces the five-event height allocation tables; the original interval-location inequalities remain a specialized input with their stated hypotheses, rather than a freely chosen auxiliary height.
+The mixed denominator count is elementary. $`J`$ has one physical zero $`\ell`$ and is positive before it. On $`(0,\ell)`$, $`J/L`$ is strictly decreasing, as is $`h_1/h_3`$ because $`\lambda_1\lt0\lt\lambda_3`$. Their positive product decreases from infinity to zero, so $`B_{*}=h_3L[(h_1/h_3)(J/L)-\rho]`$ has exactly one simple physical zero. After $`\ell`$ it is strictly negative. This replaces the general linear/linear polynomial–beta count in the mixed source only; a coincidence with $`c`$ still belongs to the original interval-location lemma or original-function boundary transfer. Ten simple original roots force seven transverse $`F_{*}=\rho`$ contacts and the interval-location inequalities forced by equality in the nine-root derivative count. At these contacts (PS1) gives the undivided identity $`\lambda_2G_{*}=P B_{*}/h_1`$, hence $`W_{*}=1/X_{*}`$. The window requires $`X_{*}\gt\kappa`$ at useful odd nodes and $`0\lt X_{*}\lt\kappa`$ at even nodes. Its possible non-useful odd node has $`X_{*}\lt0`$, so also $`W_{*}\lt0\lt1/\kappa`$. All seven nodes therefore obey (PS3) with the *same* $`\tau=1/\kappa`$, a contradiction. This replaces the five-event height allocation tables; the original interval-location inequalities remain a specialized input with their stated hypotheses, rather than a freely chosen auxiliary height.
 
 ##### The double-reversed theorem [PS-DR].
 
 In the remaining quadrant a positive projective coordinate gives
 
 ```math
-H_\rho(t)=A_{*}(t)+\rho t^\alpha(1+t)^{\beta-\alpha}B_{*}(t),\qquad\rho>0,
+H_\rho(t)=A_{*}(t)+\rho t^\alpha(1+t)^{\beta-\alpha}B_{*}(t),\qquad\rho\gt0,
 ```
 
-where $`u,p,a,b,q,z>0`$, $`q<a`$, $`p<b`$, $`\alpha=u+q`$, $`\beta=p+z`$, and
+where $`u,p,a,b,q,z\gt0`$, $`q\lt a`$, $`p\lt b`$, $`\alpha=u+q`$, $`\beta=p+z`$, and
 
 ```math
 \begin{aligned}
@@ -1724,15 +1724,15 @@ B_{*}&=(q+zt)(a-bt)[(b+z)t-(a-q)]+(az+bq)t(1+t).
 \end{aligned}
 ```
 
-For every such source and every $`\rho>0`$, $`H_\rho`$ has at most five *distinct* positive roots. This includes equal and integral gaps, coefficient zeros and positive-event collisions. The strict hypotheses $`u,p,a,b,q,z>0`$, $`p<b`$ and $`q<a`$ are required for this particular auxiliary theorem.
+For every such source and every $`\rho\gt0`$, $`H_\rho`$ has at most five *distinct* positive roots. This includes equal and integral gaps, coefficient zeros and positive-event collisions. The strict hypotheses $`u,p,a,b,q,z\gt0`$, $`p\lt b`$ and $`q\lt a`$ are required for this particular auxiliary theorem.
 
-Reflection interchanges $`\alpha,\beta`$ and reciprocates $`\rho`$, so assume $`\beta\ge\alpha`$. The theorem for a minimum exponent difference of at least one covers $`\alpha\ge1`$; the coefficient sign theorem for $`\beta<2`$ covers $`\alpha<1`$, $`\beta<2`$. In the remaining range put $`n=\lfloor\beta\rfloor\ge2`$, $`\zeta=\beta-n\in[0,1)`$. The alternating fractional-power basis $`1,t^\alpha(1+t)^{\zeta-\alpha},t,t^{1+\alpha}(1+t)^{\zeta-\alpha},\ldots`$ gives at most seven sign changes in the corresponding ordered coefficients. Six roots would force the first four coefficients of $`B_{*}`$, after multiplication by the degree-$`n`$ polynomial factor, to be nonpositive. Polynomial division by the linear factor belonging to the later $`B_{*}`$ root then forces the earlier root $`P>2/(\beta-1)`$ and the strict source event order $`P<Q<a/b<S<R`$. The actual profile $`-A_{*}/[t^\alpha(1+t)^{\beta-\alpha}B_{*}]`$ has three positive components. The source proofs give bounds of four intersections on the left outer component, three on the central component and two on the right outer component. Three central intersections exclude any tail intersection and exclude four left intersections; one central intersection excludes the simultaneous occurrence of four left and two tail intersections by one strict common-height chain. Thus every regular level has at most five contacts. Aggregate common-level regularization extends this to the *distinct* roots of the displayed equation; it does not promote the statement to a multiplicity theorem. When $`\zeta=0`$, the needed positivity follows directly from an integral representation with a positive measure. The appendix gives that representation, so no transfer of strict determinant signs through a limit is needed. The [appendix](appendix.md) identifies these three proof modules. The original ten-root entry needs seven contacts of this same displayed equation, contradicting five.
+Reflection interchanges $`\alpha,\beta`$ and reciprocates $`\rho`$, so assume $`\beta\ge\alpha`$. The theorem for a minimum exponent difference of at least one covers $`\alpha\ge1`$; the coefficient sign theorem for $`\beta\lt2`$ covers $`\alpha\lt1`$, $`\beta\lt2`$. In the remaining range put $`n=\lfloor\beta\rfloor\ge2`$, $`\zeta=\beta-n\in[0,1)`$. The alternating fractional-power basis $`1,t^\alpha(1+t)^{\zeta-\alpha},t,t^{1+\alpha}(1+t)^{\zeta-\alpha},\ldots`$ gives at most seven sign changes in the corresponding ordered coefficients. Six roots would force the first four coefficients of $`B_{*}`$, after multiplication by the degree-$`n`$ polynomial factor, to be nonpositive. Polynomial division by the linear factor belonging to the later $`B_{*}`$ root then forces the earlier root $`P\gt2/(\beta-1)`$ and the strict source event order $`P\lt Q\lt a/b\lt S\lt R`$. The actual profile $`-A_{*}/[t^\alpha(1+t)^{\beta-\alpha}B_{*}]`$ has three positive components. The source proofs give bounds of four intersections on the left outer component, three on the central component and two on the right outer component. Three central intersections exclude any tail intersection and exclude four left intersections; one central intersection excludes the simultaneous occurrence of four left and two tail intersections by one strict common-height chain. Thus every regular level has at most five contacts. Aggregate common-level regularization extends this to the *distinct* roots of the displayed equation; it does not promote the statement to a multiplicity theorem. When $`\zeta=0`$, the needed positivity follows directly from an integral representation with a positive measure. The appendix gives that representation, so no transfer of strict determinant signs through a limit is needed. The [appendix](appendix.md) identifies these three proof modules. The original ten-root entry needs seven contacts of this same displayed equation, contradicting five.
 
 These arguments cover all strict generic split-exponent sources. A common constant shift, followed by a perturbation of the original supports with their exponent signs fixed, handles equalities between the logarithmic derivative scores, event collisions and finite coefficient/support faces at the original distinct-root scope. Only the bound for distinct roots of the original function is transferred to a boundary parameter.
 
 ### A height theorem when one term dominates at both endpoints
 
-**Nonnegative-support height theorem [HEIGHT-MASTER].** Let $`u,v,w`$ be beta monomials whose support coordinates are nonnegative, and let $`c_3,c_4>0`$. Put $`S=u-c_3v-c_4w`$. For every nine ordered interior samples $`x_1<\cdots<x_9`$,
+**Nonnegative-support height theorem [HEIGHT-MASTER].** Let $`u,v,w`$ be beta monomials whose support coordinates are nonnegative, and let $`c_3,c_4\gt0`$. Put $`S=u-c_3v-c_4w`$. For every nine ordered interior samples $`x_1\lt\cdots\lt x_9`$,
 
 **(MH)**
 
@@ -1741,7 +1741,7 @@ These arguments cover all strict generic split-exponent sources. A common consta
 \le\max\{0,S(x_2),S(x_4),S(x_6),S(x_8)\}.
 ```
 
-Consequently $`c_1-S`$, with $`c_1>0`$, has at most eight distinct roots unless it is identically zero. No relative ordering of the three supports, mode restriction or bound on the coefficients is imposed. The weak identity exceptions are the case where all three beta monomials are constant and $`u=1`$, $`\{v,w\}=\{x,1-x\}`$, $`c_3=c_4=1-c_1\in(0,1)`$.
+Consequently $`c_1-S`$, with $`c_1\gt0`$, has at most eight distinct roots unless it is identically zero. No relative ordering of the three supports, mode restriction or bound on the coefficients is imposed. The weak identity exceptions are the case where all three beta monomials are constant and $`u=1`$, $`\{v,w\}=\{x,1-x\}`$, $`c_3=c_4=1-c_1\in(0,1)`$.
 
 ##### Proof from original-function saturation.
 
@@ -1762,7 +1762,7 @@ C_0-E_0x^{-A}(1-x)^{-B}-E_1x^a(1-x)^b
 -E_2x^c(1-x)^{-\nu},
 ```
 
-with all magnitudes positive and $`B>\nu`$. It excludes ten roots at all scales, with no restriction on the shape of the positive regions, exponent differences or maxima. Its division into cases and final endpoint count are printed in [the appendix](appendix.md). In the third pattern write $`h_0=x^{-A}(1-x)^{-B}`$, $`h_j=x^{c_j}(1-x)^{-\nu_j}`$, $`B>\nu_j>0`$. Both $`h_j'`$ are positive. Before the minimum of $`h_0`$, each ratio $`h_j'/(-h_0')`$ is strictly increasing by its positive two-score identity; afterward the original derivative is negative. There is at most one critical point, hence at most two original roots. Each pattern contradicts the function with ten roots.
+with all magnitudes positive and $`B\gt\nu`$. It excludes ten roots at all scales, with no restriction on the shape of the positive regions, exponent differences or maxima. Its division into cases and final endpoint count are printed in [the appendix](appendix.md). In the third pattern write $`h_0=x^{-A}(1-x)^{-B}`$, $`h_j=x^{c_j}(1-x)^{-\nu_j}`$, $`B\gt\nu_j\gt0`$. Both $`h_j'`$ are positive. Before the minimum of $`h_0`$, each ratio $`h_j'/(-h_0')`$ is strictly increasing by its positive two-score identity; afterward the original derivative is negative. There is at most one critical point, hence at most two original roots. Each pattern contradicts the function with ten roots.
 
 For weak nonnegative supports, add $`\varepsilon(1,1)`$ to every support. The values at the nine fixed interior samples converge, so their finite minimum and maximum pass continuously to the limit. This proves (MH) without taking an endpoint limit in the exponents. The distinct-root consequence uses the same aggregate level regularization and closed interior intervals whose endpoint values have opposite signs as above; identities are excluded explicitly.
 
@@ -1773,27 +1773,27 @@ The strict source can be written
 ```math
 u=x^A(1-x)^B,\quad
 v=x^{A+a}(1-x)^{B+b+q},\quad
-w=x^{A+a+p}(1-x)^{B+b},\qquad A,B,a,b,p,q>0.
+w=x^{A+a+p}(1-x)^{B+b},\qquad A,B,a,b,p,q\gt0.
 ```
 
-Two Rolle steps force eight contacts, at the same positive level, of a beta factor times a linked cubic ratio $`R/H`$ on the useful set $`R(H-R)>0`$. In the centered physical coordinate its critical numerator has degree at most six and opposite endpoint signs, hence at most five physical weights. If the negative $`R`$ and $`H-R`$ bands are separated, a compulsory critical point is outside the useful set; at most four useful criticals on at most three components give seven contacts. If the bands overlap, the actual exterior-root factor is strictly log-concave. Factoring it leaves a physical quadratic ratio, and the two-pole common-level comparison gives at most six contacts. Thus eight useful contacts are impossible. This argument applies to both orientations of the exponent differences.
+Two Rolle steps force eight contacts, at the same positive level, of a beta factor times a linked cubic ratio $`R/H`$ on the useful set $`R(H-R)\gt0`$. In the centered physical coordinate its critical numerator has degree at most six and opposite endpoint signs, hence at most five physical weights. If the negative $`R`$ and $`H-R`$ bands are separated, a compulsory critical point is outside the useful set; at most four useful criticals on at most three components give seven contacts. If the bands overlap, the actual exterior-root factor is strictly log-concave. Factoring it leaves a physical quadratic ratio, and the two-pole common-level comparison gives at most six contacts. Thus eight useful contacts are impossible. This argument applies to both orientations of the exponent differences.
 
 ### Comparable exponent vectors: four parameter ranges
 
-In the strict comparable chain $`0\prec s_u\prec s_v\prec s_w`$, put $`q=w/v`$, reflect so that $`\det(s_v,s_q)>0`$, and write $`u=v^h q^n`$. If $`v=x^a(1-x)^b`$, $`q=x^A(1-x)^B`$, then $`0<b/B<a/A`$ and the actual support inequalities are
+In the strict comparable chain $`0\prec s_u\prec s_v\prec s_w`$, put $`q=w/v`$, reflect so that $`\det(s_v,s_q)\gt0`$, and write $`u=v^h q^n`$. If $`v=x^a(1-x)^b`$, $`q=x^A(1-x)^B`$, then $`0\lt b/B\lt a/A`$ and the actual support inequalities are
 
 ```math
-0<hr+n<r\quad\text{at }r=b/B,a/A.
+0\lt hr+n\lt r\quad\text{at }r=b/B,a/A.
 ```
 
 They give the exhaustive open regions
 
 | Parameter region   | Argument excluding ten original roots                                                                                         |
 |:-------------------|:-----------------------------------------------------------------------------------------------------------------|
-| $`n>h`$              | Locate roots relative to the earlier maximum, propagate the resulting coefficient inequality and force a curvature root outside the allowed intervals.   |
-| $`0<n<h<1`$          | The origin lies inside the exponent triangle; use the closed strictly convex level curve argument.                                                                     |
-| $`n<0`$, $`h-n\ge1`$   | Use ratios of derivatives and the distance between their maxima; for $`h\ge1`$, the constant and fifth shifted coefficients have the same negative sign. |
-| $`0<h<1`$, $`h-1<n<0`$ | Compare with the last positive maximum; the remaining sign and middle-interval arguments are given in the appendix.                   |
+| $`n\gt h`$              | Locate roots relative to the earlier maximum, propagate the resulting coefficient inequality and force a curvature root outside the allowed intervals.   |
+| $`0\lt n\lt h\lt1`$          | The origin lies inside the exponent triangle; use the closed strictly convex level curve argument.                                                                     |
+| $`n\lt0`$, $`h-n\ge1`$   | Use ratios of derivatives and the distance between their maxima; for $`h\ge1`$, the constant and fifth shifted coefficients have the same negative sign. |
+| $`0\lt h\lt1`$, $`h-1\lt n\lt0`$ | Compare with the last positive maximum; the remaining sign and middle-interval arguments are given in the appendix.                   |
 
 The equality $`h-n=1`$ is included directly in the larger-gap module. Other mode and determinant faces are handled by an original-function common-level regularization and support perturbation within the strict chain. The [appendix](appendix.md) states the retained modules and their source proof locations.
 
@@ -1809,7 +1809,7 @@ means that, after division by $`-u`$ in (MH1), the barycentric coordinates of th
 (1-h,h-n,n).
 ```
 
-They are strictly positive precisely when $`0<n<h<1`$. The theorem for a closed strictly convex level curve therefore gives at most eight original roots counted with multiplicity for every noncollinear source in this entire region. This uses the actual coefficients directly and requires no further division according to the roots of an auxiliary polynomial. If all supports lie on a single ray with both coordinates positive, use a positive beta monomial $`T`$ and write $`u=T^\alpha,v=T^\beta,w=T^\gamma`$, $`0<\alpha<\beta<\gamma`$. After division by $`u`$, the sum of exponentials
+They are strictly positive precisely when $`0\lt n\lt h\lt1`$. The theorem for a closed strictly convex level curve therefore gives at most eight original roots counted with multiplicity for every noncollinear source in this entire region. This uses the actual coefficients directly and requires no further division according to the roots of an auxiliary polynomial. If all supports lie on a single ray with both coordinates positive, use a positive beta monomial $`T`$ and write $`u=T^\alpha,v=T^\beta,w=T^\gamma`$, $`0\lt\alpha\lt\beta\lt\gamma`$. After division by $`u`$, the sum of exponentials
 
 ```math
 c_1e^{-\alpha z}+c_3e^{(\beta-\alpha)z}
@@ -1911,10 +1911,10 @@ Y^L-E_1X^{A_1}Y^{B_1+L}
 
 All exponents are nonnegative integers, and $`B_3+L=0`$. The two equations have three and four distinct monomial terms. Their coefficients are rational; clearing coefficient denominators makes them integral if desired. Along the first curve put $`x=X^{D_0}`$, $`1-x=Y^{D_0}`$. The second equation is exactly $`Y^LF(x)=0`$. Thus the nine certified univariate roots give nine positive isolated intersections of (30).
 
-No simplicity claim about the unperturbed witness is needed. Label the ten displayed sample values $`u_0<\cdots<u_9`$. Choose a regular value $`t`$ of $`F`$, as in the proof of Lemma 1(a), with
+No simplicity claim about the unperturbed witness is needed. Label the ten displayed sample values $`u_0\lt\cdots\lt u_9`$. Choose a regular value $`t`$ of $`F`$, as in the proof of Lemma 1(a), with
 
 ```math
-0<|t|<\min\left\{\frac12,
+0\lt|t|\lt\min\left\{\frac12,
 \frac12\min_{0\le\ell\le9}|F(x(u_\ell))|\right\}.
 ```
 

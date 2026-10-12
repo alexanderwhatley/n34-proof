@@ -4,7 +4,7 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 
 ## Source and conclusion
 
-Let $`A,B,a,b,c,\nu>0`$, $`B>\nu`$, $`c>a`$. For arbitrary positive
+Let $`A,B,a,b,c,\nu\gt0`$, $`B\gt\nu`$, $`c\gt a`$. For arbitrary positive
 coefficients consider
 
 **(1)**
@@ -24,7 +24,7 @@ H=\det\begin{pmatrix}1&1&1\\\ell_0&\ell_1&\ell_2\\P_0&P_1&P_2\end{pmatrix},
 ```
 
 ```math
-p=c-a>0,\qquad q=b+\nu>0,\qquad L=p+(q-p)t>0.
+p=c-a\gt0,\qquad q=b+\nu\gt0,\qquad L=p+(q-p)t\gt0.
 ```
 
 **Theorem.** On every strict generic source for which $`R`$ has three
@@ -35,7 +35,7 @@ physical roots, every positive level of
 ```
 
 has at most six contacts on its entire positive locus. In particular it
-has at most six useful contacts $`RK>0`$. Hence (1) has at most eight
+has at most six useful contacts $`RK\gt0`$. Hence (1) has at most eight
 distinct roots. The theorem is uniform in all positive coefficients and
 all scales, and requires no sign assumption on $`K`$.
 
@@ -49,8 +49,8 @@ than a claimed closure of all mixed rows.
 The independently derived pair lemma gives
 
 ```math
-m=\frac a{a+b}\in(0,1),\quad d=\frac{bc+a\nu}{a+b}>0,
-\quad z=\frac{t-m}{1-t}>0,
+m=\frac a{a+b}\in(0,1),\quad d=\frac{bc+a\nu}{a+b}\gt0,
+\quad z=\frac{t-m}{1-t}\gt0,
 ```
 
 ```math
@@ -61,12 +61,12 @@ m=\frac a{a+b}\in(0,1),\quad d=\frac{bc+a\nu}{a+b}>0,
 **(2)**
 
 ```math
-D=d-1-m>0,\qquad\kappa=1-q-\nu>0,
-\quad q>\nu>0,\quad p>1>q.
+D=d-1-m\gt0,\qquad\kappa=1-q-\nu\gt0,
+\quad q\gt\nu\gt0,\quad p\gt1\gt q.
 ```
 
 All three physical roots are after $`m`$. Write their positive translated
-coordinates as $`z_1<z_2<z_3`$. The exact Vieta identities are
+coordinates as $`z_1\lt z_2\lt z_3`$. The exact Vieta identities are
 
 **(3)**
 
@@ -80,28 +80,28 @@ P=z_1z_2z_3=\frac{dm}{\nu q}.
 
 Suppose all $`z_i\ge1/\nu`$. Reciprocal Vieta gives
 $`D/m=\sum_i1/z_i\le3\nu`$, hence
-$`D<3\nu`$ and $`d=1+m+D<2+3\nu`$.
-The product identity and $`m<1,q>\nu`$ give
+$`D\lt3\nu`$ and $`d=1+m+D\lt2+3\nu`$.
+The product identity and $`m\lt1,q\gt\nu`$ give
 
 ```math
-d>\frac q{\nu^2}>\frac1\nu.
+d\gt\frac q{\nu^2}\gt\frac1\nu.
 ```
 
-Thus $`1/\nu<2+3\nu`$, which forces $`\nu>1/3`$.
+Thus $`1/\nu\lt2+3\nu`$, which forces $`\nu\gt1/3`$.
 On the other hand, the sum identity gives $`d\kappa\ge3q`$, so
 
 ```math
-d\ge\frac{3q}{1-q-\nu}>\frac{3\nu}{1-2\nu}.
+d\ge\frac{3q}{1-q-\nu}\gt\frac{3\nu}{1-2\nu}.
 ```
 
-Here $`\nu<1/2`$ by (2). For $`\nu>1/3`$, the rightmost expression is
+Here $`\nu\lt1/2`$ by (2). For $`\nu\gt1/3`$, the rightmost expression is
 strictly greater than $`2+3\nu`$, contradicting the upper bound on $`d`$.
 Therefore
 
 **(4)**
 
 ```math
-\boxed{\nu z_1<1.}
+\boxed{\nu z_1\lt1.}
 ```
 
 This elementary root-size bound is independent of $`A,B`$.
@@ -130,27 +130,27 @@ Direct subtraction gives the exact identity
 \boxed{dJ(z)-qC(z)=\nu(d+qz)(qz^2-dm).}
 ```
 
-Put $`k=\nu q/d>0`$. At the largest $`C`$-root, Vieta gives the visible
+Put $`k=\nu q/d\gt0`$. At the largest $`C`$-root, Vieta gives the visible
 positive factorization
 
 **(7)**
 
 ```math
-\boxed{J(z_3)=qz_3(\nu+kz_3)(z_3-\nu z_1z_2)>0.}
+\boxed{J(z_3)=qz_3(\nu+kz_3)(z_3-\nu z_1z_2)\gt0.}
 ```
 
-Indeed (4) and $`z_2<z_3`$ imply $`\nu z_1z_2<z_2<z_3`$.
+Indeed (4) and $`z_2\lt z_3`$ imply $`\nu z_1z_2\lt z_2\lt z_3`$.
 A second positive factorization gives
 
 **(8)**
 
 ```math
 \boxed{\frac{J'(z_3)}q=2\nu z_3+
- k\{2z_3^2+z_1(z_3-z_2)+z_2z_3(1-\nu z_1)\}>0.}
+ k\{2z_3^2+z_1(z_3-z_2)+z_2z_3(1-\nu z_1)\}\gt0.}
 ```
 
 Because $`J`$ is an upward quadratic, (7)--(8) show
-$`J(z)>0`$ for every $`z\ge z_3`$. Thus the boundary cofactor is positive
+$`J(z)\gt0`$ for every $`z\ge z_3`$. Thus the boundary cofactor is positive
 throughout the final $`R`$-negative tail.
 
 It remains to check that increasing $`A,B`$ cannot lower $`H`$ there.
@@ -175,26 +175,26 @@ $`(1+z)(d+qz)`$ and numerator
 **(10)**
 
 ```math
-\boxed{d^2+qm-2\nu md+q(1+m-2m\nu)z+q(1-q)z^2>0.}
+\boxed{d^2+qm-2\nu md+q(1+m-2m\nu)z+q(1-q)z^2\gt0.}
 ```
 
-Every coefficient is positive by (2): $`d>1+m>2\nu m`$ and
-$`\nu<1/2`$. Thus $`Z>2Y`$. Since $`R\le0`$ on $`z\ge z_3`$ and
-$`H_{\rm bdry}>0`$, evaluating (9) at $`X=Y,B=\nu`$ gives
-$`Z<1+Y`$.
+Every coefficient is positive by (2): $`d\gt1+m\gt2\nu m`$ and
+$`\nu\lt1/2`$. Thus $`Z\gt2Y`$. Since $`R\le0`$ on $`z\ge z_3`$ and
+$`H_{\rm bdry}\gt0`$, evaluating (9) at $`X=Y,B=\nu`$ gives
+$`Z\lt1+Y`$.
 
 For fixed $`X`$, the constraints $`A\ge0,B\ge\nu`$ give
 $`B\ge\max(\nu,X/t)`$. If $`X\le Y`$, the lower expression in (9) is
 $`R/L+X^2-ZX+Y`$, which strictly decreases up to $`Y`$, because
-$`Z>2Y`$. If $`X\ge Y`$, it is
+$`Z\gt2Y`$. If $`X\ge Y`$, it is
 $`R/L+X^2-(Z-1)X`$, which strictly increases from $`Y`$, because
-$`Z<1+Y`$. Both have their minimum at $`X=Y,B=\nu`$.
+$`Z\lt1+Y`$. Both have their minimum at $`X=Y,B=\nu`$.
 Consequently
 
 **(11)**
 
 ```math
-\boxed{H(t)\ge H_{\rm bdry}(t)>0\qquad(t\ge r_3),}
+\boxed{H(t)\ge H_{\rm bdry}(t)\gt0\qquad(t\ge r_3),}
 ```
 
 where $`r_3=(m+z_3)/(1+z_3)`$ is the last physical $`R`$-root.
@@ -217,15 +217,15 @@ limits: one between $`r_1,r_2`$, one between $`r_3,1`$. Each consumes a
 critical point outside the positive locus. Thus at most four useful critical
 points remain, and any positive level has at most $`4+2=6`$ contacts.
 
-If $`H`$ has two physical roots $`h_1<h_2<r_3`$, its negative cubic leading
+If $`H`$ has two physical roots $`h_1\lt h_2\lt r_3`$, its negative cubic leading
 coefficient, positive endpoint values, and two simple physical roots give
-one exterior root $`\eta_e>1`$. On $`(0,r_3)`$, factor
+one exterior root $`\eta_e\gt1`$. On $`(0,r_3)`$, factor
 
 **(12)**
 
 ```math
 \Phi=C_0\,v(t)\frac{(t-r_1)(t-r_2)}{(t-h_1)(t-h_2)},
-\quad C_0>0,\quad
+\quad C_0\gt0,\quad
 v=t^A(1-t)^B\frac{r_3-t}{\eta_e-t}.
 ```
 
@@ -233,7 +233,7 @@ The factor $`v`$ tends to zero at both endpoints of $`(0,r_3)`$ and is
 strictly log-concave, since
 
 ```math
-(\log v)''=-A/t^2-B/(1-t)^2-1/(r_3-t)^2+1/(\eta_e-t)^2<0.
+(\log v)''=-A/t^2-B/(1-t)^2-1/(r_3-t)^2+1/(\eta_e-t)^2\lt0.
 ```
 
 The negative tail $`(r_3,1)`$ has no pole by (11), and has zero limits at
@@ -247,9 +247,9 @@ No $`K`$-root ordering enters either conclusion.
 ## Transfer to the original row
 
 All original zeros of (1) lie in the one interval
-$`I=\{1-E_0t^{-A}(1-t)^{-B}>0\}`$, because the other two terms are positive.
+$`I=\{1-E_0t^{-A}(1-t)^{-B}\gt0\}`$, because the other two terms are positive.
 The original two-Rolle interface gives at least $`n-2`$ contacts of one
-positive level $`\Phi=E_0`$, with $`0<R/H<1`$, from any $`n`$ original zeros
+positive level $`\Phi=E_0`$, with $`0\lt R/H\lt1`$, from any $`n`$ original zeros
 on a generic core source. The six-contact bound therefore gives $`n\le8`$.
 This uses the actual coefficients throughout.
 

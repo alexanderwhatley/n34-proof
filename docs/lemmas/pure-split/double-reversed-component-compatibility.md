@@ -13,23 +13,23 @@ B(t)&=(q+zt)(a-bt)[(b+z)t-(a-q)]+(az+bq)t(1+t),
 \end{aligned}
 ```
 
-where all six support magnitudes are positive, $`q<a`$, $`p<b`$, and
-$`p>u`$. Set $`\alpha=u+q\in(0,1)`$, $`\beta=p+z\ge2`$, and
+where all six support magnitudes are positive, $`q\lt a`$, $`p\lt b`$, and
+$`p\gt u`$. Set $`\alpha=u+q\in(0,1)`$, $`\beta=p+z\ge2`$, and
 $`c=a/b`$. Suppose the normalized roots satisfy
 
 ```math
 A/A_3=(t+x)(t-Q)(t-R),\quad
 B/B_3=(t+y)(t-P)(t-S),\quad
-0<P<Q<c<S<R,\quad x,y>0,
+0\lt P\lt Q\lt c\lt S\lt R,\quad x,y\gt0,
 ```
 
-and suppose $`P>2/(\beta-1)`$. For the positive profile
+and suppose $`P\gt2/(\beta-1)`$. For the positive profile
 
 **(1)**
 
 ```math
 F(t)=C\frac{(t+x)(t-Q)(t-R)}
- {t^\alpha(1+t)^{\beta-\alpha}(t+y)(t-P)(t-S)},\qquad C>0,
+ {t^\alpha(1+t)^{\beta-\alpha}(t+y)(t-P)(t-S)},\qquad C\gt0,
 ```
 
 every positive regular level has at most **five** distinct intersections
@@ -56,7 +56,7 @@ Its denominator
 $`D=t(1+t)(t+x)(t+y)(t-P)(t-Q)(t-S)(t-R)`$
 has degree eight. Its cleared numerator $`N=DG`$ has degree seven,
 leading coefficient $`-\beta`$, and constant coefficient
-$`-\alpha xyPQRS<0`$. Consequently $`N`$ has at least one negative
+$`-\alpha xyPQRS\lt0`$. Consequently $`N`$ has at least one negative
 real root and at most six positive roots counted with multiplicity.
 Every critical point in one of the three open components contributes
 its full multiplicity to this budget.
@@ -82,7 +82,7 @@ critical multiplicity is at most three.
 
 ## 2. The two literal beta=2 extensions
 
-The linked prefix and height lemmas state $`\beta>2`$. The following arguments include the boundary $`\beta=2`$ directly.
+The linked prefix and height lemmas state $`\beta\gt2`$. The following arguments include the boundary $`\beta=2`$ directly.
 
 **Central prefix.** The
 [central critical-point prefix](central-critical-prefix.md) transforms $`(Q,S)`$
@@ -99,8 +99,8 @@ K(t)=\frac{Q-P}{(t-Q)(t-P)}-\frac{\alpha x}{t(t+x)}.
 
 The near negative block has magnitude $`\alpha`$; the intervening
 positive block has magnitude $`1-\alpha`$. In the far negative block,
-the possible magnitudes are $`\alpha,\beta`$ if $`x<y<1`$,
-$`\beta-1,\beta`$ if $`y>1`$, and $`\beta`$ if $`y=1`$.
+the possible magnitudes are $`\alpha,\beta`$ if $`x\lt y\lt1`$,
+$`\beta-1,\beta`$ if $`y\gt1`$, and $`\beta`$ if $`y=1`$.
 All remain strictly positive at $`\beta=2`$. The rate supports,
 complete-column grouping, convergence, strict Cauchy minors, and the
 [matrix prefix theorem](positive-matrix-prefix.md) are unchanged. Hence, literally for
@@ -109,14 +109,14 @@ $`\beta\ge2`$, four distinct central zeros imply
 **(4)**
 
 ```math
-K(t)<0\quad\text{at every central zero, including }c.
+K(t)\lt0\quad\text{at every central zero, including }c.
 ```
 
 The source identity
-$`A(-1)=-(p-u)(a+b)[a+b-(p-u)]<0`$
-gives $`x<1`$, the other required scalar premise. The
+$`A(-1)=-(p-u)(a+b)[a+b-(p-u)]\lt0`$
+gives $`x\lt1`$, the other required scalar premise. The
 [mode-prefix inequality](all-coefficient-mode-prefix.md), already stated for
-$`\beta\ge2`$, gives $`K(c)>0`$. Thus **there cannot be four distinct
+$`\beta\ge2`$, gives $`K(c)\gt0`$. Thus **there cannot be four distinct
 central critical points**.
 
 **Terminal maximum and height.** The
@@ -127,7 +127,7 @@ Z_T=F\frac{t-S}{t-R},\qquad
 E_T=t(\log Z_T)'.
 ```
 
-For $`t>Q`$, with $`\delta=\beta-\alpha`$, its exact derivative is
+For $`t\gt Q`$, with $`\delta=\beta-\alpha`$, its exact derivative is
 
 **(5)**
 
@@ -137,29 +137,29 @@ E_T'=\frac{x}{(t+x)^2}-\frac{y}{(t+y)^2}
  -\frac{\delta}{(1+t)^2}.
 ```
 
-For $`\beta>2`$ the scalar estimate in the linked proof proves this negative.
-At $`\beta=2`$, the source collar gives $`t>Q>P>2`$, and $`x<1`$
+For $`\beta\gt2`$ the scalar estimate in the linked proof proves this negative.
+At $`\beta=2`$, the source collar gives $`t\gt Q\gt P\gt2`$, and $`x\lt1`$
 gives directly
 
 ```math
-\frac{x}{(t+x)^2}<\frac1{(1+t)^2}
- <\frac{2-\alpha}{(1+t)^2}.
+\frac{x}{(t+x)^2}\lt\frac1{(1+t)^2}
+ \lt\frac{2-\alpha}{(1+t)^2}.
 ```
 
 The other two summands in (5) are negative, so the conclusion is the
 same. Hence $`E_T`$ decreases strictly from positive infinity to
 $`-\beta`$, with a unique zero $`h_T`$.
 
-For $`t>R`$, the full scaled derivative is $`tG=E_T+tQ_2`$, where
+For $`t\gt R`$, the full scaled derivative is $`tG=E_T+tQ_2`$, where
 $`Q_2=(R-S)/[(t-R)(t-S)]`$. Its added term has derivative
 
 ```math
-(tQ_2)'=\frac{(R-S)(RS-t^2)}{(t-R)^2(t-S)^2}<0.
+(tQ_2)'=\frac{(R-S)(RS-t^2)}{(t-R)^2(t-S)^2}\lt0.
 ```
 
 It follows that the terminal profile has a unique simple maximum $`T`$.
 At any central critical point $`v`$, and at $`T`$,
-$`E_T=-tQ_2<0`$; both points lie beyond $`h_T`$.
+$`E_T=-tQ_2\lt0`$; both points lie beyond $`h_T`$.
 The positive reduced profile $`Z_T`$ therefore decreases strictly
 from $`v`$ to $`T`$. The removed factor is greater than one at $`v`$
 and less than one at $`T`$, giving
@@ -167,22 +167,22 @@ and less than one at $`T`$, giving
 **(6)**
 
 ```math
-\boxed{F(v)>F(T)\quad\text{for every central critical point }v.}
+\boxed{F(v)\gt F(T)\quad\text{for every central critical point }v.}
 ```
 
 Thus the last-pair conclusion is literal for every $`\beta\ge2`$,
-with arbitrary $`y>0`$ and no coefficient-word premise.
+with arbitrary $`y\gt0`$ and no coefficient-word premise.
 
 ## 3. The first-pair height comparison
 
 The [first-pair height comparison](first-pair-height-comparison.md) has the full
-root-factor scope $`\alpha,\beta,x,y>0`$, $`P<Q<S<R`$: if
-$`k_1<k_2<k_3<P`$ are three left critical points, then
+root-factor scope $`\alpha,\beta,x,y\gt0`$, $`P\lt Q\lt S\lt R`$: if
+$`k_1\lt k_2\lt k_3\lt P`$ are three left critical points, then
 
 **(7)**
 
 ```math
-\boxed{F(k_3)>F(v)\quad\text{for every central critical point }v.}
+\boxed{F(k_3)\gt F(v)\quad\text{for every central critical point }v.}
 ```
 
 This theorem has no exponent band, coefficient word, unused-root order,
@@ -206,20 +206,20 @@ L\in\{0,2,4\},\qquad M\in\{1,3\},\qquad T_0\in\{0,2\}.
 
 If $`L=4`$, its three intervening critical points exhaust the available
 left budget. They are the minimum, maximum, and later minimum, and
-$`F(k_3)<\rho`$. By (7) this later minimum is strictly above every
+$`F(k_3)\lt\rho`$. By (7) this later minimum is strictly above every
 central critical height.
 
 If $`M=3`$, regular crossing directions and Rolle's theorem supply a
 central critical height above $`\rho`$ and another below $`\rho`$.
 The upper one and (7) forbid $`L=4`$. The lower one and (6) forbid
 $`T_0=2`$, since two terminal intersections require
-$`\rho<F(T)`$. Consequently $`M=3`$ forces $`L\le2`$ and
+$`\rho\lt F(T)`$. Consequently $`M=3`$ forces $`L\le2`$ and
 $`T_0=0`$, giving at most five intersections.
 
 If $`M=1`$, simultaneous $`L=4`$ and $`T_0=2`$ would give
 
 ```math
-F(k_3)<\rho<F(T)<F(c),
+F(k_3)\lt\rho\lt F(T)\lt F(c),
 ```
 
 contradicting (7) at the actual central point $`c`$. Hence

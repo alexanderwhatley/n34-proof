@@ -8,14 +8,14 @@ Let `P,G` be real cubics. Suppose each has one root in `(0,1)` and two real
 roots outside `[0,1]`, and
 
 ```math
-P(0),G(0)>0,\qquad P(1),G(1)<0.
+P(0),G(0)\gt0,\qquad P(1),G(1)\lt0.
 ```
 
 Exterior repeated roots and cross-polynomial coincidences are permitted.
 For every
 
 ```math
-U>0,\quad v>0,\quad \min(U,v)<1,\quad\kappa>0,
+U\gt0,\quad v\gt0,\quad \min(U,v)\lt1,\quad\kappa\gt0,
 ```
 
 the function
@@ -65,13 +65,13 @@ P^\vee(y)-\kappa^\vee h^\vee(y)G^\vee(y)
 The endpoint signs remain in the orientation:
 
 ```math
-P^\vee(0)=-G(1)>0,\quad P^\vee(1)=-G(0)<0,
+P^\vee(0)=-G(1)\gt0,\quad P^\vee(1)=-G(0)\lt0,
 ```
 
 **(4)**
 
 ```math
-G^\vee(0)=-P(1)>0,\quad G^\vee(1)=-P(0)<0.
+G^\vee(0)=-P(1)\gt0,\quad G^\vee(1)=-P(0)\lt0.
 ```
 
 The affine root map `r->1-r` takes a physical root to a physical root and

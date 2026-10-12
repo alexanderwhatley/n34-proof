@@ -7,7 +7,7 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 Let
 
 ```math
-a_1=-U<0<a_2<a_3,\qquad b_3<0<b_1=v<b_2,\qquad U,v>0.
+a_1=-U\lt0\lt a_2\lt a_3,\qquad b_3\lt0\lt b_1=v\lt b_2,\qquad U,v\gt0.
 ```
 
 Write $`w=x(1-x)`$, $`\mathcal D=w\,d/dx`$, $`d_i=a_i+b_i`$,
@@ -23,7 +23,7 @@ G&=(\lambda_3-\lambda_1)JL+(\mathcal DL)J-(\mathcal DJ)L.
 \end{aligned}
 ```
 
-**Theorem.** Assume either that $`P_3`$ has exactly one odd-multiplicity physical root, or that $`P_3,G`$ share a physical root. For every $`\kappa>0`$,
+**Theorem.** Assume either that $`P_3`$ has exactly one odd-multiplicity physical root, or that $`P_3,G`$ share a physical root. For every $`\kappa\gt0`$,
 
 ```math
 \boxed{Z_{(0,1),\mathrm{mult}}(P_3-\kappa h_1G)\le6.}
@@ -52,14 +52,14 @@ Q=w(P'G-PG')-\lambda_1PG=-LK,\qquad \deg K\le6,
 with
 
 ```math
-K(0)=a_1a_2a_3(a_3-a_2)(a_3-a_1)(a_2-a_1)<0.
+K(0)=a_1a_2a_3(a_3-a_2)(a_3-a_1)(a_2-a_1)\lt0.
 ```
 
-Thus $`K\not\equiv0`$. Also $`L>0`$ on the physical interval.
-The endpoint signs are $`P_1(0),P_1(1)>0`$, and
-$`P(0),G(0)>0>P(1),G(1)`$.
+Thus $`K\not\equiv0`$. Also $`L\gt0`$ on the physical interval.
+The endpoint signs are $`P_1(0),P_1(1)\gt0`$, and
+$`P(0),G(0)\gt0\gt P(1),G(1)`$.
 
-At $`c=a_2/d_2`$, $`P_1(c)<0`$. A polynomial of degree at most three with positive endpoints and this negative interior value has exactly two simple physical roots $`r_A<c<r_B`$. Its physical simplicity needs no genericity hypothesis.
+At $`c=a_2/d_2`$, $`P_1(c)\lt0`$. A polynomial of degree at most three with positive endpoints and this negative interior value has exactly two simple physical roots $`r_A\lt c\lt r_B`$. Its physical simplicity needs no genericity hypothesis.
 
 The undivided identity
 
@@ -67,11 +67,11 @@ The undivided identity
 P=\lambda_2\lambda_3L+w(a_3b_2-a_2b_3)
 ```
 
-shows $`P>0`$ on $`(0,c]`$. Consequently every physical $`P`$ root is greater than $`c`$. Endpoint signs force either one or three odd physical roots. In the one-odd-root region, the odd root is simple or triple, with at most one further double root.
+shows $`P\gt0`$ on $`(0,c]`$. Consequently every physical $`P`$ root is greater than $`c`$. Endpoint signs force either one or three odd physical roots. In the one-odd-root region, the odd root is simple or triple, with at most one further double root.
 
 If $`P(q)=G(q)=0`$ physically, the Pluecker identity gives $`q=r_B`$. There is therefore at most one physical common root. Its two orders cannot both exceed one, since that would make $`P_1`$ multiple at $`q`$. After dividing both cubics by $`x-q`$, the residual polynomials have no common physical root.
 
-For fixed $`\kappa>0`$, $`S=P-\kappa h_1G`$ is negative near both endpoints: the beta term dominates at zero, and $`h_1\to0`$ at one. Its physical zeros lie in a compact interval and are finite, since it is analytic and nonidentity. Their total multiplicity $`N`$ is even. A failed bound six therefore means $`N\ge8`$.
+For fixed $`\kappa\gt0`$, $`S=P-\kappa h_1G`$ is negative near both endpoints: the beta term dominates at zero, and $`h_1\to0`$ at one. Its physical zeros lie in a compact interval and are finite, since it is analytic and nonidentity. Their total multiplicity $`N`$ is even. A failed bound six therefore means $`N\ge8`$.
 
 ## 3. One divisor count when the events are distinct
 
@@ -158,16 +158,16 @@ Both entries now have exactly the same terminal argument: the uniform geometry l
 
 This lemma assumes only strict actual mixed supports and six physical $`K`$ roots counted with multiplicity. It requires no initial event order or simplicity.
 
-Set $`z=(1-x)/x`$, and let $`\bar P_1,\bar P,\bar G`$ be the degree-three reciprocal homogenizations. Put $`\bar K=(1+z)^6K(1/(1+z))`$. Since $`K(0)<0`$, complete physical exhaustion gives
-$`\bar K(z)<0`$ for $`z\le0`$.
+Set $`z=(1-x)/x`$, and let $`\bar P_1,\bar P,\bar G`$ be the degree-three reciprocal homogenizations. Put $`\bar K=(1+z)^6K(1/(1+z))`$. Since $`K(0)\lt0`$, complete physical exhaustion gives
+$`\bar K(z)\lt0`$ for $`z\le0`$.
 
 The cubic $`\bar P_1`$ has two positive roots bracketing $`b_2/a_2`$ and one negative root $`E`$. Write
-$`\Delta=a_3-a_2>0`$, $`F=b_2-b_3>0`$, and
-$`L_0=-F/\Delta<0`$. At the leftmost reciprocal $`\bar P_1`$ root, $`\bar P_1'(E)>0`$. The transformed critical identity reads
+$`\Delta=a_3-a_2\gt0`$, $`F=b_2-b_3\gt0`$, and
+$`L_0=-F/\Delta\lt0`$. At the leftmost reciprocal $`\bar P_1`$ root, $`\bar P_1'(E)\gt0`$. The transformed critical identity reads
 
 ```math
 -E(1+E)\bar P_1'(E)\bar P(E)
-=(a_2E-b_2)\bar K(E)>0.
+=(a_2E-b_2)\bar K(E)\gt0.
 ```
 
 Both reciprocal linears $`(a_2-a_1)E-(b_2-b_1)`$ and $`a_2E-b_2`$ are negative. The Pluecker identity therefore gives
@@ -190,28 +190,28 @@ Thus both signs there are $`-\operatorname{sgn}(1+L_0)`$.
 Neither point is $`-1`$, because
 
 ```math
-\bar K(-1)=d_1d_2d_3(d_2-d_1)(d_3-d_1)(d_3-d_2)<0.
+\bar K(-1)=d_1d_2d_3(d_2-d_1)(d_3-d_1)(d_3-d_2)\lt0.
 ```
 
 If neither fixed point were a shared positive witness, one would have
-$`E<-1<L_0`$. The first inequality gives
-$`\bar P_1(-1)=d_1d_2(d_2-d_1)>0`$, hence $`d_1>0`$.
-The second gives $`d_3>d_2>d_1>0`$. Every factor in $`\bar K(-1)`$ would then be positive, a contradiction.
+$`E\lt-1\lt L_0`$. The first inequality gives
+$`\bar P_1(-1)=d_1d_2(d_2-d_1)\gt0`$, hence $`d_1\gt0`$.
+The second gives $`d_3\gt d_2\gt d_1\gt0`$. Every factor in $`\bar K(-1)`$ would then be positive, a contradiction.
 
-At a shared positive point $`z_{*}<0`$, both reciprocal cubics are positive. Both have negative constant term and positive cubic leading coefficient. Each consequently crosses zero in the three disjoint intervals
+At a shared positive point $`z_{*}\lt0`$, both reciprocal cubics are positive. Both have negative constant term and positive cubic leading coefficient. Each consequently crosses zero in the three disjoint intervals
 $`( -\infty,z_{*} )`$, $`(z_{*},0)`$, and $`(0,\infty)`$.
 These exhaust its degree, so both have two simple negative roots and one simple positive root. There is no root at $`-1`$; equivalently both actual cubics have two finite real exterior roots and one simple physical root.
 
-For a cubic with roots $`-s,-t,r`$, where $`s,t,r>0`$, its coefficient row is proportional to
+For a cubic with roots $`-s,-t,r`$, where $`s,t,r\gt0`$, its coefficient row is proportional to
 $`(-rst,st-r(s+t),s+t-r,1)`$. A nonpositive quadratic coefficient forces the linear coefficient to be negative. A nonnegative linear coefficient forces the quadratic coefficient to be positive. Deleting zeros therefore leaves one transition from negative to positive. This is exactly the Hurwitz interface.
 
 The root-factor theorem states that real cubics with these exterior roots and endpoint signs satisfy
-$`Z_{\mathrm{mult}}(P-\kappa x^{-U}(1-x)^vG)\le6`$ for all $`U,v,\kappa>0`$. Its analytical proof uses the Stieltjes--Hurwitz flag, a single coefficient-insertion argument, and ordinary Descartes on integer walls. That module is retained unchanged in this proof package.
+$`Z_{\mathrm{mult}}(P-\kappa x^{-U}(1-x)^vG)\le6`$ for all $`U,v,\kappa\gt0`$. Its analytical proof uses the Stieltjes--Hurwitz flag, a single coefficient-insertion argument, and ordinary Descartes on integer walls. That module is retained unchanged in this proof package.
 
 ## 6. Exact reflection
 
 Start with an opposite-cone source
-$`a_1<0<a_3<a_2`$, $`b_3<0<b_2<b_1`$.
+$`a_1\lt0\lt a_3\lt a_2`$, $`b_3\lt0\lt b_2\lt b_1`$.
 Reflect the coordinate and exchange the outer labels:
 $`\widetilde a_i=b_{4-i}`$, $`\widetilde b_i=a_{4-i}`$.
 Under coordinate composition,

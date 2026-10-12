@@ -1,6 +1,6 @@
 # Passing a bound from strict cases to limiting cases
 
-Write $`m_s(x)=x^{s_1}(1-x)^{s_2}`$ for $`0<x<1`$. This factor is always positive, even when its exponents are negative. A root is counted once in the original function, regardless of its multiplicity. A nonidentity function is a function that is not identically zero.
+Write $`m_s(x)=x^{s_1}(1-x)^{s_2}`$ for $`0\lt x\lt1`$. This factor is always positive, even when its exponents are negative. A root is counted once in the original function, regardless of its multiplicity. A nonidentity function is a function that is not identically zero.
 
 The argument applies to a finite sum of these factors with real exponents. A strict case has strict inequalities between the relevant parameters. A generic case additionally avoids the finitely or locally finitely many equalities explicitly excluded by the argument. Those equalities must define proper exceptional sets; a condition that holds identically cannot be removed this way.
 
@@ -18,7 +18,7 @@ o+2\max(e_+,e_-)\ge o+e_++e_-=N
 
 crossings. Analyticity permits a sufficiently small shift avoiding critical values, so these crossings can be taken simple. The shift preserves the original coefficient sign.
 
-Choose compact sign-changing brackets around the resulting roots. A sufficiently small change of the real exponents and coefficients preserves their endpoint signs, and therefore retains at least $`N`$ roots. Choose that change in the dense generic strict part of the proved parameter region, then regularize its remaining selected roots if needed. A hypothetical $`N>B`$ gives a contradiction. $`\square`$
+Choose compact sign-changing brackets around the resulting roots. A sufficiently small change of the real exponents and coefficients preserves their endpoint signs, and therefore retains at least $`N`$ roots. Choose that change in the dense generic strict part of the proved parameter region, then regularize its remaining selected roots if needed. A hypothetical $`N\gt B`$ gives a contradiction. $`\square`$
 
 The proof preserves a sufficient total number of original roots. It does not claim that each even root persists individually, or that auxiliary repeated roots remain real.
 

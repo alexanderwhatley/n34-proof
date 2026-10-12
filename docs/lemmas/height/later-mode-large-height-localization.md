@@ -10,7 +10,7 @@ Let
 
 ```math
 G=c_1-u+c_3v+c_4w,
-\quad c_1,c_3,c_4>0,
+\quad c_1,c_3,c_4\gt0,
 \quad0\prec\operatorname{supp}u\prec\operatorname{supp}v
 \prec\operatorname{supp}w,
 ```
@@ -71,9 +71,9 @@ The preceding tail lemma leaves at least eight original roots before rho_q. Appl
 The raw endpoint signs are
 
 ```math
-K_0(0)>0,
+K_0(0)\gt0,
 \qquad K_0(\rho_q)
-=-\Delta\omega(\rho_q)\{c_1-(1-h)u(\rho_q)\}<0.
+=-\Delta\omega(\rho_q)\{c_1-(1-h)u(\rho_q)\}\lt0.
 ```
 
 Consequently the number of generic simple K0 roots before rho_q is odd. It is at least six and the global ceiling is seven, so it is exactly seven. There are no other K0 roots.
@@ -98,7 +98,7 @@ D=E-(h-1)C,
 For h>1 the discriminant of E is
 
 ```math
-4(h-1)n(h-n)<0,
+4(h-1)n(h-n)\lt0,
 ```
 
 and its leading coefficient is positive. Therefore E>0 on R. For h=1, E=n(n-1)>0 as well.
@@ -128,12 +128,12 @@ Thus J must have six distinct roots on p>r3.
 Set
 
 ```math
-s=h-1>0,\quad b=r_2-r_1>0,\quad c=r_3-r_2>0,
+s=h-1\gt0,\quad b=r_2-r_1\gt0,\quad c=r_3-r_2\gt0,
 ```
 
 ```math
-a=-\{(h-1)r_3+n\}>0,
-\qquad z=hr_1+n>0.
+a=-\{(h-1)r_3+n\}\gt0,
+\qquad z=hr_1+n\gt0.
 ```
 
 The strict support inequalities make a,z positive, and conversely these variables give the full h>1 support chart via
@@ -144,7 +144,7 @@ r_1=a+s(b+c)+z,\quad r_2=r_1+b,\quad r_3=r_2+c,
 
 ```math
 h=1+s,\qquad n=-s r_3-a,
-\qquad\lambda>0.
+\qquad\lambda\gt0.
 ```
 
 | Coefficient | Number of monomials | Every nonzero coefficient |

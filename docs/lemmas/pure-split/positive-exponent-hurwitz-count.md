@@ -8,14 +8,14 @@ Let `P,G` be real cubics. Suppose each has one root in `(0,1)` and two real
 roots outside `[0,1]`, and
 
 ```math
-P(0),G(0)>0,\qquad P(1),G(1)<0.
+P(0),G(0)\gt0,\qquad P(1),G(1)\lt0.
 ```
 
 The exterior roots need not be distinct; roots of different polynomials
 need not be disjoint or ordered. For **every**
 
 ```math
-U>0,\qquad v>0,\qquad\kappa>0,
+U\gt0,\qquad v\gt0,\qquad\kappa\gt0,
 ```
 
 the common-level function
@@ -52,7 +52,7 @@ conditions are preserved, and root multiplicities are preserved. We may
 therefore orient the pair so that
 
 ```math
-U\ge v>0.
+U\ge v\gt0.
 ```
 
 Write
@@ -62,7 +62,7 @@ Write
 ```math
 U=n+\zeta,\quad v=m+\eta,\quad
 n=\lfloor U\rfloor\ge m=\lfloor v\rfloor\ge0,
-\quad0\le\eta,\zeta<1.
+\quad0\le\eta,\zeta\lt1.
 ```
 
 Set `z=(1-x)/x` and take the reciprocal cubics as in the theorem.

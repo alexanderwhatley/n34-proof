@@ -14,7 +14,7 @@ m_s=x^{s_1}(1-x)^{s_2},\quad \rho=x(1-x),\quad
 
 #### Theorem.
 
-Let $`A,B,C>0`$ and
+Let $`A,B,C\gt0`$ and
 
 ```math
 F=1+A m_u-Bm_v-Cm_w.
@@ -23,13 +23,13 @@ F=1+A m_u-Bm_v-Cm_w.
  Suppose all coordinates of $`u,v,w`$ are positive, $`u`$ and $`v`$ are comparable, and both lie northwest of $`w`$:
 
 ```math
-u_1<w_1,\quad v_1<w_1,\qquad
- u_2>w_2,\quad v_2>w_2,
+u_1\lt w_1,\quad v_1\lt w_1,\qquad
+ u_2\gt w_2,\quad v_2\gt w_2,
 ```
 
- with either $`u_1<v_1,\ u_2<v_2`$ or $`u_1>v_1,\ u_2>v_2`$. Then $`F`$ has at most eight distinct roots in $`(0,1)`$.
+ with either $`u_1\lt v_1,\ u_2\lt v_2`$ or $`u_1\gt v_1,\ u_2\gt v_2`$. Then $`F`$ has at most eight distinct roots in $`(0,1)`$.
 
-The case $`v<u`$ is the whole F1 domain. The case $`u<v`$ is the whole endpoint-cancellation domain of Theorem 6.1 of source s009. Thus the same proof replaces both domains; it does not require an exhaustion by affine inequalities or a regular-Wronskian small-gap complement.
+The case $`v\lt u`$ is the whole F1 domain. The case $`u\lt v`$ is the whole endpoint-cancellation domain of Theorem 6.1 of source s009. Thus the same proof replaces both domains; it does not require an exhaustion by affine inequalities or a regular-Wronskian small-gap complement.
 
 #### Retained two-term counting input.
 
@@ -43,7 +43,7 @@ P(x)+x^\alpha(1-x)^\beta Q(x)=0
 
 #### The endpoint operator.
 
-For $`0<\theta<1`$ and $`k\leq1`$ let
+For $`0\lt\theta\lt1`$ and $`k\leq1`$ let
 
 ```math
 \mathcal L f=\rho f''+k(\theta-x)f'+kf.
@@ -55,7 +55,7 @@ For $`0<\theta<1`$ and $`k\leq1`$ let
 \mathcal Lh_0/h_0=-(1-k)\theta(1-\theta)/\rho\leq0.
 ```
 
- Writing a kernel solution as $`h=h_0z`$ gives $`z''+pz'-Vz=0`$ with $`V=(1-k)\theta(1-\theta)/\rho^2\geq0`$. From interior data $`z=1,z'=0`$, the identity $`(\mu z')'=\mu Vz`$ for a positive integrating factor shows that $`z`$ never reaches zero on either side of the initial point. Hence $`h>0`$. The Wronskian of $`h`$ and $`\theta-x`$ is nonzero by Abel’s identity (and equals $`-h(\theta)`$ at $`x=\theta`$). For the regular coordinate $`\tau=(\theta-x)/h`$, writing $`f=hV_0(\tau)`$ gives $`\mathcal Lf=\rho h(\tau')^2 V_0''(\tau)`$, proving the two-root loss by Rolle.
+ Writing a kernel solution as $`h=h_0z`$ gives $`z''+pz'-Vz=0`$ with $`V=(1-k)\theta(1-\theta)/\rho^2\geq0`$. From interior data $`z=1,z'=0`$, the identity $`(\mu z')'=\mu Vz`$ for a positive integrating factor shows that $`z`$ never reaches zero on either side of the initial point. Hence $`h\gt0`$. The Wronskian of $`h`$ and $`\theta-x`$ is nonzero by Abel’s identity (and equals $`-h(\theta)`$ at $`x=\theta`$). For the regular coordinate $`\tau=(\theta-x)/h`$, writing $`f=hV_0(\tau)`$ gives $`\mathcal Lf=\rho h(\tau')^2 V_0''(\tau)`$, proving the two-root loss by Rolle.
 
 For $`f_s=\lambda_{s-w}m_s`$, define its cubic core by
 
@@ -89,10 +89,10 @@ Let $`r=\max(u,v)`$ and $`\ell=\min(u,v)`$ coordinatewise. Put
 **(C)**
 
 ```math
-C_\ell(0)>0,\qquad C_\ell(1)>0,
+C_\ell(0)\gt0,\qquad C_\ell(1)\gt0,
 ```
 
- since $`\ell_1<w_1`$, $`\ell_2>w_2`$ and $`\ell_i<r_i\leq T_i`$.
+ since $`\ell_1\lt w_1`$, $`\ell_2\gt w_2`$ and $`\ell_i\lt r_i\leq T_i`$.
 
 The first beta annihilation gives the exact identity
 
@@ -113,13 +113,13 @@ R=\rho\mathcal LG=A m_u C_u-Bm_v C_v,
 
 #### The complementary region uses the same interpolation lemma.
 
-If $`k_{*}>1`$, (B) gives
+If $`k_{*}\gt1`$, (B) gives
 
 ```math
-r_1<1-\theta,\qquad r_2<\theta.
+r_1\lt1-\theta,\qquad r_2\lt\theta.
 ```
 
- In particular $`0<u_1,u_2<1`$. No information about the modes of $`u`$ or $`v`$, or about a zero-free third Wronskian, is needed.
+ In particular $`0\lt u_1,u_2\lt1`$. No information about the modes of $`u`$ or $`v`$, or about a zero-free third Wronskian, is needed.
 
 Set
 
@@ -132,7 +132,7 @@ H(p,q)=\lambda_pD\lambda_q-\lambda_qD\lambda_p
 
 ```math
 P=H(w-v,u-v),\qquad Q=-H(w-v,-v),\qquad
- L=\lambda_{w-v}>0.
+ L=\lambda_{w-v}\gt0.
 ```
 
  The pole-free negative-pair reduction is
@@ -151,9 +151,9 @@ P(0)=-(e-c)(e-a)(a-c),\qquad
  P(1)=(d-f)(b-f)(b-d).
 ```
 
- They have opposite signs because $`(a-c)(b-d)>0`$. Thus $`P`$ is nonzero and has an interior root.
+ They have opposite signs because $`(a-c)(b-d)\gt0`$. Thus $`P`$ is nonzero and has an interior root.
 
-The interior-root interpolation lemma of the review therefore applies: if $`P,Q`$ have degree at most three, $`P`$ has an interior root, and $`0<a,b<1`$, then $`Q=A x^a(1-x)^bP`$ has at most seven distinct solutions. Two Rolle steps in (E) give nine original roots, and positive endpoint parity gives eight in the generic case. The lemma is the same for both comparable orientations; its proof uses no source-specific cofactor order.
+The interior-root interpolation lemma of the review therefore applies: if $`P,Q`$ have degree at most three, $`P`$ has an interior root, and $`0\lt a,b\lt1`$, then $`Q=A x^a(1-x)^bP`$ has at most seven distinct solutions. Two Rolle steps in (E) give nine original roots, and positive endpoint parity gives eight in the generic case. The lemma is the same for both comparable orientations; its proof uses no source-specific cofactor order.
 
 #### Distinct roots and seams.
 

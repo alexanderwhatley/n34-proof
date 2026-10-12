@@ -13,7 +13,7 @@ In addition to the strict parameter inequalities, assume
 **(1)**
 
 ```math
-A:=p+q>4,\qquad \lambda>A(M+yr).
+A:=p+q\gt4,\qquad \lambda\gt A(M+yr).
 ```
 
 If
@@ -21,12 +21,12 @@ If
 **(2)**
 
 ```math
-E_1,E_2,E_3>0,\qquad
+E_1,E_2,E_3\gt0,\qquad
 8E_2^2-15E_1E_3\ge0,\qquad
 9E_3^2-16E_2E_4\ge0,
 ```
 
-then $`h>0`$. There is no assumption about the ordering of the events,
+then $`h\gt0`$. There is no assumption about the ordering of the events,
 the nonreal roots of their cubics, or the sign of $`E_4`$.
 
 The coefficient conditions in (2) are necessary when all six zeros of
@@ -36,46 +36,46 @@ positivity for every choice of the parameters without (1) and (2).
 Assume $`h\le0`$ for a contradiction. In the proof below set
 
 ```math
-v=-h\ge0,\qquad r=p+t,\qquad y=q+e,\qquad a=A-4>0.
+v=-h\ge0,\qquad r=p+t,\qquad y=q+e,\qquad a=A-4\gt0.
 ```
 
-Here $`e,t>0`$, and the definition of $`h`$ gives
+Here $`e,t\gt0`$, and the definition of $`h`$ gives
 $`2p-2q+t-e-3+v=0`$. This relation is understood in every source
 identity below.
 
 ## 1. The sign of $`M`$
 
-We first show $`M<0`$. Suppose instead that $`M\ge0`$. Condition (1)
+We first show $`M\lt0`$. Suppose instead that $`M\ge0`$. Condition (1)
 gives
 
 ```math
-T>(A-2)M+q\{py+r(2y-p)\}.
+T\gt(A-2)M+q\{py+r(2y-p)\}.
 ```
 
-If $`p\le2y`$, the right side is strictly positive. If $`p>2y`$, the
+If $`p\le2y`$, the right side is strictly positive. If $`p\gt2y`$, the
 assumption $`h\le0`$ gives
 
 ```math
-r\le q+y+3-p<2y+3-p<3,\qquad p<r<3,
-\qquad y>q>4-p.
+r\le q+y+3-p\lt2y+3-p\lt3,\qquad p\lt r\lt3,
+\qquad y\gt q\gt4-p.
 ```
 
-Since $`2y-p<0`$,
+Since $`2y-p\lt0`$,
 
 ```math
 \begin{aligned}
-py+r(2y-p)&>y(p+6)-3p\\
-&>(4-p)(p+6)-3p=(3-p)(p+8)>0.
+py+r(2y-p)&\gt y(p+6)-3p\\
+&\gt(4-p)(p+6)-3p=(3-p)(p+8)\gt0.
 \end{aligned}
 ```
 
-Thus $`T>0`$ in either case. But
+Thus $`T\gt0`$ in either case. But
 
 ```math
-E_2=hT-Y-5ME_1-15M^2<0,
+E_2=hT-Y-5ME_1-15M^2\lt0,
 ```
 
-contradicting (2). Write $`M=-n`$, so $`0<n<pq`$.
+contradicting (2). Write $`M=-n`$, so $`0\lt n\lt pq`$.
 
 ## 2. Two bounds for the first two coefficients
 
@@ -93,12 +93,12 @@ The exact identity
 F(n)-E_2=v\{\lambda-A(yr-n)\}\ge0
 ```
 
-shows that $`F(n)>0`$. Two positive expressions will establish
+shows that $`F(n)\gt0`$. Two positive expressions will establish
 
 **(4)**
 
 ```math
-n>11N/15,\qquad A_\sharp:=15nE_1-14E_2>0.
+n\gt11N/15,\qquad A_\sharp:=15nE_1-14E_2\gt0.
 ```
 
 For completeness, the required polynomial identities are given here.
@@ -130,15 +130,15 @@ a\left(\frac{11}{30}+\frac1{60}t+\frac2{15}q\right)
 \end{aligned}
 ```
 
-Both are strictly positive: use $`p,q>0`$, the term
+Both are strictly positive: use $`p,q\gt0`$, the term
 $`(45/44)p^2`$ in $`G_0`$, and the term $`(11/30)pa`$ in $`G_c`$.
-If $`0<n\le c`$, the quadratic interpolation identity
+If $`0\lt n\le c`$, the quadratic interpolation identity
 
 ```math
-cF(n)=(c-n)F(0)+nF(c)-15cn(c-n)<0
+cF(n)=(c-n)F(0)+nF(c)-15cn(c-n)\lt0
 ```
 
-contradicts $`F(n)>0`$. This proves the first bound in (4).
+contradicts $`F(n)\gt0`$. This proves the first bound in (4).
 
 For the second, put
 
@@ -149,7 +149,7 @@ J_{*}(n)=15n(6n-Z)-14F(n).
 Its leading coefficient is $`-120`$. Its endpoint values are
 
 ```math
-J_{*}(0)=14qG_0>0,\qquad J_{*}(N)=qK_{*}\ge0,
+J_{*}(0)=14qG_0\gt0,\qquad J_{*}(N)=qK_{*}\ge0,
 ```
 
 where
@@ -163,10 +163,10 @@ K_{*}={}&p\big[
 \end{aligned}
 ```
 
-All its terms are nonnegative. Hence, for $`0<n<N`$,
+All its terms are nonnegative. Hence, for $`0\lt n\lt N`$,
 
 ```math
-NJ_{*}(n)=(N-n)J_{*}(0)+nJ_{*}(N)+120Nn(N-n)>0.
+NJ_{*}(n)=(N-n)J_{*}(0)+nJ_{*}(N)+120Nn(N-n)\gt0.
 ```
 
 Finally (3) gives
@@ -184,10 +184,10 @@ Put
 
 ```math
 \delta=N-n,\quad \lambda_0=A(yr-n),\quad
-\ell=\lambda-\lambda_0>0.
+\ell=\lambda-\lambda_0\gt0.
 ```
 
-By (4), $`0<\delta<4N/15`$. Define the values at the least permitted
+By (4), $`0\lt\delta\lt4N/15`$. Define the values at the least permitted
 scale:
 
 ```math
@@ -213,15 +213,15 @@ L:=2E_4-nE_3&=L_0+\sigma\ell,
 where
 
 ```math
-D_3=(p+7q)(er+qt)+\delta(4A-9+3v)>0,
+D_3=(p+7q)(er+qt)+\delta(4A-9+3v)\gt0,
 ```
 
 ```math
 \sigma=3\{-3Dn+2Yh+4Y+(h+5)n^2\}.
 ```
 
-In particular $`F=E_2+v\ell>0`$. A positive coefficient identity
-proves $`L_0>0`$. Its full list of 342 terms is in
+In particular $`F=E_2+v\ell\gt0`$. A positive coefficient identity
+proves $`L_0\gt0`$. Its full list of 342 terms is in
 [height-floor.json](../../../calculation-data/reciprocal/height-floor.json).
 It states
 
@@ -230,7 +230,7 @@ It states
 ```math
 L_0=\sum_i c_i p^{\alpha_i}q^{\beta_i}
  e^{\gamma_i}t^{\tau_i}\delta^{\kappa_i}g_i,
-\qquad c_i>0.
+\qquad c_i\gt0.
 ```
 
 The possible factors $`g_i`$ are
@@ -243,19 +243,19 @@ The possible factors $`g_i`$ are
 
 They are all nonnegative. One term in (6) is a strictly positive
 rational multiple of $`pqt^6`$, so the strict inequality follows from
-$`p,q,t>0`$. The exact rational values, not rounded values, are part of
+$`p,q,t\gt0`$. The exact rational values, not rounded values, are part of
 the identity in the data file.
 
-Let $`N_2=8E_2^2-15E_1E_3`$. Throughout the interval where $`E_2>0`$,
+Let $`N_2=8E_2^2-15E_1E_3`$. Throughout the interval where $`E_2\gt0`$,
 
 **(7)**
 
 ```math
-N_2'=-16vE_2-15E_1(4\ell+D_3)<0.
+N_2'=-16vE_2-15E_1(4\ell+D_3)\lt0.
 ```
 
 Thus $`N_2`$ decreases strictly with the scale parameter. We will show
-that $`N_2\ge0`$ forces $`L>0`$.
+that $`N_2\ge0`$ forces $`L\gt0`$.
 
 ## 4. A smaller parameter range for the remaining sign
 
@@ -270,7 +270,7 @@ Put
 \qquad k=\delta/N,\qquad \nu=1-k.
 ```
 
-Since $`e,t>0`$, $`u>0`$. Direct expansion gives
+Since $`e,t\gt0`$, $`u\gt0`$. Direct expansion gives
 
 ```math
 yr=N+U,\quad Y=N(N+U),\quad D=(3-v)N+\Delta U,
@@ -279,18 +279,18 @@ yr=N+U,\quad Y=N(N+U),\quad D=(3-v)N+\Delta U,
 **(8)**
 
 ```math
-uA>|(u+4)\Delta+2v-6|.
+uA\gt|(u+4)\Delta+2v-6|.
 ```
 
 For the last inequality, let $`\omega=e-t=2\Delta+v-3`$.
 The identities
 
 ```math
-U-p\omega=t(A+e)>0,\qquad
-U+q\omega=e(A+t)>0
+U-p\omega=t(A+e)\gt0,\qquad
+U+q\omega=e(A+t)\gt0
 ```
 
-give $`-U/q<\omega<U/p`$. Rewriting these two inequalities gives
+give $`-U/q\lt\omega\lt U/p`$. Rewriting these two inequalities gives
 (8).
 
 Here are normalized formulas for the endpoint quantities. They also
@@ -331,12 +331,12 @@ F=Nf_2,\quad E_{30}=N^2f_3,\quad L_0=N^3f_L,
 \quad \sigma=N^2\bar\sigma,\quad D_3=N\bar d.
 ```
 
-We need the useful bound $`u<3/4`$. Because $`f_2>0`$, it suffices
+We need the useful bound $`u\lt3/4`$. Because $`f_2\gt0`$, it suffices
 to show that its value at $`u=3/4`$ is negative. Indeed
 
 ```math
 f_2(u)=f_2(3/4)-H(u-3/4),
-\quad H=N(6-5k)+(A-\Delta)v>0.
+\quad H=N(6-5k)+(A-\Delta)v\gt0.
 ```
 
 Define five scalar polynomials in $`k`$:
@@ -378,13 +378,13 @@ coefficient lists are:
 A list of length $`d+1`$ represents $`\sum_i c_iB_i^d(\eta)`$,
 where $`B_i^d(x)={d\choose i}x^i(1-x)^{d-i}`$. These basis functions
 are nonnegative and sum to one. Equation (11) therefore has a strictly
-positive right side. Since $`A\ge4`$, it implies $`f_2(3/4)<0`$,
+positive right side. Since $`A\ge4`$, it implies $`f_2(3/4)\lt0`$,
 and hence
 
 **(12)**
 
 ```math
-0<u<3/4.
+0\lt u\lt3/4.
 ```
 
 ## 5. The exact sign identity
@@ -405,10 +405,10 @@ Put $`V_{\max}=3+A(2+uw)`$ and $`\rho=v/V_{\max}`$. The exact
 formula
 
 ```math
-p=\frac{(1-\rho)V_{\max}}{u+4}>0
+p=\frac{(1-\rho)V_{\max}}{u+4}\gt0
 ```
 
-shows that $`0\le\rho<1`$. The variables for the coefficient identity
+shows that $`0\le\rho\lt1`$. The variables for the coefficient identity
 are thus
 
 ```math
@@ -440,17 +440,17 @@ $`(0,2,4,0)`$. Their contribution is
 
 ```math
 \frac{1134592}{35}B_0^{11}(\theta)B_2^8(\eta)
-\{B_0^4(w)+B_4^4(w)\}B_0^4(\rho)>0.
+\{B_0^4(w)+B_4^4(w)\}B_0^4(\rho)\gt0.
 ```
 
-The first and last factors are positive because $`\theta,\rho<1`$,
-the second because $`0<\eta<1`$, and the brace because it equals
-$`(1-w)^4+w^4>0`$. All other terms in (13) are nonnegative. Thus
+The first and last factors are positive because $`\theta,\rho\lt1`$,
+the second because $`0\lt\eta\lt1`$, and the brace because it equals
+$`(1-w)^4+w^4\gt0`$. All other terms in (13) are nonnegative. Thus
 
 **(14)**
 
 ```math
-\overline{Q_R}<0.
+\overline{Q_R}\lt0.
 ```
 
 The calculation program
@@ -462,11 +462,11 @@ range of parameters rather than merely for finitely many samples.
 
 ## 6. Finishing the contradiction
 
-We return to $`L=L_0+\sigma\ell`$. If $`\sigma\ge0`$, then $`L>0`$
-immediately. Suppose $`\sigma<0`$, and let
+We return to $`L=L_0+\sigma\ell`$. If $`\sigma\ge0`$, then $`L\gt0`$
+immediately. Suppose $`\sigma\lt0`$, and let
 
 ```math
-\ell_L=-L_0/\sigma>0,\qquad J=\sigma F+vL_0.
+\ell_L=-L_0/\sigma\gt0,\qquad J=\sigma F+vL_0.
 ```
 
 This is the scale where $`L`$ vanishes. Since
@@ -476,11 +476,11 @@ E_2(\ell_L)=J/\sigma,
 ```
 
 if $`J\ge0`$, this scale is at or beyond the endpoint where $`E_2`$
-ceases to be positive. Thus the actual scale with $`E_2>0`$ has
-$`\ell<\ell_L`$, and $`L>0`$.
+ceases to be positive. Thus the actual scale with $`E_2\gt0`$ has
+$`\ell\lt\ell_L`$, and $`L\gt0`$.
 
-It remains to treat $`J<0`$. In this case $`\ell_L`$ lies inside the
-interval where $`E_2>0`$. Define
+It remains to treat $`J\lt0`$. In this case $`\ell_L`$ lies inside the
+interval where $`E_2\gt0`$. Define
 
 ```math
 Q=\sigma^2N_2(\ell_L),\qquad
@@ -488,7 +488,7 @@ Q_R=\sigma^2\{4nE_2(\ell_L)-7E_3(\ell_L)\}.
 ```
 
 Substitution in (5) and (9) gives
-$`Q_R=N^6\overline{Q_R}<0`$. The exact identity
+$`Q_R=N^6\overline{Q_R}\lt0`$. The exact identity
 
 **(15)**
 
@@ -500,22 +500,22 @@ compares the needed Newton expression with this negative quantity.
 The sharp bound (4), applied at $`\lambda_0+\ell_L`$, gives
 
 ```math
-15nE_1-14J/\sigma>0.
+15nE_1-14J/\sigma\gt0.
 ```
 
 Therefore the brace in (15) equals $`\sigma`$ times a positive
-quantity and is negative. Since $`J<0`$, the correction term in (15)
-is strictly positive. Its left side is negative, so $`Q<0`$.
+quantity and is negative. Since $`J\lt0`$, the correction term in (15)
+is strictly positive. Its left side is negative, so $`Q\lt0`$.
 
 By (7), $`N_2`$ is strictly decreasing throughout this interval.
 Consequently every point with $`N_2\ge0`$ occurs before
-$`\ell_L`$, again giving $`L>0`$. We have proved $`L>0`$ in all
+$`\ell_L`$, again giving $`L\gt0`$. We have proved $`L\gt0`$ in all
 cases of the affine slope.
 
 Now put
 
 ```math
-B_{28}=28E_4-9nE_3=14L+5nE_3>0.
+B_{28}=28E_4-9nE_3=14L+5nE_3\gt0.
 ```
 
 The exact coefficient identity
@@ -526,7 +526,7 @@ The exact coefficient identity
 ```
 
 has a negative left side and a strictly positive right side, by (2)
-and (4). This is the final contradiction. Thus $`h>0`$.
+and (4). This is the final contradiction. Thus $`h\gt0`$.
 
 This proves the stated height lemma with its precise premises. It does
 not prove that the remaining two event orders are impossible or supply

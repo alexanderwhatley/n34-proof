@@ -7,11 +7,11 @@ This is a universal analytical lemma for a negative-rooted positive cubic. It do
 Let
 
 ```math
-0<\eta<\xi,\qquad a=\eta(1+\eta),\quad b=\xi(1+\xi),
-\qquad R(r)=k\prod_{i=1}^3(r+A_i),\quad k,A_i>0.
+0\lt\eta\lt\xi,\qquad a=\eta(1+\eta),\quad b=\xi(1+\xi),
+\qquad R(r)=k\prod_{i=1}^3(r+A_i),\quad k,A_i\gt0.
 ```
 
-Assume the mixed-wall inequalities $`R(\eta)>a`$ and $`R(\xi)<b`$. Write
+Assume the mixed-wall inequalities $`R(\eta)\gt a`$ and $`R(\xi)\lt b`$. Write
 
 ```math
 (1+x)^3R\left(\frac{\eta+\xi x}{1+x}\right)
@@ -28,7 +28,7 @@ C_2=g_1^2+2g_2(g_0-2a)-a^2-2ab-(\xi-\eta)^2,
 C_4=b^2+2ab+(\xi-\eta)^2+2g_1(2b-g_3)-g_2^2.
 ```
 
-Then $`C_2+C_4>0`$. In particular these two coefficients cannot both be negative, or both be zero.
+Then $`C_2+C_4\gt0`$. In particular these two coefficients cannot both be negative, or both be zero.
 
 To prove this, put
 
@@ -41,17 +41,17 @@ e_1=z_1+z_2+z_3,\quad e_2=z_1z_2+z_1z_3+z_2z_3,\quad p=z_1z_2z_3,
 s=\frac{g_3}{b}\in(0,1),\qquad m=\frac ab.
 ```
 
-The transformed source has $`g_0=sbp`$, $`g_1=sb e_2`$, $`g_2=sb e_1`$, $`g_3=sb`$, so the left-wall inequality is $`sp>m`$. Introduce
+The transformed source has $`g_0=sbp`$, $`g_1=sb e_2`$, $`g_2=sb e_1`$, $`g_3=sb`$, so the left-wall inequality is $`sp\gt m`$. Introduce
 
 ```math
-D=\prod_{i=1}^3(1-z_i^2)>0,\qquad
-J=(e_1+p)^2+2e_2-e_2^2>0.
+D=\prod_{i=1}^3(1-z_i^2)\gt0,\qquad
+J=(e_1+p)^2+2e_2-e_2^2\gt0.
 ```
 
-The latter sign follows from $`e_1>e_2>0`$, since
+The latter sign follows from $`e_1\gt e_2\gt0`$, since
 
 ```math
-2(e_1-e_2)=\sum_{i=1}^3 z_i(2-z_j-z_k)>0
+2(e_1-e_2)=\sum_{i=1}^3 z_i(2-z_j-z_k)\gt0
 ```
 
 with $`\{i,j,k\}=\{1,2,3\}`$. The exact identity

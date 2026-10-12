@@ -3,7 +3,7 @@
 Consider
 
 ```math
-f=1-\sum_{i=1}^3E_i h_i,\qquad h_i=x^{a_i}(1-x)^{b_i},\qquad E_i>0.
+f=1-\sum_{i=1}^3E_i h_i,\qquad h_i=x^{a_i}(1-x)^{b_i},\qquad E_i\gt0.
 ```
 
 A support is its exponent pair $`(a_i,b_i)`$. The shorthand $`(+,-)`$ records the signs of its two exponents, not the sign of its coefficient. At the left endpoint, the support with least first exponent dominates; at the right, the least second exponent dominates. Strict coordinate orders make these choices unique. A common endpoint dominant means the same support wins at both ends.
@@ -77,24 +77,24 @@ exponents and
 **(9)**
 
 ```math
-a_L<0<b_L,\qquad a_L<a_i\quad(i\ne L),
+a_L\lt0\lt b_L,\qquad a_L\lt a_i\quad(i\ne L),
 ```
 
-and assume the right endpoint is negative, i.e. some $`b_R<0`$.
+and assume the right endpoint is negative, i.e. some $`b_R\lt0`$.
 If $`f`$ had ten roots, then necessarily
 
 **(10)**
 
 ```math
-a_i>0\qquad(i\ne L).
+a_i\gt0\qquad(i\ne L).
 ```
 
-**Proof.** Since $`a_L<0<b_L`$,
+**Proof.** Since $`a_L\lt0\lt b_L`$,
 
 **(11)**
 
 ```math
-g_L=(a_L(1-x)-b_Lx)h_L<0
+g_L=(a_L(1-x)-b_Lx)h_L\lt0
 ```
 
 throughout $`(0,1)`$.  Thus
@@ -131,11 +131,11 @@ The endpoint germs are sign-controlled.  Unique left dominance gives
 **(14)**
 
 ```math
-H(x)\longrightarrow E_L>0\qquad(x\to0+).
+H(x)\longrightarrow E_L\gt0\qquad(x\to0+).
 ```
 
-At the right, a $`b_R<0`$ term makes $`N\to+\infty`$, while
-$`g_L<0`$ and tends to zero because $`b_L>0`$, so
+At the right, a $`b_R\lt0`$ term makes $`N\to+\infty`$, while
+$`g_L\lt0`$ and tends to zero because $`b_L\gt0`$, so
 
 **(15)**
 
@@ -144,7 +144,7 @@ H(x)\longrightarrow-\infty\qquad(x\to1-).
 ```
 
 Nine simple zeros therefore start with a downward crossing.  If
-$`\delta H>0`$ in a left endpoint germ, $`H`$ must first acquire a
+$`\delta H\gt0`$ in a left endpoint germ, $`H`$ must first acquire a
 critical point before that downward crossing.  Together with the eight
 inter-zero critical points this would contradict (13).
 
@@ -158,16 +158,16 @@ H=E_L+E_k\frac{a_k}{a_L}x^{a_k-a_L}(1+o(1))
 ```
 
 at the left (terms with larger $`a_i`$ are lower order).  If
-$`a_k<0`$, then $`a_k/a_L>0`$ and $`a_k-a_L>0`$, so
-$`\delta H>0`$ in a left germ, the forbidden situation above.  If
-$`a_k=0`$, Lemma 1 already excludes ten roots.  Hence $`a_k>0`$, and
+$`a_k\lt0`$, then $`a_k/a_L\gt0`$ and $`a_k-a_L\gt0`$, so
+$`\delta H\gt0`$ in a left germ, the forbidden situation above.  If
+$`a_k=0`$, Lemma 1 already excludes ten roots.  Hence $`a_k\gt0`$, and
 then every $`a_i`$, $`i\ne L`$, is positive.  $`\square`$
 
 Reflection gives the exact right-hand analogue.
 
 **Lemma 3.**  If $`R`$ is the unique right minimizer and
-$`b_R<0<a_R`$, then a ten-root configuration forces
-$`b_i>0`$ for every $`i\ne R`$.
+$`b_R\lt0\lt a_R`$, then a ten-root configuration forces
+$`b_i\gt0`$ for every $`i\ne R`$.
 
 For clarity, applying Lemmas 2 and 3 classifies every generic split
 pattern as follows.
@@ -216,7 +216,7 @@ negative-negative term. A ten-root configuration requires
 **(R1)**
 
 ```math
-\min_{j\ne D}a_j>0\quad\text{or}\quad \min_{j\ne D}b_j>0.
+\min_{j\ne D}a_j\gt0\quad\text{or}\quad \min_{j\ne D}b_j\gt0.
 ```
 
 Because a ten-simple-root chamber is open, perturb generically within
@@ -230,9 +230,9 @@ $`Z(N)=9`$.
 
 If zeros occur on both sides of the pole, there are seven inter-zero
 critical points. Another negative left exponent makes
-$`\delta H>0`$ at the left endpoint although the first zero is a
+$`\delta H\gt0`$ at the left endpoint although the first zero is a
 downward crossing, forcing a pre-zero critical point. Another
-negative right exponent makes $`\delta H<0`$ at the right endpoint
+negative right exponent makes $`\delta H\lt0`$ at the right endpoint
 although the last zero is an upward crossing, forcing a post-zero
 critical point. This totals nine, contradicting the EHT bound eight.
 If all nine zeros lie on one side of the pole, there are already eight
@@ -255,15 +255,15 @@ $`L,R`$ are both negative-negative, ten roots force the third term $`K`$ to
 be plus-plus.
 
 Writing $`\rho_i`$ for the mode of a negative-negative term, coordinate
-dominance gives $`\rho_R<\rho_L`$. Apply the same pole count to
+dominance gives $`\rho_R\lt\rho_L`$. Apply the same pole count to
 $`N/g_L`$. Because a second negative left exponent is present, all
 nine zeros of $`N`$ cannot lie left of $`\rho_L`$; hence one lies to
 its right. The reflected argument for $`N/g_R`$ supplies a zero left
-of $`\rho_R`$. At the left zero both $`g_L,g_R<0`$, so $`N=0`$
-forces $`g_K>0`$. At the right zero both $`g_L,g_R>0`$, so $`N=0`$
-forces $`g_K<0`$. The affine factor
+of $`\rho_R`$. At the left zero both $`g_L,g_R\lt0`$, so $`N=0`$
+forces $`g_K\gt0`$. At the right zero both $`g_L,g_R\gt0`$, so $`N=0`$
+forces $`g_K\lt0`$. The affine factor
 $`a_K(1-x)-b_Kx`$ therefore changes from positive to negative,
-forcing $`a_K,b_K>0`$.
+forcing $`a_K,b_K\gt0`$.
 
 ## An elementary convexity exclusion
 
@@ -276,7 +276,7 @@ h''=x^{a-2}(1-x)^{b-2}
  \bigl(a(a-1)(1-x)^2-2abx(1-x)+b(b-1)x^2\bigr).
 ```
 
-The quadratic factor is nonnegative for every $`0<x<1`$ exactly in
+The quadratic factor is nonnegative for every $`0\lt x\lt1`$ exactly in
 the following exponent cone:
 
 **(20)**
@@ -289,9 +289,9 @@ the following exponent cone:
 
 Necessity follows from the two endpoint coefficients and from the
 negative second derivative at the interior mode when $`a,b\geq1`$.
-Sufficiency is immediate when $`ab\leq0`$; when $`a,b<0`$, the
+Sufficiency is immediate when $`ab\leq0`$; when $`a,b\lt0`$, the
 quadratic has positive endpoint coefficients and negative
-discriminant $`4ab(a+b-1)<0`$.
+discriminant $`4ab(a+b-1)\lt0`$.
 
 **Lemma 4 (convex-mixture chamber).**  If all three exponent pairs
 belong to $`\mathcal C`$, then $`S`$ is convex, $`f=1-S`$ is concave,

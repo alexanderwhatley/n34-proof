@@ -2,7 +2,7 @@
 
 Fewnomial theory asks how the number of terms in polynomial equations limits their number of solutions, independently of their degrees. The case $`N(3,4)`$ concerns two equations in two variables: one with at most three monomial terms and the other with at most four.
 
-This repository proves **$`N(3,4)=9`$**: nine is the largest possible number of isolated solutions with $`x,y>0`$. The [main proof](docs/proof.md) states the precise counting conventions. The result combines a bound that applies to every such system with an explicit example attaining nine.
+This repository proves **$`N(3,4)=9`$**: nine is the largest possible number of isolated solutions with $`x,y\gt0`$. The [main proof](docs/proof.md) states the precise counting conventions. The result combines a bound that applies to every such system with an explicit example attaining nine.
 
 ## The problem and prior results
 
@@ -33,7 +33,7 @@ Start with the [reading guide](docs/reading-guide.md), then read the main argume
 The reduction turns the system into a four-term function
 
 ```math
-F(x)=\sum_{i=0}^{3}c_i x^{a_i}(1-x)^{b_i},\qquad 0<x<1.
+F(x)=\sum_{i=0}^{3}c_i x^{a_i}(1-x)^{b_i},\qquad 0\lt x\lt1.
 ```
 
 The proof shows that a nonzero function of this form has at most nine distinct zeros for arbitrary real coefficients and exponents, then transfers that bound back to the polynomial system. The appendix supplies the specialized inequalities needed in the argument, including their parameter restrictions.

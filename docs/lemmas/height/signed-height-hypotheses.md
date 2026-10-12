@@ -10,13 +10,13 @@ equivalence to that root word.
 In particular, C having roots
 
 ```math
--1<\gamma_1<\gamma_2<0<r_3<\gamma_3
+-1\lt\gamma_1\lt\gamma_2\lt0\lt r_3\lt\gamma_3
 ```
 
 and E having placements
 
 ```math
-\epsilon_-<\gamma_1,\qquad\epsilon_+<\gamma_3
+\epsilon_-\lt\gamma_1,\qquad\epsilon_+\lt\gamma_3
 ```
 
 does not by itself force two real central D roots. The inherited
@@ -27,7 +27,7 @@ The earlier proof files are unchanged.
 The smaller-gap master has the additional actual-source HEIGHT witness
 
 ```math
-0<c_1<V(y),\qquad \gamma_1<p(y)<\gamma_2.
+0\lt c_1\lt V(y),\qquad \gamma_1\lt p(y)\lt\gamma_2.
 ```
 
 For the signed E placement, E is positive throughout that central

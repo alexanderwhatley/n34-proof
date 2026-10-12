@@ -13,7 +13,7 @@ v=x^a(1-x)^b,\quad q=x^A(1-x)^B,\quad
 u=v^h q^n,\quad 0\prec s_u\prec s_v,
 ```
 
-where $`a,b,A,B>0`$, $`\Delta=aB-bA>0`$, and $`0<h<1`$. Put
+where $`a,b,A,B\gt0`$, $`\Delta=aB-bA\gt0`$, and $`0\lt h\lt1`$. Put
 
 ```math
 H=1-h,\quad \alpha=b/B,\quad k=\Delta/B,
@@ -23,15 +23,15 @@ H=1-h,\quad \alpha=b/B,\quad k=\Delta/B,
 The second-coordinate source constraints give
 
 ```math
-0<\sigma<\alpha,\qquad
-\lambda_T:=H\alpha-n=\alpha-\sigma>0.
+0\lt\sigma\lt\alpha,\qquad
+\lambda_T:=H\alpha-n=\alpha-\sigma\gt0.
 ```
 
 At the two original points with one common $`q_0`$, define
 
 ```math
-D=\frac1{v_L}-\frac1{v_R}>0,\qquad
-T=q_0^n(v_L^{-H}-v_R^{-H})>0.
+D=\frac1{v_L}-\frac1{v_R}\gt0,\qquad
+T=q_0^n(v_L^{-H}-v_R^{-H})\gt0.
 ```
 
 Here $`s=\log q_0`$, and the subscript $`s`$ means differentiation with respect to this one common variable. Set
@@ -42,14 +42,14 @@ Here $`s=\log q_0`$, and the subscript $`s`$ means differentiation with respect 
 \mathcal K=\frac{T-T_s}{D-D_s}.
 ```
 
-All three are positive and strictly increasing on $`0<q_0<q_{\max}`$, with
+All three are positive and strictly increasing on $`0\lt q_0\lt q_{\max}`$, with
 
 ```math
-0<\mathcal J<\mathcal K<\mathcal I,
+0\lt\mathcal J\lt\mathcal K\lt\mathcal I,
 \qquad
-\frac{d\log\mathcal I}{ds}>\sigma,
-\frac{d\log\mathcal J}{ds}>\sigma,
-\quad\frac{d\log\mathcal K}{ds}>\sigma.
+\frac{d\log\mathcal I}{ds}\gt\sigma,
+\frac{d\log\mathcal J}{ds}\gt\sigma,
+\quad\frac{d\log\mathcal K}{ds}\gt\sigma.
 ```
 
 Their common lower endpoint limit is zero, and their common upper endpoint limit is
@@ -58,13 +58,13 @@ Their common lower endpoint limit is zero, and their common upper endpoint limit
 M=H u(A/(A+B)).
 ```
 
-For a fixed original $`c_1>0`$, let $`R_L,R_R`$ be the original quotients $`(u-c_1)/v`$. At each branch let
+For a fixed original $`c_1\gt0`$, let $`R_L,R_R`$ be the original quotients $`(u-c_1)/v`$. At each branch let
 
 ```math
 L_4=\frac{dR}{dq_0},\qquad L_3=R-q_0L_4.
 ```
 
-If $`c_1<M`$, there are unique heights $`q_I<q_K<q_J`$ at which respectively $`\mathcal I,\mathcal K,\mathcal J`$ equal $`c_1`$. The three actual branch differences have exactly these strict crossing orders:
+If $`c_1\lt M`$, there are unique heights $`q_I\lt q_K\lt q_J`$ at which respectively $`\mathcal I,\mathcal K,\mathcal J`$ equal $`c_1`$. The three actual branch differences have exactly these strict crossing orders:
 
 ```math
 R_L-R_R:\ -\ \text{to}\ +\ \text{at }q_I,
@@ -78,18 +78,18 @@ L_{3,L}-L_{3,R}:\ -\ \text{to}\ +\ \text{at }q_K,
 L_{4,L}-L_{4,R}:\ +\ \text{to}\ -\ \text{at }q_J.
 ```
 
-If $`c_1\ge M`$, all three differences keep their initial strict signs. This is one uniform ordering across all allowed $`n`$, all scales, and all cubic root configurations in the $`0<h<1`$ source cone.
+If $`c_1\ge M`$, all three differences keep their initial strict signs. This is one uniform ordering across all allowed $`n`$, all scales, and all cubic root configurations in the $`0\lt h\lt1`$ source cone.
 
 ## 1. Geometry of the paired beta points
 
-Use $`t=\log x`$, with the two points $`t_L<t_R`$. Write
+Use $`t=\log x`$, with the two points $`t_L\lt t_R`$. Write
 
 ```math
-m=(t_L+t_R)/2,\quad d=(t_R-t_L)/2>0,
-\quad u_0=-d_s>0,\quad v_0=m_s>0.
+m=(t_L+t_R)/2,\quad d=(t_R-t_L)/2\gt0,
+\quad u_0=-d_s\gt0,\quad v_0=m_s\gt0.
 ```
 
-The notation $`u_0,v_0`$ in this proof denotes geometric speeds, not the original beta monomials. Put $`r=A/B>0`$. Equality of $`q`$ at the two points can be solved explicitly:
+The notation $`u_0,v_0`$ in this proof denotes geometric speeds, not the original beta monomials. Put $`r=A/B\gt0`$. Equality of $`q`$ at the two points can be solved explicitly:
 
 ```math
 e^m=\frac{\sinh(rd)}{\sinh((r+1)d)},
@@ -112,25 +112,25 @@ Then
 **(1)**
 
 ```math
-0<\eta<1,\qquad \eta_s<0,
-\qquad u_{0,s}>0,
-\qquad 0<\frac{d\,u_{0,s}}{u_0^2}<1.
+0\lt\eta\lt1,\qquad \eta_s\lt0,
+\qquad u_{0,s}\gt0,
+\qquad 0\lt\frac{d\,u_{0,s}}{u_0^2}\lt1.
 ```
 
 Here are proofs of all four claims.
 
-First, $`z\coth z`$ strictly increases on $`z>0`$, giving $`\eta>0`$. The function $`z/(e^{2dz}-1)`$ strictly decreases in $`z>0`$, giving $`\eta<1`$. Also
+First, $`z\coth z`$ strictly increases on $`z\gt0`$, giving $`\eta\gt0`$. The function $`z/(e^{2dz}-1)`$ strictly decreases in $`z\gt0`$, giving $`\eta\lt1`$. Also
 
 ```math
 \eta_d=r^2\operatorname{csch}^2(rd)
- -(r+1)^2\operatorname{csch}^2((r+1)d)>0,
+ -(r+1)^2\operatorname{csch}^2((r+1)d)\gt0,
 ```
 
-since $`z/\sinh z`$ strictly decreases. As $`d_s<0`$, this proves $`\eta_s<0`$.
+since $`z/\sinh z`$ strictly decreases. As $`d_s\lt0`$, this proves $`\eta_s\lt0`$.
 
-Second, let $`L=f'(t_L)>0`$, $`R=-f'(t_R)>0`$, where $`f(t)=At+B\log(1-e^t)`$. Both positive slopes decrease with $`s`$, because $`f''<0`$. Thus $`u_0=(L^{-1}+R^{-1})/2`$ strictly increases. Furthermore $`t_{L,ss}>0`$.
+Second, let $`L=f'(t_L)\gt0`$, $`R=-f'(t_R)\gt0`$, where $`f(t)=At+B\log(1-e^t)`$. Both positive slopes decrease with $`s`$, because $`f''\lt0`$. Thus $`u_0=(L^{-1}+R^{-1})/2`$ strictly increases. Furthermore $`t_{L,ss}\gt0`$.
 
-For the final claim it suffices to prove $`(d^2)_{ss}>0`$, since
+For the final claim it suffices to prove $`(d^2)_{ss}\gt0`$, since
 
 ```math
 (d^2)_{ss}=2u_0^2-2d u_{0,s}.
@@ -158,27 +158,27 @@ c_j=(9^j-1)/4+6j-8j^2.
 The first three coefficients vanish; $`c_3=128`$, and
 
 ```math
-c_{j+1}=9c_j+64j(j-1)>0\quad(j\ge3).
+c_{j+1}=9c_j+64j(j-1)\gt0\quad(j\ge3).
 ```
 
-Thus $`N(z)>0`$ for $`z>0`$, and $`P`$ is strictly superadditive. Direct differentiation of $`s(d)`$ gives
+Thus $`N(z)\gt0`$ for $`z\gt0`$, and $`P`$ is strictly superadditive. Direct differentiation of $`s(d)`$ gives
 
 ```math
 s_d-ds_{dd}=\frac B{d^2}
- \{P(rd)+P(d)-P((r+1)d)\}<0.
+ \{P(rd)+P(d)-P((r+1)d)\}\lt0.
 ```
 
-As $`s_d<0`$,
+As $`s_d\lt0`$,
 
 ```math
-(d^2)_{ss}=\frac{2(s_d-ds_{dd})}{s_d^3}>0.
+(d^2)_{ss}=\frac{2(s_d-ds_{dd})}{s_d^3}\gt0.
 ```
 
 This proves (1), using only the actual paired beta geometry.
 
 ## 2. A positive mixed integral kernel
 
-For $`\kappa>0`$, define
+For $`\kappa\gt0`$, define
 
 ```math
 J_\kappa(s)=\int_{t_L}^{t_R}e^{-\kappa t}\,dt,
@@ -190,16 +190,16 @@ J_\kappa(s)=\int_{t_L}^{t_R}e^{-\kappa t}\,dt,
 For $`\lambda\ge0`$, let
 
 ```math
-P_{\kappa,\lambda}=\pi_\kappa+\lambda J_\kappa>0.
+P_{\kappa,\lambda}=\pi_\kappa+\lambda J_\kappa\gt0.
 ```
 
-We prove that, whenever $`0<\kappa_2<\kappa_1`$ and $`0\le\lambda_2<\lambda_1`$,
+We prove that, whenever $`0\lt\kappa_2\lt\kappa_1`$ and $`0\le\lambda_2\lt\lambda_1`$,
 
 **(2)**
 
 ```math
 \frac{d}{ds}\log
- \frac{P_{\kappa_2,\lambda_2}}{P_{\kappa_1,\lambda_1}}>0.
+ \frac{P_{\kappa_2,\lambda_2}}{P_{\kappa_1,\lambda_1}}\gt0.
 ```
 
 ### Variation in $`\kappa`$
@@ -217,15 +217,15 @@ Then $`P_{\kappa,\lambda}=2e^{-\kappa m}u_0\mathcal B`$. Let $`Q=\mathcal B_w/\m
 \mu_{\kappa,\lambda}=-\partial_\kappa\log P_{\kappa,\lambda}=m-dQ.
 ```
 
-For $`w>0`$, $`0<\eta<1`$, and $`b_0\ge0`$,
+For $`w\gt0`$, $`0\lt\eta\lt1`$, and $`b_0\ge0`$,
 
 ```math
-Q_\eta>0,\qquad Q_{b_0}<0.
+Q_\eta\gt0,\qquad Q_{b_0}\lt0.
 ```
 
-The first sign follows by differentiation: its numerator is $`1+b_0\sinh^2(w)/w^2>0`$. For the second, the endpoint distribution has mean at least $`\tanh w`$, whereas the uniform-interval distribution has mean $`\coth w-1/w<\tanh w`$. Adding uniform weight therefore lowers the tilted mean.
+The first sign follows by differentiation: its numerator is $`1+b_0\sinh^2(w)/w^2\gt0`$. For the second, the endpoint distribution has mean at least $`\tanh w`$, whereas the uniform-interval distribution has mean $`\coth w-1/w\lt\tanh w`$. Adding uniform weight therefore lowers the tilted mean.
 
-Since $`\eta_s<0`$ and
+Since $`\eta_s\lt0`$ and
 
 ```math
 (b_0)_s=-\lambda\left(1+\frac{d u_{0,s}}{u_0^2}\right),
@@ -239,7 +239,7 @@ the geometric bounds (1) imply
 \begin{aligned}
 \mu_{\kappa,\lambda,s}
 &=u_0\{\eta+Q+wQ_w\}-dQ_\eta\eta_s-dQ_{b_0}(b_0)_s\\
-&\ge u_0\{\eta+Q+wQ_w+2b_0Q_{b_0}\}>0.
+&\ge u_0\{\eta+Q+wQ_w+2b_0Q_{b_0}\}\gt0.
 \end{aligned}
 ```
 
@@ -257,9 +257,9 @@ For completeness the last strict sign is an elementary positive polynomial. Mult
 | 0 | 1 | $`(2w\cosh(2w)-\sinh(2w))/(2w^2)`$ |
 | 0 | 0 | $`(2w+\sinh(2w))/2`$ |
 
-Every coefficient is positive for $`w>0`$. For the only less immediate numerator, its quadratic coefficient is $`2w^2`$; every higher even coefficient is positive, since the coefficient of $`w^{2j}`$ in $`4w\sinh(2w)-\cosh(2w)+1`$ is $`2^{2j}(4j-1)/(2j)!`$. The other signs follow from $`\sinh z>z`$ and $`z\cosh z>\sinh z`$.
+Every coefficient is positive for $`w\gt0`$. For the only less immediate numerator, its quadratic coefficient is $`2w^2`$; every higher even coefficient is positive, since the coefficient of $`w^{2j}`$ in $`4w\sinh(2w)-\cosh(2w)+1`$ is $`2^{2j}(4j-1)/(2j)!`$. The other signs follow from $`\sinh z\gt z`$ and $`z\cosh z\gt\sinh z`$.
 
-Equation (3) gives $`\partial_s\partial_\kappa\log P_{\kappa,\lambda}<0`$.
+Equation (3) gives $`\partial_s\partial_\kappa\log P_{\kappa,\lambda}\lt0`$.
 
 ### Variation in $`\lambda`$
 
@@ -276,14 +276,14 @@ Its derivative is strictly positive, because
 \frac1\kappa\left(\frac{\pi_\kappa}{J_\kappa}\right)_s
 =(u_{0,s}+v_{0,s})
  +u_{0,s}\{\coth(\kappa d)-1\}
- +\kappa u_0^2\operatorname{csch}^2(\kappa d)>0.
+ +\kappa u_0^2\operatorname{csch}^2(\kappa d)\gt0.
 ```
 
-The first term is $`t_{L,ss}>0`$. Hence
+The first term is $`t_{L,ss}\gt0`$. Hence
 
 ```math
 \partial_s\partial_\lambda\log P_{\kappa,\lambda}
-=\partial_s\frac1{\pi_\kappa/J_\kappa+\lambda}<0.
+=\partial_s\frac1{\pi_\kappa/J_\kappa+\lambda}\lt0.
 ```
 
 Decreasing $`\kappa`$ and then $`\lambda`$ therefore proves (2).
@@ -310,27 +310,27 @@ In particular both $`D_s,T_s`$ are strictly negative, and
  \frac{P_{Hk,1+\lambda_T}}{P_{k,1+\alpha}}.
 ```
 
-Both kernel ratios strictly increase by (2), since $`Hk<k`$ and $`0<\lambda_T<\alpha`$. This proves the strict logarithmic derivative margins.
+Both kernel ratios strictly increase by (2), since $`Hk\lt k`$ and $`0\lt\lambda_T\lt\alpha`$. This proves the strict logarithmic derivative margins.
 
 No earlier one-crossing theorem is needed for $`\mathcal I`$. Indeed
 
 ```math
 \mathcal I=H e^{\sigma s}\frac{J_{Hk}}{J_k},\qquad
 \frac{d\log\mathcal I}{ds}
-=\sigma+\frac{\pi_k}{J_k}-\frac{\pi_{Hk}}{J_{Hk}}>\sigma.
+=\sigma+\frac{\pi_k}{J_k}-\frac{\pi_{Hk}}{J_{Hk}}\gt\sigma.
 ```
 
 The last sign follows because the hazard $`\kappa\{u_0\coth(\kappa d)+v_0\}`$ strictly increases in $`\kappa`$: its derivative is
 
 ```math
-u_0\{\coth w-w\operatorname{csch}^2w\}+v_0>0.
+u_0\{\coth w-w\operatorname{csch}^2w\}+v_0\gt0.
 ```
 
 Consequently
 
 ```math
-\mathcal I_s=\frac{D_s}{D}(\mathcal J-\mathcal I)>0
-\quad\Longrightarrow\quad \mathcal J<\mathcal I.
+\mathcal I_s=\frac{D_s}{D}(\mathcal J-\mathcal I)\gt0
+\quad\Longrightarrow\quad \mathcal J\lt\mathcal I.
 ```
 
 And
@@ -340,15 +340,15 @@ And
 rac{D\mathcal I+(-D_s)\mathcal J}{D+(-D_s)}
 ```
 
-is a strict weighted mean, so $`\mathcal J<\mathcal K<\mathcal I`$.
+is a strict weighted mean, so $`\mathcal J\lt\mathcal K\lt\mathcal I`$.
 
-For $`\mathcal I`$, write $`z=v_R/v_L>1`$. Then
+For $`\mathcal I`$, write $`z=v_R/v_L\gt1`$. Then
 
 ```math
 \mathcal I=u(x_L)\frac{1-z^{h-1}}{1-z^{-1}}.
 ```
 
-As $`q_0\downarrow0`$, the two beta endpoint power laws give $`z\to\infty`$ because $`a/A>b/B`$, while positivity of the left exponent of $`u`$ gives $`u(x_L)\to0`$. Thus $`\mathcal I\to0`$. As the two points merge, the displayed factor tends to $`H`$, so $`\mathcal I\to Hu(A/(A+B))`$.
+As $`q_0\downarrow0`$, the two beta endpoint power laws give $`z\to\infty`$ because $`a/A\gt b/B`$, while positivity of the left exponent of $`u`$ gives $`u(x_L)\to0`$. Thus $`\mathcal I\to0`$. As the two points merge, the displayed factor tends to $`H`$, so $`\mathcal I\to Hu(A/(A+B))`$.
 
 The zero endpoint limits of $`\mathcal J,\mathcal K`$ follow by squeezing below $`\mathcal I`$. At the other endpoint $`t_L,t_R\to t_0=\log(A/(A+B))`$, $`J_\kappa\to0`$ and $`\pi_\kappa\to\infty`$, so
 
@@ -374,8 +374,8 @@ rac{-D_s}{q_0}(c_1-\mathcal J),
 L_{3,L}-L_{3,R}=(D-D_s)(\mathcal K-c_1).
 ```
 
-All prefactors are positive. The inequalities $`\mathcal J<\mathcal K<\mathcal I`$, strict monotonicity, and endpoint limits prove the ordered crossing theorem.
+All prefactors are positive. The inequalities $`\mathcal J\lt\mathcal K\lt\mathcal I`$, strict monotonicity, and endpoint limits prove the ordered crossing theorem.
 
 ## Scope
 
-This theorem is uniform for the three hard mode regions with $`0<h<1`$, including either sign of $`n`$. It proves one ordered comparison for the original height curve and both actual tangent coefficient functions, without any cubic-root or signed-residue routing. It still leaves open whether these three ordered crossings, together with the original beta curvature, exclude the full seven-node common-coefficient window configuration.
+This theorem is uniform for the three hard mode regions with $`0\lt h\lt1`$, including either sign of $`n`$. It proves one ordered comparison for the original height curve and both actual tangent coefficient functions, without any cubic-root or signed-residue routing. It still leaves open whether these three ordered crossings, together with the original beta curvature, exclude the full seven-node common-coefficient window configuration.

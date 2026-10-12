@@ -41,7 +41,7 @@ where (E0,E1,E2)=(c1,c3,c4)>0. Let D=t(1-t)d/dt, rho_t=t(1-t),
 \ell_0=-A+(A+B)t,
 \quad\ell_1=a-(a+b+q)t,
 \quad\ell_2=a+p-(a+b+p)t,
-\quad L=\ell_2-\ell_1=p(1-t)+qt>0.
+\quad L=\ell_2-\ell_1=p(1-t)+qt\gt0.
 ```
 
 Let Pi=ell_i^2+D ell_i and
@@ -76,8 +76,8 @@ contacts in I of
 **(2)**
 
 ```math
-\Phi=w_0R/H=E_0>0,\qquad w_0=1/h_0=t^A(1-t)^B,
-\qquad RK>0.
+\Phi=w_0R/H=E_0\gt0,\qquad w_0=1/h_0=t^A(1-t)^B,
+\qquad RK\gt0.
 ```
 
 For strict simple/disjoint cores, division is legitimate: R and H
@@ -132,9 +132,9 @@ g=A/p,\quad h=B/q,\quad C=\alpha+\beta,\quad D_0=g+h,
 ```
 
 ```math
-r=C/D_0>0,\quad x=-g+D_0s,\quad
+r=C/D_0\gt0,\quad x=-g+D_0s,\quad
 \varrho=2(\alpha-rg)+1,\quad
-T=D_0s(1-s)[(1-s)/p+s/q]>0.
+T=D_0s(1-s)[(1-s)/p+s/q]\gt0.
 ```
 
 The physical interval is (-g,h). Divide R,H,K by their common positive
@@ -218,7 +218,7 @@ xi_e for the R root and eta_e for the H root gives
 
 ```math
 \Phi=v_0(t)q_{*}(t),\qquad
-v_0(t)=C_0t^A(1-t)^B\frac{t-\xi_e}{t-\eta_e}>0,
+v_0(t)=C_0t^A(1-t)^B\frac{t-\xi_e}{t-\eta_e}\gt0,
 ```
 
 with q_{*} the physical quadratic ratio and C0>0. The separate new

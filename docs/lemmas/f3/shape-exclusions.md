@@ -4,7 +4,7 @@ Use the definitions in [the reciprocal-coordinate section of the appendix](../..
 This lemma applies to the order
 
 ```math
-\beta<\gamma<s<\delta<\alpha.
+\beta\lt\gamma\lt s\lt\delta\lt\alpha.
 ```
 
 Only the polynomial $`P_p`$ and one necessary inequality for $`R`$ are
@@ -21,7 +21,7 @@ N_1=5Z^2-12hT+12Y.
 ```
 
 Assume that $`P_p`$ has one real root and two nonreal conjugate roots,
-that $`V>0`$, and that $`N_1\ge0`$. None of the following regions is
+that $`V\gt0`$, and that $`N_1\ge0`$. None of the following regions is
 possible:
 
 | Region | Inequalities |
@@ -67,7 +67,7 @@ We first prove the following general implication:
 **(2)**
 
 ```math
-h>0,\quad L>0,\quad G\ge0,\quad K\ge0
+h\gt0,\quad L\gt0,\quad G\ge0,\quad K\ge0
 \quad\Longrightarrow\quad
 \text{the stated root conditions are impossible.}
 ```
@@ -76,13 +76,13 @@ Let $`\beta`$ be the real root of $`P_p`$, and write its nonreal roots
 as $`a+ib,a-ib`$, with $`b\ne0`$. The endpoint identities are
 
 ```math
-P_p(M)=(M-pr)(M+pq)(M+py)<0,
-\qquad P_p(s)=pV>0.
+P_p(M)=(M-pr)(M+pq)(M+py)\lt0,
+\qquad P_p(s)=pV\gt0.
 ```
 
 A monic cubic with one real root has the sign of $`v-\beta`$ on the
 real line, since its other quadratic factor is strictly positive.
-Thus $`M<\beta<s`$. Comparing coefficients gives
+Thus $`M\lt\beta\lt s`$. Comparing coefficients gives
 
 ```math
 L=2a+\beta,\qquad pT-Y=a^2+b^2+2a\beta.
@@ -96,19 +96,19 @@ Substitution gives the exact identity
 4p(T-T_b)=4b^2+(\beta+pq)(2L-3\beta+3pq).
 ```
 
-Because $`L>0`$, both $`s`$ and $`pq+2L/3`$ are positive. The identity
+Because $`L\gt0`$, both $`s`$ and $`pq+2L/3`$ are positive. The identity
 
 ```math
 pG=9\{(pq+2L/3)^2-Y\}
 ```
 
 shows that $`G\ge0`$ implies $`s\le pq+2L/3`$. The two factors in
-the second term of (3) are strictly positive: $`\beta>-pq`$ and
-$`\beta<s\le pq+2L/3`$. Hence $`T>T_b`$. Now
+the second term of (3) are strictly positive: $`\beta\gt-pq`$ and
+$`\beta\lt s\le pq+2L/3`$. Hence $`T\gt T_b`$. Now
 
 ```math
 N_1=5Z^2+12Y-12hT
- <5Z^2+12Y-12hT_b=-K\le0,
+ \lt5Z^2+12Y-12hT_b=-K\le0,
 ```
 
 contrary to $`N_1\ge0`$. This proves (2).
@@ -124,7 +124,7 @@ For each region take its constants $`(c,k)`$ from
 Use nonnegative difference variables
 
 ```math
-e=y-q>0,\qquad a_0=p-c(2q+e+1)\ge0,
+e=y-q\gt0,\qquad a_0=p-c(2q+e+1)\ge0,
 \qquad t_0=r-kp\ge0.
 ```
 
@@ -148,9 +148,9 @@ The full identities are recorded in
 There are 323 coefficients in these nine polynomials. Each term is its
 listed rational coefficient times the monomial described by its
 exponents. Because every variable is nonnegative and each constant is
-positive, the identities prove $`G,K,h>0`$.
+positive, the identities prove $`G,K,h\gt0`$.
 
-Also $`r>S`$ in all three regions, so $`L>0`$. Applying (2) proves
+Also $`r\gt S`$ in all three regions, so $`L\gt0`$. Applying (2) proves
 their exclusion. The calculation program
 [derive_regional_0231.py](../../../calculations/derive_regional_0231.py)
 constructs these exact expansions from the displayed formulas.
@@ -160,7 +160,7 @@ constructs these exact expansions from the displayed formulas.
 Put
 
 ```math
-Q=q+y>0,\quad z=p/(Q+1)\in(0,1],\quad
+Q=q+y\gt0,\quad z=p/(Q+1)\in(0,1],\quad
 u=2q/Q\in(0,1),\quad t=r-3(Q+1)/z\ge0.
 ```
 
@@ -200,8 +200,8 @@ the strictly positive constant groups give
 zG\ge16,\qquad z^2K\ge12,\qquad zh\ge1.
 ```
 
-As $`z>0`$, this proves $`G,K,h>0`$. Also
-$`r\ge3S/z\ge3S`$, so $`L>0`$. Implication (2) proves region 4.
+As $`z\gt0`$, this proves $`G,K,h\gt0`$. Also
+$`r\ge3S/z\ge3S`$, so $`L\gt0`$. Implication (2) proves region 4.
 
 Finally, to prove (1), if $`p\le S`$ use region 4; if $`p\ge S`$
 use region 3. This covers the whole region in (1).

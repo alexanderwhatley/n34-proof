@@ -7,7 +7,7 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 Let
 
 ```math
-u,p,a,b,q,z>0,\qquad q<a,\qquad p<b,
+u,p,a,b,q,z\gt0,\qquad q\lt a,\qquad p\lt b,
 \qquad \alpha=u+q,\qquad\beta=p+z.
 ```
 
@@ -20,7 +20,7 @@ B(t)&=(q+zt)(a-bt)[(b+z)t-(a-q)]+(az+bq)t(1+t).
 \end{aligned}
 ```
 
-For every $`\rho>0`$,
+For every $`\rho\gt0`$,
 
 **(1)**
 
@@ -70,7 +70,7 @@ It remains to prove the theorem for
 **(3)**
 
 ```math
-0<\alpha<1,\qquad\beta\ge2.
+0\lt\alpha\lt1,\qquad\beta\ge2.
 ```
 
 ## 3. The fractional shuffle includes every integral beta
@@ -127,7 +127,7 @@ five is
 **(7)**
 
 ```math
-c_0<0,\qquad c_1,c_2,c_3\le0,
+c_0\lt0,\qquad c_1,c_2,c_3\le0,
 \quad\text{followed by a positive block and final negative block}.
 ```
 
@@ -148,7 +148,7 @@ Factor
 
 ```math
 B=-\kappa(t-P)(t-S)(t+y),\qquad
-0<P<S,\quad y,\kappa>0.
+0\lt P\lt S,\quad y,\kappa\gt0.
 ```
 
 Let E=(1+t)^n(t+y)=sum(e_j t^j), so
@@ -160,20 +160,20 @@ e_j=\binom n{j-1}+y\binom nj.
 Divide C by t-S and write C=(t-S)Q. Its first coefficients satisfy
 
 ```math
-q_0=-c_0/S>0,\qquad
-q_j=(q_{j-1}-c_j)/S>0\quad(j=1,2,3)
+q_0=-c_0/S\gt0,\qquad
+q_j=(q_{j-1}-c_j)/S\gt0\quad(j=1,2,3)
 ```
 
 by (7). But Q=kappa(P-t)E, so
-$`q_3=\kappa(Pe_3-e_2)>0`$. Hence
+$`q_3=\kappa(Pe_3-e_2)\gt0`$. Hence
 
 **(8)**
 
 ```math
-P>\frac{e_2}{e_3}
+P\gt\frac{e_2}{e_3}
 =\frac{n+y n(n-1)/2}
 {n(n-1)/2+y n(n-1)(n-2)/6}
->\frac2{n-1}\ge\frac2{\beta-1}.
+\gt\frac2{n-1}\ge\frac2{\beta-1}.
 ```
 
 The strict middle inequality follows from
@@ -181,7 +181,7 @@ The strict middle inequality follows from
 **(9)**
 
 ```math
-(n-1)e_2-2e_3=\frac{yn(n-1)(n+1)}6>0.
+(n-1)e_2-2e_3=\frac{yn(n-1)(n+1)}6\gt0.
 ```
 
 This proof has no nonintegral-gap premise. It includes n=2, where
@@ -199,7 +199,7 @@ Put c=a/b, U(t)=u+pt, V(t)=q+zt. The exact identity and score bound are
 \qquad
 N(t)=\alpha+\beta t-
 \frac{(pq-uz)t(1+t)}{U(t)V(t)}
->\alpha-1+(\beta-1)t.
+\gt\alpha-1+(\beta-1)t.
 ```
 
 The signs at 0,c,infinity give A roots Q<c<R and B roots P<c<S,
@@ -211,7 +211,7 @@ Thus A(P)>0 implies P<Q, and B(R)<0 implies S<R. Therefore
 ```math
 A/A_3=(t+x)(t-Q)(t-R),\qquad
 B/B_3=(t+y)(t-P)(t-S),
-\quad0<P<Q<c<S<R.
+\quad0\lt P\lt Q\lt c\lt S\lt R.
 ```
 
 In particular there are no common positive A/B roots on the only chart
@@ -269,7 +269,7 @@ If M=1, the only possible total above five under (12) and outer parity
 would be L=4,T=2. Choosing the mandatory central critical point c gives
 
 ```math
-F(k_3)<\rho<F(T)<F(c)<F(k_3),
+F(k_3)\lt\rho\lt F(T)\lt F(c)\lt F(k_3),
 ```
 
 where the last inequality is the extra-left separator. This is impossible.

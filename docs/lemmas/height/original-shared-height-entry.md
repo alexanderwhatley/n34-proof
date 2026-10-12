@@ -10,7 +10,7 @@ The original comparable row is
 
 ```math
 f=1-E_-M_- -E_+M_+ -E'_+M'_+,
-\quad E_-,E_+,E'_+>0,
+\quad E_-,E_+,E'_+\gt0,
 ```
 
 ```math
@@ -74,11 +74,11 @@ The notation L3,L4 labels the original coefficients c3,c4. Both functions in (4)
 
 ## 2. Raw cubic cores and a global seven-node theorem
 
-For this section the negative term u may have any mode order. Generically the modes of v,w differ; reflect x if necessary so $`\rho_w<\rho_v`$. Write
+For this section the negative term u may have any mode order. Generically the modes of v,w differ; reflect x if necessary so $`\rho_w\lt\rho_v`$. Write
 
 ```math
 v=x^a(1-x)^b,\quad q=x^{a_q}(1-x)^{b_q},
-\quad\Delta=ab_q-ba_q>0.
+\quad\Delta=ab_q-ba_q\gt0.
 ```
 
 Set
@@ -114,28 +114,28 @@ C0 and D0 have degree at most three. K0 is a beta function times a cubic subtrac
 At x=0 and x=1 the signs of C0 are respectively positive and negative:
 
 ```math
-C_0(0)=a(a+a_q)a_q>0,
-\quad C_0(1)=-b(b+b_q)b_q<0.
+C_0(0)=a(a+a_q)a_q\gt0,
+\quad C_0(1)=-b(b+b_q)b_q\lt0.
 ```
 
 Because u vanishes at both endpoints, K0 has the same endpoint signs and cannot be an identity.
 
 The imported distinct-root theorem of El Hilany–Tavenas bounds K0 by eight roots. It is Theorem 1.2, printed page 3 of [arXiv:2409.01651v1](https://arxiv.org/pdf/2409.01651v1); the complete unchanged paper and attribution are included in the predecessor. We use the nonidentity, degree-three/degree-three case only. With generic simple roots, endpoint parity improves eight to seven.
 
-**Theorem 1 (global shared-height saturation).** Suppose (1)–(2) have ten simple roots and the auxiliary data are generic. Then K0 has exactly seven simple roots $`z_1<\cdots<z_7`$. Both L4 and L3 have exactly nine hits of their respective common positive levels c4 and c3. At these seven nodes,
+**Theorem 1 (global shared-height saturation).** Suppose (1)–(2) have ten simple roots and the auxiliary data are generic. Then K0 has exactly seven simple roots $`z_1\lt\cdots\lt z_7`$. Both L4 and L3 have exactly nine hits of their respective common positive levels c4 and c3. At these seven nodes,
 
 **(8)**
 
 ```math
 \max\{0,L_4(z_1),L_4(z_3),L_4(z_5),L_4(z_7)\}
-<c_4<\min\{L_4(z_2),L_4(z_4),L_4(z_6)\},
+\lt c_4\lt\min\{L_4(z_2),L_4(z_4),L_4(z_6)\},
 ```
 
 **(9)**
 
 ```math
 \max\{0,L_3(z_2),L_3(z_4),L_3(z_6)\}
-<c_3<\min\{L_3(z_1),L_3(z_3),L_3(z_5),L_3(z_7)\}.
+\lt c_3\lt\min\{L_3(z_1),L_3(z_3),L_3(z_5),L_3(z_7)\}.
 ```
 
 **Proof.** Rolle applied separately to the two expressions (3) gives at least nine hits of each derivative ratio. Both ratios have one common generic simple pole, at the mode of q. Their stationary points away from that pole are precisely the zeros of K0, by (7). Nine hits on one side of the pole would require at least eight stationary points and is impossible. On the two sides together, nine hits require at least seven stationary points. The preceding bound therefore forces exactly seven.
@@ -155,12 +155,12 @@ p=L_v/L_q,\qquad
 **(10)**
 
 ```math
-0<r_1<r_2<r_3,
+0\lt r_1\lt r_2\lt r_3,
 \quad(r_1,r_2,r_3)=
 \left(\frac b{b_q},\frac{a+b}{a_q+b_q},\frac a{a_q}\right).
 ```
 
-The left original branch has $`r_3<p<\infty`$, $`q_x>0`$, $`\Pi>0`$. The right original branch has $`-\infty<p<r_1`$, $`q_x<0`$, $`\Pi<0`$. In each branch p increases with x. The two infinities represent the same q-mode seam.
+The left original branch has $`r_3\lt p\lt\infty`$, $`q_x\gt0`$, $`\Pi\gt0`$. The right original branch has $`-\infty\lt p\lt r_1`$, $`q_x\lt0`$, $`\Pi\lt0`$. In each branch p increases with x. The two infinities represent the same q-mode seam.
 
 Retain exactly the predecessor's polynomials
 
@@ -181,7 +181,7 @@ Here primes mean p derivatives. One has $`C_0=L_q^3C`$, $`D_0=L_q^3D`$. At every
 
 ```math
 \boxed{
-c_1=V:=uD/C>0,
+c_1=V:=uD/C\gt0,
 \quad L_4=(u/w)A/C,
 \quad L_3=(u/v)B/C.}
 ```

@@ -6,7 +6,7 @@ Let
 
 ```math
 \begin{aligned}
-&0<a<b,\quad l>1,\quad d=b-a,\quad L=a+l,\quad M=b+l,\\
+&0\lt a\lt b,\quad l\gt1,\quad d=b-a,\quad L=a+l,\quad M=b+l,\\
 &x=(a+h)(\xi-a),\quad y=(b+h)(\xi-b),\\
 &\Gamma=(\xi+h)^2,\quad \Phi=\xi-h(1+2\xi),\quad G=a+b+2ab.
 \end{aligned}
@@ -18,18 +18,18 @@ Define the numerator at the largest permitted scale by
 Z=L\operatorname{LinN3}+2\Gamma G(L^2y-M^2x).
 ```
 
-For the one-wall parameters in that argument, positive coefficients of $`R`$ imply $`kd^2L<G`$. If $`L^2y-M^2x\le0`$, the value of $`C_3/(kd\gamma)`$ at this scale is $`Z/(\Gamma L)`$. Thus positivity of $`Z`$ at the following lower endpoints supplies the required inequality.
+For the one-wall parameters in that argument, positive coefficients of $`R`$ imply $`kd^2L\lt G`$. If $`L^2y-M^2x\le0`$, the value of $`C_3/(kd\gamma)`$ at this scale is $`Z/(\Gamma L)`$. Thus positivity of $`Z`$ at the following lower endpoints supplies the required inequality.
 
 ## Lower endpoint $`\xi=b`$
 
-For $`\xi=b`$ and $`a,d,t,q>0`$, set
+For $`\xi=b`$ and $`a,d,t,q\gt0`$, set
 
 ```math
 b=a+d,\qquad h=\frac{bq}{(1+2b)(1+q)},\qquad l=1+t,\qquad
 H_d=(1+2b)(1+q).
 ```
 
-The integer polynomial $`H_d^3Z`$ has 406 nonzero coefficients, all strictly positive. Their full list is [the lower-endpoint coefficient table](../../../calculation-data/positive/c3_endpoint_certificate/LOWER_B_POSITIVE_CHART.json.gz). Therefore $`Z>0`$ whenever $`\xi=b`$ and $`0<h<b/(1+2b)`$.
+The integer polynomial $`H_d^3Z`$ has 406 nonzero coefficients, all strictly positive. Their full list is [the lower-endpoint coefficient table](../../../calculation-data/positive/c3_endpoint_certificate/LOWER_B_POSITIVE_CHART.json.gz). Therefore $`Z\gt0`$ whenever $`\xi=b`$ and $`0\lt h\lt b/(1+2b)`$.
 
 Its highest power of $`q`$ is three. The coefficient of $`q^3`$ is a nonzero polynomial with strictly positive coefficients, and satisfies
 
@@ -41,14 +41,14 @@ Here $`[q^3]`$ means taking the coefficient of $`q^3`$. The identity also covers
 
 ## Lower endpoint $`\Phi=0`$
 
-For $`u,v,w,t>0`$, set
+For $`u,v,w,t\gt0`$, set
 
 ```math
 \xi=\frac u2,\qquad h=\frac{u}{2(1+u)},\qquad
 b=\frac{\xi v}{1+v},\qquad a=\frac{bw}{1+w},\qquad l=1+t.
 ```
 
-These parameters cover $`\Phi=0`$, $`0<a<b<\xi`$, $`0<h<1/2`$, and $`l>1`$. Write $`c=\xi-b`$, and define
+These parameters cover $`\Phi=0`$, $`0\lt a\lt b\lt\xi`$, $`0\lt h\lt1/2`$, and $`l\gt1`$. Write $`c=\xi-b`$, and define
 
 ```math
 \begin{aligned}
@@ -64,7 +64,7 @@ The cleared polynomial $`D_A^8D_H^3Z`$ has 950 nonzero strictly positive coeffic
 D_A^7D_H^3\frac{\partial Z}{\partial\xi}
 ```
 
-has 727 nonzero strictly positive coefficients. Thus $`Z>0`$ and $`\partial Z/\partial\xi>0`$ at the lower endpoint $`\Phi=0`$. The full lists are [the value table](../../../calculation-data/positive/c3_endpoint_certificate/LOWER_NATIVE_POSITIVE_CHART.json.gz) and [the derivative table](../../../calculation-data/positive/c3_endpoint_certificate/LOWER_NATIVE_DERIVATIVE_POSITIVE_CHART.json.gz).
+has 727 nonzero strictly positive coefficients. Thus $`Z\gt0`$ and $`\partial Z/\partial\xi\gt0`$ at the lower endpoint $`\Phi=0`$. The full lists are [the value table](../../../calculation-data/positive/c3_endpoint_certificate/LOWER_NATIVE_POSITIVE_CHART.json.gz) and [the derivative table](../../../calculation-data/positive/c3_endpoint_certificate/LOWER_NATIVE_DERIVATIVE_POSITIVE_CHART.json.gz).
 
 ## The cubic in symmetric variables
 

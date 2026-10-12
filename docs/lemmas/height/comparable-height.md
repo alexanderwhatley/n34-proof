@@ -25,7 +25,7 @@ The uniform original-row consequence is
 G=c_1-u+c_3v+c_4w
 ```
 
-has at most eight distinct roots in $`(0,1)`$ for every $`c_1,c_3,c_4>0`$ under the stated strict coordinatewise support chain.
+has at most eight distinct roots in $`(0,1)`$ for every $`c_1,c_3,c_4\gt0`$ under the stated strict coordinatewise support chain.
 
 ## 1. One positive common level is the obstruction
 
@@ -59,7 +59,7 @@ If n>0, these imply h<1. If h<=0, positivity implies n>0 and consequently n>h. I
 
 | Region | Exact chart | Uniform original-row proof |
 |---|---|---|
-| Earlier u | n>h | The earlier-mode height theorem; it includes $`h<0`$ and $`0<h<n`$. |
+| Earlier u | n>h | The earlier-mode height theorem; it includes $`h\lt0`$ and $`0\lt h\lt n`$. |
 | Middle u | 0<n<h<1 | The origin-interior curvature theorem. |
 | Larger rightmost gap | n<0, h-n>=1 | The large-gap theorem, with its analytical coefficient proof when $`h\ge1`$. |
 | Smaller rightmost gap | 0<h<1, h-1<n<0 | The smaller-rightmost-gap height theorem. |
@@ -72,7 +72,7 @@ The module [left of w regional master height theorem](earlier-mode-height.md) pr
 
 ### Middle u
 
-For the entire region $`0<n<h<1`$, the [origin-interior curvature proof](middle-height-by-convexity.md) gives at most eight roots of the original equation. Its convex level curve has a positive-normal curvature equation of degree at most six. Weighted Rolle and the closed-curve endpoint count give eight, including multiplicities at strict affinely independent supports. The distinct-root boundary argument covers finite support equalities. This direct proof replaces the earlier local birth and scale-orientation calculations throughout this middle region.
+For the entire region $`0\lt n\lt h\lt1`$, the [origin-interior curvature proof](middle-height-by-convexity.md) gives at most eight roots of the original equation. Its convex level curve has a positive-normal curvature equation of degree at most six. Weighted Rolle and the closed-curve endpoint count give eight, including multiplicities at strict affinely independent supports. The distinct-root boundary argument covers finite support equalities. This direct proof replaces the earlier local birth and scale-orientation calculations throughout this middle region.
 
 ### Larger rightmost gap
 

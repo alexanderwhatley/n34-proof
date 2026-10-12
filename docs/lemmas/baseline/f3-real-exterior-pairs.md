@@ -8,7 +8,7 @@ In the coordinate $`t`$, take the derivative $`t(1+t)d/dt`$. For an atom $`m_i`$
 
 ## Statement
 
-Keep the strict F3 family and exponent-sum order $`0<e+d<a-b<c-f`$:
+Keep the strict F3 family and exponent-sum order $`0\lt e+d\lt a-b\lt c-f`$:
 
 ```math
 m_0=1,\quad m_1=x^a(1-x)^{-b},\quad
@@ -16,8 +16,8 @@ m_2=x^e(1-x)^d,\quad m_3=x^c(1-x)^{-f},
 ```
 
 ```math
-0<e<a<c,\quad0<f<b,\quad d>0,
-\quad0<e+d<a-b<c-f.
+0\lt e\lt a\lt c,\quad0\lt f\lt b,\quad d\gt0,
+\quad0\lt e+d\lt a-b\lt c-f.
 ```
 
 Assume all four signed cofactors have exactly one simple physical root. If either variable cofactor e1 or e3 has a real remaining pair, including a double real pair, then
@@ -27,7 +27,7 @@ Assume all four signed cofactors have exactly one simple physical root. If eithe
 counting multiplicity, and at most four distinct physical roots.}}
 ```
 
-The two nonphysical roots can be certified in negative odds, whose points other than $`t=-1`$ correspond to $`x<0`$ or $`x>1`$. Thus six jointly useful contacts are impossible in this entire real-pair region. The pure six-contact target reduces to the sector where **both variable cubics have genuinely nonreal conjugate pairs**.
+The two nonphysical roots can be certified in negative odds, whose points other than $`t=-1`$ correspond to $`x\lt0`$ or $`x\gt1`$. Thus six jointly useful contacts are impossible in this entire real-pair region. The pure six-contact target reduces to the sector where **both variable cubics have genuinely nonreal conjugate pairs**.
 
 This theorem does not require choosing either physical root order0231 or1320. It is distinct from original-level allocation theorems.
 
@@ -77,13 +77,13 @@ Every formula follows directly from the normalized rows 1,L,L²−s*t; its deter
 The fixed cofactor E2 has negative leading coefficient and is positive at both negative infinity and t=−1, but
 
 ```math
-E_2(-a/b)<0,\qquad\alpha_3:=-a/b<-1.
+E_2(-a/b)\lt0,\qquad\alpha_3:=-a/b\lt-1.
 ```
 
 Its two nonphysical roots therefore satisfy
 
 ```math
-u_3<\alpha_3<v_3<-1.
+u_3\lt\alpha_3\lt v_3\lt-1.
 ```
 
 Its physical root supplies the third root, so these exterior roots are simple and are all its negative roots. E2 is positive outside (u3,v3) and negative inside it.
@@ -91,13 +91,13 @@ Its physical root supplies the third root, so these exterior roots are simple an
 The fixed cofactor E0 has positive leading coefficient and is negative at negative infinity and t=−1. At
 
 ```math
-\alpha_1:=-(c-e)/(f+d)=-(A+r)/(B-q)<-1
+\alpha_1:=-(c-e)/(f+d)=-(A+r)/(B-q)\lt-1
 ```
 
 its first determinant product vanishes and its remaining term is positive. Thus its two nonphysical roots satisfy
 
 ```math
-u_1<\alpha_1<v_1<-1.
+u_1\lt\alpha_1\lt v_1\lt-1.
 ```
 
 Again the physical root supplies the third root; the two exterior roots are simple, E0 is negative outside (u1,v1), and positive inside. The same argument also brackets the other anchor zero −A/B, but that is not needed below.
@@ -137,13 +137,13 @@ and at an E1 zero
 The anchor denominators vanish at alpha3 and alpha1 respectively. Neither can coincide with a relevant variable root: (1) gives
 
 ```math
-E_3(\alpha_3)=(ad+be)\alpha_3(1+\alpha_3)>0,
+E_3(\alpha_3)=(ad+be)\alpha_3(1+\alpha_3)\gt0,
 ```
 
 **(4)**
 
 ```math
-E_1(\alpha_1)=-(cd+ef)\alpha_1(1+\alpha_1)<0.
+E_1(\alpha_1)=-(cd+ef)\alpha_1(1+\alpha_1)\lt0.
 ```
 
 The sextic has strict negative signs at each boundary of the two negative-odds slabs:
@@ -151,8 +151,8 @@ The sextic has strict negative signs at each boundary of the two negative-odds s
 **(5)**
 
 ```math
-\mathcal K(-\infty)<0,\qquad\mathcal K(-1)<0,
-\qquad\mathcal K(0)<0.
+\mathcal K(-\infty)\lt0,\qquad\mathcal K(-1)\lt0,
+\qquad\mathcal K(0)\lt0.
 ```
 
 At0 and infinity these are the source endpoint Vandermonde signs. At−1, the normalized jet columns are
@@ -164,7 +164,7 @@ s_i,\quad s_i(s_i+1),\quad s_i(s_i+1)(s_i+2),
 so
 
 ```math
-\mathcal K(-1)=s_1s_2s_3(s_2-s_1)(s_3-s_1)(s_3-s_2)<0.
+\mathcal K(-1)=s_1s_2s_3(s_2-s_1)(s_3-s_1)(s_3-s_2)\lt0.
 ```
 
 ## 3. Two distinct real extra roots

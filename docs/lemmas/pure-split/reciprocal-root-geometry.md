@@ -14,8 +14,8 @@ classification of the surviving support cells.
 Let
 
 ```math
-a_1=-U<0<a_2<a_3,\qquad b_3<0<b_1=v<b_2,
-\quad U,v>0,\quad d_i=a_i+b_i,
+a_1=-U\lt0\lt a_2\lt a_3,\qquad b_3\lt0\lt b_1=v\lt b_2,
+\quad U,v\gt0,\quad d_i=a_i+b_i,
 ```
 
 and define the actual `P1,P3,G,K6` by
@@ -63,8 +63,8 @@ therefore have one transition, from negative to positive.
 Use the positive source differences
 
 ```math
-A_0=a_2-a_1>0,\quad B_0=b_2-b_1>0,\quad
-\Delta=a_3-a_2>0,\quad F=b_2-b_3>0,
+A_0=a_2-a_1\gt0,\quad B_0=b_2-b_1\gt0,\quad
+\Delta=a_3-a_2\gt0,\quad F=b_2-b_3\gt0,
 ```
 
 and the reciprocal score linears
@@ -99,7 +99,7 @@ Let `T(z)=(1+z)^6 K6(1/(1+z))`.  The transformed critical identity is
 The actual polynomial has
 
 ```math
-K_6(0)=a_1a_2a_3(a_3-a_2)(a_3-a_1)(a_2-a_1)<0.
+K_6(0)=a_1a_2a_3(a_3-a_2)(a_3-a_1)(a_2-a_1)\lt0.
 ```
 
 Thus `T` has degree six, negative leading coefficient, and its six roots
@@ -108,7 +108,7 @@ are positive, counted with multiplicity.  In particular
 **(4)**
 
 ```math
-T(z)<0\qquad(z\le0).
+T(z)\lt0\qquad(z\le0).
 ```
 
 The exact evaluations at the seam `z=-1` are
@@ -120,7 +120,7 @@ The exact evaluations at the seam `z=-1` are
 A(-1)&=d_1d_2(d_2-d_1),\\
 P(-1)&=-d_2d_3(d_3-d_2),\\
 H(-1)&=-(d_3-d_1)(d_2-d_1)(d_3-d_2),\\
-T(-1)&=d_1d_2d_3(d_2-d_1)(d_3-d_1)(d_3-d_2)<0.
+T(-1)&=d_1d_2d_3(d_2-d_1)(d_3-d_1)(d_3-d_2)\lt0.
 \end{aligned}
 ```
 
@@ -131,8 +131,8 @@ give `d1<d2`, since `d1=v-U<v<b2<d2`.
 The reciprocal `A` has positive constant and positive leading coefficient:
 
 ```math
-A(0)=b_1b_2(b_2-b_1)>0,\qquad
-[z^3]A=-a_1a_2(a_2-a_1)>0.
+A(0)=b_1b_2(b_2-b_1)\gt0,\qquad
+[z^3]A=-a_1a_2(a_2-a_1)\gt0.
 ```
 
 At `z_c=b2/a2>0`, the formula (2) gives `A(z_c)<0`.  Hence it has
@@ -144,7 +144,7 @@ the positive constant and positive leading coefficient.  Therefore
 Evaluate (3) at `E`.  Since `ell2(E)<0`, `T(E)<0`, and `-E>0`,
 
 ```math
--E(1+E)A'(E)P(E)=\ell_2(E)T(E)>0.
+-E(1+E)A'(E)P(E)=\ell_2(E)T(E)\gt0.
 ```
 
 Consequently
@@ -187,7 +187,7 @@ Their nonzero bracket factors are positive.  Since
 ```
 
 ```math
-E<-1<L_0.
+E\lt-1\lt L_0.
 ```
 
 Since the other `A` roots are positive, this order gives `A(-1)>0`.
@@ -203,9 +203,9 @@ coefficient positive:
 
 ```math
 \begin{aligned}
-P(0)&=b_2b_3(b_2-b_3)<0,&[z^3]P&=a_2a_3\Delta>0,\\
-H(0)&=(b_1-b_2)(b_2-b_3)(b_1-b_3)<0,
-&[z^3]H&=(a_3-a_1)(a_2-a_1)\Delta>0.
+P(0)&=b_2b_3(b_2-b_3)\lt0,&[z^3]P&=a_2a_3\Delta\gt0,\\
+H(0)&=(b_1-b_2)(b_2-b_3)(b_1-b_3)\lt0,
+&[z^3]H&=(a_3-a_1)(a_2-a_1)\Delta\gt0.
 \end{aligned}
 ```
 

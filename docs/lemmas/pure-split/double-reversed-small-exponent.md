@@ -7,7 +7,7 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 Let
 
 ```math
-u,p,a,b,q,z>0,\qquad q<a,\quad p<b,
+u,p,a,b,q,z\gt0,\qquad q\lt a,\quad p\lt b,
 \qquad \alpha=u+q\in(0,1),\quad \beta=p+z\in(0,2).
 ```
 
@@ -21,7 +21,7 @@ A=(u+pt)(a-bt)[a+u-(b-p)t]-(ap+bu)t(1+t),
 B=(q+zt)(a-bt)[(b+z)t-(a-q)]+(az+bq)t(1+t).
 ```
 
-For every $`\rho>0`$,
+For every $`\rho\gt0`$,
 
 **(1)**
 
@@ -47,15 +47,15 @@ annihilator from the original distinct no-ten route.
 Put $`c=a/b`$. Their endpoint, leading and mode signs are
 
 ```math
-A_0=au(a+u)>0,\quad A_3=pb(b-p)>0,\quad
-A(c)=-b(u+pc)c(1+c)<0,
+A_0=au(a+u)\gt0,\quad A_3=pb(b-p)\gt0,\quad
+A(c)=-b(u+pc)c(1+c)\lt0,
 ```
 
 **(2)**
 
 ```math
-B_0=-aq(a-q)<0,\quad B_3=-zb(b+z)<0,\quad
-B(c)=b(q+zc)c(1+c)>0.
+B_0=-aq(a-q)\lt0,\quad B_3=-zb(b+z)\lt0,\quad
+B(c)=b(q+zc)c(1+c)\gt0.
 ```
 
 Thus each cubic has two positive roots. Ordinary polynomial Descartes and
@@ -74,7 +74,7 @@ while B has one positive coefficient block between its negative ends.
 Write
 
 ```math
-n=\begin{cases}0,&0<\beta<1,\\1,&1\le\beta<2,\end{cases}
+n=\begin{cases}0,&0\lt\beta\lt1,\\1,&1\le\beta\lt2,\end{cases}
 \qquad \zeta=\beta-n\in[0,1),
 ```
 
@@ -88,12 +88,12 @@ C=(1+t)^nB=\sum_{j=0}^{n+3}c_jt^j.
 Pascal convolution is variation diminishing, so $`V(C)\le2`$.
 Multiplication by the positive factor $`(1+t)^n`$ preserves the two
 positive roots of B; polynomial Descartes therefore gives $`V(C)=2`$.
-Its endpoints are $`c_0=B_0<0`$ and $`c_{n+3}=B_3<0`$.
+Its endpoints are $`c_0=B_0\lt0`$ and $`c_{n+3}=B_3\lt0`$.
 Its zero-deleted sign word is precisely $`\texttt{-+-}`$.
 
 ## 2. The same fractional flag applies when n is zero or one
 
-For $`0<\zeta<1`$, G is the complete Bernstein function from frozen
+For $`0\lt\zeta\lt1`$, G is the complete Bernstein function from frozen
 [fractional-power basis proof](fractional-root-factor-argument.md), Section2. Its positive Stieltjes measure has density
 
 **(5)**
@@ -101,8 +101,8 @@ For $`0<\zeta<1`$, G is the complete Bernstein function from frozen
 ```math
 \frac{d\mu}{ds}=\frac1\pi
 \begin{cases}
-\sin(\pi\alpha)s^{\alpha-1}(1-s)^{\zeta-\alpha},&0<s<1,\\
-\sin(\pi\zeta)s^{\alpha-1}(s-1)^{\zeta-\alpha},&s>1.
+\sin(\pi\alpha)s^{\alpha-1}(1-s)^{\zeta-\alpha},&0\lt s\lt1,\\
+\sin(\pi\zeta)s^{\alpha-1}(s-1)^{\zeta-\alpha},&s\gt1.
 \end{cases}
 ```
 
@@ -117,8 +117,8 @@ applies to every finite subfamily of
 ```
 
 That argument depends on the fractional factor G, not on a condition
-$`n>0`$: the finite polynomial multiplier is expanded only afterward.
-Thus the cross-band source's initial scope restriction $`n>m`$ is not a
+$`n\gt0`$: the finite polynomial multiplier is expanded only afterward.
+Thus the cross-band source's initial scope restriction $`n\gt m`$ is not a
 restriction on this flag lemma. Here $`m=0`$, and n may equally be zero.
 
 For the included seam $`\beta=1`$, one has $`n=1,\zeta=0`$ and
@@ -179,22 +179,22 @@ merged row's variation. It therefore suffices to bound the completed rows.
 Start with $`(A_0,c_0,\ldots,c_{n+3})`$, which has three variations.
 Inserting A1, A2 or A3 between consecutive C signs changes the variation
 by two exactly when the two neighbors agree and oppose the inserted sign;
-otherwise it changes it by zero. Since $`c_0<0`$, the three A words in (3)
+otherwise it changes it by zero. Since $`c_0\lt0`$, the three A words in (3)
 have these consequences:
 
 - For $`\texttt{++-+}`$, the A1 and A2 two-change conditions are mutually
   exclusive. Two insertions can contribute only through A1 and A3, forcing
-  $`c_0,c_1,c_2,c_3<0`$.
+  $`c_0,c_1,c_2,c_3\lt0`$.
 - For $`\texttt{+-++}`$, A1 contributes zero. Two insertions require A2
-  and A3, again forcing $`c_0,c_1,c_2,c_3<0`$.
+  and A3, again forcing $`c_0,c_1,c_2,c_3\lt0`$.
 - For $`\texttt{+--+}`$, A1 contributes zero and the A2/A3 conditions are
   mutually exclusive, so there are at most five variations immediately.
 
 In the first two words, seven variations therefore require
-$`c_0,c_1,c_2,c_3<0`$, followed by a later nonempty positive block and
+$`c_0,c_1,c_2,c_3\lt0`$, followed by a later nonempty positive block and
 the final negative block of C. This is impossible here. For n=0 all four
 C coefficients have already been listed; for n=1 the only later coefficient
-is $`c_4=B_3<0`$. Thus every merged row has at most five zero-safe
+is $`c_4=B_3\lt0`$. Thus every merged row has at most five zero-safe
 variations. Generalized Descartes proves (1).
 
 ## 4. Boundary and integration requirements

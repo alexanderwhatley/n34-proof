@@ -57,7 +57,7 @@ Then $`Cd=0`$. All $`\Delta _j`$ are strictly positive admissible minors of $`U`
 Because $`Uv=0`$ and $`ker C`$ is one-dimensional, the right tail of the original circuit obeys
 
 ```math
-v_R=(-1)^k\lambda d,\qquad\lambda>0.
+v_R=(-1)^k\lambda d,\qquad\lambda\gt0.
 ```
 
 The orientation follows from the first right coordinate, whose index is $`k+1`$ and whose sign is $`(-1)^k`$.
@@ -79,7 +79,7 @@ and zero for the remaining rows. Its top $`k`$ entries therefore have the desire
 Now $`y=Ly^U`$. Nonnegative entries of $`L`$ preserve the weak common sign. The first $`k`$ rows are strict because their positive diagonal terms are nonzero. For every later row, its first-column term is nonzero: upper-echelon $`U`$ has only one nonzero entry in its first column, so
 
 ```math
-L_{i1}=M_{i1}/U_{11}>0.
+L_{i1}=M_{i1}/U_{11}\gt0.
 ```
 
 Every row is consequently strict with sign $`(-1)^(k+1)`$. This proves the theorem.
@@ -98,14 +98,14 @@ The bottom-right $`2\times3`$ circuit is
 
 ```math
 (\Delta_1,-\Delta_2,\Delta_3),\qquad
-\Delta_1=kn-\ell m>0,\quad\Delta_2=jn>0,\quad\Delta_3=jm>0.
+\Delta_1=kn-\ell m\gt0,\quad\Delta_2=jn\gt0,\quad\Delta_3=jm\gt0.
 ```
 
 The canonical full circuit's last three entries are $`af`$ times this vector. Define its positive bordered minors
 
 ```math
-E_1=c\Delta_1-d\Delta_2+e\Delta_3>0,\qquad
-E_2=g\Delta_1-h\Delta_2+i\Delta_3>0.
+E_1=c\Delta_1-d\Delta_2+e\Delta_3\gt0,\qquad
+E_2=g\Delta_1-h\Delta_2+i\Delta_3\gt0.
 ```
 
 Then the first-two prefix in the upper rows is exactly

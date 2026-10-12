@@ -5,7 +5,7 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 Use the actual strict canonical mixed supports
 
 ```math
-a_1<0<a_2<a_3,\qquad b_3<0<b_1<b_2,
+a_1\lt0\lt a_2\lt a_3,\qquad b_3\lt0\lt b_1\lt b_2,
 ```
 
 with lambda_i=a_i-(a_i+b_i)x, h_i=x^{a_i}(1-x)^{b_i},
@@ -24,7 +24,7 @@ Indeed,
 ```math
 J=(a_2-a_1)(1-x)+(b_1-b_2)x,
 \qquad
-L=(a_3-a_2)(1-x)+(b_2-b_3)x>0.
+L=(a_3-a_2)(1-x)+(b_2-b_3)x\gt0.
 ```
 
 Thus J is positive before ell in (0,1) and nonpositive after it. On
@@ -32,14 +32,14 @@ Thus J is positive before ell in (0,1) and nonpositive after it. On
 
 ```math
 \left(\frac{J}{L}\right)'
-=\frac{(b_1-b_2)(a_3-a_2)-(a_2-a_1)(b_2-b_3)}{L^2}<0.
+=\frac{(b_1-b_2)(a_3-a_2)-(a_2-a_1)(b_2-b_3)}{L^2}\lt0.
 ```
 
 Also lambda1<0<lambda3 everywhere physically, so
 
 ```math
 \left(\log\frac{h_1}{h_3}\right)'
-=\frac{\lambda_1-\lambda_3}{x(1-x)}<0.
+=\frac{\lambda_1-\lambda_3}{x(1-x)}\lt0.
 ```
 
 Consequently the positive function

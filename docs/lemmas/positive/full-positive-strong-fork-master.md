@@ -2,30 +2,30 @@
 
 Read [the appendix terminology](../../appendix.md#terminology) before this technical lemma. Its variables are local to this document.
 
-Let the outer supports $`s_1=(a_1,b_1)`$, $`s_3=(a_3,b_3)`$ have strictly positive coordinates and distinct modes. After relabeling, $`\gamma=a_3b_1-a_1b_3>0`$. Put
+Let the outer supports $`s_1=(a_1,b_1)`$, $`s_3=(a_3,b_3)`$ have strictly positive coordinates and distinct modes. After relabeling, $`\gamma=a_3b_1-a_1b_3\gt0`$. Put
 
 ```math
-s_2=P s_1+Q s_3,\qquad P,Q>1.
+s_2=P s_1+Q s_3,\qquad P,Q\gt1.
 ```
 
-For every $`E_1,E_2,E_3,L>0`$, the level difference
+For every $`E_1,E_2,E_3,L\gt0`$, the level difference
 
 ```math
-\sum_{i=1}^3 E_i t^{a_i}(1-t)^{b_i}-L,\qquad 0<t<1,
+\sum_{i=1}^3 E_i t^{a_i}(1-t)^{b_i}-L,\qquad 0\lt t\lt1,
 ```
 
 has at most **eight zeros counting analytic multiplicity**. The outer supports can be comparable or incomparable, have unequal degrees, or share one coordinate. All source edges and multiple contacts are included.
 
 ## Exhaustive composition
 
-For $`r=-\lambda_1/\lambda_3>0`$, define
+For $`r=-\lambda_1/\lambda_3\gt0`$, define
 
 ```math
 B=r(1+r),\quad H=P(P-1)r^2-2PQr+Q(Q-1),\quad
 R=\frac{(d_1+rd_3)(a_1+ra_3)(b_1+rb_3)}{\gamma^2},\quad Y=R-B.
 ```
 
-The roots of $`H`$ are $`0<\eta<\xi`$, and their source ratios are $`\sigma=B/R>0`$. At every one original coefficient tuple and level there is one actual common-entropy curve. Its normal-curvature contacts are zeros of $`B+H u_C-R`$, with their analytic orders preserved. Two normal-Rolle stages add at most two original weights.
+The roots of $`H`$ are $`0\lt\eta\lt\xi`$, and their source ratios are $`\sigma=B/R\gt0`$. At every one original coefficient tuple and level there is one actual common-entropy curve. Its normal-curvature contacts are zeros of $`B+H u_C-R`$, with their analytic orders preserved. Two normal-Rolle stages add at most two original weights.
 
 Write the sign pair as $`(\operatorname{sgn}Y(\eta),\operatorname{sgn}Y(\xi))`$.
 

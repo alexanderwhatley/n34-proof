@@ -30,7 +30,7 @@ identity tends to c1>0, a contradiction. Similarly B>0 is impossible
 by t=1. Hence u=1. We need
 
 ```math
-c_3v+c_4w=k:=1-c_1>0.
+c_3v+c_4w=k:=1-c_1\gt0.
 ```
 
 If either v or w is constant, positivity forces the other to be

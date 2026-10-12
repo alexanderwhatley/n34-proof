@@ -4,14 +4,14 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 
 Analytical probe, 4 October 2026. This is separate from the two-internal-wall master. It proves the statements below for the indicated one-wall curvature model; it does not retire the whole original nongeneric ONE-EDGE row.
 
-Let $`P>1`$, $`0<Q<1`$, $`K=P+Q-1`$, and
+Let $`P\gt1`$, $`0\lt Q\lt1`$, $`K=P+Q-1`$, and
 
 ```math
 H=P(P-1)r^2-2PQr+Q(Q-1),\quad B=r(1+r),\quad
 T=Q-(P-1)r.
 ```
 
-The roots of $`H`$ are $`-h\in(-1,0)`$ and $`\xi>0`$. Let $`R=R_0+R_1r+R_2r^2+R_3r^3`$, with all four coefficients positive, and put $`Y=R-B`$. The actual curvature equation is
+The roots of $`H`$ are $`-h\in(-1,0)`$ and $`\xi\gt0`$. Let $`R=R_0+R_1r+R_2r^2+R_3r^3`$, with all four coefficients positive, and put $`Y=R-B`$. The actual curvature equation is
 
 **(1)**
 
@@ -30,7 +30,7 @@ A=1-P\theta,\quad D=r-Q\theta,\quad S=1+r-K\theta=A+D+\theta,
 \quad M=B+H\theta,
 ```
 
-on $`0<\theta<\min(1/P,r/Q)`$, and define
+on $`0\lt\theta\lt\min(1/P,r/Q)`$, and define
 
 ```math
 J(r,\theta)=\frac{P\log A+Q\log D-\log\theta-K\log S}{K}.
@@ -44,7 +44,7 @@ M(r,1/P)=\frac{(Pr-Q)(Pr-Q+1)}P\quad(r\ge Q/P),
 M(r,r/Q)=\frac rQ(Q-Pr)T\quad(r\le Q/P),
 ```
 
-and both are nonnegative. Since $`J_\theta=-M/(K\theta ADS)<0`$, every finite $`C`$ determines a unique smooth physical curve $`\theta_C`$ on all $`r>0`$. Its exact derivatives are
+and both are nonnegative. Since $`J_\theta=-M/(K\theta ADS)\lt0`$, every finite $`C`$ determines a unique smooth physical curve $`\theta_C`$ on all $`r\gt0`$. Its exact derivatives are
 
 **(2)**
 
@@ -52,15 +52,15 @@ and both are nonnegative. Since $`J_\theta=-M/(K\theta ADS)<0`$, every finite $`
 \theta_C'=\frac{\theta_CTA}{M},\qquad
 \theta_C''=\frac{\theta_C ADS H}{M^3},\qquad
 \eta_C':=\left(\frac{r\theta_C'}{\theta_C}\right)'
-=-\frac{AD\{\theta_C(H+Kr)^2+Kr^2S\}}{M^3}<0.
+=-\frac{AD\{\theta_C(H+Kr)^2+Kr^2S\}}{M^3}\lt0.
 ```
 
-These rational identities do not require $`Q>1`$. In this chart $`\beta=Q/(P-1)`$ lies strictly between zero and $`\xi`$; the actual curve increases up to $`\beta`$ and decreases thereafter. In addition
+These rational identities do not require $`Q\gt1`$. In this chart $`\beta=Q/(P-1)`$ lies strictly between zero and $`\xi`$; the actual curve increases up to $`\beta`$ and decreases thereafter. In addition
 
 **(3)**
 
 ```math
-1-\eta_C=\frac{D(1-Q+Pr)}M>0.
+1-\eta_C=\frac{D(1-Q+Pr)}M\gt0.
 ```
 
 Let $`\kappa=e^{KC}`$, $`\nu=(1-Q)/Q`$, and $`c_L=(\kappa/Q)^{1/Q}`$. The endpoint laws are
@@ -95,7 +95,7 @@ Away from $`\xi`$, let $`\theta_0=Y/H`$. Division gives
 
 ```math
 \theta_0=\ell+mr-\frac{V}{r+h}+\frac{U}{r-\xi},\quad
-m=\frac{R_3}{P(P-1)}>0,
+m=\frac{R_3}{P(P-1)}\gt0,
 ```
 
 **(5)**
@@ -105,22 +105,22 @@ U=\frac{Y(\xi)}{P(P-1)(\xi+h)},\qquad
 V=\frac{Y(-h)}{P(P-1)(\xi+h)}.
 ```
 
-Positivity of all coefficients of $`R`$ does not imply $`V>0`$. For example, take $`P=2,Q=1/2`$ and
+Positivity of all coefficients of $`R`$ does not imply $`V\gt0`$. For example, take $`P=2,Q=1/2`$ and
 
 ```math
 R=\frac1{125}+\frac{111}{100}r+\frac1{20}r^2+r^3,
 \quad Y=(r+1/20)(r-1/5)(r-4/5).
 ```
 
-Here $`1/20<h=(\sqrt6-2)/4<1/8`$, and therefore $`Y(-h)<0`$.
+Here $`1/20\lt h=(\sqrt6-2)/4\lt1/8`$, and therefore $`Y(-h)\lt0`$.
 
 A useful sufficient source condition is $`R=\lambda\prod_{i=1}^3(r+A_i)`$, with $`A_i\ge t=(1-Q)/P`$. Since
 
 ```math
-H(-t)=(1-Q)\left[Q+\frac{(P-1)(1-Q)}P\right]>0,
+H(-t)=(1-Q)\left[Q+\frac{(P-1)(1-Q)}P\right]\gt0,
 ```
 
-one has $`h<t`$, whence $`R(-h)>0`$ and $`Y(-h)>0`$. This factor condition holds, for example, when the middle support dominates the third support coordinatewise and $`s_2=Ps_1+Qs_3`$, with both outer supports strictly positive.
+one has $`h\lt t`$, whence $`R(-h)\gt0`$ and $`Y(-h)\gt0`$. This factor condition holds, for example, when the middle support dominates the third support coordinatewise and $`s_2=Ps_1+Qs_3`$, with both outer supports strictly positive.
 
 ## Exact forcing polynomial and a nonunit conditional six bound
 
@@ -152,17 +152,17 @@ w_6=-PR_3[(P-1)R_2+3QR_3-(P^2-1)].
 
 If $`Y(\xi)\ne0`$ and $`w_0w_6\le0`$, then (1) has weighted root count at most six. Indeed, a nonzero polynomial of degree at most six with opposite nonzero endpoint signs has odd positive root weight, hence at most five; a zero constant or leading coefficient also reduces the available positive root weight to at most five.
 
-For clarity, the ODE comparison is valid on each *whole* interval $`(0,\xi)`$ and $`(\xi,\infty)`$, without dividing it by probability-bound crossings. Along the source its ODE denominator is $`R>0`$, along the actual curve it is $`M>0`$, and by affine interpolation it stays positive between them. The secant of $`F`$ is analytic. Multiplication by its positive integrating factor turns the difference derivative into the right side of (6), times a positive factor. Weighted Rolle therefore bounds graph contacts on each interval by its forcing root weight plus one. The total is at most seven.
+For clarity, the ODE comparison is valid on each *whole* interval $`(0,\xi)`$ and $`(\xi,\infty)`$, without dividing it by probability-bound crossings. Along the source its ODE denominator is $`R\gt0`$, along the actual curve it is $`M\gt0`$, and by affine interpolation it stays positive between them. The secant of $`F`$ is analytic. Multiplication by its positive integrating factor turns the difference derivative into the right side of (6), times a positive factor. Weighted Rolle therefore bounds graph contacts on each interval by its forcing root weight plus one. The total is at most seven.
 
-The total graph-contact weight is even: if $`Y(\xi)>0`$, each sector has identical endpoint signs; if $`Y(\xi)<0`$, each sector has opposite endpoint signs, giving two odd contributions. The source is negative at zero and positive and linearly growing at infinity, whereas the actual curve is positive and has the laws (4). Thus the even bound improves seven to six. If $`W`$ were identically zero, positive-denominator ODE uniqueness and these endpoint mismatches imply no graph contacts, and the same conclusion holds. In the nonunit case multiplying the graph difference by $`H`$ does not change any positive zero order.
+The total graph-contact weight is even: if $`Y(\xi)\gt0`$, each sector has identical endpoint signs; if $`Y(\xi)\lt0`$, each sector has opposite endpoint signs, giving two odd contributions. The source is negative at zero and positive and linearly growing at infinity, whereas the actual curve is positive and has the laws (4). Thus the even bound improves seven to six. If $`W`$ were identically zero, positive-denominator ODE uniqueness and these endpoint mismatches imply no graph contacts, and the same conclusion holds. In the nonunit case multiplying the graph difference by $`H`$ does not change any positive zero order.
 
-The factor condition $`A_i\ge(1-Q)/P`$ makes $`w_0>0`$, since $`R_1/R_0=\sum 1/A_i\le3P/(1-Q)`$; it does not by itself supply the required sign of $`w_6`$.
+The factor condition $`A_i\ge(1-Q)/P`$ makes $`w_0\gt0`$, since $`R_1/R_0=\sum 1/A_i\le3P/(1-Q)`$; it does not by itself supply the required sign of $`w_6`$.
 
 ## Unconditional unit-wall six bound
 
 **Theorem.** If $`Y(\xi)=0`$, equation (1) has positive weighted root count at most six, for every positive-coefficient cubic $`R`$.
 
-Write $`H=(r-\xi)L`$ and $`Y=(r-\xi)Z`$, where $`L=P(P-1)(r+h)>0`$ for all $`r>0`$, and $`Z`$ is quadratic. The canceled source $`\theta_0=Z/L`$ is analytic on the whole positive axis. The polynomial identity
+Write $`H=(r-\xi)L`$ and $`Y=(r-\xi)Z`$, where $`L=P(P-1)(r+h)\gt0`$ for all $`r\gt0`$, and $`Z`$ is quadratic. The canceled source $`\theta_0=Z/L`$ is analytic on the whole positive axis. The polynomial identity
 
 **(8)**
 
@@ -172,7 +172,7 @@ W=(r-\xi)^2\widehat W,
 \widehat W=R(Z'L-ZL')-ZT(L-PZ)
 ```
 
-implies $`\deg\widehat W\le4`$, because $`\deg W\le6`$. The canceled source satisfies $`B+H\theta_0=R>0`$, including at the wall. Consequently the same positive-denominator ODE comparison applies on all of $`(0,\infty)`$, with residual
+implies $`\deg\widehat W\le4`$, because $`\deg W\le6`$. The canceled source satisfies $`B+H\theta_0=R\gt0`$, including at the wall. Consequently the same positive-denominator ODE comparison applies on all of $`(0,\infty)`$, with residual
 
 ```math
 \theta_0'-F(r,\theta_0)=\frac{\widehat W}{L^2R}.

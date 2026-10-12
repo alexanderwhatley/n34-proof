@@ -10,19 +10,19 @@ Let
 
 ```math
 q=x^A(1-x)^B,\qquad \beta=x^a(1-x)^b,
-\qquad A,B,a,b>0,\qquad aB-bA>0.
+\qquad A,B,a,b\gt0,\qquad aB-bA\gt0.
 ```
 
-For $`0<q_0<q_{\max}`$, let $`x_L<x_R`$ be the two original equal-$`q_0`$ points, and set
+For $`0\lt q_0\lt q_{\max}`$, let $`x_L\lt x_R`$ be the two original equal-$`q_0`$ points, and set
 
 ```math
-D(q_0)=1/\beta(x_L)-1/\beta(x_R)>0.
+D(q_0)=1/\beta(x_L)-1/\beta(x_R)\gt0.
 ```
 
 Then
 
 ```math
-\boxed{\ D_{q_0q_0q_0}<0\quad\text{throughout }(0,q_{\max}).\ }
+\boxed{\ D_{q_0q_0q_0}\lt0\quad\text{throughout }(0,q_{\max}).\ }
 ```
 
 Thus the paired curvature $`D_{q_0q_0}`$ is strictly decreasing, and the positive function $`-D_{q_0}`$ is strictly convex. The paired curvature has exactly one simple zero, changing from positive to negative, at every exponent scale and every positive angular gap.
@@ -36,8 +36,8 @@ t=\log x,\quad f(t)=At+B\log(1-e^t),\quad s=\log q_0,
 ```
 
 ```math
-\lambda=b/B>0,\quad \kappa=(aB-bA)/B>0,\quad
-L=f'(t_L)>0,\quad R=-f'(t_R)>0,
+\lambda=b/B\gt0,\quad \kappa=(aB-bA)/B\gt0,\quad
+L=f'(t_L)\gt0,\quad R=-f'(t_R)\gt0,
 ```
 
 ```math
@@ -47,7 +47,7 @@ S=A+B,\qquad M=A+S+\kappa B.
 The exact identity $`\log\beta=\lambda s+\kappa t`$ gives
 
 ```math
-J=\int_{t_L}^{t_R}e^{-\kappa t}\,dt>0,
+J=\int_{t_L}^{t_R}e^{-\kappa t}\,dt\gt0,
 \qquad D=\kappa e^{-\lambda s}J,
 ```
 
@@ -63,26 +63,26 @@ The original two source points give a strict density dominance
 **(1)**
 
 ```math
-\pi_L>\pi_R.
+\pi_L\gt\pi_R.
 ```
 
 Indeed $`f'`$ is strictly concave, since
 
 ```math
-f'''(t)=-\frac{Be^t(1+e^t)}{(1-e^t)^3}<0.
+f'''(t)=-\frac{Be^t(1+e^t)}{(1-e^t)^3}\lt0.
 ```
 
 Its integral between the two equal-level points is zero. Integrating its strict chord inequality therefore gives
 
 ```math
-0>\tfrac12(t_R-t_L)\{f'(t_L)+f'(t_R)\}
+0\gt\tfrac12(t_R-t_L)\{f'(t_L)+f'(t_R)\}
 =\tfrac12(t_R-t_L)(L-R).
 ```
 
-Thus $`R>L`$, and
+Thus $`R\gt L`$, and
 
 ```math
-\pi_L/\pi_R=e^{\kappa(t_R-t_L)}R/L>1.
+\pi_L/\pi_R=e^{\kappa(t_R-t_L)}R/L\gt1.
 ```
 
 This source linkage is essential; $`L,R`$ are not free independent slopes.
@@ -100,27 +100,27 @@ Write $`g_i=(\log\pi_i)_s`$. Then
 
 ```math
 g_L=\frac{AS-ML+L^2}{BL^2},\qquad
-g_R=\frac{AS+MR+R^2}{BR^2}>0,
+g_R=\frac{AS+MR+R^2}{BR^2}\gt0,
 ```
 
 **(2)**
 
 ```math
 (g_L)_s=\frac{(2AS-ML)(A-L)(S-L)}{B^2L^4},\qquad
-(g_R)_s=\frac{(MR+2AS)(A+R)(S+R)}{B^2R^4}>0.
+(g_R)_s=\frac{(MR+2AS)(A+R)(S+R)}{B^2R^4}\gt0.
 ```
 
-The left density is strictly convex, $`(\pi_L)_{ss}>0`$. If $`ML\le2AS`$, this follows from $`(g_L)_s\ge0`$ and $`g_L^2+(g_L)_s>0`$. If $`ML>2AS`$, put
+The left density is strictly convex, $`(\pi_L)_{ss}\gt0`$. If $`ML\le2AS`$, this follows from $`(g_L)_s\ge0`$ and $`g_L^2+(g_L)_s\gt0`$. If $`ML\gt2AS`$, put
 
 ```math
-z=ML-2AS>0,\quad d_{*}=ML-AS-L^2=z+AS-L^2>0,
+z=ML-2AS\gt0,\quad d_{*}=ML-AS-L^2=z+AS-L^2\gt0,
 \quad F=(A-L)(S-L).
 ```
 
-Because $`0<L<A<S`$,
+Because $`0\lt L\lt A\lt S`$,
 
 ```math
-F<AS-L^2<d_{*},
+F\lt AS-L^2\lt d_{*},
 ```
 
 and therefore
@@ -130,18 +130,18 @@ and therefore
 ```math
 \frac{(\pi_L)_{ss}}{\pi_L}
 =\frac{d_{*}^2-Fz}{B^2L^4}
->\frac{d_{*}(AS-L^2)}{B^2L^4}>0.
+\gt\frac{d_{*}(AS-L^2)}{B^2L^4}\gt0.
 ```
 
-Whenever $`g_L>0`$, a stronger exact inequality holds:
+Whenever $`g_L\gt0`$, a stronger exact inequality holds:
 
 **(4)**
 
 ```math
-\boxed{\ (g_L)_s>2g_L^2.\ }
+\boxed{\ (g_L)_s\gt2g_L^2.\ }
 ```
 
-To verify it, set $`d_0=AS-ML+L^2>0`$. Then
+To verify it, set $`d_0=AS-ML+L^2\gt0`$. Then
 
 ```math
 F=d_0+\kappa BL,\qquad 2AS-ML=d_0+AS-L^2,
@@ -153,14 +153,14 @@ and (2) yields
 
 ```math
 B^2L^4\{(g_L)_s-2g_L^2\}
-=d_0L(M-2L)+\kappa BL(d_0+AS-L^2)>0.
+=d_0L(M-2L)+\kappa BL(d_0+AS-L^2)\gt0.
 ```
 
-Every factor is positive, since $`M>A+S>2A>2L`$.
+Every factor is positive, since $`M\gt A+S\gt2A\gt2L`$.
 
 ## 3. Density domination proves the third-derivative sign
 
-Write $`\mu=\lambda+1>1`$. Exact differentiation of $`D=\kappa e^{-\lambda s}J`$ gives
+Write $`\mu=\lambda+1\gt1`$. Exact differentiation of $`D=\kappa e^{-\lambda s}J`$ gives
 
 ```math
 -D_{q_0q_0q_0}
@@ -181,15 +181,15 @@ If $`g_L\le0`$, strict convexity (3) gives
 
 ```math
 (\pi_L)_{ss}-3\mu(\pi_L)_s+(3\mu^2-1)\pi_L
->(3\mu^2-1)\pi_L\ge2\pi_L.
+\gt(3\mu^2-1)\pi_L\ge2\pi_L.
 ```
 
-If $`g_L>0`$, (4) gives the uniform lower bound
+If $`g_L\gt0`$, (4) gives the uniform lower bound
 
 ```math
 \begin{aligned}
 \frac{(\pi_L)_{ss}-3\mu(\pi_L)_s+(3\mu^2-1)\pi_L}{\pi_L}
-&>3g_L^2-3\mu g_L+3\mu^2-1\\
+&\gt3g_L^2-3\mu g_L+3\mu^2-1\\
 &=3(g_L-\mu/2)^2+\tfrac94\mu^2-1
 \ge\tfrac54.
 \end{aligned}
@@ -202,7 +202,7 @@ The strictly log-convex right density in (2) gives
 ```math
 \begin{aligned}
 \frac{(\pi_R)_{ss}-3\mu(\pi_R)_s+(3\mu^2-1)\pi_R}{\pi_R}
-&>g_R^2-3\mu g_R+3\mu^2-1\\
+&\gt g_R^2-3\mu g_R+3\mu^2-1\\
 &=(g_R-3\mu/2)^2+\tfrac34\mu^2-1
 \ge-\tfrac14.
 \end{aligned}
@@ -211,9 +211,9 @@ The strictly log-convex right density in (2) gives
 Combining with the actual source dominance (1),
 
 ```math
-\mathcal W>
+\mathcal W\gt
 \tfrac54\pi_L-\tfrac14\pi_R
-+\lambda\mu(\mu+1)J>\pi_L>0.
++\lambda\mu(\mu+1)J\gt\pi_L\gt0.
 ```
 
 Equation (6) proves the strict negative third derivative.
@@ -223,29 +223,29 @@ Equation (6) proves the strict negative third derivative.
 At the zero endpoint, the actual beta power laws give
 
 ```math
-D\sim q_0^{-a/A},\qquad D_{q_0q_0}>0
+D\sim q_0^{-a/A},\qquad D_{q_0q_0}\gt0
 ```
 
-eventually, because $`a/A>b/B`$. At the fold, the convergent inverse-branch expansion gives
+eventually, because $`a/A\gt b/B`$. At the fold, the convergent inverse-branch expansion gives
 
 ```math
 D=K\sqrt{q_{\max}-q_0}
-+O((q_{\max}-q_0)^{3/2}),\qquad K>0,
++O((q_{\max}-q_0)^{3/2}),\qquad K\gt0,
 ```
 
-so $`D_{q_0q_0}<0`$ eventually. These source expansions may be differentiated because they are convergent local inverse series. Strict negativity of the third derivative therefore gives exactly one curvature zero, and the zero is simple.
+so $`D_{q_0q_0}\lt0`$ eventually. These source expansions may be differentiated because they are convergent local inverse series. Strict negativity of the third derivative therefore gives exactly one curvature zero, and the zero is simple.
 
-For the original comparable row with $`0<h<1`$, both paired jumps
+For the original comparable row with $`0\lt h\lt1`$, both paired jumps
 
 ```math
 D=1/v_L-1/v_R,\qquad
 T=q_0^n(v_L^{-H}-v_R^{-H})
 ```
 
-are covered: the latter is the inverse jump for $`\beta_1=v/u`$, which has strict positive supports and determinant $`H\Delta>0`$. Hence
+are covered: the latter is the inverse jump for $`\beta_1=v/u`$, which has strict positive supports and determinant $`H\Delta\gt0`$. Hence
 
 ```math
-D_{qqq}<0,\qquad T_{qqq}<0.
+D_{qqq}\lt0,\qquad T_{qqq}\lt0.
 ```
 
-The first-derivative quotient theorem still supplies their strict ordered curvature zeros $`q_T<q_D`$. Together these are uniform third-derivative and one-inflection constraints on the exact paired branches. They do not determine the common symmetric part and do not yet replace the original seven-node common-line exclusion.
+The first-derivative quotient theorem still supplies their strict ordered curvature zeros $`q_T\lt q_D`$. Together these are uniform third-derivative and one-inflection constraints on the exact paired branches. They do not determine the common symmetric part and do not yet replace the original seven-node common-line exclusion.

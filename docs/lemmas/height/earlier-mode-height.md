@@ -7,18 +7,18 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 Let
 
 ```math
-G=c_1-u+c_3v+c_4w,\qquad c_1,c_3,c_4>0,
+G=c_1-u+c_3v+c_4w,\qquad c_1,c_3,c_4\gt0,
 \qquad0\prec s_u\prec s_v\prec s_w,
 ```
 
 be the actual beta family. Reflect so that, for $`q=w/v`$,
-$`\theta_q<\theta_w<\theta_v`$. If $`\theta_u<\theta_w`$, then
+$`\theta_q\lt\theta_w\lt\theta_v`$. If $`\theta_u\lt\theta_w`$, then
 $`G`$ has fewer than ten distinct interior roots.
 
 In the exactly realizable source chart this is the single condition
-$`n>h`$, subject to the usual endpoint inequalities
-$`0<hr_i+n<r_i`$, $`i=1,3`$. It includes both former strict mode
-regions $`h<0`$ and $`0<h<n`$, without a bound condition. The proof
+$`n\gt h`$, subject to the usual endpoint inequalities
+$`0\lt hr_i+n\lt r_i`$, $`i=1,3`$. It includes both former strict mode
+regions $`h\lt0`$ and $`0\lt h\lt n`$, without a bound condition. The proof
 does not require the old 51-monomial prefix positivity certificate or
 the old mode-dependent left-branch node deletions.
 
@@ -26,7 +26,7 @@ It suffices to prove the generic simple-root version. The standing
 original-root compact-bracket perturbation supplies the distinct-root
 statement and the nongeneric auxiliary faces within this open region.
 Coincident $`v,q`$ modes can likewise be reached by original-function
-perturbation while preserving $`\theta_u<\theta_w`$.
+perturbation while preserving $`\theta_u\lt\theta_w`$.
 
 The coincidence $`h=0`$, i.e. $`\theta_u=\theta_q`$, is covered
 directly by the proof: E is linear and the final pole comparison simply
@@ -50,12 +50,12 @@ w'/u'=(w/u)(\lambda_w/\lambda_u)
 
 are strictly increasing positive functions. For example, $`v/u`$ is
 a positive-exponent beta monomial whose mode is later than
-$`\theta_v>\theta_u`$, and $`\lambda_v/\lambda_u`$ increases
-strictly because $`\theta_v>\theta_u`$. The same reasoning applies
+$`\theta_v\gt\theta_u`$, and $`\lambda_v/\lambda_u`$ increases
+strictly because $`\theta_v\gt\theta_u`$. The same reasoning applies
 to $`w`$. Their positive weighted sum increases from zero to infinity.
 Hence $`G'=u'(c_3v'/u'+c_4w'/u'-1)`$ has one zero there, a strict
 minimum. Between $`\theta_u`$ and $`\theta_w`$, one has
-$`u'<0`$, $`v'>0`$, $`w'>0`$, so $`G'>0`$. Thus $`G`$ has at
+$`u'\lt0`$, $`v'\gt0`$, $`w'\gt0`$, so $`G'\gt0`$. Thus $`G`$ has at
 most two roots before $`\theta_w`$, leaving at least eight after it.
 
 Define $`R=(u-c_1)/v`$, $`L_4=dR/dq`$, $`L_3=R-qL_4`$. On the
@@ -68,7 +68,7 @@ G/w=c_4+c_3/q-R/q
 gives at least seven hits of $`L_3=c_3`$. The exact endpoint values are
 
 ```math
-L_3(\theta_w)=\frac{u(\theta_w)}{v(\theta_w)}(h-n)<0,
+L_3(\theta_w)=\frac{u(\theta_w)}{v(\theta_w)}(h-n)\lt0,
 \qquad L_3(x)\longrightarrow-\infty\quad(x\to1^-).
 ```
 
@@ -81,7 +81,7 @@ $`(L_3)_x=\Gamma/(v\rho\lambda_q^2)`$.
 The standing global ceiling is seven. Therefore **all seven** envelope
 nodes lie after $`\theta_w`$, and there are none elsewhere. In the
 physical right chart their coordinates obey
-$`-1<p_i<r_1`$. This argument is independent of the sign of $`h`$.
+$`-1\lt p_i\lt r_1`$. This argument is independent of the sign of $`h`$.
 
 There are exactly eight hits of the same $`L_3=c_3`$ level: nine hits
 would force eight stationary nodes. The seven simple stationary nodes
@@ -98,82 +98,82 @@ Retain
 
 ```math
 \begin{gathered}
-H=1-h>0,\quad T=hp+n,\quad k=n-Hp=T-p,\quad
-P=-\Pi>0,\quad\sigma=\sum_i1/(r_i-p),\\
+H=1-h\gt0,\quad T=hp+n,\quad k=n-Hp=T-p,\quad
+P=-\Pi\gt0,\quad\sigma=\sum_i1/(r_i-p),\\
 C=p(p+1)+P,\quad E=-Hhp^2-2Hnp+n(n-1),\quad D=HC+E,\\
 B=(h-n)C-(p+1)E,\quad
 J=\Pi(EC'-E'C)-TCD.
 \end{gathered}
 ```
 
-The source cone and $`n>h`$ imply $`n>0,H>0`$. The affine
+The source cone and $`n\gt h`$ imply $`n\gt0,H\gt0`$. The affine
 $`T`$ is positive at both endpoints of $`(-1,r_1)`$:
-$`T(-1)=n-h>0`$, $`T(r_1)>0`$. Thus $`T>0`$ throughout.
+$`T(-1)=n-h\gt0`$, $`T(r_1)\gt0`$. Thus $`T\gt0`$ throughout.
 
 Let $`a=\max(-h,0)`$. The source gives the uniform bound
-$`\sigma>3a/T`$: for $`a=0`$ it is immediate; for $`a=-h>0`$,
-$`p_u=-n/h>r_3`$ and each reciprocal is greater than
+$`\sigma\gt3a/T`$: for $`a=0`$ it is immediate; for $`a=-h\gt0`$,
+$`p_u=-n/h\gt r_3`$ and each reciprocal is greater than
 $`1/(p_u-p)=a/T`$. In particular
-$`h+T\sigma>h+3a\ge0`$.
+$`h+T\sigma\gt h+3a\ge0`$.
 
-Set $`t=c_1/u>0`$. Throughout the tail,
+Set $`t=c_1/u\gt0`$. Throughout the tail,
 
 ```math
-\frac{t'}t=\frac TP>0,\qquad
-(\log t)''=\frac{h+T\sigma}{P}>0,
+\frac{t'}t=\frac TP\gt0,\qquad
+(\log t)''=\frac{h+T\sigma}{P}\gt0,
 ```
 
-so $`t'>0,t''>0`$. Set
+so $`t'\gt0,t''\gt0`$. Set
 $`B_t=(p+1)(1-t)-T`$. Then
 
 ```math
-B_t''=-2t'-(p+1)t''<0.
+B_t''=-2t'-(p+1)t''\lt0.
 ```
 
-The odd-node maxima derived in §1 give $`B_t>0`$ at nodes 1,3,5,7.
+The odd-node maxima derived in §1 give $`B_t\gt0`$ at nodes 1,3,5,7.
 Concavity propagates this strict positivity throughout the
 whole node hull, including all even nodes. At every node
 
 ```math
-\boxed{B/C=B_t>0,\qquad E/C=(h-n-B_t)/(p+1)<0.}
+\boxed{B/C=B_t\gt0,\qquad E/C=(h-n-B_t)/(p+1)\lt0.}
 ```
 
-Also $`B_t<(p+1)-T=1-k`$. The first node's positivity gives
-$`k<1`$ there. Since $`k'=-H<0`$, all nodes satisfy
+Also $`B_t\lt(p+1)-T=1-k`$. The first node's positivity gives
+$`k\lt1`$ there. Since $`k'=-H\lt0`$, all nodes satisfy
 
 ```math
-p>p_1:=(n-1)/H.
+p\gt p_1:=(n-1)/H.
 ```
 
 ## 3. One compulsory J root outside the node tail
 
-On the original left ray $`p>r_3`$, the cubic C has one simple root
-$`\gamma_3>r_3`$. Indeed $`\Pi/[p(p+1)]`$ increases strictly from
+On the original left ray $`p\gt r_3`$, the cubic C has one simple root
+$`\gamma_3\gt r_3`$. Indeed $`\Pi/[p(p+1)]`$ increases strictly from
 zero to infinity, since its logarithmic derivative is greater than
-$`3/p-1/p-1/(p+1)>0`$. Let $`c\in(0,\theta_q)`$ be that root in
+$`3/p-1/p-1/(p+1)\gt0`$. Let $`c\in(0,\theta_q)`$ be that root in
 the original coordinate.
 
 The linked gap core $`D_0=\mathcal C(v/u,q)`$ satisfies
-$`D_0(0)>0`$. If $`D_0(c)>0`$, the height
+$`D_0(0)\gt0`$. If $`D_0(c)\gt0`$, the height
 $`\mathcal V=uD_0/C_0`$ starts at zero and tends to positive infinity
-as $`x\to c^-`$. It crosses $`c_1>0`$ before the w mode,
+as $`x\to c^-`$. It crosses $`c_1\gt0`$ before the w mode,
 contradicting §1. Generic common-root avoidance excludes
-$`D_0(c)=0`$, so $`D_0(c)<0`$.
+$`D_0(c)=0`$, so $`D_0(c)\lt0`$.
 
 Its first zero $`d\in(0,c)`$ bounds a positive height interval
 $`(0,d)`$ with zero endpoint limits. An interior positive maximum
-gives a J root on $`p>r_3`$. This root is disjoint from all J roots
+gives a J root on $`p\gt r_3`$. This root is disjoint from all J roots
 forced between the tail nodes. Also
-$`E(\gamma_3)=D(\gamma_3)<0`$, a useful root-order consequence.
+$`E(\gamma_3)=D(\gamma_3)\lt0`$, a useful root-order consequence.
 
 ## 4. Pole-free and unused-component degree budgets
 
 The right physical C roots, if present, are exactly two roots
-$`-1<\gamma_1<\gamma_2<0`$. For $`p\le-1`$ or $`p\ge0`$,
-$`C=p(p+1)+P>0`$; and
+$`-1\lt\gamma_1\lt\gamma_2\lt0`$. For $`p\le-1`$ or $`p\ge0`$,
+$`C=p(p+1)+P\gt0`$; and
 
 ```math
-C''=2+2\Lambda(r_1+r_2+r_3)-6\Lambda p>0\quad(p<0),
+C''=2+2\Lambda(r_1+r_2+r_3)-6\Lambda p\gt0\quad(p\lt0),
 ```
 
 so the negative part has at most two roots. Auxiliary collisions are
@@ -184,17 +184,17 @@ height component, forcing six tail J roots; §3 supplies a seventh,
 contradicting $`\deg J\le6`$. The same holds when $`n\ge1`$,
 because $`p_1\ge0`$ puts all nodes beyond both possible C roots.
 
-Assume now $`0<n<1`$ and two C roots. Since $`E'=-2HT<0`$ on
+Assume now $`0\lt n\lt1`$ and two C roots. Since $`E'=-2HT\lt0`$ on
 $`(-1,r_1)`$, and
 
 ```math
-E(p_1)=(1-n)(n-h)/H>0,\qquad E(0)=n(n-1)<0,
+E(p_1)=(1-n)(n-h)/H\gt0,\qquad E(0)=n(n-1)\lt0,
 ```
 
-E has one tail root $`\epsilon\in(p_1,0)`$. The inequality $`E/C<0`$
+E has one tail root $`\epsilon\in(p_1,0)`$. The inequality $`E/C\lt0`$
 restricts nodes to at most two C components.
 
-If $`\epsilon<\gamma_1`$, those are the two C-positive exterior
+If $`\epsilon\lt\gamma_1`$, those are the two C-positive exterior
 components. One occupied component forces six J roots and contradicts
 §3. Two occupied components force at least five J roots between nodes.
 On the unused central C-negative component, E and D are negative;
@@ -204,11 +204,11 @@ seven, again impossible.
 
 ## 5. A uniform barrier when epsilon follows both C roots
 
-Suppose $`\epsilon>\gamma_2`$, and write $`\epsilon=-z`$.
-Convexity gives $`C(\epsilon)>0,C'(\epsilon)>0`$, hence
+Suppose $`\epsilon\gt\gamma_2`$, and write $`\epsilon=-z`$.
+Convexity gives $`C(\epsilon)\gt0,C'(\epsilon)\gt0`$, hence
 
 ```math
-P>z(1-z),\qquad P\sigma<1-2z,\qquad0<z<1/2.
+P\gt z(1-z),\qquad P\sigma\lt1-2z,\qquad0\lt z\lt1/2.
 ```
 
 At E=0,
@@ -217,49 +217,49 @@ At E=0,
 T(1-2z)-T^2=-hz(1-z)\le az(1-z).
 ```
 
-Using $`\sigma>3a/T`$,
-$`3\{T(1-2z)-T^2\}<T(1-2z)`$, so
+Using $`\sigma\gt3a/T`$,
+$`3\{T(1-2z)-T^2\}\lt T(1-2z)`$, so
 
 ```math
-T>2(1-2z)/3,\qquad k(\epsilon)>(2-z)/3>1/2.
+T\gt2(1-2z)/3,\qquad k(\epsilon)\gt(2-z)/3\gt1/2.
 ```
 
-If $`D(d)=0`$ for $`p_1<d<\epsilon`$, integration of
+If $`D(d)=0`$ for $`p_1\lt d\lt\epsilon`$, integration of
 $`E'=-2HT`$ gives
 $`C(d)=-(\epsilon-d)\{T(d)+T(\epsilon)\}`$. Since
-$`C'<2p+1`$,
+$`C'\lt2p+1`$,
 
 ```math
-C(\epsilon)<(\epsilon-d)
-\{1-k(d)-k(\epsilon)\}<0,
+C(\epsilon)\lt(\epsilon-d)
+\{1-k(d)-k(\epsilon)\}\lt0,
 ```
 
-contradicting $`C(\epsilon)>0`$. As $`D(p_1)=HP(p_1)>0`$, D stays
+contradicting $`C(\epsilon)\gt0`$. As $`D(p_1)=HP(p_1)\gt0`$, D stays
 positive up to $`\epsilon`$. Thus the C-negative component has no
 positive-height nodes; all seven lie after $`\epsilon`$ in the one
 C-positive component. Six J roots there plus §3 are impossible.
 
 ## 6. The overlapping case: at most one central node and two tail nodes
 
-It remains that $`\gamma_1<\epsilon<\gamma_2`$. D has roots
+It remains that $`\gamma_1\lt\epsilon\lt\gamma_2`$. D has roots
 $`\delta_1\in(\gamma_1,\epsilon)`$,
 $`\delta_2\in(\gamma_2,r_1)`$, and the left-ray root from §3.
 These exhaust the cubic degree. Thus central positive-height nodes lie
 in $`(\delta_1,\epsilon)`$, and right positive-height nodes lie in
 $`(\delta_2,r_1)`$.
 
-At a central node, $`E>0,C<0,D<0,B<0`$. Put
-$`K=k(1-k)`$, $`N=(p+1)T(1-k)`$, $`\alpha=n-h>0`$. These
+At a central node, $`E\gt0,C\lt0,D\lt0,B\lt0`$. Put
+$`K=k(1-k)`$, $`N=(p+1)T(1-k)`$, $`\alpha=n-h\gt0`$. These
 inequalities give
 
 ```math
-0<L=N/\alpha<P<R=K/H,
+0\lt L=N/\alpha\lt P\lt R=K/H,
 ```
 
 and the source core satisfies
 
 ```math
-J=J_0(P)+E\sigma P^2>
+J=J_0(P)+E\sigma P^2\gt
 Q(P):=J_0(P)+3aEP^2/T,
 ```
 
@@ -268,31 +268,31 @@ J_0(P)=-EP(2p+1)-T\{p(p+1)+P\}(3HP-K).
 ```
 
 The quadratic Q is strictly concave: its leading coefficient is
-$`-3(HT^2-aE)/T<0`$. For a=0 this is immediate; for a=-h>0,
-$`HT^2-aE=n(n+a)>0`$. Its endpoint values are
+$`-3(HT^2-aE)/T\lt0`$. For a=0 this is immediate; for a=-h>0,
+$`HT^2-aE=n(n+a)\gt0`$. Its endpoint values are
 
 ```math
 \begin{aligned}
-Q(L)&=-\frac{LC(L)}{p+1}\left(N'+\frac{3aN}{T}\right)>0,
-&C(L)&=-\frac{(p+1)E}{\alpha}<0,\\
-Q(R)&=RE\left(2k-1+\frac{3aR}{T}\right)>0.
+Q(L)&=-\frac{LC(L)}{p+1}\left(N'+\frac{3aN}{T}\right)\gt0,
+&C(L)&=-\frac{(p+1)E}{\alpha}\lt0,\\
+Q(R)&=RE\left(2k-1+\frac{3aR}{T}\right)\gt0.
 \end{aligned}
 ```
 
 For the lower value,
-$`N'+3aN/T=T(1-k)+(p+1)(h+3a)(1-k)+(p+1)TH>0`$.
+$`N'+3aN/T=T(1-k)+(p+1)(h+3a)(1-k)+(p+1)TH\gt0`$.
 For the upper value, k>=1/2 is immediate (the possible zero margin
 would contradict E>0). If k<1/2, the identity
-$`E=-hK+H(2k-1)T-HT^2>0`$ forces h<0 and gives
-$`aR/T>1-2k+T`$. Thus Q and J are positive throughout (L,R).
+$`E=-hK+H(2k-1)T-HT^2\gt0`$ forces h<0 and gives
+$`aR/T\gt1-2k+T`$. Thus Q and J are positive throughout (L,R).
 
 Every central common node is consequently upward, since
-$`\mathcal V_p=uJ/(PC^2)>0`$. Two upward crossings of one regular
+$`\mathcal V_p=uJ/(PC^2)\gt0`$. Two upward crossings of one regular
 level would require a downward crossing, which is another common node
 and obeys the same inequalities. Hence there is at most one central node.
 
-On the right positive component, put $`\tau=-E/C>0`$,
-$`d=D/C=H-\tau>0`$. At any stationary point of
+On the right positive component, put $`\tau=-E/C\gt0`$,
+$`d=D/C=H-\tau\gt0`$. At any stationary point of
 $`\mathcal V=ud`$, direct differentiation gives
 
 ```math
@@ -305,8 +305,8 @@ $`\mathcal V=ud`$, direct differentiation gives
 The first and third terms are negative. The second is negative by a
 uniform pole-distance comparison. Factor E by its real roots: one is
 $`\epsilon`$. If h>0 its other root is before -1, since
-$`E(-1)=(n-h)(n-h+1)>0`$; if h<0 its other root is after
-$`\gamma_3`$, by $`E(\gamma_3)<0`$ and its positive leading
+$`E(-1)=(n-h)(n-h+1)\gt0`$; if h<0 its other root is after
+$`\gamma_3`$, by $`E(\gamma_3)\lt0`$ and its positive leading
 coefficient; if h=0 it has only the one root. For
 $`p\in(\delta_2,r_1)`$, the C pole $`\gamma_2`$ is closer than
 $`\epsilon`$. The other E root is similarly dominated by
@@ -315,7 +315,7 @@ $`\gamma_1`$ or $`\gamma_3`$, respectively. Therefore
 ```math
 (\log\tau)''=
 \sum_{i=1}^3\frac1{(p-\gamma_i)^2}
--\sum_{E(\epsilon_j)=0}\frac1{(p-\epsilon_j)^2}>0.
+-\sum_{E(\epsilon_j)=0}\frac1{(p-\epsilon_j)^2}\gt0.
 ```
 
 Every stationary point on this component is a strict maximum. There

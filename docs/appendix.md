@@ -29,7 +29,7 @@ Other local terms have these meanings:
 | Projective coordinate | The stated ratio or rational change of variables; only its printed domain is used. |
 | Seam | A boundary or joining point of the stated coordinate intervals. |
 | Normal direction | A vector perpendicular to a level curve; the normal-flow calculation parametrizes the curve by that direction. |
-| Strong fork | The stated positive-support relation $`s_2=Ps_1+Qs_3`$, with $`P,Q>1`$. |
+| Strong fork | The stated positive-support relation $`s_2=Ps_1+Qs_3`$, with $`P,Q\gt1`$. |
 | Split supports | Two supports have opposite mixed exponent signs $`(-,+)`$ and $`(+,-)`$, while the third has $`(+,+)`$. |
 | Saturation / exhaustion | A hypothetical root count uses the entire upper bound allowed by degree or Rolle's theorem. |
 | Root budget / ceiling | An upper bound on the number of roots, with its counting convention stated. |
@@ -72,8 +72,8 @@ The terminating decimals in the main proof are exact rational numbers. The inclu
 This calculation supplies the common analytic core of [AP-MASTER], [PS-NESTED] and the new comparable middle proof. Let the three real supports be affinely independent, with positive coefficients and positive level $`L`$. Write $`G(z)=\log\sum_i E_i e^{s_i\cdot z}`$, $`q(z)=e^{z_1}+e^{z_2}`$ and $`\ell=\log L`$. Let $`\alpha`$ be the origin barycentrics and let $`\beta(x)`$ satisfy $`\sum\beta_i=0`$, $`\sum\beta_i s_i=(x,1-x)`$. On an actual positive-normal level branch,
 
 ```math
-\nabla G=\tau(x,1-x),\quad\tau>0,
- \qquad p_i=E_i e^{s_i\cdot z-\ell}=\alpha_i+\tau\beta_i>0.
+\nabla G=\tau(x,1-x),\quad\tau\gt0,
+ \qquad p_i=E_i e^{s_i\cdot z-\ell}=\alpha_i+\tau\beta_i\gt0.
 ```
 
  Put $`d_i=a_i+b_i`$, $`\lambda_i=a_i-d_i x`$, $`w=x(1-x)`$ and
@@ -87,7 +87,7 @@ This calculation supplies the common analytic core of [AP-MASTER], [PS-NESTED] a
 \end{aligned}
 ```
 
- Here $`V>0`$, $`V_0`$ is quadratic and $`C_0=-V_0'/2`$. Differentiating the normal equation and its Gibbs weights gives
+ Here $`V\gt0`$, $`V_0`$ is quadratic and $`C_0=-V_0'/2`$. Differentiating the normal equation and its Gibbs weights gives
 
 ```math
 z'=\rho(1-x,-x),\quad p_i'=\rho p_i\lambda_i,
@@ -127,11 +127,11 @@ H=\log\frac{x}{1-x}-z_1+z_2,
 
 #### Origin strictly inside the source triangle.
 
-If all $`\alpha_i>0`$, $`G`$ is coercive and strictly convex. Its minimum level is empty or a singleton; a contact of that singleton with $`q=1`$ has order exactly two by the positive Hessian. Every higher level is a compact strictly convex analytic oval. The positive-normal arc is $`0<x<1`$ and $`V_0>0`$. Its finite endpoints give $`H(0+)=-\infty`$, $`H(1-)=+\infty`$. Thus its at-most-eight $`H`$ weights are odd, hence at most seven. The homogeneous constant-$`H`$ case is incompatible with these endpoint limits. On the negative-normal arc $`q`$ has exactly one critical point: its unique minimum on the convex sublevel. The constrained tangent Hessian is $`\operatorname{Hess}q+c\operatorname{Hess}G>0`$, so its derivative weight is one. Mixed and axis normals give no $`q`$ critical point. Periodic weighted Rolle on the full oval now bounds every $`q=1`$ level by eight contact weights.
+If all $`\alpha_i\gt0`$, $`G`$ is coercive and strictly convex. Its minimum level is empty or a singleton; a contact of that singleton with $`q=1`$ has order exactly two by the positive Hessian. Every higher level is a compact strictly convex analytic oval. The positive-normal arc is $`0\lt x\lt1`$ and $`V_0\gt0`$. Its finite endpoints give $`H(0+)=-\infty`$, $`H(1-)=+\infty`$. Thus its at-most-eight $`H`$ weights are odd, hence at most seven. The homogeneous constant-$`H`$ case is incompatible with these endpoint limits. On the negative-normal arc $`q`$ has exactly one critical point: its unique minimum on the convex sublevel. The constrained tangent Hessian is $`\operatorname{Hess}q+c\operatorname{Hess}G\gt0`$, so its derivative weight is one. Mixed and axis normals give no $`q`$ critical point. Periodic weighted Rolle on the full oval now bounds every $`q=1`$ level by eight contact weights.
 
 #### Separated hull and a zero-free actual normal quadratic.
 
-If the source hull misses the open negative quadrant, a separating $`n\in[0,\infty)^2\setminus\{0\}`$ has $`n\cdot s_i\ge0`$, with at least one strict inequality. Consequently $`\partial_nG>0`$ and the whole level is one connected analytic graph. Its actual positive-normal domain is one open angular interval. For an interior normal, write it as $`\sum c_i s_i`$ with every $`c_i>0`$. On a sublevel all $`s_i\cdot z`$ have upper bounds; an escaping supporting-cap sequence would force all $`s_i\cdot d=0`$ in its limiting direction, contradicting that the supports span the plane. Hence the supporting cap is compact and has one actual normal point. These points give the analytic branch above. There are no negative-normal $`q`$ criticals. If $`V_0`$ is zero-free on this branch, (A2)–(A3) and ordinary weighted Rolle give nine contact weights on the whole connected graph. Equal eventual nonzero signs of the original row improve nine to eight. In the homogeneous case, constant $`H=0`$ would make $`q`$ constant on an open branch and hence on the graph; the constant is either different from one, giving no roots, or gives an excluded original identity.
+If the source hull misses the open negative quadrant, a separating $`n\in[0,\infty)^2\setminus\{0\}`$ has $`n\cdot s_i\ge0`$, with at least one strict inequality. Consequently $`\partial_nG\gt0`$ and the whole level is one connected analytic graph. Its actual positive-normal domain is one open angular interval. For an interior normal, write it as $`\sum c_i s_i`$ with every $`c_i\gt0`$. On a sublevel all $`s_i\cdot z`$ have upper bounds; an escaping supporting-cap sequence would force all $`s_i\cdot d=0`$ in its limiting direction, contradicting that the supports span the plane. Hence the supporting cap is compact and has one actual normal point. These points give the analytic branch above. There are no negative-normal $`q`$ criticals. If $`V_0`$ is zero-free on this branch, (A2)–(A3) and ordinary weighted Rolle give nine contact weights on the whole connected graph. Equal eventual nonzero signs of the original row improve nine to eight. In the homogeneous case, constant $`H=0`$ would make $`q`$ constant on an open branch and hence on the graph; the constant is either different from one, giving no roots, or gives an excluded original identity.
 
 Original orders agree with these contact orders. At a tangency, both regular curves are local analytic graphs over one logarithmic coordinate; their restricted defining functions are nonzero analytic units times the same graph difference. The beta coordinate is a local analytic diffeomorphism. This also explains why none of the weighted conclusions depends on a simplicity assumption.
 
@@ -145,7 +145,7 @@ The two-positive-barycentric chart in [AP-MASTER] has probabilities
 
 ```math
 (p_1,p_2,p_3)=\frac{(1-Pu,u,r-Qu)}{1+r-K_{*}u},
- \quad0<u<\min(1/P,r/Q).
+ \quad0\lt u\lt\min(1/P,r/Q).
 ```
 
  For every fixed actual coefficient level its entropy constant defines one analytic graph $`u_C(r)`$:
@@ -155,7 +155,7 @@ The two-positive-barycentric chart in [AP-MASTER] has probabilities
                -K_{*}\log(1+r-K_{*}u)}{K_{*}}=C.
 ```
 
- Here $`\mathcal J_u<0`$ and the two physical $`u`$ endpoints have infinite opposite entropy limits. Put $`B=r(1+r)`$, $`H=P(P-1)r^2-2PQr+Q(Q-1)`$, $`j=Q-(P-1)r`$ and $`Y=R-B`$. Normal curvature has the same zero orders as $`B+Hu_C-R`$. The exact derivatives are
+ Here $`\mathcal J_u\lt0`$ and the two physical $`u`$ endpoints have infinite opposite entropy limits. Put $`B=r(1+r)`$, $`H=P(P-1)r^2-2PQr+Q(Q-1)`$, $`j=Q-(P-1)r`$ and $`Y=R-B`$. Normal curvature has the same zero orders as $`B+Hu_C-R`$. The exact derivatives are
 
 ```math
 u_C'=\frac{j u_C(1-Pu_C)}{B+Hu_C},\qquad
@@ -168,7 +168,7 @@ u_C'=\frac{j u_C(1-Pu_C)}{B+Hu_C},\qquad
 
 ```math
 e_C'=-\frac{(1-Pu_C)(r-Qu_C)
- \{u_C(H+K_{*}r)^2+K_{*}r^2(1+r-K_{*}u_C)\}}{(B+Hu_C)^3}<0.
+ \{u_C(H+K_{*}r)^2+K_{*}r^2(1+r-K_{*}u_C)\}}{(B+Hu_C)^3}\lt0.
 ```
 
  Away from a wall compare $`u_C`$ with $`u_0=Y/H`$. Their difference obeys
@@ -182,9 +182,9 @@ e_C'=-\frac{(1-Pu_C)(r-Qu_C)
 
  The coefficient $`a`$ is analytic throughout each wall interval, even where $`u_0`$ lies outside the physical probability caps. Thus a positive integrating factor bounds contact weight by the forcing weight plus one.
 
-The complete two-wall module ($`P,Q>1`$) uses seven projective coefficients of (A5), plus (A4). Low–low walls give at most four central contacts; three simultaneous contact components would require five zeros of the formal power-tangent difference, whose generalized coefficient word has only four variations. Mixed walls use a strictly positive sum of the two uncertain forcing coefficients. High–high walls have a direct four-curvature budget. Unit walls are deflated directly. These give curvature six in every case; when both wall ratios are at least one, the stronger curvature four gives original weighted six. That sharpening is optional in the chamber assembly.
+The complete two-wall module ($`P,Q\gt1`$) uses seven projective coefficients of (A5), plus (A4). Low–low walls give at most four central contacts; three simultaneous contact components would require five zeros of the formal power-tangent difference, whose generalized coefficient word has only four variations. Mixed walls use a strictly positive sum of the two uncertain forcing coefficients. High–high walls have a direct four-curvature budget. Unit walls are deflated directly. These give curvature six in every case; when both wall ratios are at least one, the stronger curvature four gives original weighted six. That sharpening is optional in the chamber assembly.
 
-For the one-wall rows the hypothesis that $`R`$ has three real negative roots is retained. It comes from the displayed actual metric, not from mere positivity of its coefficients. The strict one-wall theorem for $`P>1>Q>0`$ uses the negative metric root to close the low-wall exterior budget, and the positive-cubic high-wall comparison on the other side. Its native $`Q=1`$ completion has low, high and direct-unit arguments; the excluded projective endpoint $`r=0`$ is never counted as a physical wall. Those modules each bound the actual curvature weight by six, including their actual contacts and unit faces. Reflection exchanges $`P,Q`$ and reverses $`r`$ without changing orders. No multiplicity limit between entropy models is used.
+For the one-wall rows the hypothesis that $`R`$ has three real negative roots is retained. It comes from the displayed actual metric, not from mere positivity of its coefficients. The strict one-wall theorem for $`P\gt1\gt Q\gt0`$ uses the negative metric root to close the low-wall exterior budget, and the positive-cubic high-wall comparison on the other side. Its native $`Q=1`$ completion has low, high and direct-unit arguments; the excluded projective endpoint $`r=0`$ is never counted as a physical wall. Those modules each bound the actual curvature weight by six, including their actual contacts and unit faces. Reflection exchanges $`P,Q`$ and reverses $`r`$ without changing orders. No multiplicity limit between entropy models is used.
 
 Thus the ONE-EDGE and upper-fork event traversals are historical alternatives. The original endpoint and finite-boundary conclusions follow from the actual-level theorem and the distinct-only transfer printed in the main proof.
 
@@ -220,20 +220,20 @@ R=\ell_1P_2-\ell_2P_1,\quad V=\ell_2P_0-\ell_0P_2,
  \quad W=\det[\ell_i;P_i;\ell_iP_i+DP_i].
 ```
 
- For $`c>a`$, $`R`$ has one or three physical roots. The complete source dispatcher is: $`c<a`$; three physical $`R`$ roots; one root with $`\mu=A/(A+B)>m=a/(a+b)`$; one root with $`\mu<m`$ and $`V(r)>0`$; or one root with $`V(r)<0`$. These five scopes have the same eight-distinct-root conclusion. The third-root geometry supplies the translated pair inequalities rather than imposing an extra gap inequality. The last, straddling scope uses the late $`C`$ root $`d`$ and the exact endpoint identities
+ For $`c\gt a`$, $`R`$ has one or three physical roots. The complete source dispatcher is: $`c\lt a`$; three physical $`R`$ roots; one root with $`\mu=A/(A+B)\gt m=a/(a+b)`$; one root with $`\mu\lt m`$ and $`V(r)\gt0`$; or one root with $`V(r)\lt0`$. These five scopes have the same eight-distinct-root conclusion. The third-root geometry supplies the translated pair inequalities rather than imposing an extra gap inequality. The last, straddling scope uses the late $`C`$ root $`d`$ and the exact endpoint identities
 
 ```math
-\frac{C''(d)}{C'(d)}<\frac4{d-m},\quad
- \frac{\ell_0(d)}{x(1-x)|_{x=d}}<\frac1{d-m},\quad
+\frac{C''(d)}{C'(d)}\lt\frac4{d-m},\quad
+ \frac{\ell_0(d)}{x(1-x)|_{x=d}}\lt\frac1{d-m},\quad
  \frac{W'(d)}{W(d)}=\frac{C''(d)}{C'(d)}
        +\frac{\rho'(d)-\ell_2(d)+\ell_0(d)}{\rho(d)}-\frac1{d-m},
 ```
 
- where $`\rho=x(1-x)`$. They give $`(d-r)W'(d)/W(d)<5`$. With $`W(r)\le0`$, $`W(d)<0`$ and degree six, the endpoint budget permits at most four $`W`$ roots on $`(r,d)`$, five selector contacts there, six contacts of the late original derivative and one on its initial component. Hence $`f'`$ has at most seven roots and $`f`$ at most eight. This is an endpoint budget, not a claim that $`W`$ is everywhere negative. Its four earlier modules remain at their scopes; the original complete NOLOBE/GENUINE inputs, lobe event atlases and coefficient tables are not imported into this dispatcher.
+ where $`\rho=x(1-x)`$. They give $`(d-r)W'(d)/W(d)\lt5`$. With $`W(r)\le0`$, $`W(d)\lt0`$ and degree six, the endpoint budget permits at most four $`W`$ roots on $`(r,d)`$, five selector contacts there, six contacts of the late original derivative and one on its initial component. Hence $`f'`$ has at most seven roots and $`f`$ at most eight. This is an endpoint budget, not a claim that $`W`$ is everywhere negative. Its four earlier modules remain at their scopes; the original complete NOLOBE/GENUINE inputs, lobe event atlases and coefficient tables are not imported into this dispatcher.
 
 #### The three remaining comparable modules.
 
-For $`n>h`$, saturated curvature nodes are all after the last relevant mode; a concave contact function propagates the one actual coefficient inequality and charges a compulsory unused root. For $`n<0`$, $`h-n\ge1`$, the derivative ratio gives at most two original roots after the gap mode and forces six Wronskian roots before it; its strictly negative mode value contradicts degree-six endpoint parity. The $`h\ge1`$ part instead has negative constant and fifth shifted coefficients, inconsistent with six positive roots; $`h=1`$ has degree at most five. For $`0<h<1`$, $`h-1<n<0`$, the actual last positive maximum fixes one height. The two physical signed placements allow at most five nodes: respectively $`0+3+1+1`$ or $`2+2+1`$. The reversed left-pole sign forces a forbidden positive-coefficient crossing. This last proof retains its central orientation certificate, metric separator and last-maximum integral bridge. The exact four-region dictionary and all retained module paths are in [global master height theorem](lemmas/height/comparable-height.md). Its middle module is replaced, throughout $`0<n<h<1`$, by [comparable middle by origin interior curvature](lemmas/height/middle-height-by-convexity.md). Thus the middle birth/orientation packets are not dependencies of this revision; the other three comparable modules remain scoped inputs.
+For $`n\gt h`$, saturated curvature nodes are all after the last relevant mode; a concave contact function propagates the one actual coefficient inequality and charges a compulsory unused root. For $`n\lt0`$, $`h-n\ge1`$, the derivative ratio gives at most two original roots after the gap mode and forces six Wronskian roots before it; its strictly negative mode value contradicts degree-six endpoint parity. The $`h\ge1`$ part instead has negative constant and fifth shifted coefficients, inconsistent with six positive roots; $`h=1`$ has degree at most five. For $`0\lt h\lt1`$, $`h-1\lt n\lt0`$, the actual last positive maximum fixes one height. The two physical signed placements allow at most five nodes: respectively $`0+3+1+1`$ or $`2+2+1`$. The reversed left-pole sign forces a forbidden positive-coefficient crossing. This last proof retains its central orientation certificate, metric separator and last-maximum integral bridge. The exact four-region dictionary and all retained module paths are in [global master height theorem](lemmas/height/comparable-height.md). Its middle module is replaced, throughout $`0\lt n\lt h\lt1`$, by [comparable middle by origin interior curvature](lemmas/height/middle-height-by-convexity.md). Thus the middle birth/orientation packets are not dependencies of this revision; the other three comparable modules remain scoped inputs.
 
 ## Pure-split source proofs and the retained original entry
 
@@ -245,7 +245,7 @@ For $`n>h`$, saturated curvature nodes are all after the last relevant mode; a c
 \frac{t^\alpha}{(1+t)^\alpha}
  =\frac{\sin(\pi\alpha)}\pi
    \int_0^1\frac{t}{t+s}s^{\alpha-1}(1-s)^{-\alpha}\,ds,
- \qquad0<\alpha<1.
+ \qquad0\lt\alpha\lt1.
 ```
 
  Finite Gaussian quadrature reproduces the selected finite jets and gives strict positive minors. Regular-level contacts have the component budget described in the main proof; a better-direction common-level shift retains at least every selected *number* of raw distinct contacts. It need not preserve every old even-contact neighborhood, and proves no raw multiplicity ceiling. The original double-reversed projective entry needing seven contacts and the source reflection are retained at their original-row scopes.
@@ -256,17 +256,17 @@ These are inequalities in the polynomials linked to the original F3 exponents. T
 
 ### F3 original-root cuts
 
-All three cuts in (F3-CUT) concern (19)–(20) with its four original coefficients. In particular $`A=a-e>B=b+d>0`$. The original function is positive near both endpoints, so a generic simple-root count is even.
+All three cuts in (F3-CUT) concern (19)–(20) with its four original coefficients. In particular $`A=a-e\gt B=b+d\gt0`$. The original function is positive near both endpoints, so a generic simple-root count is even.
 
-#### One contour proof for $`A<4`$, $`B<2`$.
+#### One contour proof for $`A\lt4`$, $`B\lt2`$.
 
-Let $`P,Q`$ be monic real cubics, with $`Q`$ having one root $`q\in(0,1)`$ and a genuine nonreal pair. For nonintegers $`0<\beta<\alpha<4`$, $`\beta<2`$, and a fixed $`\kappa>0`$, the equation
+Let $`P,Q`$ be monic real cubics, with $`Q`$ having one root $`q\in(0,1)`$ and a genuine nonreal pair. For nonintegers $`0\lt\beta\lt\alpha\lt4`$, $`\beta\lt2`$, and a fixed $`\kappa\gt0`$, the equation
 
 ```math
 Q(x)=\kappa x^\alpha(1-x)^{-\beta}P(x)
 ```
 
- has at most seven distinct solutions. No hypothesis on the other roots of $`P`$ is needed. Put $`z=1-x`$, $`N(z)=-P(1-z)`$ and $`M(z)=-Q(1-z)`$. Then $`M(z)=(z-r)C(z)`$ with $`r=1-q\in(0,1)`$ and a monic quadratic $`C>0`$ on the real line. At eight hypothetical solution nodes $`z_i`$, put $`\omega(z)=\prod_i(z-z_i)`$ and choose
+ has at most seven distinct solutions. No hypothesis on the other roots of $`P`$ is needed. Put $`z=1-x`$, $`N(z)=-P(1-z)`$ and $`M(z)=-Q(1-z)`$. Then $`M(z)=(z-r)C(z)`$ with $`r=1-q\in(0,1)`$ and a monic quadratic $`C\gt0`$ on the real line. At eight hypothetical solution nodes $`z_i`$, put $`\omega(z)=\prod_i(z-z_i)`$ and choose
 
 ```math
 m=\lfloor\alpha\rfloor,\quad n=\lfloor\beta\rfloor,\quad
@@ -281,7 +281,7 @@ L:=\sum_i\frac{z_i^\beta(1-z_i)^{-\alpha}M(z_i)Z(z_i)}
               =\kappa[z^7](NZ)\le0.
 ```
 
- Indeed the coefficient is zero when $`d<7`$; the sole degree-seven case is $`m=3,n=0`$, whose leading coefficient is $`-1`$. Residue deformation on the two exterior cuts gives
+ Indeed the coefficient is zero when $`d\lt7`$; the sole degree-seven case is $`m=3,n=0`$, whose leading coefficient is $`-1`$. Residue deformation on the two exterior cuts gives
 
 ```math
 \begin{aligned}
@@ -292,9 +292,9 @@ L:=\sum_i\frac{z_i^\beta(1-z_i)^{-\alpha}M(z_i)Z(z_i)}
 \end{aligned}
 ```
 
- On both cuts $`\omega>0`$. On the left, both $`MZ`$ and $`\sin\pi\beta`$ have sign $`(-1)^n`$; on the right, both $`MZ`$ and $`\sin\pi\alpha`$ have sign $`(-1)^m`$. Thus both integrals are strictly positive. Convergence is explicit: the endpoint powers are $`\beta>0`$ at zero and $`m-\alpha\in(-1,0)`$ at one. The large-circle exponent, including its length, is $`\{\beta\}-\{\alpha\}-3<0`$. Common roots of $`P,Q`$ give zero residues. This contradicts $`L\le0`$. One floor-parity choice replaces the four former interpolation strips.
+ On both cuts $`\omega\gt0`$. On the left, both $`MZ`$ and $`\sin\pi\beta`$ have sign $`(-1)^n`$; on the right, both $`MZ`$ and $`\sin\pi\alpha`$ have sign $`(-1)^m`$. Thus both integrals are strictly positive. Convergence is explicit: the endpoint powers are $`\beta\gt0`$ at zero and $`m-\alpha\in(-1,0)`$ at one. The large-circle exponent, including its length, is $`\{\beta\}-\{\alpha\}-3\lt0`$. Common roots of $`P,Q`$ give zero residues. This contradicts $`L\le0`$. One floor-parity choice replaces the four former interpolation strips.
 
-For the actual F3 $`03`$ anchor, let $`\lambda_3=c-(c-f)x>0`$, and use the original triple beta-jet core $`H`$. For a support $`r=(r_1,r_2)`$, write $`\lambda_r=r_1-(r_1+r_2)x`$ and $`D_x=x(1-x)\partial_x`$; explicitly
+For the actual F3 $`03`$ anchor, let $`\lambda_3=c-(c-f)x\gt0`$, and use the original triple beta-jet core $`H`$. For a support $`r=(r_1,r_2)`$, write $`\lambda_r=r_1-(r_1+r_2)x`$ and $`D_x=x(1-x)\partial_x`$; explicitly
 
 ```math
 H(r,s)=\lambda_rD_x\lambda_s-\lambda_sD_x\lambda_r
@@ -316,11 +316,11 @@ L_P=(a-b)(c-f)(c-f-a+b),\qquad
  L_Q=(e+d)(c-f)(c-f-e-d).
 ```
 
- Monic normalization therefore has the single original level $`\kappa=A_1L_P/(B_0L_Q)>0`$, with $`(\alpha,\beta)=(A,B)`$. Seven residual zeros and two Rolle losses give at most nine simple original zeros, hence eight by parity. The real extra-pair degree budget and the allocation-free THREE theorem below cover the other cofactor strata in the same original-root argument.
+ Monic normalization therefore has the single original level $`\kappa=A_1L_P/(B_0L_Q)\gt0`$, with $`(\alpha,\beta)=(A,B)`$. Seven residual zeros and two Rolle losses give at most nine simple original zeros, hence eight by parity. The real extra-pair degree budget and the allocation-free THREE theorem below cover the other cofactor strata in the same original-root argument.
 
 #### The elementary large-$`B`$ and $`B=1`$ seams.
 
-For $`P(x)=\sum_{j=0}^3p_jx^j`$, $`P(0)<0<P(1)`$, define the index cubic
+For $`P(x)=\sum_{j=0}^3p_jx^j`$, $`P(0)\lt0\lt P(1)`$, define the index cubic
 
 ```math
 \begin{aligned}
@@ -330,15 +330,15 @@ For $`P(x)=\sum_{j=0}^3p_jx^j`$, $`P(0)<0<P(1)`$, define the index cubic
 \end{aligned}
 ```
 
- For noninteger $`\beta`$, the coefficient of $`x^n`$ in $`P(x)/(1-x)^\beta`$ is $`\Gamma(\beta+n-3)I(n)/(\Gamma(\beta)n!)`$. Here $`[z^3]I=P(1)>0`$ and $`I(0)=P(0)(\beta-1)(\beta-2)(\beta-3)`$. When $`2<\beta<3`$, $`I(0)>0`$ and $`I`$ has a negative real root, so its sampled coefficient sequence has at most two variations. The gamma quotient reverses only the initial sign. Four derivatives of $`x^\alpha P/(1-x)^\beta`$, for $`\alpha>\beta`$, consequently have at most three coefficient variations; the possible falling-factorial reversal when $`2<\alpha<3`$ only improves this count. When $`\beta>3`$, all multipliers are positive and a cubic has at most three variations. The power-series Descartes lemma and four Rolle steps give seven residual roots. At $`\beta=1`$, use directly the coefficient sequence $`p_0,p_0+p_1,p_0+p_1+p_2,P(1),P(1),\ldots`$ for every $`\alpha>0`$. The fourth-derivative falling factorials may change sign or vanish only at indices $`n=0,1,2`$. For $`n\ge3`$, $`\alpha+n>3`$ makes all factors positive, and $`P(1)>0`$ makes the entire tail positive. Three arbitrary initial coefficients followed by this positive tail have at most three sign variations. The power-series Descartes lemma and four Rolle steps therefore give seven scalar roots without an additional rectangle input. Integer $`\beta=2,3`$ follow by distinct-root regularization and perturbation. Thus $`B\ge2`$ and $`B=1`$ give eight original roots independently of $`A`$. Combining this with the contour and cofactor-stratum arguments proves the full original cut $`A\le4`$.
+ For noninteger $`\beta`$, the coefficient of $`x^n`$ in $`P(x)/(1-x)^\beta`$ is $`\Gamma(\beta+n-3)I(n)/(\Gamma(\beta)n!)`$. Here $`[z^3]I=P(1)\gt0`$ and $`I(0)=P(0)(\beta-1)(\beta-2)(\beta-3)`$. When $`2\lt\beta\lt3`$, $`I(0)\gt0`$ and $`I`$ has a negative real root, so its sampled coefficient sequence has at most two variations. The gamma quotient reverses only the initial sign. Four derivatives of $`x^\alpha P/(1-x)^\beta`$, for $`\alpha\gt\beta`$, consequently have at most three coefficient variations; the possible falling-factorial reversal when $`2\lt\alpha\lt3`$ only improves this count. When $`\beta\gt3`$, all multipliers are positive and a cubic has at most three variations. The power-series Descartes lemma and four Rolle steps give seven residual roots. At $`\beta=1`$, use directly the coefficient sequence $`p_0,p_0+p_1,p_0+p_1+p_2,P(1),P(1),\ldots`$ for every $`\alpha\gt0`$. The fourth-derivative falling factorials may change sign or vanish only at indices $`n=0,1,2`$. For $`n\ge3`$, $`\alpha+n\gt3`$ makes all factors positive, and $`P(1)\gt0`$ makes the entire tail positive. Three arbitrary initial coefficients followed by this positive tail have at most three sign variations. The power-series Descartes lemma and four Rolle steps therefore give seven scalar roots without an additional rectangle input. Integer $`\beta=2,3`$ follow by distinct-root regularization and perturbation. Thus $`B\ge2`$ and $`B=1`$ give eight original roots independently of $`A`$. Combining this with the contour and cofactor-stratum arguments proves the full original cut $`A\le4`$.
 
 #### A zero-free operator for the remaining cuts.
 
-Put $`\rho=x(1-x)`$, $`D_x=\rho\partial_x`$. For an anchor $`r=(C,-F)`$, let $`v=C-(C-F)x>0`$, $`\theta=C/(C-F)`$, and
+Put $`\rho=x(1-x)`$, $`D_x=\rho\partial_x`$. For an anchor $`r=(C,-F)`$, let $`v=C-(C-F)x\gt0`$, $`\theta=C/(C-F)`$, and
 
 ```math
 \mathcal L_{\theta,k}y=\rho y''+k(\theta-x)y'+ky,
- \qquad\mu=v^2x^{k\theta}(1-x)^{k(1-\theta)}>0.
+ \qquad\mu=v^2x^{k\theta}(1-x)^{k(1-\theta)}\gt0.
 ```
 
  For arbitrary real $`k`$,
@@ -362,19 +362,19 @@ Put $`\rho=x(1-x)`$, $`D_x=\rho\partial_x`$. For an anchor $`r=(C,-F)`$, let $`v
 
 #### The $`B\ge1`$ cut when $`f\le1`$.
 
-The previous cuts leave $`A>4`$, $`1<B<2`$. Use anchor $`(c,-f)`$ and $`k=(1+b)/(1-\theta)`$, $`\theta=c/(c-f)>1`$. The positive atom core has the factor $`C_1=(1-x)\widehat C_1`$, $`\deg\widehat C_1\le2`$, giving
+The previous cuts leave $`A\gt4`$, $`1\lt B\lt2`$. Use anchor $`(c,-f)`$ and $`k=(1+b)/(1-\theta)`$, $`\theta=c/(c-f)\gt1`$. The positive atom core has the factor $`C_1=(1-x)\widehat C_1`$, $`\deg\widehat C_1\le2`$, giving
 
 ```math
 R=A_1x^a(1-x)^{1-b}\widehat C_1-B_0x^e(1-x)^dC_2.
 ```
 
- At zero $`C_2(0)=e(e-c)(e-T_1)>0`$, $`T_1=1+c(1+b)/f>e`$, so $`R<0`$. At one the first atom dominates, because $`B>1`$, and $`f\widehat C_1(1)=N_1`$, where
+ At zero $`C_2(0)=e(e-c)(e-T_1)\gt0`$, $`T_1=1+c(1+b)/f\gt e`$, so $`R\lt0`$. At one the first atom dominates, because $`B\gt1`$, and $`f\widehat C_1(1)=N_1`$, where
 
 ```math
 N_1=af(1-b)(1-b+f)-cb[1-b+(b-f)(b+3)]+2bf(b-f).
 ```
 
- The sign $`N_1<0`$ follows from three short decompositions. For $`b\le1`$,
+ The sign $`N_1\lt0`$ follows from three short decompositions. For $`b\le1`$,
 
 ```math
 \begin{aligned}
@@ -383,7 +383,7 @@ N_1=af(1-b)(1-b+f)-cb[1-b+(b-f)(b+3)]+2bf(b-f).
 \end{aligned}
 ```
 
- For $`b>1`$, put $`\delta=b-f`$. If $`\delta\le1`$,
+ For $`b\gt1`$, put $`\delta=b-f`$. If $`\delta\le1`$,
 
 ```math
 -N_1=af(b-1)(1-\delta)+b\delta[c(b+2)-2f]+bc(1-f);
@@ -400,14 +400,14 @@ N_1=af(1-b)(1-b+f)-cb[1-b+(b-f)(b+3)]+2bf(b-f).
 
  Every term is nonnegative and at least one is strict, including $`b=1`$, $`f=1`$ and $`\delta=1`$. Both endpoint signs of $`R`$ are negative, so the operator count above proves eight original roots.
 
-#### A displayed source-pair location when $`f>1`$.
+#### A displayed source-pair location when $`f\gt1`$.
 
-Now $`A>4`$, $`1<f<b<B<2`$. Real-cofactor and THREE sources are already covered. For the genuine nonreal pair of $`Q_{\rm raw}=H((a,-b),(e,d))=-e_3`$, its physical center is $`h>1`$. Here is the positive proof replacing the historical 246-monomial expansion. Write $`\Gamma=a-e`$, and put
+Now $`A\gt4`$, $`1\lt f\lt b\lt B\lt2`$. Real-cofactor and THREE sources are already covered. For the genuine nonreal pair of $`Q_{\rm raw}=H((a,-b),(e,d))=-e_3`$, its physical center is $`h\gt1`$. Here is the positive proof replacing the historical 246-monomial expansion. Write $`\Gamma=a-e`$, and put
 
 ```math
 \begin{gathered}
  M=(b+d)(b+1-d),\quad L=\Gamma(2b+d-1)-3b(b+d),\\
- C=2b^2-2b\Gamma+b-2d^2+d,\quad q_{*}=\Gamma-b-d>0.
+ C=2b^2-2b\Gamma+b-2d^2+d,\quad q_{*}=\Gamma-b-d\gt0.
 \end{gathered}
 ```
 
@@ -415,7 +415,7 @@ Now $`A>4`$, $`1<f<b<B<2`$. Real-cofactor and THREE sources are already covered.
 
 ```math
 c_0=bd(b+d),\quad c_1=Me-dL,\quad
- c_3=(e+\Gamma-b)(e+d)q_{*}>0.
+ c_3=(e+\Gamma-b)(e+d)q_{*}\gt0.
 ```
 
  The remaining translated coefficient is
@@ -433,25 +433,25 @@ c_1/c_3=h_0^2+\eta^2-2rh_0,\qquad
                     =-2h_0[(r-h_0)^2+\eta^2].
 ```
 
- If $`c_1\le0`$, the first identity forces $`h_0>0`$. Otherwise use the onto chart $`T=1+u+v`$, $`b=1+u/T`$, $`d=v/T`$, $`\Gamma=4+g`$, with $`u,v>0`$, $`g\ge0`$. The identity
+ If $`c_1\le0`$, the first identity forces $`h_0\gt0`$. Otherwise use the onto chart $`T=1+u+v`$, $`b=1+u/T`$, $`d=v/T`$, $`\Gamma=4+g`$, with $`u,v\gt0`$, $`g\ge0`$. The identity
 
 ```math
 T^2[4(2b+d-1)-3b(b+d)]=2uv+4u+2v^2+3v+1
 ```
 
- gives $`L>0`$, while $`C=-2bg-b(7-2b)+d-2d^2<-3+1/8<0`$. Put $`e_{*}=dL/M`$ and $`e=e_{*}+j`$, $`j>0`$. Then
+ gives $`L\gt0`$, while $`C=-2bg-b(7-2b)+d-2d^2\lt-3+1/8\lt0`$. Put $`e_{*}=dL/M`$ and $`e=e_{*}+j`$, $`j\gt0`$. Then
 
 ```math
 -(c_2c_1-c_3c_0)=\mathscr A_0+\mathscr A_1j
                          +\mathscr A_2j^2+\mathscr A_3j^3,
 ```
 
- where $`\mathscr A_0=c_3(e_{*})c_0>0`$, $`\mathscr A_2=2(b+d)dL-MC+q_{*}c_0>0`$, and $`\mathscr A_3=(b+d)M>0`$. The remaining coefficient factors as
+ where $`\mathscr A_0=c_3(e_{*})c_0\gt0`$, $`\mathscr A_2=2(b+d)dL-MC+q_{*}c_0\gt0`$, and $`\mathscr A_3=(b+d)M\gt0`$. The remaining coefficient factors as
 
 ```math
 \mathscr A_1=
  \frac{v(2u+v+1)(gT+2u+2v+3)[gT\mathcal R+\mathcal S]}
-                            {T^5(3u+v+2)}>0,
+                            {T^5(3u+v+2)}\gt0,
 ```
 
  with two positive polynomials
@@ -464,41 +464,41 @@ T^2[4(2b+d-1)-3b(b+d)]=2uv+4u+2v^2+3v+1
 \end{aligned}
 ```
 
- The second deflation identity now forces $`h_0>0`$, including $`g=0`$. These displayed identities prove the physical pair-location sign without an external positive-coefficient table.
+ The second deflation identity now forces $`h_0\gt0`$, including $`g=0`$. These displayed identities prove the physical pair-location sign without an external positive-coefficient table.
 
-#### One actual level closes the $`f>1`$ sector.
+#### One actual level closes the $`f\gt1`$ sector.
 
-The monotone $`12`$ anchor leaves $`-e_3=(B_1/A_0)x^c(1-x)^{-f}e_0`$, with two Rolle losses. The fixed cubic $`P_{\rm raw}=e_0`$ has a direct source root-location proof. Set $`R_0=c-a>0`$, $`q_0=b-f>0`$, $`\theta_0=A/(A-B)>1`$. Its values at $`0,1,\theta_0`$, and its leading coefficient are
+The monotone $`12`$ anchor leaves $`-e_3=(B_1/A_0)x^c(1-x)^{-f}e_0`$, with two Rolle losses. The fixed cubic $`P_{\rm raw}=e_0`$ has a direct source root-location proof. Set $`R_0=c-a\gt0`$, $`q_0=b-f\gt0`$, $`\theta_0=A/(A-B)\gt1`$. Its values at $`0,1,\theta_0`$, and its leading coefficient are
 
 ```math
 \begin{gathered}
- -AR_0(A+R_0)<0,\qquad Bq_0(B-q_0)>0,\\
- -AB(Aq_0+R_0B)/(A-B)^2<0,\\
-                 (A-B)(R_0+q_0)(A-B+R_0+q_0)>0.
+ -AR_0(A+R_0)\lt0,\qquad Bq_0(B-q_0)\gt0,\\
+ -AB(Aq_0+R_0B)/(A-B)^2\lt0,\\
+                 (A-B)(R_0+q_0)(A-B+R_0+q_0)\gt0.
 \end{gathered}
 ```
 
- Thus it has three simple roots $`0<p<1<u<\theta_0<v`$, with $`v>1+1/c`$. After positive monic normalization the source equation has one actual level $`Q=\kappa x^c(1-x)^{-f}P`$, with $`\kappa>0`$, $`P=(x-p)(x-u)(x-v)`$ and $`Q=(x-q)[(x-h)^2+\eta^2]`$, $`h>1`$. For the deflated phase
+ Thus it has three simple roots $`0\lt p\lt1\lt u\lt\theta_0\lt v`$, with $`v\gt1+1/c`$. After positive monic normalization the source equation has one actual level $`Q=\kappa x^c(1-x)^{-f}P`$, with $`\kappa\gt0`$, $`P=(x-p)(x-u)(x-v)`$ and $`Q=(x-q)[(x-h)^2+\eta^2]`$, $`h\gt1`$. For the deflated phase
 
 ```math
 \Psi=\log\frac{(x-h)^2+\eta^2}{(u-x)(v-x)}
                   -c\log x+f\log(1-x),
 ```
 
- the bounds $`1/(u-x)<1/(1-x)`$ and $`1/(v-x)<c/x`$ give
+ the bounds $`1/(u-x)\lt1/(1-x)`$ and $`1/(v-x)\lt c/x`$ give
 
 ```math
-\Psi'<\frac{2(x-h)}{(x-h)^2+\eta^2}-\frac{f-1}{1-x}<0.
+\Psi'\lt\frac{2(x-h)}{(x-h)^2+\eta^2}-\frac{f-1}{1-x}\lt0.
 ```
 
- If $`p<q`$, every value of $`\phi=\Psi+\log|(x-q)/(x-p)|`$ on $`(0,p)`$ exceeds every value on $`(q,1)`$. Hence a single level occupies at most one useful component. Its cleared derivative has degree at most seven and negative endpoint signs, so at most six physical critical weights. Rolle and equal endpoint directions give at most six regular level intersections in the occupied component. If $`q<p`$, both useful phases decrease and give at most two solutions. If $`p=q`$, remove the common root and use $`\Psi'<0`$, again giving at most two including that root. The residual bound six and two original losses give eight. Together with the preceding cuts, this exhausts $`B\ge1`$.
+ If $`p\lt q`$, every value of $`\phi=\Psi+\log|(x-q)/(x-p)|`$ on $`(0,p)`$ exceeds every value on $`(q,1)`$. Hence a single level occupies at most one useful component. Its cleared derivative has degree at most seven and negative endpoint signs, so at most six physical critical weights. Rolle and equal endpoint directions give at most six regular level intersections in the occupied component. If $`q\lt p`$, both useful phases decrease and give at most two solutions. If $`p=q`$, remove the common root and use $`\Psi'\lt0`$, again giving at most two including that root. The residual bound six and two original losses give eight. Together with the preceding cuts, this exhausts $`B\ge1`$.
 
 #### The determinant cut.
 
-Use anchor $`(a,-b)`$, $`\theta=a/(a-b)`$ and $`k=-(c-f)-1`$. The leading coefficient formula gives $`\deg C_3\le2`$, while $`\deg C_2\le3`$, and the residual is $`R=-B_0m_2C_2-B_1m_3C_3`$. At zero $`m_2`$ dominates and $`C_2(0)=e(e-a)(e-T_1)>0`$, $`T_1=1+a(c-f+1)/(a-b)>e`$. At one $`m_3`$ dominates, and
+Use anchor $`(a,-b)`$, $`\theta=a/(a-b)`$ and $`k=-(c-f)-1`$. The leading coefficient formula gives $`\deg C_3\le2`$, while $`\deg C_2\le3`$, and the residual is $`R=-B_0m_2C_2-B_1m_3C_3`$. At zero $`m_2`$ dominates and $`C_2(0)=e(e-a)(e-T_1)\gt0`$, $`T_1=1+a(c-f+1)/(a-b)\gt e`$. At one $`m_3`$ dominates, and
 
 ```math
-C_3(1)=\frac{f(b-f)}{a-b}[bc-af-a+2b]>0.
+C_3(1)=\frac{f(b-f)}{a-b}[bc-af-a+2b]\gt0.
 ```
 
  Thus the strict determinant inequality gives negative residual endpoint signs and the same cubic/quadratic, three-loss and parity count eight. At equality, increasing $`c`$ slightly makes the inequality strict while preserving oriented II and the original brackets.
@@ -511,7 +511,7 @@ Choose one noncritical shift of $`A_0`$ before a support perturbation. It preser
 
 #### The allocation-free THREE theorem.
 
-Let $`P=(x-p)(x-u)(x-v)`$ with $`0<p<1<u<v`$ and let $`Q=\prod_{i=1}^3(x-q_i)`$ with $`0<q_1<q_2<q_3<1`$, all disjoint. For $`\alpha>\beta>0`$, $`\kappa>0`$,
+Let $`P=(x-p)(x-u)(x-v)`$ with $`0\lt p\lt1\lt u\lt v`$ and let $`Q=\prod_{i=1}^3(x-q_i)`$ with $`0\lt q_1\lt q_2\lt q_3\lt1`$, all disjoint. For $`\alpha\gt\beta\gt0`$, $`\kappa\gt0`$,
 
 ```math
 Z_{(0,1)}\bigl(Q-\kappa x^\alpha(1-x)^{-\beta}P\bigr)\le6
@@ -533,9 +533,9 @@ Here is the common budget replacing the old allocation list. Put
 2-\alpha,\quad2-\beta,\quad1-\beta,\quad-\beta.
 ```
 
- Because $`\alpha>\beta`$, a nonnegative initial block followed by this tail has at most three sign changes, including zero entries by deletion. This one comparison replaces the eleven exponent sign cells. For $`q_1<p<q_2`$, direct pole pairing makes the first two useful intervals decreasing and the last has at most three criticals: the level bound is $`1+1+4=6`$.
+ Because $`\alpha\gt\beta`$, a nonnegative initial block followed by this tail has at most three sign changes, including zero entries by deletion. This one comparison replaces the eleven exponent sign cells. For $`q_1\lt p\lt q_2`$, direct pole pairing makes the first two useful intervals decreasing and the last has at most three criticals: the level bound is $`1+1+4=6`$.
 
-In the two extreme placements, a compulsory critical in a non-useful $`Q/Q`$ gap leaves five useful weights. Eight transverse level intersections would exhaust them and occupy all three components. For $`p<q_1`$ the first two components each have two level intersections and the last four. For $`p>q_2`$ the first has one, and both remaining components must have an extremum and five criticals in total. These conclusions use the budget and endpoint signs, not a list of possible allocations.
+In the two extreme placements, a compulsory critical in a non-useful $`Q/Q`$ gap leaves five useful weights. Eight transverse level intersections would exhaust them and occupy all three components. For $`p\lt q_1`$ the first two components each have two level intersections and the last four. For $`p\gt q_2`$ the first has one, and both remaining components must have an extremum and five criticals in total. These conclusions use the budget and endpoint signs, not a list of possible allocations.
 
 Remove the adjacent $`P/Q`$ pair $`p,s`$ and put
 
@@ -567,16 +567,16 @@ Here is the actual-source construction used in (AH1)–(AH2). Retain the strict 
 \end{aligned}
 ```
 
- To see its source binding, take $`L=ah+bx`$ and $`k=xh(a-b)/L`$. The $`E_2`$ root equation gives the positive score gap $`G=(ch+fx)-(ah+bx)`$ and $`k+G=xh(c-f)/(L+G)`$. Solving these score and exponent-sum relations gives the four displayed $`a,b,c,f`$ formulas. Set $`E=eh>0`$. The second atom’s mode precedes the unique physical $`E_3`$ root, so event order $`1320`$ implies $`P=dx-eh>0`$. The strict original source order and cofactor sign at $`E_2`$ give
+ To see its source binding, take $`L=ah+bx`$ and $`k=xh(a-b)/L`$. The $`E_2`$ root equation gives the positive score gap $`G=(ch+fx)-(ah+bx)`$ and $`k+G=xh(c-f)/(L+G)`$. Solving these score and exponent-sum relations gives the four displayed $`a,b,c,f`$ formulas. Set $`E=eh\gt0`$. The second atom’s mode precedes the unique physical $`E_3`$ root, so event order $`1320`$ implies $`P=dx-eh\gt0`$. The strict original source order and cofactor sign at $`E_2`$ give
 
 ```math
-H_1=Lk-Ph-E>0,\qquad H_3=P(L+P-k-h)-E>0.
+H_1=Lk-Ph-E\gt0,\qquad H_3=P(L+P-k-h)-E\gt0.
 ```
 
- Moreover $`r=x-k-G>0`$ follows from $`f>0`$, and $`x(b-f)=G(L-r)>0`$ gives $`z=L-r>0`$. Thus the single positive chart
+ Moreover $`r=x-k-G\gt0`$ follows from $`f\gt0`$, and $`x(b-f)=G(L-r)\gt0`$ gives $`z=L-r\gt0`$. Thus the single positive chart
 
 ```math
-r,G,k,P,h,z,E>0,\qquad x=r+k+G,\quad L=r+z
+r,G,k,P,h,z,E\gt0,\qquad x=r+k+G,\quad L=r+z
 ```
 
  covers every source in the theorem, with no $`P/k`$ comparison.
@@ -605,7 +605,7 @@ R_{2,i}=\Lambda_i^2-T_i(1+w),\qquad
  =\frac{h^6\widehat K(t_2(1+w))}{GL(L+G)}.
 ```
 
- All clearing factors are strictly positive. The odds coordinate $`w>0`$ is precisely the physical interval after $`E_2`$, and it preserves root multiplicity. The endpoint identities are
+ All clearing factors are strictly positive. The odds coordinate $`w\gt0`$ is precisely the physical interval after $`E_2`$, and it preserves root multiplicity. The endpoint identities are
 
 ```math
 \begin{aligned}
@@ -616,20 +616,20 @@ R_{2,i}=\Lambda_i^2-T_i(1+w),\qquad
 \end{aligned}
 ```
 
- Since $`0<r<x<1`$, every displayed coefficient is strictly negative. The original cofactor witnesses
+ Since $`0\lt r\lt x\lt1`$, every displayed coefficient is strictly negative. The original cofactor witnesses
 
 ```math
 F_1=-(\Lambda_2R_{2,3}-\Lambda_3R_{2,2}),\qquad
  F_3=\Lambda_1R_{2,2}-\Lambda_2R_{2,1}
 ```
 
- have values $`(L+G)H_3`$ and $`LH_3`$ at $`w=0`$. Their unique simple physical roots precede $`E_2`$, so they are strictly positive for all $`w>0`$. Only $`F_1(1/2)/(L+G)>0`$ and $`F_3(1)/L>0`$ are used by the two coefficient identities. These are two auxiliary values in addition to the stated parameter upper bounds, rather than six values at $`1/2,1,2`$. This argument uses no nonreal-pair hypothesis.
+ have values $`(L+G)H_3`$ and $`LH_3`$ at $`w=0`$. Their unique simple physical roots precede $`E_2`$, so they are strictly positive for all $`w\gt0`$. Only $`F_1(1/2)/(L+G)\gt0`$ and $`F_3(1)/L\gt0`$ are used by the two coefficient identities. These are two auxiliary values in addition to the stated parameter upper bounds, rather than six values at $`1/2,1,2`$. This argument uses no nonreal-pair hypothesis.
 
 Put $`h_0=x+h`$, equal to one on the physical source. Give weight one to $`r,G,k,P,h,z`$ and weight two to $`E`$, and homogenize $`c_i`$ to weighted degree $`i+3`$, writing $`C_i`$. The source generators include
 
 ```math
 \begin{gathered}
- B_{\rm lower bound}=xh_0-E-Ph_0-L(r+G)>0,\qquad L-r=z>0,\\
+ B_{\rm lower bound}=xh_0-E-Ph_0-L(r+G)\gt0,\qquad L-r=z\gt0,\\
  \mathcal G_T=P[L(h+k)-hh_0]+E(L-h_0-x)\ge0,\\
                   \mathcal G_A=L(h+k)-E-4hh_0\ge0.
 \end{gathered}
@@ -647,7 +647,7 @@ bc-af=\frac{L(L+G)G}{xh},\qquad
  The original-cut complement is therefore exactly
 
 ```math
-D=(x+2h)k-xh-(L+G)G>0.
+D=(x+2h)k-xh-(L+G)G\gt0.
 ```
 
  The extra low-degree primitives are
@@ -668,13 +668,13 @@ T_{\rm ord}=2k-G,\quad N=L+P-k-h,\quad V=x-P,
 \end{aligned}
 ```
 
- Here $`h_0-G=r+k+h>0`$; the last line retains strictness even at $`A=4`$. There is no stronger assumption $`k>G`$.
+ Here $`h_0-G=r+k+h\gt0`$; the last line retains strictness even at $`A=4`$. There is no stronger assumption $`k\gt G`$.
 
 If $`C_3\ge0`$, $`-C_4\ge0`$, the new weighted-degree-eight identity is
 
 ```math
 -rGkPhzE=\sum_{\nu=1}^{1302}q_\nu M_\nu\Gamma_\nu,
-                       \qquad q_\nu>0.
+                       \qquad q_\nu\gt0.
 ```
 
  Each $`M_\nu`$ is a monomial in the positive chart variables. Each $`\Gamma_\nu`$ is one, a displayed source generator or the single finite witness $`F_3(1)/L`$, a nonnegative product of source generators, an alleged coefficient inequality, or its product with a source generator. Every term is nonnegative, but the left side is strictly negative. This proves (AH2) and survives $`A=4`$, $`G_T=0`$ and $`P=k`$. Homogenization is evaluated at the same source with $`h_0=1`$; it does not assert that arbitrary homogeneous points are beta supports. The witness occurs in 21 multiplier records; no other finite cofactor value occurs in this identity.
@@ -690,15 +690,15 @@ Exact finite sums: [third coefficient](../calculation-data/f3/0231-third-head.js
 This subsection retains the actual strict canonical oriented-II source (19)–(20), four distinct simple cofactor events in event order $`0231`$, and both variable extra pairs genuinely nonreal. Write the exponent gaps $`A_{\rm gap}=a-e`$, $`B_{\rm gap}=b+d`$ to distinguish them from the historical coefficient families A/B/C. At the original-proof use,
 
 ```math
-A_{\rm gap}>4,\quad B_{\rm gap}<1,\quad
-                    a-2b-(bc-af)>0.
+A_{\rm gap}\gt4,\quad B_{\rm gap}\lt1,\quad
+                    a-2b-(bc-af)\gt0.
 ```
 
- In particular $`d<1`$. All three coefficient theorems permit the weak seams $`A_{\rm gap}=4`$, $`B_{\rm gap}=1`$ and $`a-2b-(bc-af)=0`$, under the same strict actual source context.
+ In particular $`d\lt1`$. All three coefficient theorems permit the weak seams $`A_{\rm gap}=4`$, $`B_{\rm gap}=1`$ and $`a-2b-(bc-af)=0`$, under the same strict actual source context.
 
 #### Literal source and positive normalization.
 
-Let $`T`$ be the last physical event, the $`E_1`$ root, and put $`x=T/(1+T)`$, $`y=1-x`$ and $`w=(t-T)/(1+T)=yt-x`$. Physical points before $`T`$ have $`-x<w<0`$; the right tail is $`w>0`$. Use the complete last-$`E_1`$ chart
+Let $`T`$ be the last physical event, the $`E_1`$ root, and put $`x=T/(1+T)`$, $`y=1-x`$ and $`w=(t-T)/(1+T)=yt-x`$. Physical points before $`T`$ have $`-x\lt w\lt0`$; the right tail is $`w\gt0`$. Use the complete last-$`E_1`$ chart
 
 ```math
 x=P+r+v,\qquad L=1-P-r+\ell,\qquad V=1-r+\ell=L+P,
@@ -714,33 +714,33 @@ x=P+r+v,\qquad L=1-P-r+\ell,\qquad V=1-r+\ell=L+P,
 \end{aligned}
 ```
 
- Its positive variables satisfy $`\lambda<v`$, $`\lambda>y\eta`$. The inverse source bindings are $`P=dx-ey`$, $`L=cy+fx`$, $`\ell=ey/P`$, $`r=fx/L`$, $`\eta=x(b-f)/V`$, $`\lambda=y\eta+xy(c-a)/V`$ and $`v-\lambda=xy(a-b-e-d)/V`$. The $`E_1`$ root equation supplies $`L=1-P-r+\ell`$. Thus this is a chart of the linked beta source, not a choice of independent cofactor polynomials. Set
+ Its positive variables satisfy $`\lambda\lt v`$, $`\lambda\gt y\eta`$. The inverse source bindings are $`P=dx-ey`$, $`L=cy+fx`$, $`\ell=ey/P`$, $`r=fx/L`$, $`\eta=x(b-f)/V`$, $`\lambda=y\eta+xy(c-a)/V`$ and $`v-\lambda=xy(a-b-e-d)/V`$. The $`E_1`$ root equation supplies $`L=1-P-r+\ell`$. Thus this is a chart of the linked beta source, not a choice of independent cofactor polynomials. Set
 
 ```math
 \begin{aligned}
- Y&=\ell+r-v>0,\\
- G&=(\eta-\lambda)[x(V+v)+V(\eta-\lambda)]+x^2\lambda>0,\\
+ Y&=\ell+r-v\gt0,\\
+ G&=(\eta-\lambda)[x(V+v)+V(\eta-\lambda)]+x^2\lambda\gt0,\\
  C&=x(P+2r)\ell+r(P+r)(1+x)-v(P+v),\\
- \Delta_{E_1}&=4x^2Y(1+\ell)(P+r)r-C^2>0.
+ \Delta_{E_1}&=4x^2Y(1+\ell)(P+r)r-C^2\gt0.
 \end{aligned}
 ```
 
- $`Y`$ and $`\Delta_{E_1}`$ come from the genuinely nonreal deflated $`E_1`$ quadratic, and $`G`$ is the correctly signed source $`E_3`$ value at the last event. The actual $`d<1`$ inequality is $`r+v-P\ell>0`$. Divide the primitive beta-score/second/third-jet determinant by $`PLV^2>0`$ and write the resulting sextic as $`\sum_{i=0}^6q_iw^i`$. The literal endpoint identities are
+ $`Y`$ and $`\Delta_{E_1}`$ come from the genuinely nonreal deflated $`E_1`$ quadratic, and $`G`$ is the correctly signed source $`E_3`$ value at the last event. The actual $`d\lt1`$ inequality is $`r+v-P\ell\gt0`$. Divide the primitive beta-score/second/third-jet determinant by $`PLV^2\gt0`$ and write the resulting sextic as $`\sum_{i=0}^6q_iw^i`$. The literal endpoint identities are
 
 ```math
-q_0=x^4YG>0,\qquad
- q_6=-r(1+\ell)(Lr+V\eta)\eta V(P+r+\eta)(P+r)<0.
+q_0=x^4YG\gt0,\qquad
+ q_6=-r(1+\ell)(Lr+V\eta)\eta V(P+r+\eta)(P+r)\lt0.
 ```
 
  The normalization preserves every coefficient sign and root multiplicity.
 
 #### Root exhaustion, Vieta and one strict height inequality.
 
-Suppose five positive-$`w`$ roots exist, counting multiplicity. The left theorem gives one simple physical contact before all events. These six roots exhaust the sextic degree, so its only negative root is $`-u`$, with $`0<u<x`$, and
+Suppose five positive-$`w`$ roots exist, counting multiplicity. The left theorem gives one simple physical contact before all events. These six roots exhaust the sextic degree, so its only negative root is $`-u`$, with $`0\lt u\lt x`$, and
 
 ```math
 K(w)/q_0=(1+w/u)\prod_{i=1}^{5}(1-s_iw),
-                       \qquad s_i>0.
+                       \qquad s_i\gt0.
 ```
 
  The $`s_i`$ may repeat. Write $`e_j`$ for their elementary symmetric functions. Vieta gives
@@ -752,27 +752,27 @@ q_1/q_0=1/u-e_1,\qquad q_2/q_0=e_2-e_1/u.
  If $`q_2\ge0`$, then $`e_2/e_1\ge1/u`$. Newton’s inequality gives $`e_2/e_1\le2e_1/5`$, and hence
 
 ```math
-q_1/q_0=1/u-e_1\le-3/(2u)<-3/(2x).
+q_1/q_0=1/u-e_1\le-3/(2u)\lt-3/(2x).
 ```
 
  This supplies the strict height-five-halves inequality
 
 ```math
-H_{5/2}=Y[x(L-5/2-v)+V(\eta-\lambda)]-2C>0.
+H_{5/2}=Y[x(L-5/2-v)+V(\eta-\lambda)]-2C\gt0.
 ```
 
- The exact source bridge is $`xq_1+(3/2)q_0+x^3GH_{5/2}=0`$. Strictness comes from the physical location $`u<x`$, including $`q_2=0`$; coefficient-zero faces and repeated right roots cause no loss.
+ The exact source bridge is $`xq_1+(3/2)q_0+x^3GH_{5/2}=0`$. Strictness comes from the physical location $`u\lt x`$, including $`q_2=0`$; coefficient-zero faces and repeated right roots cause no loss.
 
 #### Paired degree-eight coefficients at the common height.
 
 At the same actual source, retain
 
 ```math
-d<1,\quad A_{\rm gap}\ge4,\quad B_{\rm gap}\le1,\quad
- a-2b-(bc-af)\ge0,\quad q_2\ge0,\quad H_{5/2}>0.
+d\lt1,\quad A_{\rm gap}\ge4,\quad B_{\rm gap}\le1,\quad
+ a-2b-(bc-af)\ge0,\quad q_2\ge0,\quad H_{5/2}\gt0.
 ```
 
- Then $`q_3>0`$ and $`q_4>0`$. Each coefficient has its own exact identity; neither assumes the sign of the other coefficient. No $`q_1`$ or $`q_5`$ sign premise is used.
+ Then $`q_3\gt0`$ and $`q_4\gt0`$. Each coefficient has its own exact identity; neither assumes the sign of the other coefficient. No $`q_1`$ or $`q_5`$ sign premise is used.
 
 For the identities, homogenize in seven positive variables $`P,r,\lambda,\mu,\ell,\eta,\rho`$, with $`v=\lambda+\mu`$, $`h=P+r+\lambda+\mu+\rho`$, $`x=h-\rho`$. The physical normalization is $`h=1`$, $`\rho=y`$. Each normalized coefficient $`q_j`$ has homogeneous degree eight. Let $`a_n=xL(1-r)+V(y\eta-\lambda)`$ and $`b_n=Lr+V\eta`$. At this normalization the cut inequalities are
 
@@ -785,16 +785,16 @@ For the identities, homogenize in seven positive variables $`P,r,\lambda,\mu,\el
 \end{aligned}
 ```
 
- All clearing factors are strictly positive. Write $`\delta_1`$ for the homogeneous $`r+v-P\ell`$ inequality and $`c_a`$ for the homogeneous $`\lambda-y\eta`$ inequality. The strict $`d<1`$ and $`c>a`$ source hypotheses make these positive.
+ All clearing factors are strictly positive. Write $`\delta_1`$ for the homogeneous $`r+v-P\ell`$ inequality and $`c_a`$ for the homogeneous $`\lambda-y\eta`$ inequality. The strict $`d\lt1`$ and $`c\gt a`$ source hypotheses make these positive.
 
-The existing genuinely nonreal $`E_1`$ pair supplies the strict inequality $`\Delta_{E_1}>0`$. In this jet normalization its original cofactor numerator is exactly
+The existing genuinely nonreal $`E_1`$ pair supplies the strict inequality $`\Delta_{E_1}\gt0`$. In this jet normalization its original cofactor numerator is exactly
 
 ```math
 \mathcal E_1=wPLV\{x^2Y+Cw+A_qw^2\},\qquad
-                    A_q=(1+\ell)(P+r)r>0.
+                    A_q=(1+\ell)(P+r)r\gt0.
 ```
 
- After removal of the simple anchor root, the remaining quadratic has negative discriminant, precisely $`\Delta_{E_1}=4x^2YA_q-C^2>0`$. The $`q_3`$ identity uses this inequality in two multiplier records, and the $`q_4`$ identity in three. These are five uses of an existing strict source hypothesis, rather than a new premise. The $`E_3`$ nonreal pair remains part of the left-contact/root-exhaustion context. No negative evaluation of $`E_3`$ is used by either identity.
+ After removal of the simple anchor root, the remaining quadratic has negative discriminant, precisely $`\Delta_{E_1}=4x^2YA_q-C^2\gt0`$. The $`q_3`$ identity uses this inequality in two multiplier records, and the $`q_4`$ identity in three. These are five uses of an existing strict source hypothesis, rather than a new premise. The $`E_3`$ nonreal pair remains part of the left-contact/root-exhaustion context. No negative evaluation of $`E_3`$ is used by either identity.
 
 The shared base inequalities are
 
@@ -817,22 +817,22 @@ The shared base inequalities are
 ```math
 0=-m_jq_j+\sum_{g\in\mathcal G}gM_{j,g}
                     +\sum_{p\in\mathcal P_j}pM_{j,p}+R_j,
-                  \qquad m_j>0.
+                  \qquad m_j\gt0.
 ```
 
- Here $`m_j`$ is one positive integer constant, all multiplier coefficients are nonnegative integers, and every remainder coefficient is strictly positive. For $`q_3`$ there are 869 positive multiplier and 1,116 positive remainder records, totaling 1,985. For $`q_4`$ there are 721 and 1,275, totaling 1,996. On the positive chart the remainders are strictly positive, while every source or product summand is nonnegative. Thus both equalities force $`q_j>0`$.
+ Here $`m_j`$ is one positive integer constant, all multiplier coefficients are nonnegative integers, and every remainder coefficient is strictly positive. For $`q_3`$ there are 869 positive multiplier and 1,116 positive remainder records, totaling 1,985. For $`q_4`$ there are 721 and 1,275, totaling 1,996. On the positive chart the remainders are strictly positive, while every source or product summand is nonnegative. Thus both equalities force $`q_j\gt0`$.
 
 This includes $`A_{\rm gap}=4`$, $`B_{\rm gap}=1`$, $`\mathcal D=0`$ and $`q_2=0`$: the remainders remain strict when those inequalities vanish. Actual source-coordinate positivity, distinct simple cofactor events and genuinely nonreal pairs remain strict; no cofactor collision or discriminant-zero extension is asserted.
 
 #### The terminal fourth coefficient without a height premise.
 
-At the same actual strict source, retain the three original-cut inequalities and $`d<1`$, but now assume only
+At the same actual strict source, retain the three original-cut inequalities and $`d\lt1`$, but now assume only
 
 ```math
 q_2\le0,\qquad q_3\ge0,\qquad q_5\ge0.
 ```
 
- Then $`q_4>0`$. No $`q_1`$ or $`q_4`$ sign and no height inequality is assumed. Use the same positive homogeneous chart, normalized $`q_j`$ and parameter inequalities above. Put
+ Then $`q_4\gt0`$. No $`q_1`$ or $`q_4`$ sign and no height inequality is assumed. Use the same positive homogeneous chart, normalized $`q_j`$ and parameter inequalities above. Put
 
 ```math
 \mathcal S=\{T_B,Y,\delta_1,c_a,G,\Delta_{E_1},A_4,\mathcal D\}.
@@ -845,19 +845,19 @@ q_2\le0,\qquad q_3\ge0,\qquad q_5\ge0.
                    +(-q_2)M_2+q_3M_3+q_5M_5+R.
 ```
 
- All multipliers have nonnegative integer coefficients. The target $`M_4`$ is a quadratic polynomial with 26 positive monomial records, so $`M_4>0`$ everywhere on the positive chart. The nonzero remainder $`R`$ has only strictly positive coefficients. There are 686 positive multiplier records and 5,067 positive remainder records, totaling 5,753. Every term other than $`(-q_4)M_4`$ is nonnegative, and $`R>0`$. Therefore $`(-q_4)M_4<0`$, proving $`q_4>0`$ without coefficient division.
+ All multipliers have nonnegative integer coefficients. The target $`M_4`$ is a quadratic polynomial with 26 positive monomial records, so $`M_4\gt0`$ everywhere on the positive chart. The nonzero remainder $`R`$ has only strictly positive coefficients. There are 686 positive multiplier records and 5,067 positive remainder records, totaling 5,753. Every term other than $`(-q_4)M_4`$ is nonnegative, and $`R\gt0`$. Therefore $`(-q_4)M_4\lt0`$, proving $`q_4\gt0`$ without coefficient division.
 
 This identity uses the existing strict $`\Delta_{E_1}`$ inequality in 36 multiplier records. Together with the paired coefficients’ two and three uses, these are 41 uses of the same nonreal-$`E_1`$ source premise. There are no product inequalities, height generators or negative-$`E_3`$ evaluation generators in the terminal identity. The actual nonreal $`E_3`$ pair remains in the surrounding left-contact context. The proof includes $`q_2=0,q_3=0,q_5=0`$ and the three weak cut seams: strictness of $`M_4`$ and $`R`$ is unaffected when those inequalities vanish. It retains strict source coordinates, distinct simple events and genuinely nonreal pairs.
 
 #### Two cases instead of the eleven-word table.
 
-Five positive roots force exactly five Descartes variations: the endpoint signs are opposite, so the variation count is odd and at most five. Delete zero coefficients in this count. If $`q_2\ge0`$, the Newton argument gives $`H_{5/2}>0`$. The two source lemmas at this single height force $`q_3>0,q_4>0`$. After deleting any zero $`q_2`$, the segment $`q_0\to q_4`$ has at most two variations: only $`q_1`$ can separate its positive coefficients. The segment $`q_4\to q_6`$ has at most one variation. The total is therefore at most three. This contradicts five right roots, including the $`q_2=0`$ face.
+Five positive roots force exactly five Descartes variations: the endpoint signs are opposite, so the variation count is odd and at most five. Delete zero coefficients in this count. If $`q_2\ge0`$, the Newton argument gives $`H_{5/2}\gt0`$. The two source lemmas at this single height force $`q_3\gt0,q_4\gt0`$. After deleting any zero $`q_2`$, the segment $`q_0\to q_4`$ has at most two variations: only $`q_1`$ can separate its positive coefficients. The segment $`q_4\to q_6`$ has at most one variation. The total is therefore at most three. This contradicts five right roots, including the $`q_2=0`$ face.
 
-If $`q_2<0`$, the first portion $`q_0\to q_2`$ has at most one variation, including $`q_1=0`$. The four remaining edges must all vary, so $`q_3>0,q_4<0,q_5>0`$. The terminal theorem, under the weaker nonnegative coefficient inequalities just stated, gives $`q_4>0`$, a contradiction. No height or $`b>1`$ conclusion enters this branch. Every coefficient-zero face is covered by this argument.
+If $`q_2\lt0`$, the first portion $`q_0\to q_2`$ has at most one variation, including $`q_1=0`$. The four remaining edges must all vary, so $`q_3\gt0,q_4\lt0,q_5\gt0`$. The terminal theorem, under the weaker nonnegative coefficient inequalities just stated, gives $`q_4\gt0`$, a contradiction. No height or $`b\gt1`$ conclusion enters this branch. Every coefficient-zero face is covered by this argument.
 
 #### Local master conclusion and exact proof inventory.
 
-With the retained one-simple-physical-left theorem, the source conditions and original-cut inequalities stated above imply right-root multiplicity at most three and joint useful multiplicity at most four. Indeed the left root leaves at most five right roots by degree six. Since $`q_0>0`$ and $`q_6<0`$, positive-root multiplicity is odd. The two branches exclude five, so it is at most three. This conclusion retains the fixed-root interlacing input for the left contact. It is not an unrestricted all-source F3 theorem.
+With the retained one-simple-physical-left theorem, the source conditions and original-cut inequalities stated above imply right-root multiplicity at most three and joint useful multiplicity at most four. Indeed the left root leaves at most five right roots by degree six. Since $`q_0\gt0`$ and $`q_6\lt0`$, positive-root multiplicity is odd. The two branches exclude five, so it is at most three. This conclusion retains the fixed-root interlacing input for the left contact. It is not an unrestricted all-source F3 theorem.
 
 The argument has two cases according to the sign of $`q_2`$, one common-height comparison, and three exact positive-sum identities. It proves the required bound under the source assumptions printed above.
 
@@ -868,7 +868,7 @@ Exact finite sums: [nonpositive-height identity](../calculation-data/f3/1320-low
 For [F3-NEWTON], the exact rational shape chart is
 
 ```math
-y>q>0,\quad r>p>0,\quad -pq<M<\min(pr,qy),\quad\lambda>M+yr>0,
+y\gt q\gt0,\quad r\gt p\gt0,\quad -pq\lt M\lt\min(pr,qy),\quad\lambda\gt M+yr\gt0,
 ```
 
 
@@ -902,17 +902,17 @@ a=y+p,\quad e=y-q,\quad c=y+r,\qquad
 \end{aligned}
 ```
 
- The lower bound $`\lambda>M+yr`$ is exactly the strict sum inequality $`a-b>e+d`$ in this canonical chart. The qualified both-nonreal event order $`1320`$ bridge supplies $`pr>qy`$, $`D_\lambda=M^2+MD_{*}+Y(\Delta-1)>0`$ and
+ The lower bound $`\lambda\gt M+yr`$ is exactly the strict sum inequality $`a-b\gt e+d`$ in this canonical chart. The qualified both-nonreal event order $`1320`$ bridge supplies $`pr\gt qy`$, $`D_\lambda=M^2+MD_{*}+Y(\Delta-1)\gt0`$ and
 
 ```math
-\lambda<\lambda_+=2M+D_{*}+\frac{D_\lambda}{s-M},\qquad s=\sqrt Y.
+\lambda\lt\lambda_+=2M+D_{*}+\frac{D_\lambda}{s-M},\qquad s=\sqrt Y.
 ```
 
- The necessary first coefficient $`H<0`$ also gives $`\Delta>0`$ by the general positive-$`\Delta`$ source inequality. These are physical-word and nonreal-pair necessities, not consequences of the bare shape chart.
+ The necessary first coefficient $`H\lt0`$ also gives $`\Delta\gt0`$ by the general positive-$`\Delta`$ source inequality. These are physical-word and nonreal-pair necessities, not consequences of the bare shape chart.
 
 #### A displayed integer proof when $`Z\le0`$.
 
-Let $`d_{*}=p-q`$. The elementary shape identities for $`Z`$ exclude $`d_{*}\le0`$, $`0<d_{*}\le1`$ and $`1<d_{*}\le y+1`$, since each makes $`Z>0`$. Thus $`v=d_{*}-y-1>0`$. Put $`E=y-q>0`$, $`z=-Z\ge0`$, $`S=2q+E`$. The full substitution is
+Let $`d_{*}=p-q`$. The elementary shape identities for $`Z`$ exclude $`d_{*}\le0`$, $`0\lt d_{*}\le1`$ and $`1\lt d_{*}\le y+1`$, since each makes $`Z\gt0`$. Thus $`v=d_{*}-y-1\gt0`$. Put $`E=y-q\gt0`$, $`z=-Z\ge0`$, $`S=2q+E`$. The full substitution is
 
 ```math
 y=q+E,\quad p=2q+E+1+v,\quad
@@ -929,10 +929,10 @@ vh=v(v-1)+(2q+E)v+3q^2+3qE+E^2+2q+E+z
 
 ```math
 3vh=E^2+E\ell_{*}+2E+\ell_{*}^2+4\ell_{*}
-                         +2(1-v)^2+(1-v)+3z>0
+                         +2(1-v)^2+(1-v)+3z\gt0
 ```
 
- prove $`h>0`$; the first is strictly positive when $`v\ge1`$. Define
+ prove $`h\gt0`$; the first is strictly positive when $`v\ge1`$. Define
 
 ```math
 E_{GT}=5Z^2+12Y+12hD_{*}-6hW-3hZ.
@@ -948,7 +948,7 @@ E_{GT}=5Z^2+12Y+12hD_{*}-6hW-3hZ.
                          +Sv^2+\frac{11}{4}S^2\right].
 ```
 
- Here $`v+3S/2=A-1+E/2>1`$. To display the whole remainder compactly, put
+ Here $`v+3S/2=A-1+E/2\gt1`$. To display the whole remainder compactly, put
 
 ```math
 \begin{aligned}
@@ -978,23 +978,23 @@ E_{GT}=5Z^2+12Y+12hD_{*}-6hW-3hZ.
 |   0 |   1 | $`36q(E+q)F_0`$                 |
 |   0 |   0 | $`18q(E+q)F_0^2`$               |
 
-Thus (A7) is strictly positive even at $`z=0`$ and $`A=2`$, proving $`E_{GT}<0`$. The literal coefficient identity
+Thus (A7) is strictly positive even at $`z=0`$ and $`A=2`$, proving $`E_{GT}\lt0`$. The literal coefficient identity
 
 ```math
 N_1=E_{GT}-6h(2\lambda-M-W)+3h(6M+Z)
 ```
 
- and $`G_T\le0`$, $`H<0`$ give $`N_1<E_{GT}<0`$. This entire local certificate is printed here as positive coefficients and one square; no computer-algebra package is needed to check its expansion. Its thirteen-group source is the accompanying mathematical proof.
+ and $`G_T\le0`$, $`H\lt0`$ give $`N_1\lt E_{GT}\lt0`$. This entire local certificate is printed here as positive coefficients and one square; no computer-algebra package is needed to check its expansion. Its thirteen-group source is the accompanying mathematical proof.
 
 #### The positive-$`Z`$, low-$`\Delta`$ bridge.
 
-Now $`Z>0`$ and $`H<0`$ give $`M=-m<0`$, $`Z/6<m<pq`$. Suppose $`0<\Delta\le3`$, so $`h\le0`$. The first cofactor is a nonzero negative multiple of
+Now $`Z\gt0`$ and $`H\lt0`$ give $`M=-m\lt0`$, $`Z/6\lt m\lt pq`$. Suppose $`0\lt\Delta\le3`$, so $`h\le0`$. The first cofactor is a nonzero negative multiple of
 
 ```math
 F_1(u)=[1-(pr-M)u][1+(M+pq)u][1+(M+py)u]+pu(1+\lambda u).
 ```
 
- At $`u_{*}=1/(s-M)`$ it equals $`p(\lambda-\lambda_+)/(s-M)^2<0`$. Its nonreal extra pair leaves exactly one positive root, which is therefore below $`u_{*}`$. Since $`pr>qy`$ implies $`s>qy`$, $`\tau=1/(qy-M)>u_{*}`$, hence $`F_1(\tau)<0`$. Writing $`v_{*}=qy+m`$, direct evaluation yields
+ At $`u_{*}=1/(s-M)`$ it equals $`p(\lambda-\lambda_+)/(s-M)^2\lt0`$. Its nonreal extra pair leaves exactly one positive root, which is therefore below $`u_{*}`$. Since $`pr\gt qy`$ implies $`s\gt qy`$, $`\tau=1/(qy-M)\gt u_{*}`$, hence $`F_1(\tau)\lt0`$. Writing $`v_{*}=qy+m`$, direct evaluation yields
 
 ```math
 v_{*}^3F_1(\tau)=p(\lambda+v_{*})v_{*}-(pr-qy)qy(y+p)A.
@@ -1006,7 +1006,7 @@ v_{*}^3F_1(\tau)=p(\lambda+v_{*})v_{*}-(pr-qy)qy(y+p)A.
 
 ```math
 T_G=2(pr-qy)qy(y+p)A
-                 -p(qy+m)[-m+W+2qy+2m]>0.
+                 -p(qy+m)[-m+W+2qy+2m]\gt0.
 ```
 
  As $`h\le0`$, $`c_2(\lambda)\le c_2(\lambda_G)=C_{2G}`$, where
@@ -1022,9 +1022,9 @@ p,q,r-p,y-q,m,A-2,\Delta,3-\Delta,
                          pq-m,6m-Z,Z,pr-qy,D_\lambda,T_G.
 ```
 
- Only $`A-2`$, $`3-\Delta`$ may vanish; 77 products avoid both and remain strictly positive. Thus $`c_2<0`$, contradicting the necessary second coefficient. A hypothetical six-positive-root source must therefore have $`h>0`$.
+ Only $`A-2`$, $`3-\Delta`$ may vanish; 77 products avoid both and remain strictly positive. Thus $`c_2\lt0`$, contradicting the necessary second coefficient. A hypothetical six-positive-root source must therefore have $`h\gt0`$.
 
-#### The two-Newton contradiction when $`h>0`$.
+#### The two-Newton contradiction when $`h\gt0`$.
 
 In this cone, $`N_1\ge0`$ and $`\lambda\ge\lambda_G`$ force
 
@@ -1041,11 +1041,11 @@ p,q,r-p,y-q,m,A-2,h,pq-m,6m-Z,Z,pr-qy,Q_{GN},D_\lambda.
  Only $`A-2,Q_{GN}`$ may vanish. Two exact positive-generator identities give
 
 ```math
-D_{3G}=4\lambda_G-3(\Delta M+D_{*})>0,\qquad
- -54\left(c_3(\lambda_G)-\frac5{54}H^3\right)>0.
+D_{3G}=4\lambda_G-3(\Delta M+D_{*})\gt0,\qquad
+ -54\left(c_3(\lambda_G)-\frac5{54}H^3\right)\gt0.
 ```
 
- They have respectively 29 and 283 positive rational products, with 21 and 145 strict products avoiding both weak generators. The source formula (A6) has $`c_3''=-4`$ and $`c_3'(\lambda_G)=-D_{3G}<0`$, so $`c_3(\lambda)\le c_3(\lambda_G)<5H^3/54`$. The exact Newton identity printed in the main proof gives the opposite inequality. Here $`k_0=K(0)`$ and $`k_6=K(1)`$ are negative in the retained literal orientation. Their same sign makes the total positive odds-root weight even and at most four. All polynomial tables are rational positive-product equalities with zero reconstructed remainder; optimization was used only to discover them.
+ They have respectively 29 and 283 positive rational products, with 21 and 145 strict products avoiding both weak generators. The source formula (A6) has $`c_3''=-4`$ and $`c_3'(\lambda_G)=-D_{3G}\lt0`$, so $`c_3(\lambda)\le c_3(\lambda_G)\lt5H^3/54`$. The exact Newton identity printed in the main proof gives the opposite inequality. Here $`k_0=K(0)`$ and $`k_6=K(1)`$ are negative in the retained literal orientation. Their same sign makes the total positive odds-root weight even and at most four. All polynomial tables are rational positive-product equalities with zero reconstructed remainder; optimization was used only to discover them.
 
 This extends the the earlier argument no-$`B`$ $`A\ge4`$ theorem to $`A\ge2`$. Its original-proof use after (F3-CUT) remains within the unchanged qualified $`A\ge2`$, $`G_T\le0`$ theorem. The stronger original-root cuts provide all removed domains; they imply no contact cap there.
 
@@ -1060,7 +1060,7 @@ The variables in this section are local. The parameters $`p,q,r,y,M,\lambda`$ ar
 Throughout the reciprocal-coordinate lemmas, the parameters satisfy
 
 ```math
-y>q>0,\qquad r>p>0,\qquad -pq<M<\min(pr,qy).
+y\gt q\gt0,\qquad r\gt p\gt0,\qquad -pq\lt M\lt\min(pr,qy).
 ```
 
 The scale parameter is $`\lambda`$. Define
@@ -1090,7 +1090,7 @@ P_k(v)=(v^2-Y)(v+k^2)
 ```
 
 An **event** in this section means a real zero of one of these
-polynomials with $`v>M`$. Thus the word describes an algebraic boundary
+polynomials with $`v\gt M`$. Thus the word describes an algebraic boundary
 value, rather than a new geometric object. When each polynomial has
 exactly one such zero, write it as
 
@@ -1102,9 +1102,9 @@ exactly one such zero, write it as
 The two remaining orders considered here are
 
 ```math
-\beta<\gamma<s<\delta<\alpha
+\beta\lt\gamma\lt s\lt\delta\lt\alpha
 \quad\text{and}\quad
-\alpha<\delta<s<\gamma<\beta.
+\alpha\lt\delta\lt s\lt\gamma\lt\beta.
 ```
 
 The calculation filenames call these orders `0231` and `1320`,
@@ -1132,10 +1132,10 @@ C_6={}&Y(WT+Y^2).
 
 Calling a zero of $`R`$ a **contact** agrees with the geometric
 interpretation in the appendix. In this section a *physical* zero
-simply means a real zero satisfying $`v>M`$. The identity
+simply means a real zero satisfying $`v\gt M`$. The identity
 
 ```math
-R(M)=(M+qr)(pr-M)(M+pq)(M+yr)(qy-M)(M+py)>0
+R(M)=(M+qr)(pr-M)(M+pq)(M+yr)(qy-M)(M+py)\gt0
 ```
 
 follows from the parameter inequalities. If all six zeros are real,
@@ -1172,9 +1172,9 @@ The table summarizes the premises; the full statements in the linked proofs gove
 
 | Lemma | Premises and conclusion | Complete proof |
 | --- | --- | --- |
-| Positive reciprocal height | With $`p+q>4`$, $`\lambda>(p+q)(M+yr)`$, $`E_1,E_2,E_3>0`$ and $`N_2,N_3\ge0`$, one has $`h>0`$. No event order, nonreal-pair assumption or sign of $`E_4`$ is required. | [Reciprocal height](lemmas/f3/reciprocal-height.md) |
-| Exterior count from the sum of the roots | Suppose $`p>S`$, $`r\ge7p/4`$, $`\mu\ge s`$, and $`P_p`$ has one real root $`\beta>M`$, two nonreal conjugate roots, and $`\beta>s`$. Then $`\beta>3\mu-2M`$. For $`\alpha<\delta<s<\gamma<\beta`$, if also $`R(\alpha),R(\beta)>0`$, the total contact multiplicity in $`(M,\alpha)\cup(\beta,\infty)`$ is at most four. | [Exterior root bound](lemmas/f3/exterior-root-bound.md) |
-| Shape exclusions | Suppose $`P_p`$ has one real root and two nonreal conjugate roots, $`V:=sT-W-(h+2)Y>0`$, and $`N_1:=5Z^2-12hT+12Y\ge0`$. The regions $`(p\ge5S/2,\ r\ge p)`$, $`(p\ge2S,\ r\ge2p)`$, $`(p\ge S,\ r\ge3p)`$ and $`(p\le S,\ pr\ge3S^2)`$ are impossible. In particular, $`r\ge3p`$ and $`pr\ge3S^2`$ is impossible. These hypotheses apply to the order $`\beta<\gamma<s<\delta<\alpha`$ considered in the proof. | [Shape exclusions](lemmas/f3/shape-exclusions.md) |
+| Positive reciprocal height | With $`p+q\gt4`$, $`\lambda\gt(p+q)(M+yr)`$, $`E_1,E_2,E_3\gt0`$ and $`N_2,N_3\ge0`$, one has $`h\gt0`$. No event order, nonreal-pair assumption or sign of $`E_4`$ is required. | [Reciprocal height](lemmas/f3/reciprocal-height.md) |
+| Exterior count from the sum of the roots | Suppose $`p\gt S`$, $`r\ge7p/4`$, $`\mu\ge s`$, and $`P_p`$ has one real root $`\beta\gt M`$, two nonreal conjugate roots, and $`\beta\gt s`$. Then $`\beta\gt3\mu-2M`$. For $`\alpha\lt\delta\lt s\lt\gamma\lt\beta`$, if also $`R(\alpha),R(\beta)\gt0`$, the total contact multiplicity in $`(M,\alpha)\cup(\beta,\infty)`$ is at most four. | [Exterior root bound](lemmas/f3/exterior-root-bound.md) |
+| Shape exclusions | Suppose $`P_p`$ has one real root and two nonreal conjugate roots, $`V:=sT-W-(h+2)Y\gt0`$, and $`N_1:=5Z^2-12hT+12Y\ge0`$. The regions $`(p\ge5S/2,\ r\ge p)`$, $`(p\ge2S,\ r\ge2p)`$, $`(p\ge S,\ r\ge3p)`$ and $`(p\le S,\ pr\ge3S^2)`$ are impossible. In particular, $`r\ge3p`$ and $`pr\ge3S^2`$ is impossible. These hypotheses apply to the order $`\beta\lt\gamma\lt s\lt\delta\lt\alpha`$ considered in the proof. | [Shape exclusions](lemmas/f3/shape-exclusions.md) |
 
 The reciprocal-height lemma uses the first two translated Newton inequalities and the scale bounds to exclude $`h\le0`$. The exterior-root lemma uses an analytical barrier for the real cubic root, then contradicts the sum of six exterior contacts. The shape exclusions use one common root argument and exact positive coefficient expansions for the four listed regions. Their exact identities and coefficient data are described in [the calculation guide](calculations.md#tables-for-the-reciprocal-coordinate-lemmas).
 

@@ -1,4 +1,4 @@
-# The exponent-sum order $`0<S_1<S_3<S_2`$
+# The exponent-sum order $`0\lt S_1\lt S_3\lt S_2`$
 
 Let
 
@@ -13,7 +13,7 @@ where all four coefficient magnitudes are positive and
 **(F3)**
 
 ```math
-0<e<a<c,\qquad 0<f<b,\qquad d>0,\qquad 0<x<1.
+0\lt e\lt a\lt c,\qquad 0\lt f\lt b,\qquad d\gt0,\qquad 0\lt x\lt1.
 ```
 
 Set
@@ -29,7 +29,7 @@ The complete sector is
 **(I)**
 
 ```math
-\boxed{0<S_1<S_3<S_2.}
+\boxed{0\lt S_1\lt S_3\lt S_2.}
 ```
 
 The following preceding reductions are used. They are mathematical prerequisites of the sector assembly; the exterior barrier proved here does not establish them by itself:
@@ -41,7 +41,7 @@ The following preceding reductions are used. They are mathematical prerequisites
 **(1.1)**
 
 ```math
-1<p_-<q_+<p_+.
+1\lt p_-\lt q_+\lt p_+.
 ```
 
 4. All order-I rows with b>=1 are already proved by a deflated phase inequality.
@@ -87,7 +87,7 @@ In order I,
 **(2.2)**
 
 ```math
-\boxed{D>h+k,}
+\boxed{D\gt h+k,}
 ```
 
 because S2-S3=D-h-k>0.
@@ -101,7 +101,7 @@ Set x=1+z. Define
 ```
 
 ```math
-\Delta=Dk+v(h+k)>0.
+\Delta=Dk+v(h+k)\gt0.
 ```
 
 Direct original differentiation gives
@@ -123,7 +123,7 @@ If D>h+k and D>1, then
 **(3.1)**
 
 ```math
-\boxed{e_0(x)>0\quad\text{for every }1\le x\le D.}
+\boxed{e_0(x)\gt0\quad\text{for every }1\le x\le D.}
 ```
 
 In particular, every right-exterior root of e0 lies strictly beyond D.
@@ -131,8 +131,8 @@ In particular, every right-exterior root of e0 lies strictly beyond D.
 **Proof.** For z>=0, (2.2) gives
 
 ```math
-\mathcal A>D,\qquad \mathcal C\ge D,\qquad
- \Delta<D(k+v).
+\mathcal A\gt D,\qquad \mathcal C\ge D,\qquad
+ \Delta\lt D(k+v).
 ```
 
 Thus
@@ -142,7 +142,7 @@ Thus
 ```math
 \begin{aligned}
  e_0(1+z)
- &>D^2\{v+(k+v)z\}-D(k+v)z(1+z)\\
+ &\gt D^2\{v+(k+v)z\}-D(k+v)z(1+z)\\
  &=D^2v+D(k+v)z(D-1-z).
 \end{aligned}
 ```
@@ -165,13 +165,13 @@ and
 
 ```math
 \mathcal A\mathcal C-D^2
- =(\mathcal A-D)\mathcal C+D(\mathcal C-D)>0.
+ =(\mathcal A-D)\mathcal C+D(\mathcal C-D)\gt0.
 ```
 
 With D=h+k+g, g>0,
 
 ```math
-\mathcal A-D=v+(k+g+v)z>0,\qquad \mathcal C-D=gz\ge0.
+\mathcal A-D=v+(k+g+v)z\gt0,\qquad \mathcal C-D=gz\ge0.
 ```
 
 ## 4. The barrier gives the missing fixed-level height theorem
@@ -186,13 +186,13 @@ P=(x-p)(x-p_-)(x-p_+),\quad
 **(4.1)**
 
 ```math
-q_-<0,\quad p,q\in(0,1),\quad 1<p_-<q_+<p_+.
+q_-\lt0,\quad p,q\in(0,1),\quad 1\lt p_-\lt q_+\lt p_+.
 ```
 
 The globally monotone anchor {2,3} has score
 
 ```math
-\lambda_3-\lambda_2=(c-e)(1-x)+(d+f)x>0.
+\lambda_3-\lambda_2=(c-e)(1-x)+(d+f)x\gt0.
 ```
 
 Its complementary residual is, up to a strictly positive multiplier,
@@ -238,7 +238,7 @@ If a>=2 and p_->2, then
 **(4.4)**
 
 ```math
-\boxed{\mathscr H'<0\quad(0<x<1).}
+\boxed{\mathscr H'\lt0\quad(0\lt x\lt1).}
 ```
 
 Indeed the exact positive margin is
@@ -251,7 +251,7 @@ Indeed the exact positive margin is
  \frac{2-a}{x}-\frac b{1-x}-\mathscr H'
  ={}&\frac{-q_-}{x(x-q_-)}
  +\frac{p_--2x}{x(p_--x)}\\
- &+\frac{p_+-q_+}{(q_+-x)(p_+-x)}>0.
+ &+\frac{p_+-q_+}{(q_+-x)(p_+-x)}\gt0.
 \end{aligned}}
 ```
 
@@ -266,7 +266,7 @@ More generally, if p_->D>1, the same calculation gives
 &\frac{D/(D-1)-a}{x}-\frac b{1-x}-\mathscr H'\\
 &=\frac{-q_-}{x(x-q_-)}
  +\frac{p_--Dx}{(D-1)x(p_--x)}
- +\frac{p_+-q_+}{(q_+-x)(p_+-x)}>0.
+ +\frac{p_+-q_+}{(q_+-x)(p_+-x)}\gt0.
 \end{aligned}
 ```
 
@@ -277,9 +277,9 @@ Thus a>=D/(D-1) is another sufficient condition. Only the simpler a>2,D>2 conseq
 If p<q, the useful components are (0,p) and (q,1). For any U in the first and V in the second, H(U)>H(V). Moreover
 
 ```math
-\log\left|\frac{U-q}{U-p}\right|>0,
+\log\left|\frac{U-q}{U-p}\right|\gt0,
  \qquad
- \log\left|\frac{V-q}{V-p}\right|<0.
+ \log\left|\frac{V-q}{V-p}\right|\lt0.
 ```
 
 Therefore
@@ -287,7 +287,7 @@ Therefore
 **(4.7)**
 
 ```math
-\boxed{\phi(U)>\phi(V).}
+\boxed{\phi(U)\gt\phi(V).}
 ```
 
 A fixed finite level can occupy at most one useful component.
@@ -303,7 +303,7 @@ has degree seven, leading coefficient a-b>0, and positive nonzero values at both
 If q<p, the useful components are (0,q) and (p,1). The singular logarithm in (4.3) has derivative
 
 ```math
-\frac{q-p}{(x-q)(x-p)}<0
+\frac{q-p}{(x-q)(x-p)}\lt0
 ```
 
 on both components. Hence phi is strictly decreasing on each and the residual has at most two roots. This is more than enough for the target.
@@ -326,7 +326,7 @@ Thus
 **(5.1)**
 
 ```math
-\boxed{0<S_1<S_3<S_2\quad\Longrightarrow\quad Z(F)\le8.}
+\boxed{0\lt S_1\lt S_3\lt S_2\quad\Longrightarrow\quad Z(F)\le8.}
 ```
 
 For generic original roots, the original A0 term dominates near zero and the positive A1 term dominates near one because b>f. Their endpoint signs are both positive. Hence the nine-root ceiling above improves to eight by parity.

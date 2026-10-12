@@ -7,24 +7,24 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 Let
 
 ```math
-G=c_1-u+c_3v+c_4w,\qquad c_1,c_3,c_4>0,
+G=c_1-u+c_3v+c_4w,\qquad c_1,c_3,c_4\gt0,
 \qquad0\prec s_u\prec s_v\prec s_w,
 ```
 
 where all functions are beta monomials. Write q=w/v, reflect so
-$`\Delta=\det(v,q)>0`$, and suppose
+$`\Delta=\det(v,q)\gt0`$, and suppose
 
 **(1)**
 
 ```math
-u=v^h q^{-m},\qquad H=1-h,\qquad0<h<1,\quad0<m<H.
+u=v^h q^{-m},\qquad H=1-h,\qquad0\lt h\lt1,\quad0\lt m\lt H.
 ```
 
 Then G has fewer than ten distinct roots in $`(0,1)`$, for every
 source scale and every one fixed positive coefficient triple.
 
 Equivalently, for $`S=u-c_3v-c_4w`$, if the source has nine generic
-critical points $`x_1<\cdots<x_9`$, with alternating maxima and minima,
+critical points $`x_1\lt\cdots\lt x_9`$, with alternating maxima and minima,
 
 **(MH-R)**
 
@@ -46,11 +46,11 @@ Only the following standing mathematical inputs are retained:
    regularization preserving compact root brackets. In particular the
    extracted maxima refer to the one actual c3 and c4; no independently
    perturbed height collection is assumed.
-2. The local central-contact orientation theorem: at $`-1<p<0`$,
-   $`C<0,D/C>0,A/C>0`$, every V-stationary point is a strict maximum.
+2. The local central-contact orientation theorem: at $`-1\lt p\lt0`$,
+   $`C\lt0,D/C\gt0,A/C\gt0`$, every V-stationary point is a strict maximum.
    This is s132 Theorem 1; its local exact certificate remains an input.
-3. The earlier proof left positive-contact theorem: at $`p>r_3,C<0`$ and
-   $`A/C,B/C>0`$, one has $`V_p<0`$, for every m>0. The exact proof is
+3. The earlier proof left positive-contact theorem: at $`p\gt r_3,C\lt0`$ and
+   $`A/C,B/C\gt0`$, one has $`V_p\lt0`$, for every m>0. The exact proof is
    in [all negative n left negative c contact monotonicity](left-contact-monotonicity.md) in the
    joint directory. It extends the local inequality of s056 Lemma 1
    without a gap-size restriction.
@@ -68,7 +68,7 @@ exclusion, and all upper/lower scale barriers are not standing inputs.
 The modes satisfy
 
 ```math
-x_q<x_{w/u}<x_w<x_{v/u}<x_v<x_u.
+x_q\lt x_{w/u}\lt x_w\lt x_{v/u}\lt x_v\lt x_u.
 ```
 
 Indeed v/u has support Hs_v+ms_q and w/u adds s_q, while (1) and the
@@ -101,7 +101,7 @@ On $`(0,x_v)`$, u'>0 and G'=u'(P-1). Rolle gives at least seven
 hits of the same actual level P=1. Its endpoint values are
 
 ```math
-P(0^+)=0<1,\qquad P(x_v)=c_4w'(x_v)/u'(x_v)<0<1.
+P(0^+)=0\lt1,\qquad P(x_v)=c_4w'(x_v)/u'(x_v)\lt0\lt1.
 ```
 
 Simple-hit parity makes their count even, so there are at least eight.
@@ -126,14 +126,14 @@ signs are positive near zero and negative near one; simple-root parity
 therefore gives at most seven. At x_u the numerator is negative and
 nonzero. Hence the bound saturates: P has exactly seven stationary
 nodes, all before x_v, interlacing exactly eight P=1 hits
-$`\xi_1<\cdots<\xi_8`$. Odd stationary nodes are maxima above one.
+$`\xi_1\lt\cdots\lt\xi_8`$. Odd stationary nodes are maxima above one.
 G' has one additional tail zero, so these are the first eight of its
 nine critical points; in particular
 
 **(2)**
 
 ```math
-G(\xi_7)<0.
+G(\xi_7)\lt0.
 ```
 
 The positive S_v is strictly log concave on $`(0,x_v)`$, tends to
@@ -160,7 +160,7 @@ W(u',v',w')=\frac{uvw}{\rho^6}W_{\rm raw},\quad
 Also
 
 ```math
-W_{\rm raw}(0)=a_ua_va_w(a_v-a_u)(a_w-a_u)(a_w-a_v)>0.
+W_{\rm raw}(0)=a_ua_va_w(a_v-a_u)(a_w-a_u)(a_w-a_v)\gt0.
 ```
 
 Thus exactly six simple raw W roots occur before x_v and exhaust its
@@ -176,7 +176,7 @@ on $`(\alpha,x_v)`$, by strict log concavity of S_v. The lemma in
 **(3)**
 
 ```math
-P_v>0\text{ before }\alpha,\qquad P_v<0\text{ after }\alpha
+P_v\gt0\text{ before }\alpha,\qquad P_v\lt0\text{ after }\alpha
 \quad\text{throughout }(0,1).
 ```
 
@@ -193,7 +193,7 @@ so no zero exists. After x_u,
 
 ```math
 P_v=s_{v/u}s_vs_u(x_{v/u}-x)(x_v-x)(x_u-x)
--(a_ub_v-b_ua_v)\rho<0.
+-(a_ub_v-b_ua_v)\rho\lt0.
 ```
 
 No roots outside the original interval enter this argument.
@@ -214,7 +214,7 @@ W_{\rm raw}(x_w)=-s_w\rho\kappa L^2\mathcal B,
 +\rho\left\{(s_v-s_u)+\frac{1-\kappa}{\kappa}s_u\right\}.
 ```
 
-Here $`L\rho'+s_v\rho=a_v(1-x)^2+b_vx^2>0`$, and all remaining
+Here $`L\rho'+s_v\rho=a_v(1-x)^2+b_vx^2\gt0`$, and all remaining
 terms are positive. Hence P_v(x_w)<0 implies Wraw(x_w)<0. If all
 seven P-stationary nodes preceded x_w, the localized Rolle count from
 section 1 would place all six W roots there and force Wraw(x_w)>0.
@@ -224,14 +224,14 @@ there. Therefore
 **(4)**
 
 ```math
-y>\max\{\alpha,x_w\},\qquad y<x_v.
+y\gt\max\{\alpha,x_w\},\qquad y\lt x_v.
 ```
 
 Introduce the exact projective chart
 
 ```math
 p=L_v/L_q,\quad\Pi=\Lambda\prod_i(p-r_i),\quad
-m/h<r_1<r_2<r_3,\quad\Lambda>0,
+m/h\lt r_1\lt r_2\lt r_3,\quad\Lambda\gt0,
 ```
 
 and linked cores
@@ -271,11 +271,11 @@ the three simple roots
 **(5)**
 
 ```math
--1<\gamma_1<\gamma_2<0<r_3<\gamma_3.
+-1\lt\gamma_1\lt\gamma_2\lt0\lt r_3\lt\gamma_3.
 ```
 
 The quadratic E has exactly one root $`\epsilon_-\in(-1,0)`$
-and one positive root. Since E(y)>0, $`\epsilon_-<\gamma_2`$.
+and one positive root. Since E(y)>0, $`\epsilon_-\lt\gamma_2`$.
 Only two generic placements remain: epsilon_- is before gamma1, or
 inside (gamma1,gamma2). This is a forced source reduction, not a
 scale/cubic-phase dispatch.
@@ -296,11 +296,11 @@ crossing inequalities are exactly the table in
 cannot have a nonpositive normalized coefficient A/C or B/C.
 
 The actual last maximum supplies the stronger height witness. Put
-$`S_+=c_3v+c_4w>0`$, $`M_P=P(y)>1`$. Since P<M_P and u'>0
+$`S_+=c_3v+c_4w\gt0`$, $`M_P=P(y)\gt1`$. Since P<M_P and u'>0
 between xi7 and y,
 
 ```math
-S_+(y)-S_+(\xi_7)<M_P\{u(y)-u(\xi_7)\}.
+S_+(y)-S_+(\xi_7)\lt M_P\{u(y)-u(\xi_7)\}.
 ```
 
 At y, solving the two derivative-contact equations gives
@@ -309,8 +309,8 @@ $`V(y)=u(y)-S_+(y)/M_P`$. With (2),
 **(6)**
 
 ```math
-\boxed{c_1<u(\xi_7)-S_+(\xi_7)
-<u(\xi_7)-S_+(\xi_7)/M_P<V(y).}
+\boxed{c_1\lt u(\xi_7)-S_+(\xi_7)
+\lt u(\xi_7)-S_+(\xi_7)/M_P\lt V(y).}
 ```
 
 This witness is a positive central value. The point y is not asserted to
@@ -319,7 +319,7 @@ the original row throughout.
 
 ## 5. The interlacing placement: at most five nodes
 
-Suppose $`\gamma_1<\epsilon_-<\gamma_2`$. Qv=mC<0 at epsilon_-
+Suppose $`\gamma_1\lt\epsilon_-\lt\gamma_2`$. Qv=mC<0 at epsilon_-
 and Qv=-pE>0 at gamma2. By the physical signs (3), alpha is on the
 right branch between these points. Thus Qv>0 on the entire left ray,
 so E(gamma3)<0. The source signs and cubic degree give
@@ -327,8 +327,8 @@ so E(gamma3)<0. The source signs and cubic degree give
 **(7)**
 
 ```math
-\delta_1<\gamma_1<\epsilon_-<\alpha_p<\delta_2<\gamma_2
-<r_3<\delta_3<\gamma_3,
+\delta_1\lt\gamma_1\lt\epsilon_-\lt\alpha_p\lt\delta_2\lt\gamma_2
+\lt r_3\lt\delta_3\lt\gamma_3,
 ```
 
 where the deltas are the D roots. For the refined alpha/delta2 order,
@@ -345,7 +345,7 @@ Before alpha_p its downward crossing would have A/C<0 and is forbidden.
 At alpha_p,
 
 ```math
-J=\Pi E Q_v'/m<0,\qquad V_p<0,
+J=\Pi E Q_v'/m\lt0,\qquad V_p\lt0,
 ```
 
 where $`J=\Pi(EC'-E'C)-(hp-m)CD`$. After alpha_p the local central
@@ -360,7 +360,7 @@ D/C are positive throughout by (3) and (7). All E/C residues d_i are
 positive. Consequently
 
 ```math
-(B/C)_p=\sum_i\frac{d_i(\gamma_i+1)}{(p-\gamma_i)^2}>0.
+(B/C)_p=\sum_i\frac{d_i(\gamma_i+1)}{(p-\gamma_i)^2}\gt0.
 ```
 
 It is continuous and strictly increasing across the seam in original
@@ -387,11 +387,11 @@ and
 
 ```math
 tt''-2(t')^2
-=2\sum_{i<j}d_id_j s_is_j(s_i-s_j)^2>0,
+=2\sum_{i\lt j}d_id_j s_is_j(s_i-s_j)^2\gt0,
 \quad s_i=(\gamma_i-p)^{-1}.
 ```
 
-Hence $`\mathcal R>0`$. At a stationary point the exact source
+Hence $`\mathcal R\gt0`$. At a stationary point the exact source
 cancellation is
 
 **(8)**
@@ -434,12 +434,12 @@ The main component consequently has at most 1+2=3 nodes, without any
 left-residue orientation or seam-minimum theorem. Therefore the total is
 
 ```math
-0+3+1+1=5<7.
+0+3+1+1=5\lt7.
 ```
 
 ## 6. The other placement: the signed height comparison
 
-Suppose $`\epsilon_-<\gamma_1<\gamma_2`$. Now E>0 throughout
+Suppose $`\epsilon_-\lt\gamma_1\lt\gamma_2`$. Now E>0 throughout
 the central interval; Qv>0 at its endpoints and (3) puts the entire
 central interval after alpha. Thus A/C>0 there. The local central
 orientation gives a single strict central maximum; the witness (6)
@@ -453,7 +453,7 @@ nodes. On the left main component, B/C is strictly increasing, because
 
 ```math
 \sum_i d_i(\gamma_i+1)
-=\frac H\Lambda\{h(\textstyle\sum_i r_i+1+1/\Lambda)-2m\}>0,
+=\frac H\Lambda\{h(\textstyle\sum_i r_i+1+1/\Lambda)-2m\}\gt0,
 ```
 
 and the negative residue has the farthest denominator for p>gamma3.
@@ -474,7 +474,7 @@ seam height M and with no positive-contact assumption at that minimum.
 The total is
 
 ```math
-0+2+2+1=5<7.
+0+2+2+1=5\lt7.
 ```
 
 If E(gamma3)>0, the third D root instead lies after gamma3. At gamma3,

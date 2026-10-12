@@ -11,7 +11,7 @@ polynomial of degree three with one root in `(0,1)` and two real roots in
 **(1)**
 
 ```math
-P(0),G(0)>0,\qquad P(1),G(1)<0.
+P(0),G(0)\gt0,\qquad P(1),G(1)\lt0.
 ```
 
 The two exterior roots of `G` may coincide. No root-reality or individual
@@ -19,7 +19,7 @@ root-count assumption is made for `P`; there is no ordering assumption
 between roots belonging to different polynomials. For any
 
 ```math
-U>0,\qquad 0<v<1,\qquad\kappa>0,
+U\gt0,\qquad 0\lt v\lt1,\qquad\kappa\gt0,
 ```
 
 the function
@@ -57,7 +57,7 @@ A root `x<0` maps to `z<-1`, and a root `x>1` maps to `-1<z<0`. Also
 **(4)**
 
 ```math
-\bar P(0)=P(1)<0,\quad \operatorname{lc}(\bar P)=P(0)>0,
+\bar P(0)=P(1)\lt0,\quad \operatorname{lc}(\bar P)=P(0)\gt0,
 ```
 
 and the same identities hold for `G`. Thus
@@ -76,7 +76,7 @@ Here is the elementary coefficient input, with no sign-cell table.
 
 ```math
 Q(z)=\prod_{j=1}^m(z+s_j)=\sum_{j=0}^m q_jz^j,
-\qquad s_j>0,
+\qquad s_j\gt0,
 ```
 
 then `q_j>0` and `q_j^2>=q_(j-1)q_(j+1)`. Consequently the zero-deleted
@@ -116,7 +116,7 @@ Write
 
 ```math
 U=n+\zeta,\qquad n=\lfloor U\rfloor\ge0,
-\qquad0\le\zeta<1,
+\qquad0\le\zeta\lt1,
 ```
 
 and set
@@ -156,7 +156,7 @@ The representation used in the retained Stieltjes--Hurwitz proof is
 
 ```math
 \frac{F(z)}z=\int_0^\infty\frac{d\mu(s)}{z+s},
-\qquad z>0,
+\qquad z\gt0,
 ```
 
 where
@@ -166,8 +166,8 @@ where
 ```math
 \frac{d\mu}{ds}=\frac1\pi
 \begin{cases}
-\sin(\pi v)s^{v-1}(1-s)^{\zeta-v},&0<s<1,\\
-\sin(\pi\zeta)s^{v-1}(s-1)^{\zeta-v},&s>1.
+\sin(\pi v)s^{v-1}(1-s)^{\zeta-v},&0\lt s\lt1,\\
+\sin(\pi\zeta)s^{v-1}(s-1)^{\zeta-v},&s\gt1.
 \end{cases}
 ```
 
@@ -207,7 +207,7 @@ finite positive Stieltjes measure at distinct nodes `s_j>0`, write
 ```math
 F_N=z e/d,\qquad
 d=\prod_j(z+s_j),\qquad
-e=\sum_j a_j\frac d{z+s_j},\quad a_j>0.
+e=\sum_j a_j\frac d{z+s_j},\quad a_j\gt0.
 ```
 
 Multiplication by the positive polynomial `d` sends the full alternating
@@ -295,7 +295,7 @@ casework. The final row can be short (`n=0`) or arbitrarily long.
 In the original strict mixed support dictionary,
 
 ```math
-a_1=-U<0<a_2<a_3,\qquad b_3<0<b_1=v<b_2,
+a_1=-U\lt0\lt a_2\lt a_3,\qquad b_3\lt0\lt b_1=v\lt b_2,
 ```
 
 the actual polynomials are

@@ -7,7 +7,7 @@ This separate addendum clarifies the unit-wall boundary scope of the mixed quadr
 Let the two outer supports $`s_1,s_3`$ have strictly positive coordinates and distinct modes, and let
 
 ```math
-s_2=P s_1+Q s_3,\qquad P,Q>1.
+s_2=P s_1+Q s_3,\qquad P,Q\gt1.
 ```
 
 The normal-curvature reduction and wall identities are the only imported results. Here is the complete additional argument.
@@ -21,7 +21,7 @@ d=\rho-1/w,\qquad
 d'=A d+\frac{T}{V_0w^3},\qquad \deg T\le6.
 ```
 
-The actual $`d`$ is analytic throughout $`I`$. The strong-fork origin quadratic has exactly two simple internal walls. At a wall $`c`$, put $`\sigma=V_1(c)/w(c)>0`$. The identities are
+The actual $`d`$ is analytic throughout $`I`$. The strong-fork origin quadratic has exactly two simple internal walls. At a wall $`c`$, put $`\sigma=V_1(c)/w(c)\gt0`$. The identities are
 
 **(2)**
 

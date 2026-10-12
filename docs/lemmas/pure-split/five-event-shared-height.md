@@ -5,7 +5,7 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 Let the actual strict canonical mixed supports satisfy
 
 ```math
-a_1<0<a_2<a_3,\qquad b_3<0<b_1<b_2.
+a_1\lt0\lt a_2\lt a_3,\qquad b_3\lt0\lt b_1\lt b_2.
 ```
 
 Use w=x(1-x), D=w d/dx, h_i=x^{a_i}(1-x)^{b_i},
@@ -39,8 +39,8 @@ threshold tau such that
 **(3)**
 
 ```math
-W(r_i)<\tau\quad(i\text{ odd}),\qquad
-W(r_i)>\tau\quad(i\text{ even}).
+W(r_i)\lt\tau\quad(i\text{ odd}),\qquad
+W(r_i)\gt\tau\quad(i\text{ even}).
 ```
 
 The theorem retains two actual coupled profiles. G's physical root
@@ -159,7 +159,7 @@ consecutive global contacts u=r_i and
 v=r_(i+1) satisfy
 
 ```math
-u<c<v,
+u\lt c\lt v,
 ```
 
 and c is their unique K_F root. In particular K6(c) is nonzero.
@@ -207,7 +207,7 @@ i. Both contradict (12). This proves the joint-height theorem.
 For the original row
 
 ```math
-f=1-E_1h_1-E_2h_2-E_3h_3,\qquad E_i>0,
+f=1-E_1h_1-E_2h_2-E_3h_3,\qquad E_i\gt0,
 ```
 
 the retained projective entry fixes
@@ -215,7 +215,7 @@ the retained projective entry fixes
 **(13)**
 
 ```math
-\rho=E_3/E_1>0,\qquad\kappa=E_1>0,
+\rho=E_3/E_1\gt0,\qquad\kappa=E_1\gt0,
 \quad B=h_1J-\rho h_3L,
 \quad X=\lambda_2/B,
 \quad M=-\lambda_2+\kappa B.

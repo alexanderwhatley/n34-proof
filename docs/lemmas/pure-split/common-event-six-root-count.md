@@ -7,7 +7,7 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 Let
 
 ```math
-a_1=-U<0<a_2<a_3,\qquad b_3<0<b_1=v<b_2,\qquad U,v>0.
+a_1=-U\lt0\lt a_2\lt a_3,\qquad b_3\lt0\lt b_1=v\lt b_2,\qquad U,v\gt0.
 ```
 
 Put $`w=x(1-x)`$, $`\mathcal D=w\,d/dx`$,
@@ -31,7 +31,7 @@ G&=(\lambda_3-\lambda_1)L_{21}L
 * $`P_3`$ has exactly one odd-multiplicity root in $`(0,1)`$; or
 * $`P_3`$ and $`G`$ have a common root in $`(0,1)`$.
 
-Then, for every $`\kappa>0`$,
+Then, for every $`\kappa\gt0`$,
 
 **(2)**
 
@@ -58,21 +58,21 @@ Here $`K`$ is a polynomial and
 **(4)**
 
 ```math
-K(0)=a_1a_2a_3(a_3-a_2)(a_3-a_1)(a_2-a_1)<0.
+K(0)=a_1a_2a_3(a_3-a_2)(a_3-a_1)(a_2-a_1)\lt0.
 ```
 
 In particular $`K`$ is nonzero. Throughout the physical interval,
-$`L>0`$, $`\lambda_1<0`$, and $`\lambda_3>0`$. Endpoint values satisfy
+$`L\gt0`$, $`\lambda_1\lt0`$, and $`\lambda_3\gt0`$. Endpoint values satisfy
 
 ```math
-P_1(0),P_1(1)>0,\quad P(0),G(0)>0,\quad P(1),G(1)<0.
+P_1(0),P_1(1)\gt0,\quad P(0),G(0)\gt0,\quad P(1),G(1)\lt0.
 ```
 
-At $`c=a_2/(a_2+b_2)`$, one has $`P_1(c)<0<P(c)`$.
+At $`c=a_2/(a_2+b_2)`$, one has $`P_1(c)\lt0\lt P(c)`$.
 The two sign changes force two odd physical roots of $`P_1`$, one on either side of $`c`$. Their multiplicities are both one: an order at least three at either, or any additional even root, exceeds the cubic degree, while a third odd root contradicts equal endpoint signs. Thus automatically
 
 ```math
-r_A<c<r_B,\qquad P_1\text{ has precisely these two simple physical roots.}
+r_A\lt c\lt r_B,\qquad P_1\text{ has precisely these two simple physical roots.}
 ```
 
 The additional exact identity
@@ -83,8 +83,8 @@ The additional exact identity
 P=\lambda_2\lambda_3L+w(a_3b_2-a_2b_3)
 ```
 
-shows $`P>0`$ on $`(0,c]`$. Indeed $`\lambda_2\ge0`$ there, and
-$`a_3b_2-a_2b_3>0`$. Hence every physical $`P`$ root lies right of $`c`$.
+shows $`P\gt0`$ on $`(0,c]`$. Indeed $`\lambda_2\ge0`$ there, and
+$`a_3b_2-a_2b_3\gt0`$. Hence every physical $`P`$ root lies right of $`c`$.
 If $`P(q)=G(q)=0`$, (3) gives $`P_1(q)=0`$, so necessarily $`q=r_B`$.
 There is at most one distinct physical common root. Since
 
@@ -101,8 +101,8 @@ has a right side of exact order one at $`r_B`$, both polynomials cannot have ord
 ```
 
 Set $`S=P-\kappa h_1G`$. As $`x\to0+`$, $`h_1\to+\infty`$, while
-$`P(0),G(0)>0`$, so $`S<0`$ in an endpoint collar. As $`x\to1-`$,
-$`h_1\to0`$ and $`P(1)<0`$, giving the same sign. Thus $`S`$ is a nonzero real analytic function with no roots in either endpoint collar. Compact analytic root isolation gives finitely many physical roots of finite order. Their total multiplicity $`N`$ is even: every odd-order zero changes sign, and the two endpoint signs agree. A failure of (2) therefore means $`N\ge8`$.
+$`P(0),G(0)\gt0`$, so $`S\lt0`$ in an endpoint collar. As $`x\to1-`$,
+$`h_1\to0`$ and $`P(1)\lt0`$, giving the same sign. Thus $`S`$ is a nonzero real analytic function with no roots in either endpoint collar. Compact analytic root isolation gives finitely many physical roots of finite order. Their total multiplicity $`N`$ is even: every odd-order zero changes sign, and the two endpoint signs agree. A failure of (2) therefore means $`N\ge8`$.
 
 ## 3. No common event: numerator defects pay for their topology
 
@@ -188,7 +188,7 @@ Q=(x-q)^2\widehat Q,\qquad
 \widehat Q=w(A'B-AB')-\lambda_1AB.
 ```
 
-Because $`L(q)>0`$, polynomial divisibility in (3) gives
+Because $`L(q)\gt0`$, polynomial divisibility in (3) gives
 
 **(11)**
 

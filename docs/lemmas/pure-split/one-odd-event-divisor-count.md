@@ -6,7 +6,7 @@ Retain the strict actual mixed source and its exact identity
 
 ```math
 Q=w(P_3'G-P_3G')-\lambda_1P_3G=-L_{32}K,
-\quad \deg K\le6,\quad K(0)<0,\quad L_{32}>0.
+\quad \deg K\le6,\quad K(0)\lt0,\quad L_{32}\gt0.
 ```
 
 The residual `S=P3-kappa h1 G`, kappa>0, is analytic, nonidentity,

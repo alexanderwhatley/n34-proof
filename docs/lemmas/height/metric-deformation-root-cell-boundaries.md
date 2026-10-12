@@ -7,19 +7,19 @@ $`\ell=\kappa+w`$ and increase $`\kappa`$, hence increase
 $`P=\kappa\ell`$. The strict source supports remain positive while
 
 ```math
-\kappa<\kappa_s:=\min(c,b/q-w).
+\kappa\lt\kappa_s:=\min(c,b/q-w).
 ```
 
-Indeed $`b_u>0\iff\kappa<c`$, $`a_q>0\iff\ell<b/q`$,
-and the gap support condition $`b_r>0\iff\kappa<a/r`$ is implied
-by the rightmost-u mode inequality $`a>rc`$. The other support
+Indeed $`b_u\gt0\iff\kappa\lt c`$, $`a_q\gt0\iff\ell\lt b/q`$,
+and the gap support condition $`b_r\gt0\iff\kappa\lt a/r`$ is implied
+by the rightmost-u mode inequality $`a\gt rc`$. The other support
 exponents stay strictly positive. Both mode-order inequalities are
 independent of the metric.
 
 At the starting signed source, the normalized original-x order is
 
 ```math
--1/\ell<d_0<c_0<0<c_1<d_1<d_2<c_2<1/\kappa.
+-1/\ell\lt d_0\lt c_0\lt0\lt c_1\lt d_1\lt d_2\lt c_2\lt1/\kappa.
 ```
 
 Here the symbols denote normalized displacements $`U(x_i-x)/\rho`$,
@@ -55,11 +55,11 @@ p(\eta)=-\frac{1+r-(a+c)\eta}{q+b\eta}
 
 is independent of it as well. Its zeros are the fixed seam
 $`\eta=-q/b`$, together with the original E quadratic roots
-$`\epsilon_-<0<\epsilon_+`$, interpreted by the projective map.
+$`\epsilon_-\lt0\lt\epsilon_+`$, interpreted by the projective map.
 
 The exterior-critical localization gives H−t>0 and places the starting p coordinate before $`\epsilon_-`$. The signed
-ordering $`\epsilon_-<\gamma_1`$ places the corresponding
-normalized zero $`e`$ in $`(0,c_1)`$. At that point $`C(e)<0`$.
+ordering $`\epsilon_-\lt\gamma_1`$ places the corresponding
+normalized zero $`e`$ in $`(0,c_1)`$. At that point $`C(e)\lt0`$.
 Increasing the metric first makes $`C(e)=D(e)=0`$ at one finite
 metric value $`\kappa_e`$, if the support boundary has not occurred
 first. The lifted negative pole cancels there.
@@ -69,15 +69,15 @@ No other zero of $`\mathcal E`$ can produce an earlier common root:
 - At the seam, the source C equals $`-\Delta_v\rho`$, strictly
   negative while the seam is physical and supports are positive.
 - If the $`\epsilon_+`$ point lies on the left physical branch,
-  $`\epsilon_+<\gamma_3`$ places it before the starting negative C
+  $`\epsilon_+\lt\gamma_3`$ places it before the starting negative C
   root. C is positive there initially, and its metric lift is positive.
-- If it lies on the right physical branch, $`\epsilon_+>m/h`$
-  forces $`\lambda_u<0`$, so its normalized displacement exceeds
-  $`1/c`$. The v mode is at $`(1+r)/(a+c)<1/c`$, by $`a>rc`$.
+- If it lies on the right physical branch, $`\epsilon_+\gt m/h`$
+  forces $`\lambda_u\lt0`$, so its normalized displacement exceeds
+  $`1/c`$. The v mode is at $`(1+r)/(a+c)\lt1/c`$, by $`a\gt rc`$.
   Throughout the physical region after that v mode, the source C is
-  strictly negative: $`\lambda_v\le0`$, $`\lambda_q<0`$, and
-  $`\lambda_v+\lambda_q<0`$ make its cubic product nonpositive,
-  while $`-\Delta_v\rho<0`$.
+  strictly negative: $`\lambda_v\le0`$, $`\lambda_q\lt0`$, and
+  $`\lambda_v+\lambda_q\lt0`$ make its cubic product nonpositive,
+  while $`-\Delta_v\rho\lt0`$.
 - If it is nonphysical initially, it stays so, because the normalized
   physical interval $`(-1/\ell,1/\kappa)`$ shrinks as the metric
   increases. A projective pole mapping to infinity also stays
@@ -97,7 +97,7 @@ $`a_q=0`$. Simultaneous endpoint events are limiting faces.
 The exact height ratio at the starting source is strictly less than its
 value at every larger metric with the central inequalities retained. The
 central comparison point persists: both positive cubic values increase,
-and $`\lambda_u(y)>0`$ is metric independent.
+and $`\lambda_u(y)\gt0`$ is metric independent.
 
 A finished proof must verify height separation at all three endpoint
 types. At the cancellation face, the comparison is a two-pole source

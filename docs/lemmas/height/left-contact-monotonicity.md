@@ -2,7 +2,7 @@
 
 Read [the appendix terminology](../../appendix.md#terminology) before this technical lemma. Its variables are local to this document.
 
-Retain $`0<h<1`$, $`H=1-h`$, $`m>0`$, $`p>r_3>r_2>r_1>m/h`$, and $`\Pi=\Lambda\prod_i(p-r_i)>0`$. Put
+Retain $`0\lt h\lt1`$, $`H=1-h`$, $`m\gt0`$, $`p\gt r_3\gt r_2\gt r_1\gt m/h`$, and $`\Pi=\Lambda\prod_i(p-r_i)\gt0`$. Put
 
 ```math
 T=hp-m,\quad C=p(p+1)-\Pi,\quad
@@ -14,14 +14,14 @@ A=-mC+pE,\quad B=(h+m)C-(p+1)E,
 \quad V=uD/C,\quad u_p/u=T/\Pi.
 ```
 
-**Theorem.** At every finite point where $`C<0`$, $`A/C>0`$, and $`B/C>0`$, one has $`V_p<0`$. In particular V has no stationary point on that contact domain, without any upper bound on m.
+**Theorem.** At every finite point where $`C\lt0`$, $`A/C\gt0`$, and $`B/C\gt0`$, one has $`V_p\lt0`$. In particular V has no stationary point on that contact domain, without any upper bound on m.
 
-Write $`R=-C>0`$ and $`e=E/C`$. The coefficient signs imply
+Write $`R=-C\gt0`$ and $`e=E/C`$. The coefficient signs imply
 
 **(1)**
 
 ```math
-\frac mp<e<\frac{h+m}{p+1},\qquad E=-eR<0.
+\frac mp\lt e\lt\frac{h+m}{p+1},\qquad E=-eR\lt0.
 ```
 
 The source inequalities yield
@@ -29,7 +29,7 @@ The source inequalities yield
 **(2)**
 
 ```math
-\sigma=\sum_i\frac1{p-r_i}>\frac{3h}{T}.
+\sigma=\sum_i\frac1{p-r_i}\gt\frac{3h}{T}.
 ```
 
 Set
@@ -44,7 +44,7 @@ Using $`E'=-2HT`$ and $`C'=2p+1-\Pi\sigma`$,
 \frac{J}{\Pi C e}
 =2p+1-\Pi\sigma+\frac{2HT}{e}
 +\frac{TR(H+e)}{\Pi e}
-<g,
+\lt g,
 ```
 
 where
@@ -59,7 +59,7 @@ g=2p+1-\frac{3h\Pi}{T}+\frac{2HT}{e}
 Parameterize the interval (1) by
 
 ```math
-e=\frac mp+\frac{\theta T}{p(p+1)},\qquad 0<\theta<1.
+e=\frac mp+\frac{\theta T}{p(p+1)},\qquad 0\lt\theta\lt1.
 ```
 
 With $`N=T\Pi e^2g`$ and $`R=-E/e`$, define
@@ -77,7 +77,7 @@ b_0=m(p+1)(Hp+m)((2-h)p+m),
 b_2=p(h+m)(Hp+m+1)((2-h)p+m+2).
 ```
 
-Both are strictly positive for every m>0. To prove positivity of b1, set $`q_0=m/p>0`$. One has
+Both are strictly positive for every m>0. To prove positivity of b1, set $`q_0=m/p\gt0`$. One has
 
 ```math
 \frac{2b_1}{p}
@@ -89,21 +89,21 @@ Both are strictly positive for every m>0. To prove positivity of b1, set $`q_0=m
 
 ```math
 K_2=hH(2-h)+q_0(6-3h-h^2)
-+q_0^2(6-h)+q_0^3>0.
++q_0^2(6-h)+q_0^3\gt0.
 ```
 
 Since E<0,
 
 ```math
-p(Hh-2Hq_0-q_0^2)>q_0.
+p(Hh-2Hq_0-q_0^2)\gt q_0.
 ```
 
-And $`3h(H+q_0)>Hh>Hh-2Hq_0-q_0^2`$, so the last two terms of (5) have positive sum. Hence b1>0. Thus F>0, N<0 and g<0.
+And $`3h(H+q_0)\gt Hh\gt Hh-2Hq_0-q_0^2`$, so the last two terms of (5) have positive sum. Hence b1>0. Thus F>0, N<0 and g<0.
 
-By (3), $`J/(\Pi C e)<0`$. Since $`\Pi>0`$, $`C<0`$, and $`e>0`$, this means J>0. Finally
+By (3), $`J/(\Pi C e)\lt0`$. Since $`\Pi\gt0`$, $`C\lt0`$, and $`e\gt0`$, this means J>0. Finally
 
 ```math
-V_p=-\frac{uJ}{\Pi C^2}<0.
+V_p=-\frac{uJ}{\Pi C^2}\lt0.
 ```
 
 No step used m<H. The conclusion is strict and applies on any connected part of the displayed positive-contact domain.

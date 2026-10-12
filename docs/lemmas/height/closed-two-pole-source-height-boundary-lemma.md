@@ -5,7 +5,7 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 Let
 
 ```math
-0<b<a\le R_i<c\quad(i=1,2,3),\qquad d>0,
+0\lt b\lt a\le R_i\lt c\quad(i=1,2,3),\qquad d\gt0,
 ```
 
 with at most one $`R_i=a`$. Put
@@ -28,8 +28,8 @@ $`\mathscr R(s_{*})\ge b+d`$, then
 **(1)**
 
 ```math
-\mathscr R'(s)<0\quad(0<s\le s_{*}),\qquad
- \mathscr R(s)>\mathscr R(s_{*})\quad(0<s<s_{*}).
+\mathscr R'(s)\lt0\quad(0\lt s\le s_{*}),\qquad
+ \mathscr R(s)\gt\mathscr R(s_{*})\quad(0\lt s\lt s_{*}).
 ```
 
 For the scaled derivative, split the two summands. Match the metric
@@ -42,10 +42,10 @@ strictly decreasing. The second summand has partial fractions
 
 ```math
 d+\frac{A}{s+a}+\frac{B}{s+c}-\frac{C}{s+c+d},
- \qquad A\ge0,\quad B,C>0.
+ \qquad A\ge0,\quad B,C\gt0.
 ```
 
-The signs follow from $`a\le R_i<c`$, and A=0 when a metric root
+The signs follow from $`a\le R_i\lt c`$, and A=0 when a metric root
 equals a. Its scaled derivative is
 
 ```math
@@ -64,13 +64,13 @@ s*, and at every earlier s. This proves (1).
 Now let p increase as $`s=\eta_0-p`$ decreases. Suppose
 
 ```math
-\frac{u_p}{u}=K\frac{s+a}{Q(s)},\qquad K>0,
+\frac{u_p}{u}=K\frac{s+a}{Q(s)},\qquad K\gt0,
 ```
 
 and define the normalized full contact ratio
 
 ```math
-\chi/H=f(s)+\frac\zeta{s-k},\qquad k>0,\quad\zeta\ge0.
+\chi/H=f(s)+\frac\zeta{s-k},\qquad k\gt0,\quad\zeta\ge0.
 ```
 
 Keep the source balance
@@ -82,13 +82,13 @@ K+\zeta=b+d.
 ```
 
 Let $`p_{*}`$ be a finite stationary point of $`V=u\chi`$ with
-$`s_{*}>k`$, and let a positive central comparison point have
-$`0<s<k`$. Then
+$`s_{*}\gt k`$, and let a positive central comparison point have
+$`0\lt s\lt k`$. Then
 
 **(3)**
 
 ```math
-\boxed{V(p)<V(p_{*}).}
+\boxed{V(p)\lt V(p_{*}).}
 ```
 
 To prove it, stationarity gives
@@ -96,20 +96,20 @@ To prove it, stationarity gives
 ```math
 \mathscr R(s_{*})=K+\zeta\mathscr B(s_{*}),\qquad
  \mathscr B(s)=
- \frac{K+Q(s)/((s+a)(s-k))}{f(s)(s-k)}>1.
+ \frac{K+Q(s)/((s+a)(s-k))}{f(s)(s-k)}\gt1.
 ```
 
-The last inequality uses $`0<f<1`$, $`s>k`$, and
-$`Q(s)/(s+a)>s^2`$. That strict inequality still holds when one
+The last inequality uses $`0\lt f\lt1`$, $`s\gt k`$, and
+$`Q(s)/(s+a)\gt s^2`$. That strict inequality still holds when one
 metric root equals a, because the two remaining roots are positive.
 Thus $`\mathscr R(s_{*})\ge K+\zeta=b+d`$. By (1),
-$`\mathscr R(s)>K`$ at every smaller s. The deleted height
+$`\mathscr R(s)\gt K`$ at every smaller s. The deleted height
 $`V_0=uHf`$ therefore strictly decreases as p increases from p*
 through every positive central point. The removed term is nonnegative
 on the exterior and nonpositive on the central interval, so
 
 ```math
-V(p)\le V_0(p)<V_0(p_{*})\le V(p_{*}).
+V(p)\le V_0(p)\lt V_0(p_{*})\le V(p_{*}).
 ```
 
 The middle inequality is strict even when $`\zeta=0`$.

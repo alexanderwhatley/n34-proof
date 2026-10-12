@@ -7,7 +7,7 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 Work in the strict mixed score quadrant
 
 ```math
-C=b_1-b_2<0<\Delta=a_3-a_2
+C=b_1-b_2\lt0\lt\Delta=a_3-a_2
 ```
 
 and retain
@@ -54,7 +54,7 @@ Reflection gives the identical theorem in `Delta<0<C` for
 Let the seven roots of `R` be
 
 ```math
-r_1<\cdots<r_7.
+r_1\lt\cdots\lt r_7.
 ```
 
 At such a root, the Pluecker identity gives `X(r_i)=Y(r_i)`.  The
@@ -63,8 +63,8 @@ hypothetical auxiliary ratio window has
 **(4)**
 
 ```math
-X(r_i)>\kappa\quad(i\text{ odd and useful}),
- \qquad 0<X(r_i)<\kappa\quad(i\text{ even}).
+X(r_i)\gt\kappa\quad(i\text{ odd and useful}),
+ \qquad 0\lt X(r_i)\lt\kappa\quad(i\text{ even}).
 ```
 
 The unique possible non-useful root in the three-pole equality phase is
@@ -106,13 +106,13 @@ Hence `sgn G(p)=-sgn P1(p)` and therefore
 The endpoint signs are also fixed.  Since `a1<0`, `h1(0+)=infinity`, and
 
 ```math
-G(0)=(a_2-a_1)\Delta\{(a_2-a_1)+\Delta\}>0,
+G(0)=(a_2-a_1)\Delta\{(a_2-a_1)+\Delta\}\gt0,
 ```
 
 one has
 
 ```math
-S_\kappa(0+)<0.
+S_\kappa(0+)\lt0.
 ```
 
 Since `b1>0`, `h1(1-)=0`, whereas `P3(1)<0`, so
@@ -120,7 +120,7 @@ Since `b1>0`, `h1(1-)=0`, whereas `P3(1)<0`, so
 **(7)**
 
 ```math
-\boxed{S_\kappa(0+)<0,\qquad S_\kappa(1-)<0.}
+\boxed{S_\kappa(0+)\lt0,\qquad S_\kappa(1-)\lt0.}
 ```
 
 No sign in (6)--(7) uses `B(c)`.
@@ -155,8 +155,8 @@ For the old word-`131` notation with allocation `(n,m)`, the trace contains
 **(8)**
 
 ```math
-S_\kappa(r_n)>0>S_\kappa(p),\qquad
- S_\kappa(p)<0<S_\kappa(r_{n+1}),
+S_\kappa(r_n)\gt0\gt S_\kappa(p),\qquad
+ S_\kappa(p)\lt0\lt S_\kappa(r_{n+1}),
 ```
 
 whenever `m>0`.  The second interval in (8) is the formerly omitted eighth
@@ -211,7 +211,7 @@ and (9)--(10) carry the eight disjoint forced gaps to the reflected word.
 Put
 
 ```math
-U=-a_1>0,\qquad v=b_1>0,\qquad y={x\over1-x}.
+U=-a_1\gt0,\qquad v=b_1\gt0,\qquad y={x\over1-x}.
 ```
 
 Then
@@ -227,7 +227,7 @@ If
 **(13)**
 
 ```math
-0<U<1,\qquad0<v<1,
+0\lt U\lt1,\qquad0\lt v\lt1,
 ```
 
 this is a strict Stieltjes function with infinite-support positive measure.
@@ -247,7 +247,7 @@ The reflected statement holds when
 **(14)**
 
 ```math
-0<-b_3<1,\qquad0<a_3<1,
+0\lt-b_3\lt1,\qquad0\lt a_3\lt1,
 ```
 
 using reciprocal odds and `h3`.
@@ -262,7 +262,7 @@ Thus any support-global theorem
 **(15)**
 
 ```math
-Z(P_3-\kappa h_1G)\le7\qquad(\kappa>0)
+Z(P_3-\kappa h_1G)\le7\qquad(\kappa\gt0)
 ```
 
 automatically deletes every mixed word, not just the base word used to

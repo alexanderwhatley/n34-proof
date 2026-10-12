@@ -10,42 +10,42 @@ The source is
 m_1=x^a(1-x)^{-b},\quad m_2=x^e(1-x)^d,\quad m_3=x^c(1-x)^{-f},
 ```
 
-with $`0<e<a<c`$, $`0<f<b`$, $`d>0`$, and $`0<e+d<a-b<c-f`$. In odds $`t=x/(1-x)`$, put $`\rho=t(1+t)`$ and $`\ell_1=a+bt,\ell_2=e-dt,\ell_3=c+ft`$. The cofactors and contact determinant use the convention in [the real exterior-pair lemma](f3-real-exterior-pairs.md).
+with $`0\lt e\lt a\lt c`$, $`0\lt f\lt b`$, $`d\gt0`$, and $`0\lt e+d\lt a-b\lt c-f`$. In odds $`t=x/(1-x)`$, put $`\rho=t(1+t)`$ and $`\ell_1=a+bt,\ell_2=e-dt,\ell_3=c+ft`$. The cofactors and contact determinant use the convention in [the real exterior-pair lemma](f3-real-exterior-pairs.md).
 
 The retained fixed-root theorem gives negative roots
 
 ```math
-u_2<u_0<v_2<v_0<-1
+u_2\lt u_0\lt v_2\lt v_0\lt-1
 ```
 
-for E2 and E0 respectively, and one simple positive root for each physical cofactor. Word 0231 means $`t_0<t_2<t_3<t_1`$. This prerequisite is proved in [the fixed exterior-interlacing lemma](f3-fixed-exterior-interlacing.md).
+for E2 and E0 respectively, and one simple positive root for each physical cofactor. Word 0231 means $`t_0\lt t_2\lt t_3\lt t_1`$. This prerequisite is proved in [the fixed exterior-interlacing lemma](f3-fixed-exterior-interlacing.md).
 
 ## Original sign convention and anchor
 
-Before the first physical root, $`E_0<0`$ and $`E_2>0`$, so $`R=-E_0/E_2>0`$ and $`\Psi=m_2R>0`$. Its endpoints are zero: at $`t=0`$ this follows from $`e>0`$, and at $`t=t_0`$ from the simple E0 root and nonzero E2.
+Before the first physical root, $`E_0\lt0`$ and $`E_2\gt0`$, so $`R=-E_0/E_2\gt0`$ and $`\Psi=m_2R\gt0`$. Its endpoints are zero: at $`t=0`$ this follows from $`e\gt0`$, and at $`t=t_0`$ from the simple E0 root and nonzero E2.
 
-The generic score crossing is $`y=(c-a)/(b-f)>0`$. The original E2 source determinant gives
+The generic score crossing is $`y=(c-a)/(b-f)\gt0`$. The original E2 source determinant gives
 
 ```math
-E_2(y)=(af-bc)y(1+y)<0.
+E_2(y)=(af-bc)y(1+y)\lt0.
 ```
 
-Here $`af-bc<0`$ follows directly from $`f<b`$ and $`a<c`$. Since E2 is positive at zero and has its unique physical zero at $`t_2`$, it follows that $`y>t_2>t_0`$. Thus $`\ell_3-\ell_1>0`$ throughout the left interval. The determinant Jacobi identity is
+Here $`af-bc\lt0`$ follows directly from $`f\lt b`$ and $`a\lt c`$. Since E2 is positive at zero and has its unique physical zero at $`t_2`$, it follows that $`y\gt t_2\gt t_0`$. Thus $`\ell_3-\ell_1\gt0`$ throughout the left interval. The determinant Jacobi identity is
 
 ```math
 \Psi'=-\frac{m_2(\ell_3-\ell_1)}{\rho E_2^2}K.
 ```
 
-All prefactors are strictly nonzero. At a contact, the phase-curvature sign is therefore the negative of the K derivative sign. A positive local odds change preserves this statement. Notice that the point inequality $`LS\delta-GH>0`$ equals **minus** the locally cleared E0 value; this is consistent with E0 being negative on the left.
+All prefactors are strictly nonzero. At a contact, the phase-curvature sign is therefore the negative of the K derivative sign. A positive local odds change preserves this statement. Notice that the point inequality $`LS\delta-GH\gt0`$ equals **minus** the locally cleared E0 value; this is consistent with E0 being negative on the left.
 
 ## Premode coverage, including the seam
 
-Write E0/E2 as the ratio of its three root factors. Pair $`u_0`$ with $`u_2`$, $`v_0`$ with $`v_2`$, and $`t_0`$ with $`t_2`$. Each pair contributes strictly negatively to $`(\log R)''`$ on $`(0,t_0)`$, because its E0 root is closer to the point than the corresponding E2 root. Thus $`(\log R)''<0`$.
+Write E0/E2 as the ratio of its three root factors. Pair $`u_0`$ with $`u_2`$, $`v_0`$ with $`v_2`$, and $`t_0`$ with $`t_2`$. Each pair contributes strictly negatively to $`(\log R)''`$ on $`(0,t_0)`$, because its E0 root is closer to the point than the corresponding E2 root. Thus $`(\log R)''\lt0`$.
 
-For $`0<t\le e/d`$,
+For $`0\lt t\le e/d`$,
 
 ```math
-(\log m_2)''=-\frac{e+2et-dt^2}{t^2(1+t)^2}<0,
+(\log m_2)''=-\frac{e+2et-dt^2}{t^2(1+t)^2}\lt0,
 ```
 
 since $`dt^2\le et`$. Every critical point at or before the mode is consequently a nondegenerate maximum. Equality $`t=e/d`$ has strictly negative curvature, so there is no missing seam.
@@ -62,15 +62,15 @@ L=a(1-x)+bx,\quad P=dx-e(1-x),\quad L+G=c(1-x)+fx,
 z=bx/L,\quad v=fx/(L+G),\quad W=dx.
 ```
 
-The original strict source gives $`L,P,G>0`$, $`W>P`$, and $`0<v<z<x<1`$. To see $`z<x`$, use $`a>b`$; likewise $`v<x`$ uses $`c>f`$. The inequality $`z>v`$ is the normalized form of $`bc-af>0`$. Also $`q=L(z-v)-Gv=x(b-f)>0`$.
+The original strict source gives $`L,P,G\gt0`$, $`W\gt P`$, and $`0\lt v\lt z\lt x\lt1`$. To see $`z\lt x`$, use $`a\gt b`$; likewise $`v\lt x`$ uses $`c\gt f`$. The inequality $`z\gt v`$ is the normalized form of $`bc-af\gt0`$. Also $`q=L(z-v)-Gv=x(b-f)\gt0`$.
 
-Set $`r=z-v,\delta=G-r,U=L+P,S=U+G`$, and $`H=W-P(S+v)`$. The E1 left sign gives $`H>0`$, and the E0 left sign gives $`LS\delta-GH>0`$; hence $`\delta>0`$ and $`0<\tau=\delta/G<1`$. The denominator $`\Delta=GH+P\delta S`$ is strictly positive. Define
+Set $`r=z-v,\delta=G-r,U=L+P,S=U+G`$, and $`H=W-P(S+v)`$. The E1 left sign gives $`H\gt0`$, and the E0 left sign gives $`LS\delta-GH\gt0`$; hence $`\delta\gt0`$ and $`0\lt\tau=\delta/G\lt1`$. The denominator $`\Delta=GH+P\delta S`$ is strictly positive. Define
 
 ```math
-\eta=GHU/\Delta,\quad J=P(LS\delta-GH)/\Delta>0,\quad D=UP\delta S/\Delta>0.
+\eta=GHU/\Delta,\quad J=P(LS\delta-GH)/\Delta\gt0,\quad D=UP\delta S/\Delta\gt0.
 ```
 
-The displayed definitions give $`J=L-\eta`$, $`D=U-\eta=J+P`$, $`\lambda=G+\eta>\eta`$, and $`k=v-\eta(1-\tau)`$. There is no restriction $`k\ge0`$.
+The displayed definitions give $`J=L-\eta`$, $`D=U-\eta=J+P`$, $`\lambda=G+\eta\gt\eta`$, and $`k=v-\eta(1-\tau)`$. There is no restriction $`k\ge0`$.
 
 The reverse source identities, valid before imposing the contact equation, are
 
@@ -120,38 +120,38 @@ S\bar A+\lambda(1+Mu)\bar D=u^2(T_1+T_2u),
 2T_1=US(D+\lambda\tau)(F-\lambda\eta J\tau^2).
 ```
 
-The constant and linear coefficients vanish identically. Every displayed multiplier is strictly positive; hence $`F\le0`$ implies $`T_1<0`$, including equality $`F=0`$.
+The constant and linear coefficients vanish identically. Every displayed multiplier is strictly positive; hence $`F\le0`$ implies $`T_1\lt0`$, including equality $`F=0`$.
 
 ## Fixed-pole and quadratic signs
 
 Write $`F_s=a-b,S_s=e+d,C_s=c-f`$. The source formulas at the original nonphysical pole $`t=-1`$, which is $`u=-1/x`$, are
 
 ```math
-\bar A(-1/x)=\frac{D^2(1-x)^3F_sS_s(F_s-S_s)}{PL}>0,
+\bar A(-1/x)=\frac{D^2(1-x)^3F_sS_s(F_s-S_s)}{PL}\gt0,
 ```
 
 ```math
 \bar D(-1/x)=\frac{D^2x(1-x)^3}{PGL(L+G)}
-\{S_s(af-bc)(F_s-S_s)-(ad+be)C_s(C_s-F_s)\}<0.
+\{S_s(af-bc)(F_s-S_s)-(ad+be)C_s(C_s-F_s)\}\lt0.
 ```
 
 The inequalities use only the strict canonical source ordering. In particular they do not use a floating-point discriminant or a numerical root calculation.
 
-Moreover $`\bar D(0)=-\tau SUD<0`$. With $`W_0=DW/P`$, $`C_\lambda=D+\lambda\tau`$, and $`\gamma=1-\tau`$, its leading coefficient is exactly
+Moreover $`\bar D(0)=-\tau SUD\lt0`$. With $`W_0=DW/P`$, $`C_\lambda=D+\lambda\tau`$, and $`\gamma=1-\tau`$, its leading coefficient is exactly
 
 ```math
-(J\gamma-k)[DzW_0+DvUC_\lambda]+W_0Dzv+PW_0^2\gamma>0.
+(J\gamma-k)[DzW_0+DvUC_\lambda]+W_0Dzv+PW_0^2\gamma\gt0.
 ```
 
-Here $`J\gamma-k=q/G>0`$ and $`W_0-Dz=UC_\lambda>0`$. Consequently the quadratic is strictly convex and negative throughout $`(-1/x,0)`$: it lies below the negative chord joining its endpoint values.
+Here $`J\gamma-k=q/G\gt0`$ and $`W_0-Dz=UC_\lambda\gt0`$. Consequently the quadratic is strictly convex and negative throughout $`(-1/x,0)`$: it lies below the negative chord joining its endpoint values.
 
-Finally $`Y=M-x=1-P-\eta-2k>0`$, because
+Finally $`Y=M-x=1-P-\eta-2k\gt0`$, because
 
 ```math
-2Y=(1-x)+G+J\tau+q/G>0.
+2Y=(1-x)+G+J\tau+q/G\gt0.
 ```
 
-Evaluating the short identity at $`-1/x`$ gives $`T_1-T_2/x>0`$, since $`\bar A>0`$, $`\bar D<0`$, and $`1-M/x<0`$. Thus $`T_2<xT_1<0`$, and $`\ell=-T_1/T_2`$ lies strictly in $`(-1/x,0)`$.
+Evaluating the short identity at $`-1/x`$ gives $`T_1-T_2/x\gt0`$, since $`\bar A\gt0`$, $`\bar D\lt0`$, and $`1-M/x\lt0`$. Thus $`T_2\lt xT_1\lt0`$, and $`\ell=-T_1/T_2`$ lies strictly in $`(-1/x,0)`$.
 
 ## Resultant orientation and word sign
 
@@ -159,7 +159,7 @@ The exact formal degree-three/degree-two identity is
 
 ```math
 \operatorname{Res}(\bar A,\bar D)
-=\frac{\bar D(0)^2T_2^2}{S^2}\bar D(-T_1/T_2)<0.
+=\frac{\bar D(0)^2T_2^2}{S^2}\bar D(-T_1/T_2)\lt0.
 ```
 
 The displayed definitions give this for generic coefficients in $`\bar D=d_0+d_1u+d_2u^2`$, independently of the source specialization. Its equivalent coefficient form is
@@ -170,13 +170,13 @@ The displayed definitions give this for generic coefficients in $`\bar D=d_0+d_1
 
 Swapping resultant order introduces $`(-1)^{3\cdot2}=1`$, so no hidden sign reversal occurs.
 
-On the other hand, both-complex word 0231 gives one real root $`\alpha`$ of A and one real root $`\beta>\alpha`$ of B, with the other roots conjugate. Both cubic leading coefficients are negative. Hence $`B(\alpha)>0`$. The common-quadratic identity gives
+On the other hand, both-complex word 0231 gives one real root $`\alpha`$ of A and one real root $`\beta\gt\alpha`$ of B, with the other roots conjugate. Both cubic leading coefficients are negative. Hence $`B(\alpha)\gt0`$. The common-quadratic identity gives
 
 ```math
-D_q(\alpha)=\frac{(W-Pz)B(\alpha)}{P+W\alpha}>0.
+D_q(\alpha)=\frac{(W-Pz)B(\alpha)}{P+W\alpha}\gt0.
 ```
 
-The denominators are positive: $`\alpha>0`$ because the contact point lies before all physical cofactor roots, and $`W-Pz=A(0)+P(L+P)>0`$. Evaluating the degree-three/degree-two resultant at A's roots gives
+The denominators are positive: $`\alpha\gt0`$ because the contact point lies before all physical cofactor roots, and $`W-Pz=A(0)+P(L+P)\gt0`$. Evaluating the degree-three/degree-two resultant at A's roots gives
 
 ```math
 \operatorname{Res}(A,D_q)=a_{\rm lead}^2D_q(\alpha)|D_q(\zeta)|^2\ge0.

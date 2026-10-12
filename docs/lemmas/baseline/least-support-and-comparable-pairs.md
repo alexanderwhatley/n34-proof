@@ -5,13 +5,13 @@ For a support vector $`s=(s_1,s_2)`$, put $`m_s=x^{s_1}(1-x)^{s_2}`$. A vector $
 The principal statement is
 
 ```math
-F=1+\alpha m_u-\beta m_v-\gamma m_w,\quad \alpha,\beta,\gamma>0,\quad u,v,w\ge0,\quad v\le w
+F=1+\alpha m_u-\beta m_v-\gamma m_w,\quad \alpha,\beta,\gamma\gt0,\quad u,v,w\ge0,\quad v\le w
 \quad\Longrightarrow\quad Z(F)\le8.
 ```
 
 This explains the name “least support”: the constant factor has support $`(0,0)`$ and lies below all the other supports. A companion statement gives $`Z(F)\le9`$ when each same-sign pair among four factors is coordinatewise comparable.
 
-Two inputs are used. First, the two-polynomial beta-factor bound says a nonidentity $`P+x^a(1-x)^bQ`$ has at most $`\deg P+\deg Q+2`$ distinct roots. We abbreviate this bound by EHT below. Second, the retained lower-fork theorem gives eight when $`0<v_i<\min(u_i,w_i)`$ for both coordinates. The proof below explicitly identifies where this second input is used. The [limiting-cases lemma](limiting-cases.md) transfers strict conclusions to ties and multiple original roots.
+Two inputs are used. First, the two-polynomial beta-factor bound says a nonidentity $`P+x^a(1-x)^bQ`$ has at most $`\deg P+\deg Q+2`$ distinct roots. We abbreviate this bound by EHT below. Second, the retained lower-fork theorem gives eight when $`0\lt v_i\lt\min(u_i,w_i)`$ for both coordinates. The proof below explicitly identifies where this second input is used. The [limiting-cases lemma](limiting-cases.md) transfers strict conclusions to ties and multiple original roots.
 
 Here $`\rho=x(1-x)`$, $`D=\rho\,d/dx`$, and $`\lambda_s=s_1-(s_1+s_2)x`$. A mode is the interior zero of this affine logarithmic-derivative factor when that zero exists. A Wronskian is the determinant whose rows contain successive derivatives of its columns. Its nonvanishing permits the divisions used in the repeated Rolle arguments.
 
@@ -99,7 +99,7 @@ Because v<w coordinatewise, if u_i<v_i then the positive u atom dominates DF at 
 
 ```math
 Z(DF)\ge N-1+
-\mathbf 1_{u_1<v_1}+\mathbf 1_{u_2<v_2}.
+\mathbf 1_{u_1\lt v_1}+\mathbf 1_{u_2\lt v_2}.
 ```
 
 There is no assumption that the derivative has no exterior roots. The additional roots are counted rather than forbidden.
@@ -117,7 +117,7 @@ Suppose
 **(3.7)**
 
 ```math
-0<u_1<v_1<w_1,\qquad 0<v_2<w_2<u_2.
+0\lt u_1\lt v_1\lt w_1,\qquad 0\lt v_2\lt w_2\lt u_2.
 ```
 
 At zero, the positive u contribution dominates S and H(v,u)(0)<0, so S<0. At one, the negative w contribution dominates S and H(v,w)(1)<0, so S>0. Equation (3.5) therefore applies. Equation (3.6) gives Z(DF)>=N, so N<=9 and hence N<=8 by parity. Reflection handles the other coordinate orientation.
@@ -131,7 +131,7 @@ It remains, up to reflection, to treat
 **(4.1)**
 
 ```math
-0<u_1<v_1<w_1,\qquad 0<v_2<u_2<w_2.
+0\lt u_1\lt v_1\lt w_1,\qquad 0\lt v_2\lt u_2\lt w_2.
 ```
 
 This is a genuine open chart. It is not part of the strict lower fork. The following small-gap lemma handles one part of it by a different, regular Wronskian flag.
@@ -151,14 +151,14 @@ Then
 **(4.3)**
 
 ```math
-\boxed{H(v,u)(x)<0\quad\text{for every }0<x<1.}
+\boxed{H(v,u)(x)\lt0\quad\text{for every }0\lt x\lt1.}
 ```
 
 **Proof.** Put
 
 ```math
 A=\lambda_v,\qquad B=-\lambda_u,\qquad
-h=A+B=c(1-x)+dx,\qquad K=v_1u_2-u_1v_2>0.
+h=A+B=c(1-x)+dx,\qquad K=v_1u_2-u_1v_2\gt0.
 ```
 
 The cubic (3.1) has the identity
@@ -175,7 +175,7 @@ Since 0<h<=1, if AB<=0 the right side is strictly negative. If AB>0, use the exa
 
 ```math
 \boxed{
- v_1(K\rho-AB)=u_1[\lambda_v(x)]^2+v_2Kx^2>0.
+ v_1(K\rho-AB)=u_1[\lambda_v(x)]^2+v_2Kx^2\gt0.
 }
 ```
 
@@ -194,9 +194,9 @@ Its first three D-Wronskians are zero-free under (4.2):
 **(4.6)**
 
 ```math
-W_1=m_v>0,
-\quad W_2=m_vm_u(\lambda_u-\lambda_v)=-h m_vm_u<0,
-\quad W_3=m_vm_uH(v,u)<0.
+W_1=m_v\gt0,
+\quad W_2=m_vm_u(\lambda_u-\lambda_v)=-h m_vm_u\lt0,
+\quad W_3=m_vm_uH(v,u)\lt0.
 ```
 
 For any test function f, successively differentiate after division by these nonvanishing transformed basis functions. Explicitly,
@@ -372,7 +372,7 @@ In the crossed ordering,
 **(5.9)**
 
 ```math
-E(v)-E(u)=(1-\theta)(v_1-u_1)+\theta(u_2-v_2)>0.
+E(v)-E(u)=(1-\theta)(v_1-u_1)+\theta(u_2-v_2)\gt0.
 ```
 
 ### 5.3 Endpoint gate U
@@ -382,7 +382,7 @@ Assume
 **(U)**
 
 ```math
-u_2\ge\theta,\qquad E(u)<0.
+u_2\ge\theta,\qquad E(u)\lt0.
 ```
 
 Choose k=(1-u_2)/(1-theta)<=1. Then T_2=u_2, so C_u(1)=0 and
@@ -394,13 +394,13 @@ C_u=(1-x)\widehat C_u,\qquad \deg\widehat C_u\le2.
 Moreover
 
 ```math
-T_1-u_1=-E(u)/(1-\theta)>0,
+T_1-u_1=-E(u)/(1-\theta)\gt0,
 ```
 
 so C_u(0)<0. At one,
 
 ```math
-C_v(1)=-(w_2-v_2)v_2(v_2-u_2)>0.
+C_v(1)=-(w_2-v_2)v_2(v_2-u_2)\gt0.
 ```
 
 At zero, the negative u term in (5.7) dominates because u_1<v_1 and C_u(0)<0, so the residual is positive. At one, the positive v term dominates because v_2<u_2 and C_v(1)>0, so the residual is again positive.
@@ -414,13 +414,13 @@ Assume
 **(V)**
 
 ```math
-v_1\ge1-\theta,\qquad E(v)>0.
+v_1\ge1-\theta,\qquad E(v)\gt0.
 ```
 
 Choose k=(1-v_1)/theta<=1. Now T_1=v_1, so C_v=x*widehat C_v with degree at most two. Also
 
 ```math
-T_2-v_2=E(v)/\theta>0.
+T_2-v_2=E(v)/\theta\gt0.
 ```
 
 Thus C_u(0)<0 and C_v(1)>0. The same endpoint dominance gives positive signs at both ends of (5.7). The x factor is absorbed into the v exponent, and the residual is again a beta-weighted quadratic plus a beta-weighted cubic. The identical seven-to-six parity improvement and (5.4) prove eight roots.
@@ -450,15 +450,15 @@ Therefore U or V closes every crossed row except possibly
 **(5.10)**
 
 ```math
-\boxed{u_2<\theta,\qquad v_1<1-\theta.}
+\boxed{u_2\lt\theta,\qquad v_1\lt1-\theta.}
 ```
 
 But in (5.10), positivity and the crossed inequalities imply
 
 ```math
-0<v_1-u_1<1-\theta<1,
+0\lt v_1-u_1\lt1-\theta\lt1,
 \qquad
-0<u_2-v_2<\theta<1.
+0\lt u_2-v_2\lt\theta\lt1.
 ```
 
 These are exactly the small-gap hypotheses of Lemma 4.1. That lemma closes the complement. **No crossed middle row remains.** Reflection supplies the opposite orientation.

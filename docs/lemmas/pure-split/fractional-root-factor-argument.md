@@ -8,7 +8,7 @@ This document gives the common-level regularization, the fractional-power coeffi
 
 Let a nonconstant real-analytic original row have $`n`$ selected distinct interior zeros. Choose disjoint compact neighborhoods with no other zeros. Let $`o`$ count the odd-order zeros and $`e_+,e_-`$ the even-order local minima and maxima. One sufficiently small sign of the common level shift $`f=t`$ yields at least $`o+2e_+`$ nearby roots; the other yields at least $`o+2e_-`$. The larger count is at least $`n`$. Choose the shift to be a regular value on the compact neighborhoods; the resulting roots are simple.
 
-For $`|t|<1`$,
+For $`|t|\lt1`$,
 
 ```math
 \frac{f-t}{1-t}=1-\sum_i\frac{E_i}{1-t}x^{a_i}(1-x)^{b_i}.
@@ -28,16 +28,16 @@ The AP upper-fork and PS shuffle arguments require the ordered flag
 
 ```math
 1,F(t),t,tF(t),t^2,t^2F(t),\ldots,
- \qquad F(t)=t^\gamma(1+t)^{\zeta-\gamma},\quad t>0,
+ \qquad F(t)=t^\gamma(1+t)^{\zeta-\gamma},\quad t\gt0,
 ```
 
-where $`0\le\gamma,\zeta<1`$. Away from the constant case, every finite ordered subfamily has strictly positive ordered Hermite evaluation determinants. In particular a nonzero finite combination has no more positive zeros, counted with multiplicity, than zero-deleted variations of its ordered coefficient row. Multiplication of all basis functions by a common positive factor is harmless. Integer powers and Pascal multiplication in the source arguments must retain their displayed ordering.
+where $`0\le\gamma,\zeta\lt1`$. Away from the constant case, every finite ordered subfamily has strictly positive ordered Hermite evaluation determinants. In particular a nonzero finite combination has no more positive zeros, counted with multiplicity, than zero-deleted variations of its ordered coefficient row. Multiplication of all basis functions by a common positive factor is harmless. Integer powers and Pascal multiplication in the source arguments must retain their displayed ordering.
 
 The next argument fixes the coefficient-matrix orientation and proves strictness by matching a finite list of derivatives.
 
 ### 2.1 Positive integral representation
 
-For $`\gamma>0`$, use
+For $`\gamma\gt0`$, use
 
 ```math
 F(t)=t\int_0^\infty\frac{\mu(ds)}{t+s}.
@@ -47,19 +47,19 @@ The measure has density
 
 ```math
 \frac{\sin(\pi\gamma)}{\pi}s^{\gamma-1}(1-s)^{\zeta-\gamma}
- \quad(0<s<1),
+ \quad(0\lt s\lt1),
 ```
 
 and
 
 ```math
 \frac{\sin(\pi\zeta)}{\pi}s^{\gamma-1}(s-1)^{\zeta-\gamma}
- \quad(s>1).
+ \quad(s\gt1).
 ```
 
-The second density is zero when $`\zeta=0`$. Both are nonnegative, the measure has infinite support, and $`\int(1+s)^{-1}\mu(ds)<\infty`$. The identity follows from the upper boundary imaginary part of the principal-branch function on the negative axis and the Cauchy integral formula; the arcs vanish because both endpoint exponents are below one and $`F(0)=0`$.
+The second density is zero when $`\zeta=0`$. Both are nonnegative, the measure has infinite support, and $`\int(1+s)^{-1}\mu(ds)\lt\infty`$. The identity follows from the upper boundary imaginary part of the principal-branch function on the negative axis and the Cauchy integral formula; the arcs vanish because both endpoint exponents are below one and $`F(0)=0`$.
 
-When $`\gamma=0<\zeta`$, apply the representation to $`F-1`$, with the positive density on $`(1,\infty)`$. Restoring the constant is a blockwise totally nonnegative shear on each adjacent pair $`(t^k,t^k(F-1))`$, with positive diagonal. When $`\gamma=\zeta=0`$, $`F=1`$; merge adjacent duplicate monomials and use ordinary Descartes. This constant case is not advertised as a strict two-column flag.
+When $`\gamma=0\lt\zeta`$, apply the representation to $`F-1`$, with the positive density on $`(1,\infty)`$. Restoring the constant is a blockwise totally nonnegative shear on each adjacent pair $`(t^k,t^k(F-1))`$, with positive diagonal. When $`\gamma=\zeta=0`$, $`F=1`$; merge adjacent duplicate monomials and use ordinary Descartes. This constant case is not advertised as a strict two-column flag.
 
 ### 2.2 Correct rational Hurwitz orientation
 
@@ -67,7 +67,7 @@ For a finite positive atomic measure, write
 
 ```math
 F_N(t)=t\sum_{j=1}^N\frac{a_j}{t+s_j}
-       =\frac{t e(t)}{d(t)},\qquad a_j,s_j>0,
+       =\frac{t e(t)}{d(t)},\qquad a_j,s_j\gt0,
 ```
 
 with distinct $`s_j`$, $`\deg d=N`$, $`\deg e=N-1`$, and $`\gcd(d,te)=1`$. The function $`e/d`$ maps the upper half-plane to the lower half-plane and is positive on the positive real axis. Therefore $`d/e`$ is a meromorphic Pick function, nonnegative and regular on the nonnegative real axis.
@@ -82,7 +82,7 @@ They are exactly the polynomial coefficient rows of the desired rational flag af
 
 ### 2.3 Why the determinants are strictly positive
 
-Fix a finite ordered selection of flag functions and let $`D`$ be its largest power shift. For $`N>D`$, a polynomial relation among the selected rational functions, after multiplication by $`d`$, would read
+Fix a finite ordered selection of flag functions and let $`D`$ be its largest power shift. For $`N\gt D`$, a polynomial relation among the selected rational functions, after multiplication by $`d`$, would read
 
 ```math
 dP+teQ=0,\qquad\deg P,\deg Q\le D.
@@ -92,9 +92,9 @@ Coprimality implies $`d\mid Q`$. Thus $`Q=P=0`$. The selected rows of the totall
 
 One still needs to transfer strictness to the nonrational integral. Uniform approximation alone is insufficient. The transfer is exact at the finitely many jets being tested:
 
-1. For nodes $`t_i>0`$ with multiplicities $`m_i`$, put $`M=\sum_i m_i`$, $`y=s/(1+s)`$, and let $`\nu`$ be the pushforward of $`\mu/(1+s)`$ to $`[0,1]`$. Then
+1. For nodes $`t_i\gt0`$ with multiplicities $`m_i`$, put $`M=\sum_i m_i`$, $`y=s/(1+s)`$, and let $`\nu`$ be the pushforward of $`\mu/(1+s)`$ to $`[0,1]`$. Then
    $`F(t)/t=\int [t+(1-t)y]^{-1}\nu(dy)`$.
-2. Set $`L_i(y)=t_i+(1-t_i)y`$ and $`Q_0(y)=\prod_i L_i(y)^{m_i}>0`$. Use an $`N`$-node positive Gaussian quadrature rule for $`\nu/Q_0`$, choosing $`N>D`$ and $`2N-1\ge M-1`$.
+2. Set $`L_i(y)=t_i+(1-t_i)y`$ and $`Q_0(y)=\prod_i L_i(y)^{m_i}\gt0`$. Use an $`N`$-node positive Gaussian quadrature rule for $`\nu/Q_0`$, choosing $`N\gt D`$ and $`2N-1\ge M-1`$.
 3. Each required derivative of $`F(t)/t`$, after multiplication by $`Q_0`$, is a polynomial of degree at most $`M-1`$. The quadrature therefore matches every required jet **exactly**. Its nodes lie in $`(0,1)`$, and it yields positive atoms $`s_j=y_j/(1-y_j)`$, $`a_j=\omega_j Q_0(y_j)/(1-y_j)`$.
 4. The determinant for the original function equals the determinant of this finite rational flag. Section 2.3 makes it strictly positive.
 

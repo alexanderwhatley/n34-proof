@@ -2,7 +2,7 @@
 
 Read [the appendix terminology](../../appendix.md#terminology) before this technical lemma. All variables are local to this document.
 
-Let $`\alpha,\beta,x,y,C>0`$, $`0<P<Q<S<R`$, and
+Let $`\alpha,\beta,x,y,C\gt0`$, $`0\lt P\lt Q\lt S\lt R`$, and
 
 **(1)**
 
@@ -11,14 +11,14 @@ F=C{(t+x)(t-Q)(t-R)\over
 t^\alpha(1+t)^{\beta-\alpha}(t+y)(t-P)(t-S)}.
 ```
 
-Suppose $`0<k_1<k_2<k_3<P`$ are three full critical points on the left
+Suppose $`0\lt k_1\lt k_2\lt k_3\lt P`$ are three full critical points on the left
 positive component, and $`M\in(Q,S)`$ is any central full critical
 point. Then
 
 **(2)**
 
 ```math
-\boxed{F(k_3)>F(M).}
+\boxed{F(k_3)\gt F(M).}
 ```
 
 No exponent band, negative-root order, support identity, mandatory
@@ -51,14 +51,14 @@ At each full critical point on the left or central component,
 **(4)**
 
 ```math
-D_L(v)=-Q_1(v)<0,
+D_L(v)=-Q_1(v)\lt0,
  \qquad Q_1={Q-P\over(t-Q)(t-P)}.
 ```
 
 Suppose $`F(k_3)\le F(M)`$. The removed factor in (3) is greater than
 one at $`k_3`$ and lies between zero and one at $`M`$, giving
-$`Z_L(k_3)<Z_L(M)`$. Along with the negative endpoint derivatives (4),
-this forces two sign-changing roots $`a<b`$ of $`D_L`$ in
+$`Z_L(k_3)\lt Z_L(M)`$. Along with the negative endpoint derivatives (4),
+this forces two sign-changing roots $`a\lt b`$ of $`D_L`$ in
 $`(k_3,M)`$.
 
 Let
@@ -74,14 +74,14 @@ N_L&=N_0(t-S)(t-R)+(R-S)M_0.
 ```
 
 Then $`D_L=N_L/[M_0(t-S)(t-R)]`$. The leading coefficient is
-$`-\beta`$, the constant coefficient is $`-\alpha xyRS<0`$,
-$`N_L(S)>0`$, and $`N_L(R)>0`$. Since $`N_L(M)<0`$, these signs
-add a root $`d\in(M,S)`$, a root $`e>R`$, and a negative root.
+$`-\beta`$, the constant coefficient is $`-\alpha xyRS\lt0`$,
+$`N_L(S)\gt0`$, and $`N_L(R)\gt0`$. Since $`N_L(M)\lt0`$, these signs
+add a root $`d\in(M,S)`$, a root $`e\gt R`$, and a negative root.
 Together with $`a,b`$, five distinct roots exhaust the quintic, and all
 are simple. Write the negative root as $`-\eta`$. Then
 
 ```math
-0<k_1<k_2<k_3<a<b<M<d<S<R<e,
+0\lt k_1\lt k_2\lt k_3\lt a\lt b\lt M\lt d\lt S\lt R\lt e,
 ```
 
 and on $`(0,a)`$,
@@ -91,7 +91,7 @@ and on $`(0,a)`$,
 ```math
 H:=-D_L=
  {\beta(t+\eta)(a-t)(b-t)(d-t)(e-t)\over
- t(1+t)(t+x)(t+y)(R-t)(S-t)}>0.
+ t(1+t)(t+x)(t+y)(R-t)(S-t)}\gt0.
 ```
 
 Its logarithmic derivative is
@@ -107,11 +107,11 @@ Its logarithmic derivative is
 \end{aligned}
 ```
 
-Pair $`1/(t+\eta)<1/t`$, $`1/(R-t)<1/(b-t)`$, and
-$`1/(S-t)<1/(d-t)`$. Every remaining summand is negative, so
-$`H'<0`$ throughout $`(0,a)`$.
+Pair $`1/(t+\eta)\lt1/t`$, $`1/(R-t)\lt1/(b-t)`$, and
+$`1/(S-t)\lt1/(d-t)`$. Every remaining summand is negative, so
+$`H'\lt0`$ throughout $`(0,a)`$.
 
-On the left component $`Q_1>0`$ and $`Q_1'>0`$. Hence
+On the left component $`Q_1\gt0`$ and $`Q_1'\gt0`$. Hence
 
 ```math
 (\log F)'=Q_1-H

@@ -16,7 +16,7 @@ Let
 
 ```math
 P=(x-p)(x-u)(x-v),\qquad Q=\prod_{i=1}^3(x-q_i),
- \qquad 0<p<1<u<v,\quad 0<q_1<q_2<q_3<1,
+ \qquad 0\lt p\lt1\lt u\lt v,\quad 0\lt q_1\lt q_2\lt q_3\lt1,
 ```
 
 with disjoint roots, and let alpha>beta>0 and kappa>0. Then
@@ -154,14 +154,14 @@ most three contacts. Its cumulative sequence is, respectively,
 
 ```math
 [1,0,1,2,2-\alpha,2-\beta,1-\beta,-\beta]
- \quad(p<q3),
+ \quad(p\lt q3),
 ```
 
 **(5)**
 
 ```math
 [1,2,2-\alpha,2-\beta,1-\beta,-\beta,0,-1]
- \quad(q3<p).
+ \quad(q3\lt p).
 ```
 
 Both obey the same tail bound (2).
@@ -233,7 +233,7 @@ H'=N/(\rho\widetilde P\widetilde Q),\quad
 
 ```math
 T=(x-p)(x-s)N+(s-p)\rho\widetilde P\widetilde Q,
- \qquad \deg N=5,\quad [x^5]N=\alpha-\beta>0.
+ \qquad \deg N=5,\quad [x^5]N=\alpha-\beta\gt0.
 ```
 
 ### Left adjacent gap, p<q1
@@ -246,7 +246,7 @@ z1,z2 lie in (U,V); the signs at q2,q3,1,u,v force the other three:
 **(7)**
 
 ```math
-U<z_1<z_2<V<q2<z_3<q3<z_4<1<u<z_5<v.
+U\lt z_1\lt z_2\lt V\lt q2\lt z_3\lt q3\lt z_4\lt1\lt u\lt z_5\lt v.
 ```
 
 These exhaust degree five and are simple.
@@ -254,7 +254,7 @@ These exhaust degree five and are simple.
 On (q3,z4), N>0 and H'>0, so phi'>0. On (z4,1), let
 
 ```math
-M=-\frac{(x-p)(x-s)H'}{s-p}>0.
+M=-\frac{(x-p)(x-s)H'}{s-p}\gt0.
 ```
 
 Phase contacts are M=1. The logarithmic derivative has positive
@@ -279,7 +279,7 @@ N(u)<0<N(v) exhaust the quintic in the order
 **(8)**
 
 ```math
-q1<z_1<q2<z_2<U<z_3<z_4<V<1<u<z_5<v.
+q1\lt z_1\lt q2\lt z_2\lt U\lt z_3\lt z_4\lt V\lt1\lt u\lt z_5\lt v.
 ```
 
 All middle contacts lie in I=(z2,min(p,z3)). There M is positive
@@ -305,7 +305,7 @@ The signs and common-height comparison exhaust N as
 **(9)**
 
 ```math
-q1<z_1<q2<U<z_2<z_3<V<z_4<1<u<z_5<v.
+q1\lt z_1\lt q2\lt U\lt z_2\lt z_3\lt V\lt z_4\lt1\lt u\lt z_5\lt v.
 ```
 
 Set M=(x-s)(x-p)H'/(p-s). On (q2,U], (log M)'<0:

@@ -4,11 +4,11 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 
 the earlier proof, 2026-10-02. Analytical positive-coefficient original-row theorem.
 
-Let $`A,B,a,b,c,\nu>0`$, $`B>\nu,c>a`$, and
+Let $`A,B,a,b,c,\nu\gt0`$, $`B\gt\nu,c\gt a`$, and
 
 ```math
 f=1-E_0t^{-A}(1-t)^{-B}
--E_1t^a(1-t)^b-E_2t^c(1-t)^{-\nu},\qquad E_i>0.
+-E_1t^a(1-t)^b-E_2t^c(1-t)^{-\nu},\qquad E_i\gt0.
 ```
 
 Use the actual mixed cofactors $`R,H,K=H-R`$, and
@@ -18,17 +18,17 @@ $`r`$, and
 **(1)**
 
 ```math
-\boxed{V(r)>0.}
+\boxed{V(r)\gt0.}
 ```
 
 Then the original $`f`$ has at most eight distinct roots. Equivalently,
-the condition is $`K(r)>0`$, or $`H(r)>0`$, because the exact cofactor
+the condition is $`K(r)\gt0`$, or $`H(r)\gt0`$, because the exact cofactor
 syzygy at $`R(r)=0`$ gives
 
 **(2)**
 
 ```math
-L(r)V(r)=\ell_2(r)K(r),\qquad L,\ell_2>0.
+L(r)V(r)=\ell_2(r)K(r),\qquad L,\ell_2\gt0.
 ```
 
 Thus the negative $`V`$-band and the negative $`K`$-band do not straddle
@@ -37,8 +37,8 @@ covered. The result uses all three positive coefficients of the original
 row, and does not claim a global seven-contact bound for $`\Phi`$.
 
 The mode-aligned theorem already covers $`m_0\ge m_1`$, where
-$`m_0=A/(A+B)`$, $`m_1=a/(a+b)`$; it also proves $`V(r)>0`$ there.
-It remains to prove the result for $`m_0<m_1`$.
+$`m_0=A/(A+B)`$, $`m_1=a/(a+b)`$; it also proves $`V(r)\gt0`$ there.
+It remains to prove the result for $`m_0\lt m_1`$.
 
 ## The two positive derivative components
 
@@ -46,10 +46,10 @@ Normalize by the monotone atom exactly as in the theorem:
 
 ```math
 u=-h_0'/h_2',\quad v=-h_1'/h_2',\quad U=E_0u+E_1v,
-\quad f'=0\Longleftrightarrow U=E_2>0.
+\quad f'=0\Longleftrightarrow U=E_2\gt0.
 ```
 
-On $`(0,m_0)`$, $`u>0,v<0`$, and
+On $`(0,m_0)`$, $`u\gt0,v\lt0`$, and
 
 ```math
 k_-=\frac{|v|}{u}=\frac{h_1}{h_0}\frac{\ell_1}{-\ell_0}
@@ -60,16 +60,16 @@ is strictly increasing, since
 ```math
 (\log k_-)'=
 \frac{\ell_1-\ell_0}{t(1-t)}
-+\frac1{m_0-t}-\frac1{m_1-t}>0.
++\frac1{m_0-t}-\frac1{m_1-t}\gt0.
 ```
 
-It increases from zero to infinity. The inverse-mode inequality gives $`u'<0`$
+It increases from zero to infinity. The inverse-mode inequality gives $`u'\lt0`$
 there, so $`U=u(E_0-E_1k_-)`$ strictly decreases wherever positive.
 Its positive initial component therefore has exactly one contact of
 each positive level.
 
-On $`(m_0,m_1)`$, both $`u,v`$ are negative, so $`U<0`$.
-On $`(m_1,1)`$, $`u<0,v>0`$, and
+On $`(m_0,m_1)`$, both $`u,v`$ are negative, so $`U\lt0`$.
+On $`(m_1,1)`$, $`u\lt0,v\gt0`$, and
 
 ```math
 k_+=\frac{|u|}{v}=\frac{h_0}{h_1}\frac{\ell_0}{-\ell_1}
@@ -82,7 +82,7 @@ has
 ```math
 (\log k_+)''=
 \frac{A+a}{t^2}+\frac{B+b}{(1-t)^2}
--\frac1{(t-m_0)^2}+\frac1{(t-m_1)^2}>0.
+-\frac1{(t-m_0)^2}+\frac1{(t-m_1)^2}\gt0.
 ```
 
 It tends to infinity at both endpoints. Hence it has one strict minimum
@@ -101,7 +101,7 @@ $`u'=-(h_0/h_2)V/[t(1-t)\ell_2^2]`$ proves
 \operatorname{sign}V(r)=\operatorname{sign}k_+'(r).
 ```
 
-Thus (1) means $`d<r`$. Before $`d`$, both positive factors $`v`$ and
+Thus (1) means $`d\lt r`$. Before $`d`$, both positive factors $`v`$ and
 $`E_1-E_0k_+`$ increase, whenever their product is positive.
 After $`r`$, both decrease. Therefore every positive critical point of
 the late $`U`$-component lies in $`(d,r)`$.
@@ -112,7 +112,7 @@ Such critical points are contacts of one positive level
 \Psi=\frac{h_1R}{h_0V}=E_0/E_1,
 ```
 
-and lie before $`r`$, where $`R>0`$. The nonzero critical polynomial
+and lie before $`r`$, where $`R\gt0`$. The nonzero critical polynomial
 of $`\Psi`$ has degree at most six, because its raw numerator is
 $`-\ell_2 W`$ with $`W=\det[\ell;P;Q]`$.
 
@@ -145,11 +145,11 @@ three-root theorem.
 After this theorem and the mode-aligned theorem, only the cell
 
 ```math
-m_0<m_1,\qquad V(r)<0\quad\Longleftrightarrow\quad K(r)<0
+m_0\lt m_1,\qquad V(r)\lt0\quad\Longleftrightarrow\quad K(r)\lt0
 ```
 
 requires a new argument. Its negative $`V`$-band straddles $`r`$, and
-$`r<d`$. All positive critical points of $`U`$ are then confined to
+$`r\lt d`$. All positive critical points of $`U`$ are then confined to
 $`(r,d)`$, within the second positive $`\Psi`$-component. The first
 positive $`U`$-component remains strictly decreasing. Proving at most
 six contacts of the one fixed level $`\Psi=E_0/E_1`$ on $`(r,d)`$

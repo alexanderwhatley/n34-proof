@@ -2,12 +2,12 @@
 
 Read [the appendix terminology](../../appendix.md#terminology) before this technical lemma. Its variables are local to this document.
 
-Let $`A,B,a,b,c,\nu>0`$, $`B>\nu`$, $`c>a`$, and consider
+Let $`A,B,a,b,c,\nu\gt0`$, $`B\gt\nu`$, $`c\gt a`$, and consider
 
 ```math
 f=1-E_0h_0-E_1h_1-E_2h_2,\quad
 h_0=t^{-A}(1-t)^{-B},\quad
-h_1=t^a(1-t)^b,\quad h_2=t^c(1-t)^{-\nu},\quad E_i>0.
+h_1=t^a(1-t)^b,\quad h_2=t^c(1-t)^{-\nu},\quad E_i\gt0.
 ```
 
 Suppose the pair cofactor $`R=\ell_1P_2-\ell_2P_1`$ has exactly one
@@ -31,20 +31,20 @@ $`\Phi=t^A(1-t)^B R/H`$.
 
 ## Normalize the original derivative by the monotone atom
 
-Since $`h_2'>0`$, put
+Since $`h_2'\gt0`$, put
 
 ```math
 u=-h_0'/h_2',\qquad v=-h_1'/h_2',\qquad
 U=E_0u+E_1v.
 ```
 
-The original equation $`f'=0`$ is precisely $`U=E_2>0`$.
+The original equation $`f'=0`$ is precisely $`U=E_2\gt0`$.
 With $`\mathscr D=t(1-t)d/dt`$, define
 
 ```math
 \ell_0=-A+(A+B)t,\quad
 \ell_1=a-(a+b)t,\quad
-\ell_2=c-(c-\nu)t>0,\quad
+\ell_2=c-(c-\nu)t\gt0,\quad
 P_i=\ell_i^2+\mathscr D\ell_i,
 ```
 
@@ -64,13 +64,13 @@ The exact derivative identities are
 
 Hence every critical point of $`U`$ away from a simultaneous cofactor zero
 is a contact of the same positive level $`\Psi=E_0/E_1`$.
-The one-root hypothesis gives $`r>m_1`$, $`R>0`$ before $`r`$, and
-$`R<0`$ afterwards. Thus $`v`$ strictly increases up to $`r`$ and
-strictly decreases afterwards; $`v>0`$ after $`m_1`$.
+The one-root hypothesis gives $`r\gt m_1`$, $`R\gt0`$ before $`r`$, and
+$`R\lt0`$ afterwards. Thus $`v`$ strictly increases up to $`r`$ and
+strictly decreases afterwards; $`v\gt0`$ after $`m_1`$.
 
 ## Positive U has at most two components
 
-First assume $`m_0>m_1`$. Before $`m_1`$, $`u>0,v<0`$, and
+First assume $`m_0\gt m_1`$. Before $`m_1`$, $`u\gt0,v\lt0`$, and
 
 ```math
 k_-=\frac{|v|}{u}
@@ -84,15 +84,15 @@ It tends to zero at both endpoints of $`(0,m_1)`$, and
 ```math
 (\log k_-)''=
 -\frac{A+a}{t^2}-\frac{B+b}{(1-t)^2}
--\frac1{(m_1-t)^2}+\frac1{(m_0-t)^2}<0.
+-\frac1{(m_1-t)^2}+\frac1{(m_0-t)^2}\lt0.
 ```
 
 Its superlevel sets are intervals, so
-$`U=u(E_0-E_1k_-)>0`$ has at most an initial and a final component
+$`U=u(E_0-E_1k_-)\gt0`$ has at most an initial and a final component
 before $`m_1`$. The final one joins the strictly positive interval
 $`(m_1,m_0)`$, where both $`u,v`$ are positive.
 
-After $`m_0`$, $`u<0,v>0`$, and
+After $`m_0`$, $`u\lt0,v\gt0`$, and
 
 ```math
 k_+=\frac{|u|}{v}
@@ -106,33 +106,33 @@ is strictly increasing, because
 ```math
 (\log k_+)'=
 \frac{\ell_0-\ell_1}{t(1-t)}
-+\frac1{t-m_0}-\frac1{t-m_1}>0.
++\frac1{t-m_0}-\frac1{t-m_1}\gt0.
 ```
 
 It increases from zero to infinity. Therefore the positive set of
 $`U=v(E_1-E_0k_+)`$ after $`m_0`$ is a single initial interval,
 which joins the preceding final positive component. Consequently
-$`\{U>0\}`$ has at most two components on the full physical interval.
+$`\{U\gt0\}`$ has at most two components on the full physical interval.
 
 ## No positive critical point of U is after r
 
-The inverse-atom derivative ratio satisfies $`V>0`$ at and before $`m_0`$;
-equivalently $`u'<0`$ there. A proof is included below.
-If $`r<t<m_0`$, both $`u,v`$ are positive and strictly decreasing,
-so $`U'<0`$. If $`t>\max(r,m_0)`$ and $`U>0`$, (4) gives
+The inverse-atom derivative ratio satisfies $`V\gt0`$ at and before $`m_0`$;
+equivalently $`u'\lt0`$ there. A proof is included below.
+If $`r\lt t\lt m_0`$, both $`u,v`$ are positive and strictly decreasing,
+so $`U'\lt0`$. If $`t\gt\max(r,m_0)`$ and $`U\gt0`$, (4) gives
 
 **(5)**
 
 ```math
-U'=v'(E_1-E_0k_+)-E_0v k_+'<0,
+U'=v'(E_1-E_0k_+)-E_0v k_+'\lt0,
 ```
 
-since $`v'<0`$ and the first bracket is positive.
-Thus every critical point with $`U>0`$ is before $`r`$.
+since $`v'\lt0`$ and the first bracket is positive.
+Thus every critical point with $`U\gt0`$ is before $`r`$.
 
-Moreover $`V(r)>0`$. If $`r\le m_0`$, this follows from the inverse
-mode inequality. If $`r>m_0`$, then $`v'(r)=0`$ and
-$`u'(r)=-(v k_+)'(r)=-v(r)k_+'(r)<0`$, so (2) gives $`V(r)>0`$.
+Moreover $`V(r)\gt0`$. If $`r\le m_0`$, this follows from the inverse
+mode inequality. If $`r\gt m_0`$, then $`v'(r)=0`$ and
+$`u'(r)=-(v k_+)'(r)=-v(r)k_+'(r)\lt0`$, so (2) gives $`V(r)\gt0`$.
 The negative $`V`$-band therefore cannot straddle $`r`$.
 
 ## At most six positive critical points of U
@@ -163,11 +163,11 @@ If the negative $`V`$-band is before $`r`$, the negative pole-pole
 $`\Psi`$-component and the negative final tail each consume one critical
 point. There are two positive $`\Psi`$-components; their total fixed-level
 count is at most $`(6-2)+2=6`$. Hence in every case $`U`$ has at most six
-critical points at which $`U>0`$.
+critical points at which $`U\gt0`$.
 
 ## Positive derivative levels have at most seven contacts
 
-Each component of $`\{U>0\}`$ contributes at most one more regular
+Each component of $`\{U\gt0\}`$ contributes at most one more regular
 positive-level contact than its positive critical-point count. The two
 preceding bounds therefore give at most $`6+2=8`$ contacts of $`U=E_2`$.
 But
@@ -193,25 +193,25 @@ universal three-root theorem.
 
 ## Short inverse-mode proof
 
-For $`t<m_0`$, put $`d_0=A-(A+B)t>0`$. Then
+For $`t\lt m_0`$, put $`d_0=A-(A+B)t\gt0`$. Then
 
 ```math
 \frac{h_0''}{h_0'}=
 -\frac A t+\frac B{1-t}-\frac{A+B}{d_0}
--\frac1t+\frac1{1-t}<-\frac1t,
+-\frac1t+\frac1{1-t}\lt-\frac1t,
 ```
 
 since the first two terms have negative sum and
-$`(A+B)/d_0>1/(1-t)`$. Writing $`e=c(1-t)+\nu t>0`$ gives
+$`(A+B)/d_0\gt1/(1-t)`$. Writing $`e=c(1-t)+\nu t\gt0`$ gives
 
 ```math
 \frac{h_2''}{h_2'}=
-\frac{c-1}t+\frac{\nu+1}{1-t}+\frac{\nu-c}e>-\frac1t.
+\frac{c-1}t+\frac{\nu+1}{1-t}+\frac{\nu-c}e\gt-\frac1t.
 ```
 
 The last inequality follows because the numerator of its last two terms,
 after multiplication by $`(1-t)e`$, is
-$`\nu[(c+1)(1-t)+(\nu+1)t]>0`$.
-Since $`h_0'/h_2'<0`$, its derivative is positive. At $`m_0`$ the
-same sign follows from $`h_0'=0,h_0''>0`$.
-Thus $`u'<0`$ and $`V>0`$ before and at the inverse mode.
+$`\nu[(c+1)(1-t)+(\nu+1)t]\gt0`$.
+Since $`h_0'/h_2'\lt0`$, its derivative is positive. At $`m_0`$ the
+same sign follows from $`h_0'=0,h_0''\gt0`$.
+Thus $`u'\lt0`$ and $`V\gt0`$ before and at the inverse mode.

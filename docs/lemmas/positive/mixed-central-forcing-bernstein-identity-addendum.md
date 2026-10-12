@@ -4,13 +4,13 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 
 This addendum binds the coefficient lemma to the actual projective entropy forcing polynomial. It also gives an independent analytical proof of the central contact bound. The exterior contact count and original-boundary transfer are separate modules.
 
-Let $`P,Q>1`$ and
+Let $`P,Q\gt1`$ and
 
 ```math
-H=P(P-1)r^2-2PQr+Q(Q-1)=P(P-1)(r-\eta)(r-\xi),\qquad 0<\eta<\xi.
+H=P(P-1)r^2-2PQr+Q(Q-1)=P(P-1)(r-\eta)(r-\xi),\qquad 0\lt\eta\lt\xi.
 ```
 
-Let $`B=r(1+r)`$, $`R=k\prod_{i=1}^3(r+A_i)`$, $`k,A_i>0`$, and $`Y=R-B`$. Assume the strict mixed inequalities $`Y(\eta)>0>Y(\xi)`$. Put $`j=Q-(P-1)r`$ and
+Let $`B=r(1+r)`$, $`R=k\prod_{i=1}^3(r+A_i)`$, $`k,A_i\gt0`$, and $`Y=R-B`$. Assume the strict mixed inequalities $`Y(\eta)\gt0\gt Y(\xi)`$. Put $`j=Q-(P-1)r`$ and
 
 ```math
 W=R(HY'-H'Y)-Y(H-PY)j.
@@ -43,7 +43,7 @@ C_6&=(3g_3-b)(b-g_3).
 \end{aligned}
 ```
 
-All factors in $`C_0,C_1,C_3,C_5`$ are strictly positive: $`g_0>a`$ and $`g_3<b`$, while $`g_i>0`$. $`C_6`$ has no prescribed sign. Since $`c^2-4ab=\Delta^2`$, $`C_2,C_4`$ are exactly the pair in the companion separated-negative-block lemma, which proves $`C_2+C_4>0`$. Hence, after zero coefficients are deleted, the seven coefficients have at most three sign variations. If $`C_6\ge0`$ there are at most two. Descartes' rule proves that $`W`$ has at most three roots on $`(\eta,\xi)`$, counted with multiplicity. No high-wall ratio bound is needed.
+All factors in $`C_0,C_1,C_3,C_5`$ are strictly positive: $`g_0\gt a`$ and $`g_3\lt b`$, while $`g_i\gt0`$. $`C_6`$ has no prescribed sign. Since $`c^2-4ab=\Delta^2`$, $`C_2,C_4`$ are exactly the pair in the companion separated-negative-block lemma, which proves $`C_2+C_4\gt0`$. Hence, after zero coefficients are deleted, the seven coefficients have at most three sign variations. If $`C_6\ge0`$ there are at most two. Descartes' rule proves that $`W`$ has at most three roots on $`(\eta,\xi)`$, counted with multiplicity. No high-wall ratio bound is needed.
 
 For completeness, the identity has a particularly short derivation. Put $`A=a+cx+bx^2`$ and $`E=G-(1+x)A`$. The wall identities are
 
@@ -63,14 +63,14 @@ Clearing the projective denominators in $`W`$ gives the exact polynomial identit
 
 Expanding this one identity supplies the printed coefficients.
 
-Now fix any actual common entropy curve $`u_C`$, which is analytic on all $`r>0`$ and has $`0<u_C<\min(1/P,r/Q)`$. The source-independent entropy ODE is
+Now fix any actual common entropy curve $`u_C`$, which is analytic on all $`r\gt0`$ and has $`0\lt u_C\lt\min(1/P,r/Q)`$. The source-independent entropy ODE is
 
 ```math
 u_C'=F(r,u_C),\qquad
 F(r,u)=\frac{u(1-Pu)j}{B+Hu}.
 ```
 
-On the open central interval let $`u_0=Y/H`$. Its formal ODE denominator is $`B+Hu_0=R>0`$, even when $`u_0`$ lies outside the probability domain. Also $`B+Hu_C>0`$. Since the denominator is affine in $`u`$, it remains strictly positive along every segment joining $`u_0`$ and $`u_C`$. Consequently the secant coefficient
+On the open central interval let $`u_0=Y/H`$. Its formal ODE denominator is $`B+Hu_0=R\gt0`$, even when $`u_0`$ lies outside the probability domain. Also $`B+Hu_C\gt0`$. Since the denominator is affine in $`u`$, it remains strictly positive along every segment joining $`u_0`$ and $`u_C`$. Consequently the secant coefficient
 
 ```math
 L(r)=\int_0^1 F_u\bigl(r,u_0+t(u_C-u_0)\bigr)\,dt
@@ -84,6 +84,6 @@ d'=Ld-\frac{W}{H^2R}.
 
 Multiplication by the positive integrating factor $`\exp(-\int L)`$ gives an analytic function whose derivative is a positive nonvanishing factor times $`-W`$. Thus Rolle's theorem, with multiplicities, bounds the total central contact weight by four.
 
-The endpoint phases improve four to three. At $`\eta`$ from the right, $`H<0`$ and $`Y(\eta)>0`$, so $`u_0`$ tends to minus infinity and $`d`$ is positive. At $`\xi`$ from the left, $`Y(\xi)<0`$ and $`H<0`$, so $`u_0`$ tends to plus infinity and $`d`$ is negative. The actual curve remains finite at both walls. The finite total contact weight must therefore be odd, and a bound of four gives at most three. The strict mixed signs also exclude contacts at either wall.
+The endpoint phases improve four to three. At $`\eta`$ from the right, $`H\lt0`$ and $`Y(\eta)\gt0`$, so $`u_0`$ tends to minus infinity and $`d`$ is positive. At $`\xi`$ from the left, $`Y(\xi)\lt0`$ and $`H\lt0`$, so $`u_0`$ tends to plus infinity and $`d`$ is negative. The actual curve remains finite at both walls. The finite total contact weight must therefore be odd, and a bound of four gives at most three. The strict mixed signs also exclude contacts at either wall.
 
 This proof uses only a short universal polynomial identity, the analytical positive decomposition, Descartes' rule, the fixed-entropy ODE, and weighted Rolle/parity. No numerical root exclusion or expanded computer-algebra sign certificate is required.

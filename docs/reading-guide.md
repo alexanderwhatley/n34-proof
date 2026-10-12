@@ -2,7 +2,7 @@
 
 The aim is to count solutions of two polynomial equations with very few terms. The difficulty is that the exponents can be very large. A degree bound therefore gives little useful information. The proof instead uses the number of terms and the way their derivatives interact.
 
-The reduction in the main proof gives four positive functions of the form $`x^a(1-x)^b`$ on $`0<x<1`$. Their coefficients may have either sign. If all coefficients have the same sign, the sum has no zeros. After changing the overall sign if necessary, the substantive cases are two positive and two negative coefficients, and three positive and one negative coefficient.
+The reduction in the main proof gives four positive functions of the form $`x^a(1-x)^b`$ on $`0\lt x\lt1`$. Their coefficients may have either sign. If all coefficients have the same sign, the sum has no zeros. After changing the overall sign if necessary, the substantive cases are two positive and two negative coefficients, and three positive and one negative coefficient.
 
 The supporting arguments turn a hypothetical excess of zeros into an excess of derivative zeros or tangencies. Polynomial identities and height comparisons then rule out that excess. The example at the end establishes that nine is attainable.
 
