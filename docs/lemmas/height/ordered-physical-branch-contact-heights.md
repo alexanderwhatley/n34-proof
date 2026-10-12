@@ -139,7 +139,7 @@ For the final claim it suffices to prove $`(d^2)_{ss}\gt0`$, since
 Define
 
 ```math
-g(z)=\coth z+z\mathop{\mathrm{csch}}\nolimits ^2z,qquad
+g(z)=\coth z+z\mathop{\mathrm{csch}}\nolimits ^2z,\qquad
 P(z)=z^2g(z).
 ```
 
