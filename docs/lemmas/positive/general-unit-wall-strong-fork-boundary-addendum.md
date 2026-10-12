@@ -14,18 +14,20 @@ The normal-curvature reduction and wall identities are the only imported results
 
 Write $`I=(\theta_1,\theta_3)`$, ordering the distinct outer modes, $`w=x(1-x)`$, and
 
+**(1)**
+
 ```math
 d=\rho-1/w,\qquad
 d'=A d+\frac{T}{V_0w^3},\qquad \deg T\le6.
-\tag{1}
 ```
 
 The actual $`d`$ is analytic throughout $`I`$. The strong-fork origin quadratic has exactly two simple internal walls. At a wall $`c`$, put $`\sigma=V_1(c)/w(c)>0`$. The identities are
 
+**(2)**
+
 ```math
 d(c)=\frac{1-\sigma}{\sigma w(c)},\qquad
 \operatorname{res}_c A=\frac{\sigma(3-\sigma)}2.
-\tag{2}
 ```
 
 At a unit wall, $`d(c)=0`$ and $`A=1/(x-c)+A_0`$, where $`A_0`$ is analytic. Write $`d=(x-c)v`$. Then
@@ -44,10 +46,11 @@ d=hv,\qquad T=h^2F,\qquad \deg F\le6-2r.
 
 Then
 
+**(3)**
+
 ```math
 v'=\left(A-\frac{h'}h\right)v+
 \frac{hF}{V_0w^3}.
-\tag{3}
 ```
 
 The coefficient and multiplier of $`F`$ in (3) are analytic across each unit wall, and that multiplier is nonzero there. Thus those walls do not split the Rolle count.

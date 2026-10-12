@@ -8,25 +8,28 @@ Its proof uses inequalities and two short polynomial expansions.
 
 Suppose
 
+**(1)**
+
 ```math
 g:=p-S>0,\qquad r\ge\frac74p,\qquad \mu\ge s.
-\tag{1}
 ```
 
 Suppose $`P_p`$ has one real zero $`\beta>M`$ and two nonreal,
 complex-conjugate zeros, and that $`\beta>s`$. Then
 
+**(2)**
+
 ```math
 \beta>3\mu-2M.
-\tag{2}
 ```
 
 In the order $`\alpha<\delta<s<\gamma<\beta`$, suppose in addition
 that the contact polynomial has positive values at both extreme events:
 
+**(3)**
+
 ```math
 R(\alpha)>0,\qquad R(\beta)>0.
-\tag{3}
 ```
 
 Then the number of physical contacts in the two exterior intervals
@@ -67,17 +70,19 @@ w^2+(b-L)w+K/b.
 
 Its zeros are nonreal, so its discriminant is negative. Equivalently,
 
+**(4)**
+
 ```math
 n(b):=b(L-b)^2-4K<0.
-\tag{4}
 ```
 
 Put $`m=\mu-M`$ and $`\ell=s-M`$. We have
 $`m\ge\ell>0`$. Direct substitution gives
 
+**(5)**
+
 ```math
 2(L-3m)=(p+S)(r-p)+pg+C_{*}>0.
-\tag{5}
 ```
 
 On the interval $`[\ell,3m]`$, the derivative of $`n(b)`$ with respect
@@ -85,9 +90,10 @@ to $`b`$ is $`(L-b)(L-3b)`$. By (5), its only possible interior
 turning point is a maximum. Its minimum on this interval is therefore
 at an endpoint. We will prove
 
+**(6)**
+
 ```math
 n(s-M)>0,\qquad n(3(\mu-M))>0.
-\tag{6}
 ```
 
 Equations (4) and (6) then force $`b>3m`$, since $`b>\ell`$.
@@ -148,11 +154,12 @@ J_\rho(k)&=\{(\rho-1)k^2+3(2-\rho)k\}/\rho.
 They are positive for $`k>6`$. At $`M=B`$, put
 $`Q=(p+q)(p+y)`$. The useful strict bounds are
 
+**(7)**
+
 ```math
 Q<BQ_\rho(k),\qquad
 L-(s-B)>BH_\rho(k),\qquad
 L-3(\mu-B)>BJ_\rho(k).
-\tag{7}
 ```
 
 Here are exact decompositions of their differences, so no estimate in

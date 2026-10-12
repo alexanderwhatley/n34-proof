@@ -94,10 +94,11 @@ source identities are
 (a_3)_p=\sum_i\frac{d_i(\gamma_i+1)}{(p-\gamma_i)^2},
 ```
 
+**(1)**
+
 ```math
 \sum_i d_i(\gamma_i+1)
 =\frac H\Lambda\{h(r_1+r_2+r_3+1+1/\Lambda)-2m\}>0.
-\tag{1}
 ```
 
 For $`p>\gamma_3`$, the negative contribution has the largest

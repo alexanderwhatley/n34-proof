@@ -109,11 +109,12 @@ The width $`d`$ strictly decreases as the common height $`q_0`$ increases. Defin
 
 Then
 
+**(1)**
+
 ```math
 0<\eta<1,\qquad \eta_s<0,
 \qquad u_{0,s}>0,
 \qquad 0<\frac{d\,u_{0,s}}{u_0^2}<1.
-\tag{1}
 ```
 
 Here are proofs of all four claims.
@@ -194,10 +195,11 @@ P_{\kappa,\lambda}=\pi_\kappa+\lambda J_\kappa>0.
 
 We prove that, whenever $`0<\kappa_2<\kappa_1`$ and $`0\le\lambda_2<\lambda_1`$,
 
+**(2)**
+
 ```math
 \frac{d}{ds}\log
  \frac{P_{\kappa_2,\lambda_2}}{P_{\kappa_1,\lambda_1}}>0.
-\tag{2}
 ```
 
 ### Variation in $`\kappa`$
@@ -231,13 +233,14 @@ Since $`\eta_s<0`$ and
 
 the geometric bounds (1) imply
 
+**(3)**
+
 ```math
 \begin{aligned}
 \mu_{\kappa,\lambda,s}
 &=u_0\{\eta+Q+wQ_w\}-dQ_\eta\eta_s-dQ_{b_0}(b_0)_s\\
 &\ge u_0\{\eta+Q+wQ_w+2b_0Q_{b_0}\}>0.
 \end{aligned}
-\tag{3}
 ```
 
 For completeness the last strict sign is an elementary positive polynomial. Multiply its bracket by $`\mathcal B^2`$. The coefficients in $`\eta,b_0`$ are:

@@ -45,10 +45,11 @@ by the numeric lane.
 
 Put $`L=\ell_2-\ell_1=p+(q-p)t>0`$. Direct expansion gives
 
+**(1)**
+
 ```math
 R=\ell_1\ell_2L+t(1-t)(aq+bp+pq),
 \qquad H(A,B,a,b,p,q)=R(a+A,b+B,p,q).
-\tag{1}
 ```
 
 For the second identity, subtract column 0 from columns 1 and 2 in the
@@ -58,10 +59,11 @@ $`\ell_1-\ell_0`$ and $`\ell_2-\ell_0`$.
 
 If $`Q_i=\ell_iP_i+\mathscr DP_i`$, the phase identity is
 
+**(2)**
+
 ```math
 t(1-t)(R'H-RH')-\ell_0RH
 =-L\det\begin{pmatrix}\ell_0&\ell_1&\ell_2\\P_0&P_1&P_2\\Q_0&Q_1&Q_2\end{pmatrix}.
-\tag{2}
 ```
 
 The determinant on the right has degree at most six. Thus the raw degree
@@ -91,19 +93,21 @@ T=(g+h)s(1-s)\left(\frac{1-s}{p}+\frac{s}{q}\right),
 \quad e=\frac{\rho^2-1}{4r(r+1)},\quad S=x^2-e,
 ```
 
+**(3)**
+
 ```math
 P=T-\rho x+(2r+1)x^2,\quad
 R=r[P-(r+1)S],\quad H=(r+1)[P-rS],\quad K=P.
-\tag{3}
 ```
 
 For $`p>q`$,
+
+**(4)**
 
 ```math
 T=\kappa(x+g)(h-x)(x+\zeta),\qquad
 \kappa=\frac{p-q}{pq(g+h)^2}>0,
 \quad\zeta=\frac{qh+pg}{p-q}>g.
-\tag{4}
 ```
 
 The normalized $`R,H`$ have negative cubic leading coefficient and two
@@ -141,18 +145,20 @@ negative point $`x=-y`$, (3) gives the strict upper bounds
 0<T(-y)<\min\{A_0(y),B_0(y)\},
 ```
 
+**(5)**
+
 ```math
 A_0(y)=r(y-b_0)(a_0-y),\qquad
 B_0(y)=y(u-cy).
-\tag{5}
 ```
 
 In particular $`b_0<y<a_0`$ and $`y<u/c`$. Hence $`b_0<u/c`$,
 which is equivalent to $`u<c`$. This proves $`\delta<1`$ and
 
+**(6)**
+
 ```math
 b_0<\delta<\min(a_0,u/c).
-\tag{6}
 ```
 
 For example, $`\delta^2-b_0^2=b_0(1-b_0)/(r+1)>0`$, and
@@ -162,13 +168,14 @@ $`a_0>\delta`$ also follows directly from the displayed definition.
 If $`h\ge\delta`$, again $`r_e>h\ge\delta`$. Suppose $`h<\delta`$.
 From the actual factorization (4),
 
+**(7)**
+
 ```math
 \frac{-T(\delta)}{T(-y)}
 =\frac{g+\delta}{g-y}\frac{\zeta+\delta}{\zeta-y}
  \frac{\delta-h}{h+y}
 <\frac{\delta}{y}
  \left(\frac{a_0+\delta}{a_0-y}\right)^2.
-\tag{7}
 ```
 
 All denominators are positive. The first two factors decrease as their
@@ -212,10 +219,11 @@ Finally,
 =2\delta\{c(a_0^2+\delta^2)-2ua_0\},
 ```
 
+**(8)**
+
 ```math
 c(a_0^2+\delta^2)-2ua_0
 =\frac{(u+1)(u+2r+1)}{4r^2(r+1)}>0.
-\tag{8}
 ```
 
 Thus $`M(\delta)<u+c\delta`$. Combining (5), (7), and (8) gives

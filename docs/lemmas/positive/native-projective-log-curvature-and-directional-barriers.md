@@ -33,16 +33,20 @@ M(r,r/Q)=\frac rQ(Q-Pr)[Q-(P-1)r]\quad(r\le Q/P).
 
 Both endpoint values are nonnegative. Affine interpolation is strictly positive before the endpoint, including $`r=Q/P`$. Direct differentiation gives
 
+**(1)**
+
 ```math
 J_\theta=-\frac{M}{K\theta ABS}<0,\qquad
-J_r=\frac{Q-(P-1)r}{KBS}.                                      \tag{1}
+J_r=\frac{Q-(P-1)r}{KBS}.
 ```
 
 For each finite $`C`$, the equation $`J=C`$ defines one smooth physical curve $`\theta_C(r)`$ for all $`r>0`$. Indeed, at fixed $`r`$, $`J`$ decreases continuously from $`+\infty`$ to $`-\infty`$ as $`\theta`$ runs through its physical interval. Put $`T=Q-(P-1)r`$. Its exact derivatives are
 
+**(2)**
+
 ```math
 \theta_C'=\frac{\theta_C T(1-P\theta_C)}M,\qquad
-\theta_C''=\frac{\theta_C(1-P\theta_C)(r-Q\theta_C)S H}{M^3}.       \tag{2}
+\theta_C''=\frac{\theta_C(1-P\theta_C)(r-Q\theta_C)S H}{M^3}.
 ```
 
 In particular, every actual native curve is strictly concave between the two roots $`\rho_-<\rho_+`$ of $`H`$, and strictly convex outside them.
@@ -55,10 +59,12 @@ The stronger global fact is **strict geometric log concavity**. For its projecti
 
 one has the square decomposition
 
+**(3)**
+
 ```math
 \boxed{\eta_C'(r)=
 -\frac{(1-P\theta_C)(r-Q\theta_C)
-\{\theta_C[H+Kr]^2+Kr^2S\}}{M^3}<0.}                            \tag{3}
+\{\theta_C[H+Kr]^2+Kr^2S\}}{M^3}<0.}
 ```
 
 Thus $`\log\theta_C(e^x)`$ has a strictly negative second derivative for all real $`x`$. This holds for arbitrary unequal $`P,Q`$, with no source metric or wall assumption. It is a rational differentiation identity followed by positivity of the displayed factors; no root isolation or numerical sampling is used.
@@ -74,8 +80,10 @@ Y(r)=R(r)-r(1+r),\qquad \theta_0(r)=\frac{Y(r)}{H(r)}.
 
 Assume strict-low walls, equivalently $`Y(\rho_-)>0`$, $`Y(\rho_+)>0`$. Polynomial division gives
 
+**(4)**
+
 ```math
-\theta_0(r)=\ell_0+mr-\frac{V}{r-\rho_-}+\frac{U}{r-\rho_+},       \tag{4}
+\theta_0(r)=\ell_0+mr-\frac{V}{r-\rho_-}+\frac{U}{r-\rho_+},
 ```
 
 where
@@ -88,10 +96,12 @@ V=\frac{Y(\rho_-)}{P(P-1)(\rho_+-\rho_-)}>0.
 
 For every central $`c\in(\rho_-,\rho_+)`$ and every right outer $`g>\rho_+`$,
 
+**(5)**
+
 ```math
 \frac{\theta_0(g)-\theta_0(c)}{g-c}
 =m+\frac{V}{(g-\rho_-)(c-\rho_-)}
-  +\frac{U}{(g-\rho_+)(\rho_+-c)}>0.                              \tag{5}
+  +\frac{U}{(g-\rho_+)(\rho_+-c)}>0.
 ```
 
 Unlike normalized-middle-probability source order, this native order needs no affine-contrast or degree inequality. Reflection $`r\mapsto1/r`$, $`P\leftrightarrow Q`$, $`s_1\leftrightarrow s_3`$ gives the parallel statement for $`\phi_0(r)=\theta_0(r)/r`$: every left outer value exceeds every central value.
@@ -111,22 +121,28 @@ Equation (2) says that $`\theta_C`$ has its unique maximum at $`\beta`$. Its ref
 
 At every physically admissible central source point $`c\ge\beta`$, and every physically admissible right outer source point $`g>\rho_+`$,
 
+**(6)**
+
 ```math
-J(c,\theta_0(c))>J(g,\theta_0(g)).                               \tag{6}
+J(c,\theta_0(c))>J(g,\theta_0(g)).
 ```
 
 To prove (6), set $`C=J(c,\theta_0(c))`$. The actual curve satisfies
 $`\theta_C(g)<\theta_C(c)=\theta_0(c)<\theta_0(g)`$, by the actual maximum and (5). Since $`J_\theta<0`$, the outer source height is strictly below $`C`$. Reflection gives
 
+**(7)**
+
 ```math
 J(c,\theta_0(c))>J(g,\theta_0(g))
-\quad(c\le\alpha,\ g<\rho_-).                                   \tag{7}
+\quad(c\le\alpha,\ g<\rho_-).
 ```
 
 Consequently, if one common finite entropy level meets both outer source components, every central contact at that level is confined to
 
+**(8)**
+
 ```math
-\boxed{\alpha<r<\beta.}                                         \tag{8}
+\boxed{\alpha<r<\beta.}
 ```
 
 Statements (6)–(8) concern source height and actual entropy curves, not a claim that every central probability exceeds an outer probability. They therefore remain valid in the exact fixtures that disprove the latter claim. They also do not prove a bound on the number of central contacts inside (8).
@@ -143,26 +159,31 @@ $`\rho_-<c_1<c_2<\rho_+`$. Since $`Y`$ has positive constant and leading cubic c
 
 For $`\eta_0=r\theta_0'/\theta_0`$, logarithmic differentiation gives
 
+**(9)**
+
 ```math
 \eta_0'=
 \frac{l}{(r+l)^2}
 -\left[\frac{c_1}{(r-c_1)^2}-\frac{\rho_-}{(r-\rho_-)^2}\right]
--\left[\frac{c_2}{(c_2-r)^2}-\frac{\rho_+}{(\rho_+-r)^2}\right].   \tag{9}
+-\left[\frac{c_2}{(c_2-r)^2}-\frac{\rho_+}{(\rho_+-r)^2}\right].
 ```
 
 The function $`(r+l)^2\eta_0'`$ is **strictly concave** on $`(c_1,c_2)`$. For a proof put
 
+**(10)**
+
 ```math
 f_s(r)=\frac{s(r+l)^2}{(r-s)^2},\qquad
-f_s''(r)=\frac{2s(l+s)(3l+2r+s)}{(s-r)^4}.                         \tag{10}
+f_s''(r)=\frac{2s(l+s)(3l+2r+s)}{(s-r)^4}.
 ```
 
 Its parameter derivative is
 
+**(11)**
+
 ```math
 \partial_s f_s''(r)=
 -\frac{2[3l^2r+9l^2s+2lr^2+14lrs+8ls^2+4r^2s+7rs^2+s^3]}{(s-r)^5}.
-                                                                        \tag{11}
 ```
 
 All numerator terms are positive. Therefore $`f_s''`$ increases strictly with $`s<r`$, and decreases strictly with $`s>r`$. Each of

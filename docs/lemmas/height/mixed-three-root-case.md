@@ -7,9 +7,10 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 Let $`A,B,a,b,c,\nu>0`$, $`B>\nu`$, $`c>a`$. For arbitrary positive
 coefficients consider
 
+**(1)**
+
 ```math
 f(t)=1-E_0t^{-A}(1-t)^{-B}-E_1t^a(1-t)^b-E_2t^c(1-t)^{-\nu}.
-\tag{1}
 ```
 
 Use $`\mathscr D=t(1-t)d/dt`$, the source slopes
@@ -57,20 +58,22 @@ m=\frac a{a+b}\in(0,1),\quad d=\frac{bc+a\nu}{a+b}>0,
 =dm-dDz+d\kappa z^2-\nu qz^3,
 ```
 
+**(2)**
+
 ```math
 D=d-1-m>0,\qquad\kappa=1-q-\nu>0,
 \quad q>\nu>0,\quad p>1>q.
-\tag{2}
 ```
 
 All three physical roots are after $`m`$. Write their positive translated
 coordinates as $`z_1<z_2<z_3`$. The exact Vieta identities are
 
+**(3)**
+
 ```math
 S_1=z_1+z_2+z_3=\frac{d\kappa}{\nu q},\quad
 S_2=z_1z_2+z_1z_3+z_2z_3=\frac{dD}{\nu q},\quad
 P=z_1z_2z_3=\frac{dm}{\nu q}.
-\tag{3}
 ```
 
 ## The smallest translated root lies below 1/nu
@@ -95,9 +98,10 @@ Here $`\nu<1/2`$ by (2). For $`\nu>1/3`$, the rightmost expression is
 strictly greater than $`2+3\nu`$, contradicting the upper bound on $`d`$.
 Therefore
 
+**(4)**
+
 ```math
 \boxed{\nu z_1<1.}
-\tag{4}
 ```
 
 This elementary root-size bound is independent of $`A,B`$.
@@ -112,33 +116,37 @@ H_{\rm bdry}(t)=c(1-t)\{[a-(a+q)t]L+qt\}
 =\frac{c(1-t)}{(1+z)^2}J(z),
 ```
 
+**(5)**
+
 ```math
 J(z)=q(1-q)z^2-q(D+m\nu)z+m(q-\nu d).
-\tag{5}
 ```
 
 Direct subtraction gives the exact identity
 
+**(6)**
+
 ```math
 \boxed{dJ(z)-qC(z)=\nu(d+qz)(qz^2-dm).}
-\tag{6}
 ```
 
 Put $`k=\nu q/d>0`$. At the largest $`C`$-root, Vieta gives the visible
 positive factorization
 
+**(7)**
+
 ```math
 \boxed{J(z_3)=qz_3(\nu+kz_3)(z_3-\nu z_1z_2)>0.}
-\tag{7}
 ```
 
 Indeed (4) and $`z_2<z_3`$ imply $`\nu z_1z_2<z_2<z_3`$.
 A second positive factorization gives
 
+**(8)**
+
 ```math
 \boxed{\frac{J'(z_3)}q=2\nu z_3+
  k\{2z_3^2+z_1(z_3-z_2)+z_2z_3(1-\nu z_1)\}>0.}
-\tag{8}
 ```
 
 Because $`J`$ is an upward quadratic, (7)--(8) show
@@ -155,17 +163,19 @@ X=\ell_0=-A(1-t)+Bt,\quad Y=\nu t\in(0,1),
 
 The literal original-core formula is
 
+**(9)**
+
 ```math
 \boxed{H/L=R/L+X^2-ZX+Bt.}
-\tag{9}
 ```
 
 In the translated coordinate, $`Z-2Y`$ has the positive denominator
 $`(1+z)(d+qz)`$ and numerator
 
+**(10)**
+
 ```math
 \boxed{d^2+qm-2\nu md+q(1+m-2m\nu)z+q(1-q)z^2>0.}
-\tag{10}
 ```
 
 Every coefficient is positive by (2): $`d>1+m>2\nu m`$ and
@@ -181,9 +191,10 @@ $`R/L+X^2-(Z-1)X`$, which strictly increases from $`Y`$, because
 $`Z<1+Y`$. Both have their minimum at $`X=Y,B=\nu`$.
 Consequently
 
+**(11)**
+
 ```math
 \boxed{H(t)\ge H_{\rm bdry}(t)>0\qquad(t\ge r_3),}
-\tag{11}
 ```
 
 where $`r_3=(m+z_3)/(1+z_3)`$ is the last physical $`R`$-root.
@@ -210,11 +221,12 @@ If $`H`$ has two physical roots $`h_1<h_2<r_3`$, its negative cubic leading
 coefficient, positive endpoint values, and two simple physical roots give
 one exterior root $`\eta_e>1`$. On $`(0,r_3)`$, factor
 
+**(12)**
+
 ```math
 \Phi=C_0\,v(t)\frac{(t-r_1)(t-r_2)}{(t-h_1)(t-h_2)},
 \quad C_0>0,\quad
 v=t^A(1-t)^B\frac{r_3-t}{\eta_e-t}.
-\tag{12}
 ```
 
 The factor $`v`$ tends to zero at both endpoints of $`(0,r_3)`$ and is

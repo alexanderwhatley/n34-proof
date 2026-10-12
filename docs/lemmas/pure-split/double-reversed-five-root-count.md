@@ -22,10 +22,11 @@ B(t)&=(q+zt)(a-bt)[(b+z)t-(a-q)]+(az+bq)t(1+t).
 
 For every $`\rho>0`$,
 
+**(1)**
+
 ```math
 \boxed{H_\rho(t)=A(t)+\rho t^\alpha(1+t)^{\beta-\alpha}B(t)
 \text{ has at most five distinct positive roots}.}
-\tag{1}
 ```
 
 There is no integrality, equality, coefficient-word, unused-root-order,
@@ -45,10 +46,11 @@ for multiple critical-level roots explicitly.
 
 The actual source reflection is
 
+**(2)**
+
 ```math
 (u,p,a,b,q,z)\mapsto(z,q,b,a,p,u),\qquad
 (\alpha,\beta,\rho)\mapsto(\beta,\alpha,1/\rho).
-\tag{2}
 ```
 
 Its cubics obey
@@ -65,9 +67,10 @@ beta=1, coefficient zeros and positive-event coincidences.
 
 It remains to prove the theorem for
 
+**(3)**
+
 ```math
 0<\alpha<1,\qquad\beta\ge2.
-\tag{3}
 ```
 
 ## 3. The fractional shuffle includes every integral beta
@@ -81,9 +84,10 @@ C=(1+t)^nB=\sum_{j=0}^{n+3}c_jt^j.
 
 The strict fractional Stieltjes--Hurwitz flag is
 
+**(4)**
+
 ```math
 1,G,t,tG,t^2,t^2G,t^3,t^3G,t^4G,\ldots.
-\tag{4}
 ```
 
 For zeta>0 this is the retained complete-Bernstein flag in the [fractional-power basis proof](fractional-root-factor-argument.md).
@@ -91,10 +95,11 @@ For zeta=0, irrespective of n, the fractional factor is the same function
 $`t^\alpha/(1+t)^\alpha`$ used at beta=1 in the low-beta theorem. It has
 the exact infinite-support positive representation
 
+**(5)**
+
 ```math
 G(t)=\frac{\sin(\pi\alpha)}\pi
 \int_0^1\frac{t}{t+s}s^{\alpha-1}(1-s)^{-\alpha}\,ds.
-\tag{5}
 ```
 
 The finite Gaussian-quadrature strictness proof therefore applies directly
@@ -108,20 +113,22 @@ zero-safe coefficient variations in A and B. Pascal convolution preserves
 the two positive B roots and cannot increase coefficient variation. Thus
 C has word -+- after zero deletion. In flag order the coefficient row is
 
+**(6)**
+
 ```math
 (A_0,\rho c_0,A_1,\rho c_1,A_2,\rho c_2,A_3,
 \rho c_3,\rho c_4,\ldots,\rho c_{n+3}).
-\tag{6}
 ```
 
 The short insertion argument from the low-beta theorem applies for every
 n: the merged row has at most seven variations. The only way it can exceed
 five is
 
+**(7)**
+
 ```math
 c_0<0,\qquad c_1,c_2,c_3\le0,
 \quad\text{followed by a positive block and final negative block}.
-\tag{7}
 ```
 
 Coefficient zeros are filled without increasing the individual two-word
@@ -160,19 +167,21 @@ q_j=(q_{j-1}-c_j)/S>0\quad(j=1,2,3)
 by (7). But Q=kappa(P-t)E, so
 $`q_3=\kappa(Pe_3-e_2)>0`$. Hence
 
+**(8)**
+
 ```math
 P>\frac{e_2}{e_3}
 =\frac{n+y n(n-1)/2}
 {n(n-1)/2+y n(n-1)(n-2)/6}
 >\frac2{n-1}\ge\frac2{\beta-1}.
-\tag{8}
 ```
 
 The strict middle inequality follows from
 
+**(9)**
+
 ```math
 (n-1)e_2-2e_3=\frac{yn(n-1)(n+1)}6>0.
-\tag{9}
 ```
 
 This proof has no nonintegral-gap premise. It includes n=2, where
@@ -183,24 +192,26 @@ but only the P collar in (8) is needed.
 
 Put c=a/b, U(t)=u+pt, V(t)=q+zt. The exact identity and score bound are
 
+**(10)**
+
 ```math
 \frac{A(t)}{U(t)}+\frac{B(t)}{V(t)}=(a-bt)N(t),
 \qquad
 N(t)=\alpha+\beta t-
 \frac{(pq-uz)t(1+t)}{U(t)V(t)}
 >\alpha-1+(\beta-1)t.
-\tag{10}
 ```
 
 The signs at 0,c,infinity give A roots Q<c<R and B roots P<c<S,
 with one negative root each. Equation(8) makes N positive at P and R.
 Thus A(P)>0 implies P<Q, and B(R)<0 implies S<R. Therefore
 
+**(11)**
+
 ```math
 A/A_3=(t+x)(t-Q)(t-R),\qquad
 B/B_3=(t+y)(t-P)(t-S),
 \quad0<P<Q<c<S<R.
-\tag{11}
 ```
 
 In particular there are no common positive A/B roots on the only chart
@@ -237,9 +248,10 @@ positive critical multiplicities. The source identity g(c)=0, with g
 positive at both central ends, gives at least two central critical
 multiplicities. Mandatory outer extrema give the component level bounds
 
+**(12)**
+
 ```math
 L\le4,\qquad M\le3,\qquad T\le2.
-\tag{12}
 ```
 
 For M, five central regular contacts would force four distinct central

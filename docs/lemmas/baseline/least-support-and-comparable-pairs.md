@@ -28,18 +28,20 @@ Set
 
 For two support vectors define the cubic
 
+**(3.1)**
+
 ```math
 H(r,s)=\lambda_rD\lambda_s-\lambda_sD\lambda_r
        +\lambda_r\lambda_s(\lambda_s-\lambda_r).
-\tag{3.1}
 ```
 
 Its endpoint values are
 
+**(3.2)**
+
 ```math
 H(r,s)(0)=r_1s_1(s_1-r_1),\qquad
 H(r,s)(1)=-r_2s_2(s_2-r_2).
-\tag{3.2}
 ```
 
 For the strict global-least F put
@@ -51,9 +53,10 @@ S=\alpha m_u H(v,u)-\gamma m_w H(v,w),
 
 Differentiation gives
 
+**(3.3)**
+
 ```math
 \boxed{Dg=\frac{m_vS}{(Dm_v)^2}.}
-\tag{3.3}
 ```
 
 The coefficient beta disappears. After division by a positive beta atom, S is a sum of two beta-weighted cubics; the external theorem gives Z(S)<=8. On a generic row, Dm_v has a single genuine pole location for g,
@@ -70,16 +73,18 @@ Z(S)\ge\max(n_L-1,0)+\max(n_R-1,0)\ge M-2.
 
 Therefore
 
+**(3.4)**
+
 ```math
 Z(DF)\le10.
-\tag{3.4}
 ```
 
 If S has opposite nonzero endpoint signs and all its roots are simple, its root count is odd, hence at most seven. In that case
 
+**(3.5)**
+
 ```math
 Z(DF)\le9.
-\tag{3.5}
 ```
 
 Generic support perturbations avoid proper exceptional identities. For fixed nonexceptional supports, varying the ratio of the two residual coefficients avoids critical values of their analytic ratio, so residual roots can be taken simple. A subsequent small change of the original coefficients preserves the selected original-root brackets. The limiting-cases lemma extends the resulting conclusion.
@@ -90,10 +95,11 @@ For a generic global-least F with N roots, the first crossing is downward and th
 
 Because v<w coordinatewise, if u_i<v_i then the positive u atom dominates DF at the corresponding endpoint. At the left endpoint this makes DF positive, opposite to its sign at the first F crossing. At the right endpoint this makes DF negative, opposite to its sign at the last crossing. Each such endpoint supplies a further distinct derivative root outside the selected F-root range. Consequently
 
+**(3.6)**
+
 ```math
 Z(DF)\ge N-1+
 \mathbf 1_{u_1<v_1}+\mathbf 1_{u_2<v_2}.
-\tag{3.6}
 ```
 
 There is no assumption that the derivative has no exterior roots. The additional roots are counted rather than forbidden.
@@ -108,9 +114,10 @@ This row does not use (LF).
 
 Suppose
 
+**(3.7)**
+
 ```math
 0<u_1<v_1<w_1,\qquad 0<v_2<w_2<u_2.
-\tag{3.7}
 ```
 
 At zero, the positive u contribution dominates S and H(v,u)(0)<0, so S<0. At one, the negative w contribution dominates S and H(v,w)(1)<0, so S>0. Equation (3.5) therefore applies. Equation (3.6) gives Z(DF)>=N, so N<=9 and hence N<=8 by parity. Reflection handles the other coordinate orientation.
@@ -121,9 +128,10 @@ This row also does not use (LF).
 
 It remains, up to reflection, to treat
 
+**(4.1)**
+
 ```math
 0<u_1<v_1<w_1,\qquad 0<v_2<u_2<w_2.
-\tag{4.1}
 ```
 
 This is a genuine open chart. It is not part of the strict lower fork. The following small-gap lemma handles one part of it by a different, regular Wronskian flag.
@@ -132,16 +140,18 @@ This is a genuine open chart. It is not part of the strict lower fork. The follo
 
 Assume u and v are positive and
 
+**(4.2)**
+
 ```math
 c=v_1-u_1\in(0,1],\qquad d=u_2-v_2\in(0,1].
-\tag{4.2}
 ```
 
 Then
 
+**(4.3)**
+
 ```math
 \boxed{H(v,u)(x)<0\quad\text{for every }0<x<1.}
-\tag{4.3}
 ```
 
 **Proof.** Put
@@ -153,18 +163,20 @@ h=A+B=c(1-x)+dx,\qquad K=v_1u_2-u_1v_2>0.
 
 The cubic (3.1) has the identity
 
+**(4.4)**
+
 ```math
 H(v,u)=hAB-K\rho.
-\tag{4.4}
 ```
 
 Since 0<h<=1, if AB<=0 the right side is strictly negative. If AB>0, use the exact rational sum-of-squares identity
+
+**(4.5)**
 
 ```math
 \boxed{
  v_1(K\rho-AB)=u_1[\lambda_v(x)]^2+v_2Kx^2>0.
 }
-\tag{4.5}
 ```
 
 Thus hAB<=AB<Krho and (4.3) follows. This proves the sign on the entire interval, not only at a finite collection of points. QED.
@@ -179,11 +191,12 @@ f_1=m_v,\qquad f_2=m_u,\qquad f_3=1.
 
 Its first three D-Wronskians are zero-free under (4.2):
 
+**(4.6)**
+
 ```math
 W_1=m_v>0,
 \quad W_2=m_vm_u(\lambda_u-\lambda_v)=-h m_vm_u<0,
 \quad W_3=m_vm_uH(v,u)<0.
-\tag{4.6}
 ```
 
 For any test function f, successively differentiate after division by these nonvanishing transformed basis functions. Explicitly,
@@ -203,18 +216,20 @@ T_2f_3=f_1W_3/W_2^2,
 
 and
 
+**(4.7)**
+
 ```math
 T_3f=\frac{W_2}{W_3^2}W_D(f_1,f_2,f_3,f).
-\tag{4.7}
 ```
 
 Every divisor used here is zero-free. Three ordinary Rolle steps lose at most three roots. The fourth Wronskian of beta atoms has a beta factor times a polynomial of degree at most six: D^j m_s/m_s has degree at most j, so every determinant summand has degree at most 0+1+2+3=6. The constant column only simplifies this bound.
 
 For F=1+alpha*m_u-beta*m_v-gamma*m_w, its fourth Wronskian is -gamma times the fourth Wronskian with m_w. Unless that fourth Wronskian vanishes identically, (4.7) proves
 
+**(4.8)**
+
 ```math
 Z(F)\le6+3=9.
-\tag{4.8}
 ```
 
 If it vanishes identically, m_w belongs to the span of the three regular basis functions: equivalently T_3 m_w=0 can be integrated through the two preceding nonvanishing transformations. Then a nonidentity F belongs to that three-function Chebyshev space and has at most two roots. This exceptional case is therefore harmless.
@@ -233,20 +248,22 @@ We now close the rest of (4.1). Put
 
 For k<=1 define, using ordinary derivatives,
 
+**(5.1)**
+
 ```math
 \mathcal L_{\theta,k}f
 =\rho f''+k(\theta-x)f'+kf.
-\tag{5.1}
 ```
 
 This annihilates g_0=theta-x. It also admits a positive kernel solution h on (0,1). Here is the complete argument.
 
 Take h_0=x^(1-theta)(1-x)^theta. Direct differentiation gives
 
+**(5.2)**
+
 ```math
 \frac{\mathcal L_{\theta,k}h_0}{h_0}
 =-\frac{(1-k)\theta(1-\theta)}\rho\le0.
-\tag{5.2}
 ```
 
 Writing h=h_0*zeta, the kernel equation becomes
@@ -266,10 +283,11 @@ On any interval of positivity extending from the initial point, zeta is nondecre
 
 The ordinary Wronskian W(h,g_0) satisfies Abel's scalar equation and has value -h(theta)<0 at theta. It is therefore nowhere zero. With the regular decreasing coordinate z=g_0/h,
 
+**(5.3)**
+
 ```math
 \mathcal L_{\theta,k}f
 =\rho h(z')^2\frac{d^2}{dz^2}(f/h).
-\tag{5.3}
 ```
 
 Hence L loses at most two roots under Rolle.
@@ -289,9 +307,10 @@ f_s=\lambda_{w-s}m_s\quad(s=u,v).
 
 Both coordinates of w-u and w-v are positive in (4.1). Since L annihilates lambda_w, the first derivative step and (5.3) imply
 
+**(5.4)**
+
 ```math
 Z(F)\le Z(\mathcal L_{\theta,k}G)+3
-\tag{5.4}
 ```
 
 when the residual is not identically zero. If the residual is zero, G is in the two-dimensional kernel of L, so G has at most one zero unless it is identically zero. In the latter case F is a constant multiple of m_w and has no roots unless identically zero. Thus the exceptional cases do not threaten any claimed bound.
@@ -313,51 +332,57 @@ C_2={}&Lr(r-1)(1-x)^3-r[2L(t+1)+N(r+1)]x(1-x)^2\\
 
 Then
 
+**(5.5)**
+
 ```math
 \mathcal L_{\theta,k}f=x^{r-1}(1-x)^{t-1}C,
 \qquad
 C=C_2+k[(\theta-x)C_1+\rho\ell],
-\tag{5.5}
 ```
 
 with degree at most three. Its endpoint factors are
+
+**(5.6)**
 
 ```math
 C(0)=Lr(r-T_1),\qquad
 C(1)=-Nt(t-T_2),
 \quad T_1=1-k\theta,\quad T_2=1-k(1-\theta).
-\tag{5.6}
 ```
 
 Let C_u,C_v be these cores for f_u,f_v, with L=w_1-s_1 and N=w_2-s_2. Multiplying the operator residual by the positive rho gives
 
+**(5.7)**
+
 ```math
 \widetilde R=\rho\mathcal L_{\theta,k}G
 =\beta m_v C_v-\alpha m_u C_u.
-\tag{5.7}
 ```
 
 Define the affine support functional
 
+**(5.8)**
+
 ```math
 E(s)=(1-\theta)(s_1-1)-\theta(s_2-1).
-\tag{5.8}
 ```
 
 In the crossed ordering,
 
+**(5.9)**
+
 ```math
 E(v)-E(u)=(1-\theta)(v_1-u_1)+\theta(u_2-v_2)>0.
-\tag{5.9}
 ```
 
 ### 5.3 Endpoint gate U
 
 Assume
 
+**(U)**
+
 ```math
 u_2\ge\theta,\qquad E(u)<0.
-\tag{U}
 ```
 
 Choose k=(1-u_2)/(1-theta)<=1. Then T_2=u_2, so C_u(1)=0 and
@@ -386,9 +411,10 @@ After its positive beta normalization, (5.7) is a cubic plus a beta-weighted qua
 
 Assume
 
+**(V)**
+
 ```math
 v_1\ge1-\theta,\qquad E(v)>0.
-\tag{V}
 ```
 
 Choose k=(1-v_1)/theta<=1. Now T_1=v_1, so C_v=x*widehat C_v with degree at most two. Also
@@ -421,9 +447,10 @@ Because u_2>v_2 and E(u)<E(v), gate U applies.
 
 Therefore U or V closes every crossed row except possibly
 
+**(5.10)**
+
 ```math
 \boxed{u_2<\theta,\qquad v_1<1-\theta.}
-\tag{5.10}
 ```
 
 But in (5.10), positivity and the crossed inequalities imply
@@ -486,9 +513,10 @@ S_0=c_2m_b H(a,b)+c_3m_c H(a,c)
 
 with at most eight distinct roots by EHT. There is **no pole**, so the two Rolle steps lose at most two roots:
 
+**(8.1)**
+
 ```math
 \boxed{Z(F_0)\le Z(S_0)+2\le10.}
-\tag{8.1}
 ```
 
 If S_0 is identically zero, the derivative quotient is constant, so F_0=c+d*m_a. Its nonidentity root count is at most one because m_a is monotone. Thus the identity exception is also covered.

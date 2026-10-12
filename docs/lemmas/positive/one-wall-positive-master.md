@@ -53,8 +53,10 @@ All actual central contacts lie in $`(a,b)`$. On that whole interval the weighte
 
 Thus it remains to consider $`l>1`$, $`w_0,w_6>0`$, and no metric distance in $`[t,1]`$. For the projective forcing coefficients $`C_i`$, the C45 theorem and exact weak-sign enumeration prove curvature six unless
 
+**(1)**
+
 ```math
-C_1<0,\quad C_2>0,\quad C_3<0,\quad C_4>0. \tag{1}
+C_1<0,\quad C_2>0,\quad C_3<0,\quad C_4>0.
 ```
 
 The enumeration includes all zero-coefficient boundaries: its only possible five-variation words are $`(+,-,+,-,+,-,-)`$, $`(+,-,+,-,+,0,-)`$, and $`(+,-,+,-,+,+,-)`$. They all require (1). Outside (1), Descartes gives at most three central forcing weights, so the total curvature bound is $`3+1+2=6`$.
@@ -63,14 +65,18 @@ The enumeration includes all zero-coefficient boundaries: its only possible five
 
 Under (1), the C3 source-bound localization gives
 
+**(2)**
+
 ```math
-ab<l. \tag{2}
+ab<l.
 ```
 
 At each metric root $`-A_i`$, $`R(-A_i)=0`$ and $`Y=R-B`$ give the exact identity
 
+**(3)**
+
 ```math
-k(l-A_i)(A_i+a)(A_i+b)=A_i(1-A_i). \tag{3}
+k(l-A_i)(A_i+a)(A_i+b)=A_i(1-A_i).
 ```
 
 Because $`l>1`$, equation (3) implies $`A_i\in(0,1)\cup(l,\infty)`$. The values $`A_i=1`$ and $`A_i\in[1,l]`$ are impossible. The closed negative-metric-root inequality has already dispatched every $`A_i\in[t,1]`$; hence every remaining distance lies either below $`t`$ or above $`l`$.
@@ -89,15 +95,19 @@ contradicting (2). There are therefore **exactly two distances below $`t`$ and o
 
 Set $`d=b-a`$, $`L=a+l`$, $`M=b+l`$, and $`j_a=Q-(P-1)a`$. The first-coefficient identity is
 
+**(4)**
+
 ```math
-\frac{C_1}{kd[-H(a)]}=2a(1+a)(M+L)+Ld[R'(a)-j_a]. \tag{4}
+\frac{C_1}{kd[-H(a)]}=2a(1+a)(M+L)+Ld[R'(a)-j_a].
 ```
 
 Thus $`C_1\le0`$ forces $`R'(a)<j_a`$. Since $`R(a)=a(1+a)`$, the two metric distances below $`t`$ give
 
+**(5)**
+
 ```math
 R'(a)=a(1+a)\sum_{i=1}^3\frac1{a+A_i}
- >\frac{2a(1+a)}{a+t}. \tag{5}
+ >\frac{2a(1+a)}{a+t}.
 ```
 
 The logarithmic derivative in (5) counts repeated factors separately, so it remains exact for coincident roots. Using $`Pt=1-Q`$, (4)--(5) imply
@@ -119,8 +129,10 @@ Every term is nonnegative when $`a\ge1/7`$, and the last is strictly positive. H
 
 Positive coefficients of $`R`$ imply $`R'(a)>0`$. Differentiating $`R=B+Y`$ at $`a`$ gives
 
+**(6)**
+
 ```math
-R'(a)=1+2a-kdL>0,\qquad k<\frac{1+2a}{dL}. \tag{6}
+R'(a)=1+2a-kdL>0,\qquad k<\frac{1+2a}{dL}.
 ```
 
 This is exactly the derivative-bound hypothesis of the coefficient-only F23 and F24 theorems. Native wall roots satisfy $`0<h<1/2`$, since $`H(-h)=0`$ gives $`1-Q>2Ph>2h`$.

@@ -29,6 +29,8 @@ p=L_v/L_q,\quad \Pi=\lambda\prod_{i=1}^3(p-r_i),\qquad
 The right original branch is $`p<r_1`$, with $`\Pi<0`$, and p increases
 with x. Use the unchanged polynomials
 
+**(1)**
+
 ```math
 \begin{aligned}
 T&=hp-m,& C&=p(p+1)-\Pi,\\
@@ -36,14 +38,14 @@ E&=-Hhp^2+2Hmp+m(m+1),&D&=HC+E,\\
 A&=-mC+pE,&B&=(h+m)C-(p+1)E,\\
 J&=\Pi(EC'-E'C)-TCD,&V&=uD/C.
 \end{aligned}
-\tag{1}
 ```
 
 Primes in this note mean p derivatives. The exact identities are
 
+**(2)**
+
 ```math
 u'/u=T/\Pi,\qquad V'=-uJ/(\Pi C^2),\qquad A+B+D=C.
-\tag{2}
 ```
 
 The local theorem below uses only (1)-(2) and the strict support inequalities.
@@ -54,16 +56,18 @@ $`P_v`$.
 
 **Theorem 1 (strict central orientation).** Suppose
 
+**(3)**
+
 ```math
 -1<p<0,\qquad C<0,\qquad D/C>0,\qquad A/C>0.
-\tag{3}
 ```
 
 At every stationary point $`J=0`$ satisfying (3),
 
+**(4)**
+
 ```math
 \boxed{J'<0,\qquad V''<0.}
-\tag{4}
 ```
 
 In particular there is no local minimum or multiple stationary point under
@@ -83,10 +87,11 @@ R=-C>0,\quad t=E/R,\quad \chi=D/C=H-t,\quad
 The symbol $`\mathcal P`$ here is not the actual derivative-ratio sum
 $`P=c_3S_v+c_4S_w`$ used in the predecessor. From (3),
 
+**(5)**
+
 ```math
 0<t<H,\qquad zt>m,
 \qquad A/C=zt-m,\qquad B/C=h+m+(1-z)t>0.
-\tag{5}
 ```
 
 Let
@@ -99,26 +104,29 @@ Let
 
 The actual shared support condition $`r_i>m/h`$ gives both strict bounds
 
+**(6)**
+
 ```math
 \boxed{\sigma<\frac{3h}{a_{*}},\qquad
 \sigma_2<\frac{h\sigma}{a_{*}}.}
-\tag{6}
 ```
 
 No independently variable cubic coefficients have replaced the support roots.
 In particular
 
+**(7)**
+
 ```math
 g:=3h\mathcal P/a_{*}-\beta>0.
-\tag{7}
 ```
 
 At a stationary point, (1) gives
 
+**(8)**
+
 ```math
 \boxed{\beta=1-2z+\frac{2Ha_{*}}{t}
 -\frac{a_{*}\chi R}{t\mathcal P}.}
-\tag{8}
 ```
 
 Differentiate J before imposing stationarity. Use
@@ -126,13 +134,16 @@ $`\mathcal P'=-\beta`$, $`\sigma'=\sigma_2`$,
 $`C'=1-2z-\beta`$, $`E'=2Ha_{*}`$, $`E''=-2Hh`$.
 At J=0 the resulting exact identity is
 
+**(9)**
+
 ```math
 \frac{J'}R=\mathcal U+
 \mathcal P^2t\left(\sigma_2-\frac{h\sigma}{a_{*}}\right),
-\tag{9}
 ```
 
 where, with $`k=1-2z`$,
+
+**(10)**
 
 ```math
 \begin{aligned}
@@ -141,7 +152,6 @@ where, with $`k=1-2z`$,
 &+t\beta k-2t\beta^2+
 \frac{h\mathcal P t}{a_{*}}(2\beta-k).
 \end{aligned}
-\tag{10}
 ```
 
 For a chain-rule identity valid away from the stationary locus, set
@@ -167,9 +177,10 @@ R=z(\mu-zK),\quad \mathcal P=z\{1-\mu+z(K-1)\},\quad
 a_{*}=z(h+Hv\mu),
 ```
 
+**(11)**
+
 ```math
 K-\mu=(1-v\mu)(h/v+H\mu)>0.
-\tag{11}
 ```
 
 Thus $`q_{*}=zK/\mu\in(0,1)`$ and $`z=\mu q_{*}/K<1`$.
@@ -181,16 +192,18 @@ Conversely this unit-cube parametrization gives R>0 and $`\mathcal P>0`$:
 
 Choose the strictly positive multiplier
 
+**(12)**
+
 ```math
 \boxed{\eta=\frac{tR(1+\mu)}{2z}>0.}
-\tag{12}
 ```
 
 The certificate proves the stronger inequality
 
+**(13)**
+
 ```math
 \boxed{\mathcal U+\eta g<0}
-\tag{13}
 ```
 
 throughout this open unit cube when beta is replaced by the stationary
@@ -212,6 +225,8 @@ G_n&=3hQ_n^2-aN.
 Then $`\mathcal P=zQ_n/v`$, $`R=zR_n/v`$,
 $`\beta=N/(vQ_n)`$, $`g=G_n/(vaQ_n)`$, and
 
+**(14)**
+
 ```math
 \begin{aligned}
 U_n={}&-2zavQ_n^3-2z^2a^3vQ_n^2
@@ -220,14 +235,14 @@ U_n={}&-2zavQ_n^3-2z^2a^3vQ_n^2
 +2hNQ_n^2-hvQ_n^3k,\\
 \mathcal F&=-2U_n-R_n(1+\mu)G_nQ_n.
 \end{aligned}
-\tag{14}
 ```
 
 All denominators in the identity
 
+**(15)**
+
 ```math
 \mathcal U+\eta g=-\frac{H\mathcal F}{2avQ_n^2}
-\tag{15}
 ```
 
 are positive. The degree of $`\mathcal F`$ in z is four. Substitute
@@ -270,9 +285,10 @@ Now import the generic surviving configuration from the predecessors:
 C has two simple physical roots $`-1<\gamma_1<\gamma_2<0`$, its third
 root is $`\gamma_3>r_3`$, and the cubic
 
+**(16)**
+
 ```math
 Q_v=P_v/L_q^3=mC-pE=-A
-\tag{16}
 ```
 
 has exactly one simple real root. E has roots
@@ -316,9 +332,10 @@ $`\epsilon_+<\gamma_3`$.
 
 The signs of D force exactly three simple real roots:
 
+**(17)**
+
 ```math
 \delta_1<\gamma_1<\epsilon_-<\delta_2<\gamma_2<r_3<\delta_3<\gamma_3.
-\tag{17}
 ```
 
 Here D is positive for sufficiently negative p, negative at gamma1 and
@@ -332,18 +349,20 @@ Q_v(-m/H)=-m\Pi(-m/H)>0
 gives $`\alpha_p<-m/H`$. At Qv=0 one has
 $`D/C=H+m/p`$, so D($`\alpha_p`$)<0 and in fact
 
+**(18)**
+
 ```math
 \epsilon_-<\alpha_p<\delta_2.
-\tag{18}
 ```
 
 The only positive central component is $`(\gamma_1,\delta_2)`$.
 V tends to plus infinity at gamma1 from the right and to zero at delta2.
 At $`\alpha_p`$, the exact identity
 
+**(19)**
+
 ```math
 J=\Pi E Q_v'/m<0
-\tag{19}
 ```
 
 holds: E>0 there, and Qv has a simple crossing from negative to positive.
@@ -364,10 +383,11 @@ is forbidden as well.
 All allowable central hits are therefore on the strictly decreasing final
 interval. There is at most one, and its original height must satisfy
 
+**(20)**
+
 ```math
 \boxed{c_1<V(\alpha_p)
 =u(\alpha_p)\left(H+\frac{m}{\alpha_p}\right).}
-\tag{20}
 ```
 
 If (20) holds, this final interval has exactly one hit by its endpoint
@@ -407,9 +427,10 @@ necessary inequality (20).
 Thus the remaining five of the seven common-height nodes must all lie
 in the second component:
 
+**(21)**
+
 ```math
 \boxed{x(\gamma_3)<x<x(\delta_1).}
-\tag{21}
 ```
 
 V is positive and continuous throughout this interval, including at the

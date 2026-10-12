@@ -38,8 +38,10 @@ z=D_\eta/(tC_\eta),\qquad
 
 The normalized enhanced margin is exactly
 
+**(1)**
+
 ```math
-\mathcal P=(1-z)(3-z)-2\eta+\eta^2F.                 \tag{1}
+\mathcal P=(1-z)(3-z)-2\eta+\eta^2F.
 ```
 
 Its nonnegative sign is equivalent to $`P_2\ge0`$ when the denominators are positive.
@@ -52,10 +54,12 @@ Then $`\mathcal P`$ strictly decreases as $`\kappa`$ increases with the other no
 $`\kappa\ell`$, with coefficients $`\Delta_v\eta^2`$ and
 $`\Delta_r\eta^2`$. Therefore
 
+**(2)**
+
 ```math
 \frac{\partial z}{\partial\kappa}
  =\frac{\eta^2(\kappa+\ell)
-      (\Delta_r C_\eta-\Delta_vD_\eta)}{tC_\eta^2}>0.           \tag{2}
+      (\Delta_r C_\eta-\Delta_vD_\eta)}{tC_\eta^2}>0.
 ```
 
 Also

@@ -26,6 +26,8 @@ and define the actual `P1,P3,G,K6` by
 L_{21}=\lambda_2-\lambda_1,\quad L_{32}=\lambda_3-\lambda_2,
 ```
 
+**(1)**
+
 ```math
 \begin{aligned}
 P_1&=(\mathcal D\lambda_2)L_{21}
@@ -36,7 +38,7 @@ G&=(\lambda_3-\lambda_1)L_{21}L_{32}
  +(\mathcal DL_{32})L_{21}-(\mathcal DL_{21})L_{32},\\
 w(P_1'P_3-P_1P_3')-(\lambda_3-\lambda_1)P_1P_3
  &=\lambda_2K_6,\qquad \deg K_6\le6.
-\end{aligned}                                                    \tag{1}
+\end{aligned}
 ```
 
 The quotient in (1) is an actual polynomial identity.  Suppose `K6`
@@ -75,19 +77,23 @@ J=A_0z-B_0,\qquad L=\Delta z+F.
 To avoid confusing the cubic `A` with the source difference, `A0` denotes
 the latter throughout.  Direct homogenization of (1) gives
 
+**(2)**
+
 ```math
 \begin{aligned}
 A&=-d_2zJ-\ell_2\{\ell_1J-(d_2-d_1)z\},\\
 P&=\ell_2\{\ell_3L-(d_3-d_2)z\}+d_2zL,\\
 H&=(\ell_3-\ell_1)JL+(A_0F+B_0\Delta)z(1+z),\\
 LA+JP&=\ell_2H.
-\end{aligned}                                                    \tag{2}
+\end{aligned}
 ```
 
 Let `T(z)=(1+z)^6 K6(1/(1+z))`.  The transformed critical identity is
 
+**(3)**
+
 ```math
--z(1+z)(A'P-AP')-(\ell_3-\ell_1)AP=\ell_2T.       \tag{3}
+-z(1+z)(A'P-AP')-(\ell_3-\ell_1)AP=\ell_2T.
 ```
 
 The actual polynomial has
@@ -99,11 +105,15 @@ K_6(0)=a_1a_2a_3(a_3-a_2)(a_3-a_1)(a_2-a_1)<0.
 Thus `T` has degree six, negative leading coefficient, and its six roots
 are positive, counted with multiplicity.  In particular
 
+**(4)**
+
 ```math
-T(z)<0\qquad(z\le0).                              \tag{4}
+T(z)<0\qquad(z\le0).
 ```
 
 The exact evaluations at the seam `z=-1` are
+
+**(5)**
 
 ```math
 \begin{aligned}
@@ -111,7 +121,7 @@ A(-1)&=d_1d_2(d_2-d_1),\\
 P(-1)&=-d_2d_3(d_3-d_2),\\
 H(-1)&=-(d_3-d_1)(d_2-d_1)(d_3-d_2),\\
 T(-1)&=d_1d_2d_3(d_2-d_1)(d_3-d_1)(d_3-d_2)<0.
-\end{aligned}                                                    \tag{5}
+\end{aligned}
 ```
 
 All factors in the last line are nonzero.  Thus none of the three cubics
@@ -146,28 +156,34 @@ Consequently
 At `E`, the Pluecker identity in (2) becomes `JP=ell2 H`.
 Both `J(E)` and `ell2(E)` are negative, so
 
+**(6)**
+
 ```math
 \boxed{\operatorname{sgn}P(E)=\operatorname{sgn}H(E)
-       =\operatorname{sgn}(1+E).}                  \tag{6}
+       =\operatorname{sgn}(1+E).}
 ```
 
 The second fixed point is `L0=-F/Delta<0`, the zero of the reciprocal
 linear `L`.  Exact substitution in (2) gives the two uniform product
 identities
 
+**(7)**
+
 ```math
 \begin{aligned}
 \Delta^2 P(L_0)&=-(\Delta-F)F(a_2F+b_2\Delta),\\
 \Delta^2 H(L_0)&=-(\Delta-F)F(A_0F+B_0\Delta).
-\end{aligned}                                                    \tag{7}
+\end{aligned}
 ```
 
 Their nonzero bracket factors are positive.  Since
 `1+L0=(Delta-F)/Delta`,
 
+**(8)**
+
 ```math
 \boxed{\operatorname{sgn}P(L_0)=\operatorname{sgn}H(L_0)
-       =-\operatorname{sgn}(1+L_0).}               \tag{8}
+       =-\operatorname{sgn}(1+L_0).}
 ```
 
 ```math

@@ -18,16 +18,18 @@ A=-mC+pE,\quad B=(h+m)C-(p+1)E,
 
 Write $`R=-C>0`$ and $`e=E/C`$. The coefficient signs imply
 
+**(1)**
+
 ```math
 \frac mp<e<\frac{h+m}{p+1},\qquad E=-eR<0.
-\tag{1}
 ```
 
 The source inequalities yield
 
+**(2)**
+
 ```math
 \sigma=\sum_i\frac1{p-r_i}>\frac{3h}{T}.
-\tag{2}
 ```
 
 Set
@@ -47,10 +49,11 @@ Using $`E'=-2HT`$ and $`C'=2p+1-\Pi\sigma`$,
 
 where
 
+**(3)**
+
 ```math
 g=2p+1-\frac{3h\Pi}{T}+\frac{2HT}{e}
 +\frac{TR(H+e)}{\Pi e}.
-\tag{3}
 ```
 
 Parameterize the interval (1) by
@@ -66,11 +69,12 @@ $`F=-p(p+1)N/T^2`$. Exact expansion gives a quadratic Bernstein form
 F=b_0(1-\theta)^2+2b_1\theta(1-\theta)+b_2\theta^2,
 ```
 
+**(4)**
+
 ```math
 b_0=m(p+1)(Hp+m)((2-h)p+m),
 \qquad
 b_2=p(h+m)(Hp+m+1)((2-h)p+m+2).
-\tag{4}
 ```
 
 Both are strictly positive for every m>0. To prove positivity of b1, set $`q_0=m/p>0`$. One has
@@ -81,10 +85,11 @@ Both are strictly positive for every m>0. To prove positivity of b1, set $`q_0=m
 +3h(H+q_0)p-q_0,
 ```
 
+**(5)**
+
 ```math
 K_2=hH(2-h)+q_0(6-3h-h^2)
 +q_0^2(6-h)+q_0^3>0.
-\tag{5}
 ```
 
 Since E<0,

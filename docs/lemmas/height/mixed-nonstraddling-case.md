@@ -15,18 +15,20 @@ Use the actual mixed cofactors $`R,H,K=H-R`$, and
 $`V=\ell_2P_0-\ell_0P_2`$. Suppose $`R`$ has exactly one physical root
 $`r`$, and
 
+**(1)**
+
 ```math
 \boxed{V(r)>0.}
-\tag{1}
 ```
 
 Then the original $`f`$ has at most eight distinct roots. Equivalently,
 the condition is $`K(r)>0`$, or $`H(r)>0`$, because the exact cofactor
 syzygy at $`R(r)=0`$ gives
 
+**(2)**
+
 ```math
 L(r)V(r)=\ell_2(r)K(r),\qquad L,\ell_2>0.
-\tag{2}
 ```
 
 Thus the negative $`V`$-band and the negative $`K`$-band do not straddle
@@ -75,11 +77,12 @@ k_+=\frac{|u|}{v}=\frac{h_0}{h_1}\frac{\ell_0}{-\ell_1}
 
 has
 
+**(3)**
+
 ```math
 (\log k_+)''=
 \frac{A+a}{t^2}+\frac{B+b}{(1-t)^2}
 -\frac1{(t-m_0)^2}+\frac1{(t-m_1)^2}>0.
-\tag{3}
 ```
 
 It tends to infinity at both endpoints. Hence it has one strict minimum

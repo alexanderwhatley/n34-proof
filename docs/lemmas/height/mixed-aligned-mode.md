@@ -13,10 +13,11 @@ h_1=t^a(1-t)^b,\quad h_2=t^c(1-t)^{-\nu},\quad E_i>0.
 Suppose the pair cofactor $`R=\ell_1P_2-\ell_2P_1`$ has exactly one
 physical root $`r`$, and
 
+**(1)**
+
 ```math
 \boxed{m_0=\frac A{A+B}\ge m_1=\frac a{a+b},}
 \qquad\text{equivalently }Ab\ge aB.
-\tag{1}
 ```
 
 Then $`f`$ has at most eight distinct roots. This is uniform in all
@@ -54,10 +55,11 @@ V=\ell_2P_0-\ell_0P_2,\qquad
 
 The exact derivative identities are
 
+**(2)**
+
 ```math
 \mathscr Du=-\frac{h_0}{h_2}\frac V{\ell_2^2},\qquad
 \mathscr Dv=\frac{h_1}{h_2}\frac R{\ell_2^2}.
-\tag{2}
 ```
 
 Hence every critical point of $`U`$ away from a simultaneous cofactor zero
@@ -77,11 +79,12 @@ k_-=\frac{|v|}{u}
 
 It tends to zero at both endpoints of $`(0,m_1)`$, and
 
+**(3)**
+
 ```math
 (\log k_-)''=
 -\frac{A+a}{t^2}-\frac{B+b}{(1-t)^2}
 -\frac1{(m_1-t)^2}+\frac1{(m_0-t)^2}<0.
-\tag{3}
 ```
 
 Its superlevel sets are intervals, so
@@ -98,11 +101,12 @@ k_+=\frac{|u|}{v}
 
 is strictly increasing, because
 
+**(4)**
+
 ```math
 (\log k_+)'=
 \frac{\ell_0-\ell_1}{t(1-t)}
 +\frac1{t-m_0}-\frac1{t-m_1}>0.
-\tag{4}
 ```
 
 It increases from zero to infinity. Therefore the positive set of
@@ -117,9 +121,10 @@ equivalently $`u'<0`$ there. A proof is included below.
 If $`r<t<m_0`$, both $`u,v`$ are positive and strictly decreasing,
 so $`U'<0`$. If $`t>\max(r,m_0)`$ and $`U>0`$, (4) gives
 
+**(5)**
+
 ```math
 U'=v'(E_1-E_0k_+)-E_0v k_+'<0,
-\tag{5}
 ```
 
 since $`v'<0`$ and the first bracket is positive.

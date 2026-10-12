@@ -38,8 +38,10 @@ On an interval where $`R\ne0`$, direct differentiation gives the exact identity
 D^2\log|T|=-\frac{sr}{R^2}\,B,
 ```
 
+**(1)**
+
 ```math
-B=\bigl((s+1)y^2-py\bigr)^2+(py+q)(py+3q).\tag{1}
+B=\bigl((s+1)y^2-py\bigr)^2+(py+q)(py+3q).
 ```
 
 Here are the intermediate steps, so that no computer calculation is needed. Write $`A=p-2(s+1)y`$, so that $`DR=rA`$ and

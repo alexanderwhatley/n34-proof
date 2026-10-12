@@ -27,11 +27,15 @@ u=h_1'=-b_1(1-x)^{b_1-1};
 this never vanishes in $`(0,1)`$.  For
 $`h_j=x^{a_j}(1-x)^{b_j}`$, direct differentiation gives
 
+**(4)**
+
 ```math
-W(u,h_j')=-b_1x^{a_j-2}(1-x)^{b_1+b_j-3}K_j(x),              \tag{4}
+W(u,h_j')=-b_1x^{a_j-2}(1-x)^{b_1+b_j-3}K_j(x),
 ```
 
 where
+
+**(5)**
 
 ```math
 \begin{split}
@@ -39,13 +43,14 @@ where
              \bigl(a_j-(a_j+b_j)x\bigr)\\
           &-(a_j+b_j)x(1-x)
  \end{split}
- \tag{5}
 ```
 
 has degree at most two.  Since the $`h_1`$-term drops out,
 
+**(6)**
+
 ```math
-u^2(f'/u)'=W(u,f')=-E_2W(u,h_2')-E_3W(u,h_3').               \tag{6}
+u^2(f'/u)'=W(u,f')=-E_2W(u,h_2')-E_3W(u,h_3').
 ```
 
 After factoring a nonvanishing beta monomial, (6) is an equation
@@ -69,21 +74,27 @@ $`b_i=0`$ assertion.  $`\square`$
 exponent).**  Assume that $`L`$ is the unique minimizer of the left
 exponents and
 
+**(9)**
+
 ```math
-a_L<0<b_L,\qquad a_L<a_i\quad(i\ne L),                        \tag{9}
+a_L<0<b_L,\qquad a_L<a_i\quad(i\ne L),
 ```
 
 and assume the right endpoint is negative, i.e. some $`b_R<0`$.
 If $`f`$ had ten roots, then necessarily
 
+**(10)**
+
 ```math
-a_i>0\qquad(i\ne L).                                          \tag{10}
+a_i>0\qquad(i\ne L).
 ```
 
 **Proof.** Since $`a_L<0<b_L`$,
 
+**(11)**
+
 ```math
-g_L=(a_L(1-x)-b_Lx)h_L<0                                    \tag{11}
+g_L=(a_L(1-x)-b_Lx)h_L<0
 ```
 
 throughout $`(0,1)`$.  Thus
@@ -92,17 +103,21 @@ zeros of $`N`$.
 
 We work with a generic proposed counterexample having ten simple original roots, as justified above.  Rolle gives $`Z(N)\geq9`$.  On the other hand,
 
+**(12)**
+
 ```math
 g_L^2\,\delta H=W(g_L,N)
-   =\sum_{i\ne L}E_iW(g_L,g_i),                                \tag{12}
+   =\sum_{i\ne L}E_iW(g_L,g_i),
 ```
 
 and, after removing a beta factor, (12) is a beta-monomial times a
 cubic minus a cubic.  Therefore (EHT) gives $`Z(\delta H)\leq8`$,
 and Rolle gives $`Z(H)\leq9`$.  Consequently
 
+**(13)**
+
 ```math
-Z(H)=9,\qquad Z(\delta H)=8,                                  \tag{13}
+Z(H)=9,\qquad Z(\delta H)=8,
 ```
 
 with the eight derivative roots lying between successive roots of
@@ -113,15 +128,19 @@ inter-zero Rolle roots, contradicting $`Z(\delta H)\leq8`$.
 
 The endpoint germs are sign-controlled.  Unique left dominance gives
 
+**(14)**
+
 ```math
-H(x)\longrightarrow E_L>0\qquad(x\to0+).                     \tag{14}
+H(x)\longrightarrow E_L>0\qquad(x\to0+).
 ```
 
 At the right, a $`b_R<0`$ term makes $`N\to+\infty`$, while
 $`g_L<0`$ and tends to zero because $`b_L>0`$, so
 
+**(15)**
+
 ```math
-H(x)\longrightarrow-\infty\qquad(x\to1-).                    \tag{15}
+H(x)\longrightarrow-\infty\qquad(x\to1-).
 ```
 
 Nine simple zeros therefore start with a downward crossing.  If
@@ -132,8 +151,10 @@ inter-zero critical points this would contradict (13).
 Let $`k\ne L`$ have the smallest $`a_k`$ among the remaining terms.
 For distinct endpoint exponents,
 
+**(16)**
+
 ```math
-H=E_L+E_k\frac{a_k}{a_L}x^{a_k-a_L}(1+o(1))                  \tag{16}
+H=E_L+E_k\frac{a_k}{a_L}x^{a_k-a_L}(1+o(1))
 ```
 
 at the left (terms with larger $`a_i`$ are lower order).  If
@@ -156,8 +177,10 @@ right dominant to be $`(+,-)`$, force the third term to be
 $`(+,+)`$, and force all three indicated signs to be strict.  Thus
 the only residual mixed-extreme split pattern is
 
+**(17)**
+
 ```math
-(-,+),\quad (+,+),\quad (+,-),                              \tag{17}
+(-,+),\quad (+,+),\quad (+,-),
 ```
 
 with the first term uniquely left-dominant and the last uniquely
@@ -178,9 +201,11 @@ two arbitrary strict-sign terms.  It is not decided by Lemmas 2--3.
 Thus, after the transition exclusion, the complete residual registry
 is:
 
+**(18)**
+
 ```math
 \boxed{\text{pure split (17); split with two distinct `--' extremes;
- one-corner with one `--' dominant.}}                           \tag{18}
+ one-corner with one `--' dominant.}}
 ```
 
 ## One-corner refinement
@@ -188,8 +213,10 @@ is:
 **Lemma.** Let $`D`$ be the unique coordinatewise dominant
 negative-negative term. A ten-root configuration requires
 
+**(R1)**
+
 ```math
-\min_{j\ne D}a_j>0\quad\text{or}\quad \min_{j\ne D}b_j>0.       \tag{R1}
+\min_{j\ne D}a_j>0\quad\text{or}\quad \min_{j\ne D}b_j>0.
 ```
 
 Because a ten-simple-root chamber is open, perturb generically within
@@ -215,8 +242,10 @@ gives the ninth. This proves (R1).
 Up to reflection, the only one-corner sign patterns still needing
 work have
 
+**(R2)**
+
 ```math
-D=(-,-),\qquad v_2,v_3\in\{(+,+),(+,-)\}.                    \tag{R2}
+D=(-,-),\qquad v_2,v_3\in\{(+,+),(+,-)\}.
 ```
 
 ## Two distinct negative-negative extremes
@@ -240,18 +269,22 @@ forcing $`a_K,b_K>0`$.
 
 For one beta monomial,
 
+**(19)**
+
 ```math
 h''=x^{a-2}(1-x)^{b-2}
- \bigl(a(a-1)(1-x)^2-2abx(1-x)+b(b-1)x^2\bigr).               \tag{19}
+ \bigl(a(a-1)(1-x)^2-2abx(1-x)+b(b-1)x^2\bigr).
 ```
 
 The quadratic factor is nonnegative for every $`0<x<1`$ exactly in
 the following exponent cone:
 
+**(20)**
+
 ```math
 \mathcal C=\{a\leq0,b\leq0\}\cup
              \{a\leq0,b\geq1\}\cup
-             \{a\geq1,b\leq0\}.                               \tag{20}
+             \{a\geq1,b\leq0\}.
 ```
 
 Necessity follows from the two endpoint coefficients and from the

@@ -44,9 +44,10 @@ R=\frac{(d_1+rd_3)(a_1+ra_3)(b_1+rb_3)}{\gamma^2},\qquad Y=R-B.
 
  The two positive simple roots of $`H`$ are $`\eta<\xi`$. Normal-curvature contacts, with their orders preserved, are the zeros of
 
+**(21)**
+
 ```math
 A=B+H u_C-R.
-\tag{21}
 ```
 
  At a wall the source ratio satisfies $`\sigma=B/R`$. Thus high, low, and unit walls mean $`Y<0`$, $`Y>0`$, and $`Y=0`$, respectively. Away from a wall, (21) is equivalent to $`u_C=u_0`$, where $`u_0=Y/H`$.
@@ -59,18 +60,20 @@ u_C'=f(r,u_C),\qquad f(r,u)=\frac{j u(1-Pu)}{B+Hu},
 
 
 
+**(22)**
+
 ```math
 u_C''=\frac{u_C(1-Pu_C)(r-Qu_C)(1+r-Ku_C)}{(B+Hu_C)^3}H.
-\tag{22}
 ```
 
  All factors except $`H`$ in the second formula are strictly positive. There is also a stronger global shape statement. For $`e_C=r u_C'/u_C`$,
+
+**(23)**
 
 ```math
 \boxed{\quad
 e_C'=-\frac{(1-Pu_C)(r-Qu_C)
 \{u_C(H+Kr)^2+Kr^2(1+r-Ku_C)\}}{(B+Hu_C)^3}<0.\quad}
-\tag{23}
 ```
 
  Consequently $`\log u_C(e^x)`$ is strictly concave on the entire real line.
@@ -86,16 +89,18 @@ W=R(HY'-H'Y)-Y(H-PY)j,
 
 
 
+**(24)**
+
 ```math
 a=\frac{j[B(1-P(u_C+u_0))-PHu_Cu_0]}{(B+Hu_C)R}.
-\tag{24}
 ```
 
  This coefficient is analytic on each entire open wall interval, including at contacts and at nonphysical source values. A positive integrating factor therefore yields
 
+**(25)**
+
 ```math
 Z_I(D)\le Z_I(W)+1.
-\tag{25}
 ```
 
  The weighted Rolle statement applies to arbitrary finite selections and also excludes infinitely many contacts. The forcing $`W`$ has degree at most six; its apparent degree-seven terms cancel.
@@ -111,10 +116,11 @@ Set $`\Delta=\xi-\eta`$, $`v=(r-\eta)/(\xi-r)>0`$, $`L_0=B(\eta)`$, $`T_0=B(\xi)
 
  All $`g_i`$ are positive. The wall relation $`(P-1)\Delta^2=2(2\eta\xi+\eta+\xi)`$ gives the short identity
 
+**(26)**
+
 ```math
 (1+v)^6W\left(\frac{\eta+\xi v}{1+v}\right)
 =\frac{P(P-1)\Delta}{2}\sum_{i=0}^6 C_i v^i,
-\tag{26}
 ```
 
  where
@@ -154,11 +160,12 @@ u_0=\ell_0+mr-\frac{V}{r-\eta}+\frac{U}{r-\xi},
 
  For every central $`c`$ and every right exterior $`g>\xi`$,
 
+**(27)**
+
 ```math
 \frac{u_0(g)-u_0(c)}{g-c}
 =m+\frac{V}{(g-\eta)(c-\eta)}
 +\frac{U}{(g-\xi)(\xi-c)}>0.
-\tag{27}
 ```
 
  Reflection gives the corresponding order for $`u_0/r`$ on the left. Put
@@ -180,9 +187,10 @@ Divide by the positive analytic unit $`r^{\lambda_0}`$ and differentiate. The de
 
 Suppose an actual $`u_C`$ had a contact in each interval. Choose any central contact $`c`$. By the localization above, $`e=e_C(c)\in(0,1)`$. Strict log concavity (23) gives its global power upper tangent
 
+**(28)**
+
 ```math
 u_C(r)<a r^e\quad(r\ne c),\qquad a=u_C(c)/c^e>0.
-\tag{28}
 ```
 
  At each exterior contact, $`u_0=u_C<a r^e`$. The formal source-minus-power difference is positive at both ends of each exterior: on the left $`u_0(0)=R(0)/[Q(Q-1)]>0`$ and $`u_0\to+\infty`$ at $`\eta-`$; on the right $`u_0\to+\infty`$ at $`\xi+`$ and $`u_0\sim R_3r/[P(P-1)]`$, which dominates $`a r^e`$ at infinity. The two negative exterior points therefore force four distinct exterior zeros. The central contact supplies a fifth zero. No central critical point or source tangency is needed.
@@ -275,10 +283,11 @@ s=g_3/T_0\in(0,1),\quad m=L_0/T_0,\quad sp=g_0/T_0>m,
 
  Since $`e_1>e_2>0`$, $`J>0`$. The exact identity
 
+**(29)**
+
 ```math
 \boxed{\frac{C_2+C_4}{T_0^2}
 =(1-s)+sE+s(1-s)J+(sp-m)(4se_1+sp+m)>0}
-\tag{29}
 ```
 
  prevents both uncertain internal coefficients from being negative. There are therefore at most three coefficient sign changes, including the possible last change at $`C_6`$. Equations (26) and (25) give at most four central weights. The difference $`u_C-u_0`$ is positive at $`\eta+`$ and negative at $`\xi-`$, so its weight is odd and at most three. Thus $`2+3+1=6`$ curvature weights give original eight.

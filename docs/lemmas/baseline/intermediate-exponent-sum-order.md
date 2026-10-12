@@ -10,9 +10,10 @@ F=A_0+A_1m_1-B_0m_2-B_1m_3,
 
 where all four coefficient magnitudes are positive and
 
+**(F3)**
+
 ```math
 0<e<a<c,\qquad 0<f<b,\qquad d>0,\qquad 0<x<1.
-\tag{F3}
 ```
 
 Set
@@ -25,8 +26,10 @@ Every original root statement counts distinct roots and excludes an identity.
 
 The complete sector is
 
+**(I)**
+
 ```math
-\boxed{0<S_1<S_3<S_2.}                                  \tag{I}
+\boxed{0<S_1<S_3<S_2.}
 ```
 
 The following preceding reductions are used. They are mathematical prerequisites of the sector assembly; the exterior barrier proved here does not establish them by itself:
@@ -35,9 +38,10 @@ The following preceding reductions are used. They are mathematical prerequisites
 2. The cofactor count/exterior reduction in order I. If P=e0/LC(e0), Q=e1/LC(e1), then LC(e0)>0 and LC(e1)<0. Q has one root q_minus<0, one physical root q, and one root q_plus>1. If P(q_plus)>0, the original bound is eight. In particular, this covers the three-physical-root e0 case.
 3. If P(q_plus)<0 remains, P has one physical root p and two right-exterior roots
 
+**(1.1)**
+
 ```math
 1<p_-<q_+<p_+.
-\tag{1.1}
 ```
 
 4. All order-I rows with b>=1 are already proved by a deflated phase inequality.
@@ -66,9 +70,10 @@ They have degree at most three and endpoint signs (-,-,+,+) at zero and (+,+,-,-
 
 Introduce strictly positive support gaps
 
+**(2.1)**
+
 ```math
 h=a-e,\qquad k=c-a,\qquad v=b-f,\qquad D=d+f.
-\tag{2.1}
 ```
 
 Here D is a scalar gap, distinct from the operator D_x. Then
@@ -79,9 +84,10 @@ e_0=H((-h,D+v),(k,v)).
 
 In order I,
 
+**(2.2)**
+
 ```math
 \boxed{D>h+k,}
-\tag{2.2}
 ```
 
 because S2-S3=D-h-k>0.
@@ -100,9 +106,10 @@ Set x=1+z. Define
 
 Direct original differentiation gives
 
+**(2.3)**
+
 ```math
 \boxed{e_0(1+z)=\mathcal A\mathcal B\mathcal C-\Delta z(1+z).}
-\tag{2.3}
 ```
 
 This formula uses the original six exponents through their four actual differences. It is not an arbitrary choice of an auxiliary cubic.
@@ -113,9 +120,10 @@ This formula uses the original six exponents through their four actual differenc
 
 If D>h+k and D>1, then
 
+**(3.1)**
+
 ```math
 \boxed{e_0(x)>0\quad\text{for every }1\le x\le D.}
-\tag{3.1}
 ```
 
 In particular, every right-exterior root of e0 lies strictly beyond D.
@@ -129,18 +137,21 @@ In particular, every right-exterior root of e0 lies strictly beyond D.
 
 Thus
 
+**(3.2)**
+
 ```math
 \begin{aligned}
  e_0(1+z)
  &>D^2\{v+(k+v)z\}-D(k+v)z(1+z)\\
  &=D^2v+D(k+v)z(D-1-z).
 \end{aligned}
-\tag{3.2}
 ```
 
 For 0<=z<=D-1 this is at least D^2v>0. Strictness at z=0 follows from A>D and B=v>0. This proves the lemma, including x=D.
 
 The strict remainder can also be written as
+
+**(3.3)**
 
 ```math
 \begin{aligned}
@@ -148,7 +159,6 @@ The strict remainder can also be written as
 &\quad=(\mathcal A\mathcal C-D^2)\mathcal B
        +v(D-h-k)z(1+z),
 \end{aligned}
-\tag{3.3}
 ```
 
 and
@@ -173,9 +183,10 @@ P=(x-p)(x-p_-)(x-p_+),\quad
  Q=(x-q_-)(x-q)(x-q_+),
 ```
 
+**(4.1)**
+
 ```math
 q_-<0,\quad p,q\in(0,1),\quad 1<p_-<q_+<p_+.
-\tag{4.1}
 ```
 
 The globally monotone anchor {2,3} has score
@@ -196,9 +207,10 @@ The derivative identity gives this expression atom by atom; B0 and B1 are annihi
 \phi=\log|Q/P|-a\log x+b\log(1-x)=\Lambda,
 ```
 
+**(4.2)**
+
 ```math
 \boxed{\Lambda=\log\frac{A_1L_P}{A_0(-L_Q)}.}
-\tag{4.2}
 ```
 
 The coefficient level is fixed by the original coefficients and is not changed from component to component.
@@ -213,21 +225,25 @@ Deflate the physical roots and define
 
 It is smooth on the entire interval (0,1), and
 
+**(4.3)**
+
 ```math
 \phi=\mathscr H+\log\left|\frac{x-q}{x-p}\right|.
-\tag{4.3}
 ```
 
 ### Lemma 4.1: large exterior roots make the deflated phase decrease
 
 If a>=2 and p_->2, then
 
+**(4.4)**
+
 ```math
 \boxed{\mathscr H'<0\quad(0<x<1).}
-\tag{4.4}
 ```
 
 Indeed the exact positive margin is
+
+**(4.5)**
 
 ```math
 \boxed{
@@ -237,12 +253,13 @@ Indeed the exact positive margin is
  +\frac{p_--2x}{x(p_--x)}\\
  &+\frac{p_+-q_+}{(q_+-x)(p_+-x)}>0.
 \end{aligned}}
-\tag{4.5}
 ```
 
 All three terms are strictly positive. The asserted upper bound for H' is itself strictly negative for a>=2 and b>0.
 
 More generally, if p_->D>1, the same calculation gives
+
+**(4.6)**
 
 ```math
 \begin{aligned}
@@ -251,7 +268,6 @@ More generally, if p_->D>1, the same calculation gives
  +\frac{p_--Dx}{(D-1)x(p_--x)}
  +\frac{p_+-q_+}{(q_+-x)(p_+-x)}>0.
 \end{aligned}
-\tag{4.6}
 ```
 
 Thus a>=D/(D-1) is another sufficient condition. Only the simpler a>2,D>2 consequence is needed for the full sector union.
@@ -268,9 +284,10 @@ If p<q, the useful components are (0,p) and (q,1). For any U in the first and V 
 
 Therefore
 
+**(4.7)**
+
 ```math
 \boxed{\phi(U)>\phi(V).}
-\tag{4.7}
 ```
 
 A fixed finite level can occupy at most one useful component.
@@ -306,9 +323,10 @@ The three-physical-root e0 sector belongs to the positive-evaluation case and is
 
 Thus
 
+**(5.1)**
+
 ```math
 \boxed{0<S_1<S_3<S_2\quad\Longrightarrow\quad Z(F)\le8.}
-\tag{5.1}
 ```
 
 For generic original roots, the original A0 term dominates near zero and the positive A1 term dominates near one because b>f. Their endpoint signs are both positive. Hence the nine-root ceiling above improves to eight by parity.

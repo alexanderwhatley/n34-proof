@@ -12,15 +12,19 @@ R(r)=\frac{(d_1+r d_3)(a_1+r a_3)(b_1+r b_3)}{\gamma^2},
 
 Write $`0<\eta<\xi`$ for the two roots of $`H`$. Assume only
 
+**(1)**
+
 ```math
-\boxed{Y(\eta)<0,\qquad Y(\xi)<0.} \tag{1}
+\boxed{Y(\eta)<0,\qquad Y(\xi)<0.}
 ```
 
 Then every positive-coefficient mixture on these supports has at most **six contacts with every positive level, counting multiplicity**:
 
+**(2)**
+
 ```math
 Z_{(0,1)}\left(\sum_{i=1}^3 E_i x^{a_i}(1-x)^{b_i}-L\right)\le6,
-\qquad E_1,E_2,E_3,L>0. \tag{2}
+\qquad E_1,E_2,E_3,L>0.
 ```
 
 The bound is sharp. There is no residue-balance inequality, seam-edge regularity hypothesis, or simplicity hypothesis on forcing, curvature, or original contacts.
@@ -48,33 +52,41 @@ The fixed-wall chart supplies one analytic graph $`u_C(r)`$, $`r>0`$, with
 
 Its source-independent differential equation is
 
+**(3)**
+
 ```math
 u_C'=F(r,u_C),\qquad
-F(r,u)=\frac{u(1-Pu)[Q-(P-1)r]}{B(r)+H(r)u}. \tag{3}
+F(r,u)=\frac{u(1-Pu)[Q-(P-1)r]}{B(r)+H(r)u}.
 ```
 
 Its second derivative has the strict sign of $`H`$. Thus $`u_C`$ is convex on the exterior wall intervals and concave centrally.
 
 The original normal-curvature contact equation is
 
+**(4)**
+
 ```math
-B+Hu_C=R. \tag{4}
+B+Hu_C=R.
 ```
 
 Since (1) excludes contacts at either wall, this is equivalent, with the same analytic contact orders, to $`u_C=u_0`$, where $`u_0=Y/H`$, on each wall interval.
 
 The entropy function is
 
+**(5)**
+
 ```math
 (P+Q-1)J(r,u)=P\log(1-Pu)-\log u+Q\log(r-Qu)
--(P+Q-1)\log(1+r-(P+Q-1)u). \tag{5}
+-(P+Q-1)\log(1+r-(P+Q-1)u).
 ```
 
 The entropy chart gives $`J_u<0`$ in the probability domain and $`J_r+J_uF=0`$. Hence, on a physical source seam,
 
+**(6)**
+
 ```math
 \frac{d}{dr}J(r,u_0(r))
-=J_u(r,u_0)\,[u_0'-F(r,u_0)]. \tag{6}
+=J_u(r,u_0)\,[u_0'-F(r,u_0)].
 ```
 
 We prove that the bracket is strictly negative on the left exterior arc and strictly positive on the right one.
@@ -83,9 +95,11 @@ We prove that the bracket is strictly negative on the left exterior arc and stri
 
 Fix $`0<r<\eta`$. Put $`a=P(P-1)`$ and $`j=Q-(P-1)r>0`$. Direct differentiation gives
 
+**(7)**
+
 ```math
 F_{uu}(r,u)=-\frac{2jB(PB+H)}{(B+Hu)^3}<0
-\quad\text{for }u>-B/H. \tag{7}
+\quad\text{for }u>-B/H.
 ```
 
 Indeed $`PB+H=(Pr-Q)(Pr-Q+1)>0`$, because
@@ -94,8 +108,10 @@ Thus $`F`$ is strictly concave on the entire formal interval where its denominat
 
 For fixed $`r`$, both $`u_0=(R-B)/H`$ and $`u_0'`$ depend affinely on the source coefficients. Consequently
 
+**(8)**
+
 ```math
-\Phi(R)=u_0'-F(r,u_0) \tag{8}
+\Phi(R)=u_0'-F(r,u_0)
 ```
 
 is convex on any convex set of nonnegative-coefficient sources with $`R(r)>0`$. This extension to formal nonphysical values is essential: intermediate source seams in the scale argument need not obey the bounds.
@@ -104,10 +120,12 @@ is convex on any convex set of nonnegative-coefficient sources with $`R(r)>0`$. 
 
 The companion theorem "[unit left wall positive cubic entropy comparison](unit-left-wall-positive-cubic-entropy-comparison.md)" proves:
 
+**(9)**
+
 ```math
 R(\eta)=B(\eta),\quad R(\xi)\le B(\xi),\quad
 R=\sum_{i=0}^3c_i r^i,\ c_i\ge0
-\quad\Longrightarrow\quad \Phi(R)\le0 \text{ on }(0,\eta), \tag{9}
+\quad\Longrightarrow\quad \Phi(R)\le0 \text{ on }(0,\eta),
 ```
 
 with equality only for $`R=B`$.
@@ -143,16 +161,20 @@ The three positive polynomials have 33, 17 and 78 positive integer coefficients.
 
 Write the actual source as $`\delta S(r)`$, where $`S`$ is a fixed cubic with strictly positive coefficients and $`\delta>0`$. Define $`f=S/B`$. If $`S=c_0+c_1r+c_2r^2+c_3r^3`$, the numerator of $`f'`$, up to a positive denominator, is
 
+**(10)**
+
 ```math
-N_f=c_3r^4+2c_3r^3+(c_2-c_1)r^2-2c_0r-c_0. \tag{10}
+N_f=c_3r^4+2c_3r^3+(c_2-c_1)r^2-2c_0r-c_0.
 ```
 
 Its descending coefficients have exactly one sign change. Descartes' rule, the negative constant and the positive leading coefficient prove that $`f`$ has exactly one simple critical point, a strict global minimum. It decreases before that point and increases afterward.
 
 Let $`q=Y(\eta)/Y(\xi)>0`$. The residue comparison already makes the left exterior good whenever $`q\ge(\eta/\xi)^3`$: $`u_0`$ is strictly concave while $`u_C`$ is strictly convex. We only need
 
+**(11)**
+
 ```math
-q<(\eta/\xi)^3. \tag{11}
+q<(\eta/\xi)^3.
 ```
 
 As a function of scale,
@@ -171,32 +193,40 @@ q(0)=B(\eta)/B(\xi)>(\eta/\xi)^2>(\eta/\xi)^3.
 
 Thus (11) forces $`f(\eta)>f(\xi)`$. The first unit scale is
 
+**(12)**
+
 ```math
 \delta_{*}=\frac{B(\eta)}{S(\eta)},\qquad
-\delta_{*}S(\xi)<B(\xi). \tag{12}
+\delta_{*}S(\xi)<B(\xi).
 ```
 
 Fix a physical seam point $`0<r<\eta`$, $`u_0(r)>0`$, and put
 $`\delta_0=B(r)/S(r)`$. Positivity and strict high-wall assumptions give
 
+**(13)**
+
 ```math
-0<\delta_0<\delta<\delta_{*} . \tag{13}
+0<\delta_0<\delta<\delta_{*} .
 ```
 
 Hence $`f(r)>f(\eta)`$. Since $`r<\eta`$ and $`f`$ has one minimum, (10) forces $`f'(r)<0`$. At scale $`\delta_0`$, $`u_0=0`$ and $`F=0`$, so
 
+**(14)**
+
 ```math
 \Phi(\delta_0S)
 =\frac{\delta_0S'(r)-B'(r)}{H(r)}
-=\frac{B(r)}{H(r)}\,\frac{f'(r)}{f(r)}<0. \tag{14}
+=\frac{B(r)}{H(r)}\,\frac{f'(r)}{f(r)}<0.
 ```
 
 At scale $`\delta_{*}`$, (9) applies. This source has strictly positive coefficients and cannot equal $`B`$, whence $`\Phi(\delta_{*}S)<0`$.
 
 Finally, $`\Phi(\delta S)`$ is convex in $`\delta`$ by (7)-(8) on the whole interval $`[\delta_0,\delta_{*}]`$: every intermediate denominator is the positive polynomial $`\delta S(r)`$. A convex function lies below its endpoint chord. Thus
 
+**(15)**
+
 ```math
-\boxed{u_0'-F(r,u_0)<0} \tag{15}
+\boxed{u_0'-F(r,u_0)<0}
 ```
 
 at every physical point of the bad left arc. The argument does not require that arc to avoid the source's bad-curvature segment.

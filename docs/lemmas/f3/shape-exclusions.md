@@ -33,9 +33,10 @@ possible:
 
 In particular, regions 3 and 4 imply the single exclusion
 
+**(1)**
+
 ```math
 r\ge3p,\qquad pr\ge3S^2.
-\tag{1}
 ```
 
 The condition $`N_1\ge0`$ is necessary if $`R`$ has six real roots.
@@ -63,11 +64,12 @@ K&=12hT_b-5Z^2-12Y.
 
 We first prove the following general implication:
 
+**(2)**
+
 ```math
 h>0,\quad L>0,\quad G\ge0,\quad K\ge0
 \quad\Longrightarrow\quad
 \text{the stated root conditions are impossible.}
-\tag{2}
 ```
 
 Let $`\beta`$ be the real root of $`P_p`$, and write its nonreal roots
@@ -88,9 +90,10 @@ L=2a+\beta,\qquad pT-Y=a^2+b^2+2a\beta.
 
 Substitution gives the exact identity
 
+**(3)**
+
 ```math
 4p(T-T_b)=4b^2+(\beta+pq)(2L-3\beta+3pq).
-\tag{3}
 ```
 
 Because $`L>0`$, both $`s`$ and $`pq+2L/3`$ are positive. The identity

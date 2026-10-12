@@ -20,26 +20,29 @@ F=1+\alpha m_u-\beta m_v-\gamma m_w,
 
 with
 
+**(5.1)**
+
 ```math
 \boxed{0<v_1<u_1<w_1,\qquad 0<w_2<u_2<v_2.}
-\tag{5.1}
 ```
 
 Then $`Z(F)\le8`$. Reflection $`x\mapsto1-x`$ and relabeling the two negative terms give the same conclusion.
 
 **Proof.** Label $`s_0=0,s_1=u,s_2=v,s_3=w`$. The three nonconstant supports are pairwise incomparable, and their modes obey
 
+**(5.2)**
+
 ```math
 \theta_v<\theta_u<\theta_w,\qquad \theta_s=s_1/(s_1+s_2).
-\tag{5.2}
 ```
 
 The determinant cofactors have the following signs at both endpoints:
 
+**(5.3)**
+
 ```math
 (\operatorname{sgn}e_0,\operatorname{sgn}e_1,
   \operatorname{sgn}e_2,\operatorname{sgn}e_3)=(-,-,+,+).
-\tag{5.3}
 ```
 
 The two endpoint signs of K are opposite, so there are at most five physical K roots. The complementary useful sets for the three monotone pairs among u,v,w are $`U_{01},U_{02},U_{03}`$.
@@ -55,18 +58,20 @@ Now examine e_3, the signed cubic for the triple $`1,m_u,m_v`$. Since
 
 and $`\lambda_v-\lambda_u<0`$ everywhere, T_3 is strictly negative outside $`(\theta_v,\theta_u)`$. Thus both roots $`r_1<r_2`$ of e_3 lie in that interval, and
 
+**(5.4)**
+
 ```math
 e_3<0\quad(r_1,r_2).
-\tag{5.4}
 ```
 
 On the entire same interval e_2 is strictly positive. Indeed e_2 is the cubic for $`1,m_u,m_w`$, for which $`\Delta_2=u_1w_2-w_1u_2<0`$, and both $`\lambda_u,\lambda_w`$ are positive before $`\theta_u`$. The determinant cubic formula therefore gives $`e_2>0`$.
 
 The exact contact identity for k=2,l=3, at a zero of e_3, reduces to
 
+**(5.5)**
+
 ```math
 \boxed{\lambda_u K=e_2De_3.}
-\tag{5.5}
 ```
 
 Since $`\lambda_u>0`$ and $`e_2>0`$ there, $`K(r_1)<0<K(r_2)`$. A K root lies between them. But throughout that interval

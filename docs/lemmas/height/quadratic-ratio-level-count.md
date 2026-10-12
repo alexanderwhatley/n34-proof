@@ -14,10 +14,11 @@ q(t)=\frac{(t-r_1)(t-r_2)}{(t-h_1)(t-h_2)},\qquad \Phi=vq.
 
 Assume the two zero/pole pairs overlap: the order is one of
 
+**(1)**
+
 ```math
 r_1<h_1<r_2<h_2,\quad h_1<r_1<h_2<r_2,\quad
 h_1<r_1<r_2<h_2,\quad r_1<h_1<h_2<r_2.
-\tag{1}
 ```
 
 If Phi has at most five distinct critical points on (a,b) away from its
@@ -67,10 +68,11 @@ F_\theta(s)=\log|\theta-s|
 
 Direct differentiation gives
 
+**(2)**
+
 ```math
 F_\theta'(s)=
 \frac{\theta(1-\theta)}{s(1-s)(s-\theta)}.
-\tag{2}
 ```
 
 Thus F_theta is strictly decreasing left of theta and strictly
@@ -83,9 +85,10 @@ F_\theta(r_2)>F_\theta(h_2).
 
 Adding these inequalities proves the exact three-component relation
 
+**(3)**
+
 ```math
 \log q(y)>(1-\theta)\log q(x)+\theta\log q(z).
-\tag{3}
 ```
 
 The affine length factors cancel because q has the same number of

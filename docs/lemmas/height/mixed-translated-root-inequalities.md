@@ -24,18 +24,20 @@ z=\frac{t-m}{1-t}>0,\qquad t=\frac{m+z}{1+z},
 
 Direct substitution gives the exact cubic normal form
 
+**(1)**
+
 ```math
 \boxed{\frac{(1+z)^3}{b}R(t)=
  d_0m+d_0(1+m-d_0)z+d_0(1-b-2\nu)z^2
  -\nu(b+\nu)z^3.}
-\tag{1}
 ```
 
 Consequently a strict generic row has three physical $`R`$-roots only if
 
+**(2)**
+
 ```math
 \boxed{b+2\nu<1,\qquad bc+a\nu>2a+b.}
-\tag{2}
 ```
 
 Indeed the constant coefficient in (1) is positive and its cubic
@@ -52,10 +54,11 @@ The three-root inequalities imply several further source restrictions:
 \quad c>1+\frac{(2-\nu)a}{b}>1>\nu,
 ```
 
+**(3)**
+
 ```math
 p=c-a>1+a\left(\frac{2-\nu}{b}-1\right)>1,
 \qquad q=b+\nu<1-\nu<1.
-\tag{3}
 ```
 
 Thus every three-root mixed row automatically has $`p>q`$; a separate

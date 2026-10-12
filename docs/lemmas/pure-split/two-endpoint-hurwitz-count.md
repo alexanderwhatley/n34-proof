@@ -20,10 +20,11 @@ U>0,\quad v>0,\quad \min(U,v)<1,\quad\kappa>0,
 
 the function
 
+**(1)**
+
 ```math
 S_\kappa(x)=P(x)-\kappa h(x)G(x),
 \qquad h(x)=x^{-U}(1-x)^v,
-\tag{1}
 ```
 
 has at most **six roots in `(0,1)`**, counted with multiplicity and hence
@@ -43,20 +44,22 @@ y=1-x,\qquad
 P^\vee(y)=-G(1-y),\qquad G^\vee(y)=-P(1-y),
 ```
 
+**(2)**
+
 ```math
 U^\vee=v,\quad v^\vee=U,\quad
 \kappa^\vee=\frac1\kappa,\quad
 h^\vee(y)=y^{-v}(1-y)^U=\frac1{h(1-y)}.
-\tag{2}
 ```
 
 Then, literally,
+
+**(3)**
 
 ```math
 \boxed{
 P^\vee(y)-\kappa^\vee h^\vee(y)G^\vee(y)
 =\frac{S_\kappa(1-y)}{\kappa h(1-y)}.}
-\tag{3}
 ```
 
 The endpoint signs remain in the orientation:
@@ -65,9 +68,10 @@ The endpoint signs remain in the orientation:
 P^\vee(0)=-G(1)>0,\quad P^\vee(1)=-G(0)<0,
 ```
 
+**(4)**
+
 ```math
 G^\vee(0)=-P(1)>0,\quad G^\vee(1)=-P(0)<0.
-\tag{4}
 ```
 
 The affine root map `r->1-r` takes a physical root to a physical root and

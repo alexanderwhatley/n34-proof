@@ -25,10 +25,11 @@ B/B_3=(t+y)(t-P)(t-S),\quad
 
 and suppose $`P>2/(\beta-1)`$. For the positive profile
 
+**(1)**
+
 ```math
 F(t)=C\frac{(t+x)(t-Q)(t-R)}
  {t^\alpha(1+t)^{\beta-\alpha}(t+y)(t-P)(t-S)},\qquad C>0,
-\tag{1}
 ```
 
 every positive regular level has at most **five** distinct intersections
@@ -43,11 +44,12 @@ prior global root bound. Promotion to arbitrary levels is a separate step.
 
 The logarithmic derivative is
 
+**(2)**
+
 ```math
 G=\frac1{t+x}-\frac1{t+y}+\frac1{t-Q}+\frac1{t-R}
  -\frac1{t-P}-\frac1{t-S}-\frac\alpha t
  -\frac{\beta-\alpha}{1+t}.
-\tag{2}
 ```
 
 Its denominator
@@ -89,9 +91,10 @@ sign blocks if $`y\le x`$, and otherwise five complete ordered blocks
 $`+,-,+,-,+`$. The first two complete blocks transform precisely to
 $`(dt/dr)K(t)`$, where
 
+**(3)**
+
 ```math
 K(t)=\frac{Q-P}{(t-Q)(t-P)}-\frac{\alpha x}{t(t+x)}.
-\tag{3}
 ```
 
 The near negative block has magnitude $`\alpha`$; the intervening
@@ -103,9 +106,10 @@ complete-column grouping, convergence, strict Cauchy minors, and the
 [matrix prefix theorem](positive-matrix-prefix.md) are unchanged. Hence, literally for
 $`\beta\ge2`$, four distinct central zeros imply
 
+**(4)**
+
 ```math
 K(t)<0\quad\text{at every central zero, including }c.
-\tag{4}
 ```
 
 The source identity
@@ -125,11 +129,12 @@ E_T=t(\log Z_T)'.
 
 For $`t>Q`$, with $`\delta=\beta-\alpha`$, its exact derivative is
 
+**(5)**
+
 ```math
 E_T'=\frac{x}{(t+x)^2}-\frac{y}{(t+y)^2}
  -\frac{(Q-P)(t^2-PQ)}{(t-Q)^2(t-P)^2}
  -\frac{\delta}{(1+t)^2}.
-\tag{5}
 ```
 
 For $`\beta>2`$ the scalar estimate in the linked proof proves this negative.
@@ -159,9 +164,10 @@ The positive reduced profile $`Z_T`$ therefore decreases strictly
 from $`v`$ to $`T`$. The removed factor is greater than one at $`v`$
 and less than one at $`T`$, giving
 
+**(6)**
+
 ```math
 \boxed{F(v)>F(T)\quad\text{for every central critical point }v.}
-\tag{6}
 ```
 
 Thus the last-pair conclusion is literal for every $`\beta\ge2`$,
@@ -173,9 +179,10 @@ The [first-pair height comparison](first-pair-height-comparison.md) has the full
 root-factor scope $`\alpha,\beta,x,y>0`$, $`P<Q<S<R`$: if
 $`k_1<k_2<k_3<P`$ are three left critical points, then
 
+**(7)**
+
 ```math
 \boxed{F(k_3)>F(v)\quad\text{for every central critical point }v.}
-\tag{7}
 ```
 
 This theorem has no exponent band, coefficient word, unused-root order,

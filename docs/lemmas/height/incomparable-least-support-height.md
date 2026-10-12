@@ -14,10 +14,11 @@ w=t^{A+a+p}(1-t)^{B+b},\quad S=u-c_3v-c_4w.
 
 The target is, for every nine ordered interior points t1<...<t9,
 
+**(MH-F)**
+
 ```math
 \min(S(t_1),S(t_3),S(t_5),S(t_7),S(t_9))
 \le\max(0,S(t_2),S(t_4),S(t_6),S(t_8)).
-\tag{MH-F}
 ```
 
 Equivalently, every positive common level c1 has at most eight distinct
@@ -62,19 +63,21 @@ U=\frac{D[(1-E_0h_0)/h_1]}{D(h_2/h_1)}
 
 Direct differentiation gives
 
+**(1)**
+
 ```math
 \frac{D(f/h_1)}{D(h_2/h_1)}=U-E_2,
 \qquad DU=\frac{R-E_0h_0H}{h_2L^2}.
-\tag{1}
 ```
 
 Ten distinct original zeros would therefore force eight distinct
 contacts in I of
 
+**(2)**
+
 ```math
 \Phi=w_0R/H=E_0>0,\qquad w_0=1/h_0=t^A(1-t)^B,
 \qquad RK>0.
-\tag{2}
 ```
 
 For strict simple/disjoint cores, division is legitimate: R and H
@@ -94,9 +97,10 @@ H=L(\ell_1-\ell_0)(\ell_2-\ell_0)
  +[q(A+a)+p(B+b)+pq]\rho_t,
 ```
 
+**(3)**
+
 ```math
 K=L\ell_0(\ell_0-\ell_1-\ell_2)+[qA+pB]\rho_t.
-\tag{3}
 ```
 
 Thus R,H,K have degree at most three and strictly positive values at
@@ -143,19 +147,21 @@ e=\frac{\varrho^2-1}{4r(r+1)},\quad Z=x^2-e,
 
 Then
 
+**(4)**
+
 ```math
 R=r[P-(r+1)Z],\quad H=(r+1)[P-rZ],\quad K=P,
 \quad (\log w_0)'=-x/T.
-\tag{4}
 ```
 
 Prime now means d/dx. The derivative numerator is
+
+**(5)**
 
 ```math
 Q=x[P-(r+1)Z][P-rZ]+T(2xP-ZP'),
 \qquad
 \Phi'=-\frac{w_0r(r+1)Q}{TH^2}.
-\tag{5}
 ```
 
 The degree-seven leading terms cancel exactly, so degree Q<=6. At

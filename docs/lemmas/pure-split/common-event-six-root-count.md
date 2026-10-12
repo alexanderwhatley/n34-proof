@@ -15,6 +15,8 @@ $`h_i=x^{a_i}(1-x)^{b_i}`$, $`\lambda_i=a_i-(a_i+b_i)x`$,
 $`L_{21}=\lambda_2-\lambda_1`$, and $`L=\lambda_3-\lambda_2`$.
 The **actual source polynomials**, of degree at most three, are
 
+**(1)**
+
 ```math
 \begin{aligned}
 P_1&=(\mathcal D\lambda_2)L_{21}
@@ -23,7 +25,7 @@ P&=P_3=\lambda_2(\lambda_3L+\mathcal DL)
       -(\mathcal D\lambda_2)L,\\
 G&=(\lambda_3-\lambda_1)L_{21}L
      +(\mathcal DL)L_{21}-(\mathcal DL_{21})L.
-\end{aligned}                                                    \tag{1}
+\end{aligned}
 ```
 
 * $`P_3`$ has exactly one odd-multiplicity root in $`(0,1)`$; or
@@ -31,8 +33,10 @@ G&=(\lambda_3-\lambda_1)L_{21}L
 
 Then, for every $`\kappa>0`$,
 
+**(2)**
+
 ```math
-\boxed{Z_{(0,1),\mathrm{mult}}(P_3-\kappa h_1G)\le6.}              \tag{2}
+\boxed{Z_{(0,1),\mathrm{mult}}(P_3-\kappa h_1G)\le6.}
 ```
 
 No event order, physical $`G`$ simplicity, numerator simplicity, initial pole topology, source common-freeness, exterior reality, or degree-cell condition is a premise. The first shape includes a sole simple numerator root, a sole triple numerator root, and a simple numerator root together with a distinct double numerator root. The second shape includes common-event faces even when $`P_3`$ has three distinct simple physical roots. Integer exponent walls are included literally.
@@ -41,16 +45,20 @@ No event order, physical $`G`$ simplicity, numerator simplicity, initial pole to
 
 The actual identities are
 
+**(3)**
+
 ```math
 LP_1+L_{21}P=\lambda_2G,
 \qquad Q:=w(P'G-PG')-\lambda_1PG=-LK,
-\qquad \deg K\le6.                                               \tag{3}
+\qquad \deg K\le6.
 ```
 
 Here $`K`$ is a polynomial and
 
+**(4)**
+
 ```math
-K(0)=a_1a_2a_3(a_3-a_2)(a_3-a_1)(a_2-a_1)<0.                     \tag{4}
+K(0)=a_1a_2a_3(a_3-a_2)(a_3-a_1)(a_2-a_1)<0.
 ```
 
 In particular $`K`$ is nonzero. Throughout the physical interval,
@@ -69,8 +77,10 @@ r_A<c<r_B,\qquad P_1\text{ has precisely these two simple physical roots.}
 
 The additional exact identity
 
+**(5)**
+
 ```math
-P=\lambda_2\lambda_3L+w(a_3b_2-a_2b_3)                           \tag{5}
+P=\lambda_2\lambda_3L+w(a_3b_2-a_2b_3)
 ```
 
 shows $`P>0`$ on $`(0,c]`$. Indeed $`\lambda_2\ge0`$ there, and
@@ -84,8 +94,10 @@ There is at most one distinct physical common root. Since
 
 has a right side of exact order one at $`r_B`$, both polynomials cannot have order at least two there. Consequently every actual common event satisfies
 
+**(6)**
+
 ```math
-\min(\operatorname{ord}_{r_B}P,\operatorname{ord}_{r_B}G)=1.        \tag{6}
+\min(\operatorname{ord}_{r_B}P,\operatorname{ord}_{r_B}G)=1.
 ```
 
 Set $`S=P-\kappa h_1G`$. As $`x\to0+`$, $`h_1\to+\infty`$, while
@@ -96,9 +108,11 @@ $`h_1\to0`$ and $`P(1)<0`$, giving the same sign. Thus $`S`$ is a nonzero real a
 
 Suppose $`P,G`$ are physically common-free and $`P`$ has exactly one odd physical root $`p`$. Any further physical numerator root is even; because $`\deg P\le3`$, it can only be one distinct double root. All $`S`$ roots are positive-level contacts of
 
+**(7)**
+
 ```math
 Y=\frac{P}{h_1G},\qquad
-Y'=\frac{-LK}{w h_1G^2},                                         \tag{7}
+Y'=\frac{-LK}{w h_1G^2},
 ```
 
 with their original multiplicities. Such contacts lie away from every numerator zero and pole.
@@ -108,15 +122,19 @@ $`d=\sum_g(\operatorname{ord}_gG-1)`$. Let $`a_+,a_-`$ count even numerator root
 
 First ignore the even numerator events in the sign sweep. They do not change its signs. The positive signs at both physical endpoints, the sole odd numerator sign flip, and the $`o`$ odd pole flips give
 
+**(8)**
+
 ```math
 q_0=\frac{o+3}{2}+e_+,
-\qquad t_0=\frac{o-1}{2}+e_-.                                    \tag{8}
+\qquad t_0=\frac{o-1}{2}+e_-.
 ```
 
 Here $`q_0`$ is the positive-component count before those numerator events are inserted. Every negative component is interior; precisely one has the odd numerator event as an endpoint, and the remaining $`t_0`$ components have two $`G`$-pole endpoints. Inserting an even numerator root in a positive component splits that component once. Inserting one in a negative component destroys at most one pole-to-pole component: it either splits such a component into two pieces with a numerator endpoint or lies in a component already lacking two pole endpoints. Thus the actual counts obey
 
+**(9)**
+
 ```math
-q=q_0+a_+,\qquad t\ge t_0-a_-.                                  \tag{9}
+q=q_0+a_+,\qquad t\ge t_0-a_-.
 ```
 
 Weighted Rolle on the positive components supplies at least $`N-q`$ ordinary $`K`$ weights. To see the multiplicity statement directly, contacts of orders $`m_1,\ldots,m_j`$ on one occupied component contribute $`\sum_i(m_i-1)`$ derivative weights at the contacts and at least $`j-1`$ further weights between successive contacts; their sum is $`\sum_i m_i-1`$. Summing over components gives the stated lower bound even when some components are empty.
@@ -138,6 +156,8 @@ Each remaining negative pole-to-pole component contributes an additional interio
 
 Combining (8)–(9) gives the single divisor budget
 
+**(10)**
+
 ```math
 \begin{aligned}
 \deg K
@@ -148,7 +168,6 @@ Combining (8)–(9) gives the single divisor budget
        \frac{\operatorname{ord}_gG-1}{2}\right\rfloor+2e_-
 \ge N-2.
 \end{aligned}
-\tag{10}
 ```
 
 A triple odd numerator root contributes two additional $`K`$ weights, which may simply be omitted from this lower bound. No numerator/pole ordering table or topology dispatch occurs in (10).
@@ -171,9 +190,11 @@ Q=(x-q)^2\widehat Q,\qquad
 
 Because $`L(q)>0`$, polynomial divisibility in (3) gives
 
+**(11)**
+
 ```math
 K=(x-q)^2\widehat K,\quad \deg\widehat K\le4,
-\quad \widehat Q=-L\widehat K.                                  \tag{11}
+\quad \widehat Q=-L\widehat K.
 ```
 
 The residual analytic function $`T`$ has positive sign near zero and negative sign near one. Its finite total physical root multiplicity is $`M=N-1`$, an odd number. At every $`T`$ root, $`B\ne0`$; otherwise physical common-freeness would force an impossible simultaneous $`A`$ zero. Consequently every residual root is a contact of
@@ -184,9 +205,11 @@ V=A/(h_1B),\qquad V'=-L\widehat K/(w h_1B^2).
 
 A polynomial $`B`$ of degree at most two has at most two distinct physical roots, and hence $`V`$ has at most three analytic continuity intervals. Numerator zeros do not split these intervals: $`V`$ remains analytic through them, so weighted Rolle may run across a zero or sign change of $`V`$. Applying weighted Rolle to all residual contacts yields at least $`M-3`$ physical $`\widehat K`$ weights. The two forced $`K`$ weights at $`q`$ add to these, even if $`T`$ also has a root at $`q`$, since orders add in the polynomial factorization (11). Thus
 
+**(12)**
+
 ```math
 Z_{(0,1),\mathrm{mult}}(K)
-\ge 2+(M-3)=N-2.                                                \tag{12}
+\ge 2+(M-3)=N-2.
 ```
 
 This common-event argument requires no hypothesis about the number or orders of physical $`P`$ roots. In particular it covers common events on the long three-numerator-root words as well as the short words.

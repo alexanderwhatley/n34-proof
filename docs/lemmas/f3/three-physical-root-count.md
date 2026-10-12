@@ -21,9 +21,10 @@ P=(x-p)(x-u)(x-v),\qquad Q=\prod_{i=1}^3(x-q_i),
 
 with disjoint roots, and let alpha>beta>0 and kappa>0. Then
 
+**(1)**
+
 ```math
 Z_{(0,1)}\bigl(Q-\kappa x^\alpha(1-x)^{-\beta}P\bigr)\le6
-\tag{1}
 ```
 
 for distinct roots.
@@ -102,9 +103,10 @@ decreasing x order. The virtual residue is alpha-beta.
 The only three-contact bound needed below has a nonnegative initial
 cumulative block followed by
 
+**(2)**
+
 ```math
 2-\alpha,\quad 2-\beta,\quad 1-\beta,\quad-\beta.
-\tag{2}
 ```
 
 There may be final zeros and another negative entry. Since alpha>beta,
@@ -121,9 +123,10 @@ For p<q1 the first two useful intervals have cumulative sequences
 [-\alpha,-\beta,-\beta-1,-\beta-2,-2,-1,0,1],
 ```
 
+**(3)**
+
 ```math
 [1,0,-\alpha,-\beta,-\beta-1,-\beta-2,-2,-1],
-\tag{3}
 ```
 
 so each has at most one stationary phase point.
@@ -135,9 +138,10 @@ pair q1 with p again, now both on the left, and retain the other two
 pairs on the right. The endpoint terms are strictly negative. The last
 useful interval has cumulative sequence
 
+**(4)**
+
 ```math
 [1,2,1,2,2-\alpha,2-\beta,1-\beta,-\beta],
-\tag{4}
 ```
 
 and hence at most three contacts by (2). Consequently its level counts
@@ -153,10 +157,11 @@ most three contacts. Its cumulative sequence is, respectively,
  \quad(p<q3),
 ```
 
+**(5)**
+
 ```math
 [1,2,2-\alpha,2-\beta,1-\beta,-\beta,0,-1]
  \quad(q3<p).
-\tag{5}
 ```
 
 Both obey the same tail bound (2).
@@ -224,10 +229,11 @@ H'=N/(\rho\widetilde P\widetilde Q),\quad
  \phi=H+\log\left|\frac{x-s}{x-p}\right|,
 ```
 
+**(6)**
+
 ```math
 T=(x-p)(x-s)N+(s-p)\rho\widetilde P\widetilde Q,
  \qquad \deg N=5,\quad [x^5]N=\alpha-\beta>0.
-\tag{6}
 ```
 
 ### Left adjacent gap, p<q1
@@ -237,9 +243,10 @@ component's maximum. Then U<p<s<V<q2 and
 phi(U)<Lambda<phi(V). H is smooth on (0,q2). Its two forced roots
 z1,z2 lie in (U,V); the signs at q2,q3,1,u,v force the other three:
 
+**(7)**
+
 ```math
 U<z_1<z_2<V<q2<z_3<q3<z_4<1<u<z_5<v.
-\tag{7}
 ```
 
 These exhaust degree five and are simple.
@@ -269,9 +276,10 @@ components; q2<U<p<s<V<1 and phi(U)<Lambda<phi(V).
 The two height-forced roots plus N(q1)<0<N(q2), N(U)<0 and
 N(u)<0<N(v) exhaust the quintic in the order
 
+**(8)**
+
 ```math
 q1<z_1<q2<z_2<U<z_3<z_4<V<1<u<z_5<v.
-\tag{8}
 ```
 
 All middle contacts lie in I=(z2,min(p,z3)). There M is positive
@@ -294,9 +302,10 @@ If s<p, choose U the last middle maximum and V the first right
 minimum. Then q2<U<s<p<V<1 and phi(U)>Lambda>phi(V).
 The signs and common-height comparison exhaust N as
 
+**(9)**
+
 ```math
 q1<z_1<q2<U<z_2<z_3<V<z_4<1<u<z_5<v.
-\tag{9}
 ```
 
 Set M=(x-s)(x-p)H'/(p-s). On (q2,U], (log M)'<0:
@@ -312,9 +321,10 @@ internal ordering cannot affect cumulative sums. Their common collection,
 the fixed q2,z1,q1,0 collection, virtual infinity, and the fixed v,z5,u,1
 collection give exactly
 
+**(10)**
+
 ```math
 [1,2,3,4,3,4,3,2,1,0,1,0,-1].
-\tag{10}
 ```
 
 There is one sign change. The cumulative-residue lemma gives at most

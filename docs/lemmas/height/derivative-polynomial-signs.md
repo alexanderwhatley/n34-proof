@@ -25,9 +25,10 @@ Let $`W_{\rm raw}`$ be the actual raw degree-six numerator in
 $`W(u',v',w')=uvwW_{\rm raw}/\rho^6`$, using the original column
 order u,v,w. Assume
 
+**(1)**
+
 ```math
 W_{\rm raw}>0\quad\text{on }[x_v,x_u].
-\tag{1}
 ```
 
 The original ten-root saturation provides the stronger condition that
@@ -45,10 +46,11 @@ Condition (1) is all that is used here.
 **Lemma.** There is exactly one simple P_v zero $`\alpha`$ in
 $`(0,x_v)`$, and
 
+**(2)**
+
 ```math
 P_v>0\text{ on }(0,\alpha),\qquad
 P_v<0\text{ on }(\alpha,1).
-\tag{2}
 ```
 
 No claim about the number of real P_v roots outside $`(0,1)`$ is

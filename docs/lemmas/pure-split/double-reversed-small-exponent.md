@@ -23,10 +23,11 @@ B=(q+zt)(a-bt)[(b+z)t-(a-q)]+(az+bq)t(1+t).
 
 For every $`\rho>0`$,
 
+**(1)**
+
 ```math
 \boxed{H=A+\rho t^\alpha(1+t)^{\beta-\alpha}B
 \text{ has at most five distinct positive roots}.}
-\tag{1}
 ```
 
 The seam $`\beta=1`$ is included. No ordering between $`\alpha`$ and
@@ -50,10 +51,11 @@ A_0=au(a+u)>0,\quad A_3=pb(b-p)>0,\quad
 A(c)=-b(u+pc)c(1+c)<0,
 ```
 
+**(2)**
+
 ```math
 B_0=-aq(a-q)<0,\quad B_3=-zb(b+z)<0,\quad
 B(c)=b(q+zc)c(1+c)>0.
-\tag{2}
 ```
 
 Thus each cubic has two positive roots. Ordinary polynomial Descartes and
@@ -61,9 +63,10 @@ their endpoint coefficient signs give exactly two zero-deleted coefficient
 variations each. After coefficient zeros are filled without increasing
 their variations, the A word is one of
 
+**(3)**
+
 ```math
 \texttt{++-+},\qquad\texttt{+-++},\qquad\texttt{+--+},
-\tag{3}
 ```
 
 while B has one positive coefficient block between its negative ends.
@@ -75,10 +78,11 @@ n=\begin{cases}0,&0<\beta<1,\\1,&1\le\beta<2,\end{cases}
 \qquad \zeta=\beta-n\in[0,1),
 ```
 
+**(4)**
+
 ```math
 G=t^\alpha(1+t)^{\zeta-\alpha},\qquad
 C=(1+t)^nB=\sum_{j=0}^{n+3}c_jt^j.
-\tag{4}
 ```
 
 Pascal convolution is variation diminishing, so $`V(C)\le2`$.
@@ -92,22 +96,24 @@ Its zero-deleted sign word is precisely $`\texttt{-+-}`$.
 For $`0<\zeta<1`$, G is the complete Bernstein function from frozen
 [fractional-power basis proof](fractional-root-factor-argument.md), Section2. Its positive Stieltjes measure has density
 
+**(5)**
+
 ```math
 \frac{d\mu}{ds}=\frac1\pi
 \begin{cases}
 \sin(\pi\alpha)s^{\alpha-1}(1-s)^{\zeta-\alpha},&0<s<1,\\
 \sin(\pi\zeta)s^{\alpha-1}(s-1)^{\zeta-\alpha},&s>1.
 \end{cases}
-\tag{5}
 ```
 
 It has infinite support, $`G(0)=0`$ and $`G(t)/t\to0`$.
 The source's strict Stieltjes--Hurwitz/Gaussian argument consequently
 applies to every finite subfamily of
 
+**(6)**
+
 ```math
 1,G,t,tG,t^2,t^2G,t^3,t^3G,t^4G,\ldots.
-\tag{6}
 ```
 
 That argument depends on the fractional factor G, not on a condition
@@ -118,10 +124,11 @@ restriction on this flag lemma. Here $`m=0`$, and n may equally be zero.
 For the included seam $`\beta=1`$, one has $`n=1,\zeta=0`$ and
 $`G=t^\alpha/(1+t)^\alpha`$. It has the exact representation
 
+**(7)**
+
 ```math
 G(t)=\frac{\sin(\pi\alpha)}\pi
 \int_0^1\frac{t}{t+s}s^{\alpha-1}(1-s)^{-\alpha}\,ds.
-\tag{7}
 ```
 
 To verify (7), put $`s=r/(1+r)`$. The integral without its constant
@@ -153,10 +160,11 @@ in (1).
 
 In the flag order (6), the exact merged row is
 
+**(8)**
+
 ```math
 (A_0,\rho c_0,A_1,\rho c_1,A_2,\rho c_2,
 A_3,\rho c_3,\rho c_4),
-\tag{8}
 ```
 
 where the final entry is omitted for n=0. Positive $`\rho`$ does not

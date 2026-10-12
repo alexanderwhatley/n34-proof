@@ -20,10 +20,11 @@ Put $`Z=k(1-t)^2/4`$, with $`0<k\le1`$. The exact identity is
 =\frac{(1-t)^2}{2(at-2t+2)^2}\,P,
 ```
 
+**(A1)**
+
 ```math
 P=t(1-t)(at-2t+2)^2(1-k)^2
 +a^2k[1+(1-t)(1-k)].
-\tag{A1}
 ```
 
 Both terms are nonnegative, and the second is strictly positive. Thus
@@ -40,9 +41,10 @@ J=-6V_2V_1^2-z^2(3V_2^2-V_1V_3).
 
 Inverse differentiation gives $`u_c'''=uzJ/(8V_1^5)`$. Its factorization is
 
+**(A2)**
+
 ```math
 J=\frac{-a(1-t+z)(t+z-1)}{4(at-2t+2)^4}\,P_0(a,t,z).
-\tag{A2}
 ```
 
 For $`0<z<q`$, substitute
@@ -53,11 +55,12 @@ where $`q,\omega,h\in(0,1)`$. Then
 P_0=\frac{8q^4(1-q\omega)}{(1+q^2)^3}R,
 ```
 
+**(A3)**
+
 ```math
 R=(1-q^2)(1+q\omega)(3-\omega^2)
 +2h(1-\omega^2)[q^2(3-2\omega^2)-\omega^2]
 -3h^2(1-q\omega)(1-\omega^2)^2.
-\tag{A3}
 ```
 
 The quadratic $`R`$ is concave in $`h`$. Its two endpoint values are
@@ -66,10 +69,11 @@ The quadratic $`R`$ is concave in $`h`$. Its two endpoint values are
 R(0)=(1-q^2)(1+q\omega)(3-\omega^2)>0,
 ```
 
+**(A4)**
+
 ```math
 R(1)=(q+\omega)[(1-q^2)\omega(3-\omega^2)
 +3q(1-\omega^2)^2]>0.
-\tag{A4}
 ```
 
 Therefore $`R>0`$ for $`0<h<1`$. Every other factor in (A2)--(A3) is

@@ -66,9 +66,10 @@ E_0=(L_2-L_1)(L_3-L_1)(L_3-L_2)
 E_3=L_1L_2(A+Bt)+(ad+be)t(1+t),
 ```
 
+**(1)**
+
 ```math
 E_1=-\{L_2L_3(A+r+(B-q)t)+(cd+ef)t(1+t)\}.
-\tag{1}
 ```
 
 Every formula follows directly from the normalized rows 1,L,L²−s*t; its determinant identities can be checked by hand.
@@ -105,28 +106,32 @@ Again the physical root supplies the third root; the two exterior roots are simp
 
 The determinant Jacobi identity, after the coordinate change, gives the full polynomial identities
 
+**(2a)**
+
 ```math
 L_1\mathcal K=t(1+t)(E_2E_3'-E_3E_2')-(L_3-L_2)E_2E_3,
-\tag{2a}
 ```
+
+**(3a)**
 
 ```math
 (L_3-L_2)\mathcal K=t(1+t)(E_0E_1'-E_1E_0')-L_1E_0E_1.
-\tag{3a}
 ```
 
 The product terms in these identities also make the multiplicity arguments in Section 4 explicit. In particular, at an E3 zero
 
+**(2)**
+
 ```math
 \mathcal K(t)=\frac{t(1+t)E_2(t)E_3'(t)}{a+bt},
-\tag{2}
 ```
 
 and at an E1 zero
 
+**(3)**
+
 ```math
 \mathcal K(t)=\frac{t(1+t)E_0(t)E_1'(t)}{c-e+(f+d)t}.
-\tag{3}
 ```
 
 The anchor denominators vanish at alpha3 and alpha1 respectively. Neither can coincide with a relevant variable root: (1) gives
@@ -135,17 +140,19 @@ The anchor denominators vanish at alpha3 and alpha1 respectively. Neither can co
 E_3(\alpha_3)=(ad+be)\alpha_3(1+\alpha_3)>0,
 ```
 
+**(4)**
+
 ```math
 E_1(\alpha_1)=-(cd+ef)\alpha_1(1+\alpha_1)<0.
-\tag{4}
 ```
 
 The sextic has strict negative signs at each boundary of the two negative-odds slabs:
 
+**(5)**
+
 ```math
 \mathcal K(-\infty)<0,\qquad\mathcal K(-1)<0,
 \qquad\mathcal K(0)<0.
-\tag{5}
 ```
 
 At0 and infinity these are the source endpoint Vandermonde signs. At−1, the normalized jet columns are

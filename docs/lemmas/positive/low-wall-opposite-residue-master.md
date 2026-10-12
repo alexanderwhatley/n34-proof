@@ -39,9 +39,11 @@ $`-\mu<y<1-\mu`$.
 
 The general unequal-weight seam identity is
 
+**(1)**
+
 ```math
 u_0(y)=\frac{n(y)}{A(y^2-\delta^2)}
-=a+by+\frac{D+Ey}{A(y^2-\delta^2)},                                      \tag{1}
+=a+by+\frac{D+Ey}{A(y^2-\delta^2)},
 ```
 
 where
@@ -67,17 +69,21 @@ V=\frac{D-E\delta}{2A\delta}>0.
 
 Then the remainder in (1) has the especially useful form
 
+**(2)**
+
 ```math
-R(y)=\frac{U}{y-\delta}-\frac{V}{y+\delta}.                              \tag{2}
+R(y)=\frac{U}{y-\delta}-\frac{V}{y+\delta}.
 ```
 
 For every central $`c\in(-\delta,\delta)`$ and right-outer
 $`g>\delta`$,
 
+**(3)**
+
 ```math
 \frac{R(g)-R(c)}{g-c}
 =\frac{U}{(g-\delta)(\delta-c)}
- +\frac{V}{(g+\delta)(\delta+c)}>0.                                     \tag{3}
+ +\frac{V}{(g+\delta)(\delta+c)}>0.
 ```
 
 The reflected formula gives the same strict remainder order between any left-outer point and any central point. No positivity of $`D+Eg`$ at an outer point or at the end of the physical interval is needed. The two signed pole contributions in (2) each supply a strictly positive difference.
@@ -88,8 +94,10 @@ The uniform wall-middle-probability-order lemma states that, on one fixed finite
 
 When $`P=Q`$, choose the right tail if $`b\ge0`$, and the left tail if $`b\le0`$; either choice is valid when $`b=0`$. The affine quotient in (1) is no smaller at this chosen outer point than at any central point. Together with the strict remainder difference (3), the source seam therefore imposes
 
+**(4)**
+
 ```math
-u_0(g)>u_0(c).                                                           \tag{4}
+u_0(g)>u_0(c).
 ```
 
 The actual common entropy curve imposes the opposite order. It cannot meet both the central seam component and the chosen outer seam component. This proves the required empty-component inequality with **no condition on the degree difference, remainder slope or contrast size**.
@@ -114,18 +122,22 @@ e=\begin{cases}1-\mu,&Q>P,\\ \mu,&P>Q,\end{cases}
 The physical chosen-tail coordinate $`g=\varepsilon y`$ lies in
 $`(\delta,e)`$. Define
 
+**(5)**
+
 ```math
 \eta=\frac{1}{4A\delta^2}
 \left(
 \sqrt{\frac{D+\widehat E\delta}{e-\delta}}
 +\sqrt{\frac{D-\widehat E\delta}{e+\delta}}
-\right)^2>0.                                                            \tag{5}
+\right)^2>0.
 ```
 
 The quantitative sufficient inequality is
 
+**(6)**
+
 ```math
-\boxed{\widehat b+\eta\ge0.}                                           \tag{6}
+\boxed{\widehat b+\eta\ge0.}
 ```
 
 To prove it, each summand in (3) decreases strictly with $`g`$, so its sum is strictly larger for an interior $`g<e`$ than its value at $`e`$. At that endpoint put

@@ -92,10 +92,11 @@ C_1&=\sum\beta_i\lambda_i d_i,\\
 
 Differentiating the actual normal equation gives
 
+**(1)**
+
 ```math
 z'=\rho l_x,\quad p_i'=\rho p_i\lambda_i,\quad
 \tau'=\rho C,\quad V'=\rho\sum p_i\lambda_i^3-2C.
-\tag{1}
 ```
 
 For example, dotting the differentiated normal equation with l gives
@@ -106,19 +107,21 @@ $`\sum p_i\lambda_i^3=\Lambda V+\Pi`$.
 Also $`V=V_0+\tau V_1`$, $`C=C_0+\tau C_1`$, and
 $`V(1-\rho V_1)=V_0`$. Eliminating V proves
 
+**(2)**
+
 ```math
 V_0\rho'=3C_0\rho+B\rho^2+\Pi V_1\rho^3,
 \qquad B=3C_1V_0-3C_0V_1-\Lambda V_0-\Pi.
-\tag{2}
 ```
 
 Compare $`\rho_0=1/w`$. On a connected zero-free V0 interval,
 $`d=\rho-1/w`$ obeys
 
+**(3)**
+
 ```math
 d'=A(x)d+\frac{T(x)}{V_0w^3},\quad
 T=3C_0w^2+Bw+\Pi V_1+V_0(1-2x)w.
-\tag{3}
 ```
 
 A is analytic, obtained by dividing the difference of the cubic in (2)
@@ -128,13 +131,14 @@ and Pi at most three. This degree bound needs no computer algebra
 cancellation. One may additionally verify the exact identity
 $`T=K_6/\Delta`$, where
 
+**(4)**
+
 ```math
 K_6=\det\begin{bmatrix}
 \lambda_i\\
 \lambda_i^2-wd_i\\
 \lambda_i^3-3wd_i\lambda_i-w(1-2x)d_i
 \end{bmatrix}_{i=1,2,3},
-\tag{4}
 ```
 
 but (4) is not necessary for the bounds proved here.
@@ -150,9 +154,10 @@ H=\log\frac{x}{1-x}-z_1+z_2,
 
 it gives at most eight zero weights of H, and
 
+**(5)**
+
 ```math
 \frac{d}{dx}q(z(x))=\rho e^{z_2}x(e^{-H}-1)
-\tag{5}
 ```
 
 shows that these are exactly the critical weights of q on that branch.
@@ -277,11 +282,12 @@ to eight. This theorem also needs no original EHT ceiling.
 
 Set
 
+**(6)**
+
 ```math
 R=a_3b_1-UF,
 \quad N_1=-(a_2F+a_3b_2),\quad N_2=R,
 \quad N_3=-(Ub_2+a_2b_1),\quad\Delta=N_1+N_2+N_3.
-\tag{6}
 ```
 
 These are the cyclic origin numerators. N1 and N3 are strictly negative.
@@ -294,9 +300,10 @@ the open negative quadrant. We verify Section3's quadratic inequality on the
 entire physical interval, stronger than the actual-arc requirement.
 The strict nested inequalities imply
 
+**(7)**
+
 ```math
 \lambda_1<0<\lambda_3,\qquad \lambda_1<\lambda_2<\lambda_3,
-\tag{7}
 ```
 
 because the two score gaps are
@@ -308,15 +315,18 @@ $`\theta=-\alpha_1/\alpha_2>0`$, $`\eta=-\alpha_3/\alpha_2>0`$.
 The origin identity gives $`\lambda_2=\theta\lambda_1+\eta\lambda_3`$
 and $`\theta+\eta=1-1/\alpha_2<1`$. Thus
 
+**(8)**
+
 ```math
 V_0=-\alpha_2\bigl[(1-\theta-\eta)
 (\theta\lambda_1^2+\eta\lambda_3^2)
 +\theta\eta(\lambda_1-\lambda_3)^2\bigr]<0.
-\tag{8}
 ```
 
 For Delta<0 and R>=0, alpha1,alpha3>0 and alpha2=-k<=0. The zero
 origin score mean gives the exact identities
+
+**(9)**
 
 ```math
 \begin{aligned}
@@ -325,7 +335,6 @@ V_0&=\alpha_1(-\lambda_1)(\lambda_3-\lambda_1)
 V_0&=\alpha_3\lambda_3(\lambda_3-\lambda_1)
   +k(-\lambda_2)(\lambda_2-\lambda_1),&&\lambda_2\le0.
 \end{aligned}
-\tag{9}
 ```
 
 The first terms are strictly positive and second terms nonnegative.

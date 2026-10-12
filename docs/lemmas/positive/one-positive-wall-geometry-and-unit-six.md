@@ -13,8 +13,10 @@ T=Q-(P-1)r.
 
 The roots of $`H`$ are $`-h\in(-1,0)`$ and $`\xi>0`$. Let $`R=R_0+R_1r+R_2r^2+R_3r^3`$, with all four coefficients positive, and put $`Y=R-B`$. The actual curvature equation is
 
+**(1)**
+
 ```math
-d_C(r):=B(r)+H(r)\theta_C(r)-R(r)=0.                  \tag{1}
+d_C(r):=B(r)+H(r)\theta_C(r)-R(r)=0.
 ```
 
 Weights throughout are ordinary finite analytic orders of vanishing. Bounds are for positive $`r`$; the endpoints zero and infinity are excluded.
@@ -44,25 +46,31 @@ M(r,r/Q)=\frac rQ(Q-Pr)T\quad(r\le Q/P),
 
 and both are nonnegative. Since $`J_\theta=-M/(K\theta ADS)<0`$, every finite $`C`$ determines a unique smooth physical curve $`\theta_C`$ on all $`r>0`$. Its exact derivatives are
 
+**(2)**
+
 ```math
 \theta_C'=\frac{\theta_CTA}{M},\qquad
 \theta_C''=\frac{\theta_C ADS H}{M^3},\qquad
 \eta_C':=\left(\frac{r\theta_C'}{\theta_C}\right)'
-=-\frac{AD\{\theta_C(H+Kr)^2+Kr^2S\}}{M^3}<0.          \tag{2}
+=-\frac{AD\{\theta_C(H+Kr)^2+Kr^2S\}}{M^3}<0.
 ```
 
 These rational identities do not require $`Q>1`$. In this chart $`\beta=Q/(P-1)`$ lies strictly between zero and $`\xi`$; the actual curve increases up to $`\beta`$ and decreases thereafter. In addition
 
+**(3)**
+
 ```math
-1-\eta_C=\frac{D(1-Q+Pr)}M>0.                       \tag{3}
+1-\eta_C=\frac{D(1-Q+Pr)}M>0.
 ```
 
 Let $`\kappa=e^{KC}`$, $`\nu=(1-Q)/Q`$, and $`c_L=(\kappa/Q)^{1/Q}`$. The endpoint laws are
 
+**(4)**
+
 ```math
 \theta_C(r)=\frac rQ[1-c_Lr^\nu+o(r^\nu)]\quad(r\downarrow0),
 \qquad
-\theta_C(r)\sim\kappa^{-1}r^{1-P}\quad(r\to\infty).    \tag{4}
+\theta_C(r)\sim\kappa^{-1}r^{1-P}\quad(r\to\infty).
 ```
 
 In particular the left leading term is $`r/Q`$. To derive it without assuming a power ansatz, put $`w=1-Q\theta_C/r`$. The exact level equation reads
@@ -90,9 +98,11 @@ Away from $`\xi`$, let $`\theta_0=Y/H`$. Division gives
 m=\frac{R_3}{P(P-1)}>0,
 ```
 
+**(5)**
+
 ```math
 U=\frac{Y(\xi)}{P(P-1)(\xi+h)},\qquad
-V=\frac{Y(-h)}{P(P-1)(\xi+h)}.                       \tag{5}
+V=\frac{Y(-h)}{P(P-1)(\xi+h)}.
 ```
 
 Positivity of all coefficients of $`R`$ does not imply $`V>0`$. For example, take $`P=2,Q=1/2`$ and
@@ -122,8 +132,10 @@ W=R(Y'H-YH')-YT(H-PY).
 
 Then
 
+**(6)**
+
 ```math
-\theta_0'-F(r,\theta_0)=\frac{W}{H^2R}.             \tag{6}
+\theta_0'-F(r,\theta_0)=\frac{W}{H^2R}.
 ```
 
 Its degree is at most six, and its endpoint coefficients are
@@ -132,8 +144,10 @@ Its degree is at most six, and its endpoint coefficients are
 w_0=QR_0[3PR_0-(1-Q)R_1+1-Q^2],
 ```
 
+**(7)**
+
 ```math
-w_6=-PR_3[(P-1)R_2+3QR_3-(P^2-1)].                 \tag{7}
+w_6=-PR_3[(P-1)R_2+3QR_3-(P^2-1)].
 ```
 
 If $`Y(\xi)\ne0`$ and $`w_0w_6\le0`$, then (1) has weighted root count at most six. Indeed, a nonzero polynomial of degree at most six with opposite nonzero endpoint signs has odd positive root weight, hence at most five; a zero constant or leading coefficient also reduces the available positive root weight to at most five.
@@ -150,10 +164,12 @@ The factor condition $`A_i\ge(1-Q)/P`$ makes $`w_0>0`$, since $`R_1/R_0=\sum 1/A
 
 Write $`H=(r-\xi)L`$ and $`Y=(r-\xi)Z`$, where $`L=P(P-1)(r+h)>0`$ for all $`r>0`$, and $`Z`$ is quadratic. The canceled source $`\theta_0=Z/L`$ is analytic on the whole positive axis. The polynomial identity
 
+**(8)**
+
 ```math
 W=(r-\xi)^2\widehat W,
 \qquad
-\widehat W=R(Z'L-ZL')-ZT(L-PZ)                     \tag{8}
+\widehat W=R(Z'L-ZL')-ZT(L-PZ)
 ```
 
 implies $`\deg\widehat W\le4`$, because $`\deg W\le6`$. The canceled source satisfies $`B+H\theta_0=R>0`$, including at the wall. Consequently the same positive-denominator ODE comparison applies on all of $`(0,\infty)`$, with residual

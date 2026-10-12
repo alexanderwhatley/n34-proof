@@ -65,26 +65,31 @@ For $`f_s=\lambda_{s-w}m_s`$, define its cubic core by
 
  If $`T_1=1-k\theta`$ and $`T_2=1-k(1-\theta)`$, direct differentiation gives
 
+**(A)**
+
 ```math
 C_s(0)=(s_1-w_1)s_1(s_1-T_1),\qquad
- C_s(1)=-(s_2-w_2)s_2(s_2-T_2).                     \tag{A}
+ C_s(1)=-(s_2-w_2)s_2(s_2-T_2).
 ```
 
 #### A single auxiliary ratio.
 
 Let $`r=\max(u,v)`$ and $`\ell=\min(u,v)`$ coordinatewise. Put
 
+**(B)**
+
 ```math
 \theta=\frac{w_1}{w_1+w_2},\qquad
  k_{*} =\min\left\{\frac{1-r_1}{\theta},
                   \frac{1-r_2}{1-\theta}\right\}.
-                                                               \tag{B}
 ```
 
  First consider $`k_{*}\leq1`$ and choose $`k=k_{*}`$. Then $`T_i\geq r_i`$ for both coordinates, with equality in at least one coordinate. Consequently the higher core $`C_r`$ has a factor $`x`$ or $`1-x`$. The lower core has the strictly positive endpoints
 
+**(C)**
+
 ```math
-C_\ell(0)>0,\qquad C_\ell(1)>0,                   \tag{C}
+C_\ell(0)>0,\qquad C_\ell(1)>0,
 ```
 
  since $`\ell_1<w_1`$, $`\ell_2>w_2`$ and $`\ell_i<r_i\leq T_i`$.
@@ -97,9 +102,11 @@ G=(D-\lambda_w)F=-\lambda_w+A f_u-B f_v.
 
  Since $`\mathcal L\lambda_w=0`$, its operator residual is
 
+**(D)**
+
 ```math
 R=\rho\mathcal LG=A m_u C_u-Bm_v C_v,
- \qquad Z(F)\leq Z(R)+3.                          \tag{D}
+ \qquad Z(F)\leq Z(R)+3.
 ```
 
  Absorb the endpoint factor of the higher core into its beta exponent. The residual becomes a beta-weighted quadratic plus a beta-weighted cubic, and so has at most seven distinct roots. Crucially, the lower atom dominates at *both* endpoints, even after an exponent of the higher atom has been increased by one. By (C), $`R`$ therefore has the same sign at both endpoints: positive if $`\ell=u`$, negative if $`\ell=v`$. For generic parameters and coefficients its roots are simple, hence there are at most six. Equation (D) gives at most nine original roots. Their positive original endpoint signs reduce this to eight. If $`R`$ vanishes identically, $`G`$ lies in the disconjugate kernel and has at most one root unless it vanishes identically; integrating the first annihilator then gives at most two original roots. That exception therefore also satisfies the theorem.
@@ -130,9 +137,11 @@ P=H(w-v,u-v),\qquad Q=-H(w-v,-v),\qquad
 
  The pole-free negative-pair reduction is
 
+**(E)**
+
 ```math
 D\left(\frac{D(F/m_v)}{D(m_w/m_v)}\right)
- =\frac{m_{-w}}{L^2}\,[A m_uP-Q].                 \tag{E}
+ =\frac{m_{-w}}{L^2}\,[A m_uP-Q].
 ```
 
  Writing $`u=(a,b),v=(c,d),w=(e,f)`$, the cubic endpoints are

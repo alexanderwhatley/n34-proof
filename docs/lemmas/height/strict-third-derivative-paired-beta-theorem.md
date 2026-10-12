@@ -60,9 +60,10 @@ J_s=-\pi,\qquad
 
 The original two source points give a strict density dominance
 
+**(1)**
+
 ```math
 \pi_L>\pi_R.
-\tag{1}
 ```
 
 Indeed $`f'`$ is strictly concave, since
@@ -102,10 +103,11 @@ g_L=\frac{AS-ML+L^2}{BL^2},\qquad
 g_R=\frac{AS+MR+R^2}{BR^2}>0,
 ```
 
+**(2)**
+
 ```math
 (g_L)_s=\frac{(2AS-ML)(A-L)(S-L)}{B^2L^4},\qquad
 (g_R)_s=\frac{(MR+2AS)(A+R)(S+R)}{B^2R^4}>0.
-\tag{2}
 ```
 
 The left density is strictly convex, $`(\pi_L)_{ss}>0`$. If $`ML\le2AS`$, this follows from $`(g_L)_s\ge0`$ and $`g_L^2+(g_L)_s>0`$. If $`ML>2AS`$, put
@@ -123,18 +125,20 @@ F<AS-L^2<d_{*},
 
 and therefore
 
+**(3)**
+
 ```math
 \frac{(\pi_L)_{ss}}{\pi_L}
 =\frac{d_{*}^2-Fz}{B^2L^4}
 >\frac{d_{*}(AS-L^2)}{B^2L^4}>0.
-\tag{3}
 ```
 
 Whenever $`g_L>0`$, a stronger exact inequality holds:
 
+**(4)**
+
 ```math
 \boxed{\ (g_L)_s>2g_L^2.\ }
-\tag{4}
 ```
 
 To verify it, set $`d_0=AS-ML+L^2>0`$. Then
@@ -145,10 +149,11 @@ F=d_0+\kappa BL,\qquad 2AS-ML=d_0+AS-L^2,
 
 and (2) yields
 
+**(5)**
+
 ```math
 B^2L^4\{(g_L)_s-2g_L^2\}
 =d_0L(M-2L)+\kappa BL(d_0+AS-L^2)>0.
-\tag{5}
 ```
 
 Every factor is positive, since $`M>A+S>2A>2L`$.
@@ -162,11 +167,12 @@ Write $`\mu=\lambda+1>1`$. Exact differentiation of $`D=\kappa e^{-\lambda s}J`$
 =\kappa e^{-(\lambda+3)s}\mathcal W,
 ```
 
+**(6)**
+
 ```math
 \mathcal W=
 \pi_{ss}-3\mu\pi_s+(3\mu^2-1)\pi
 +\lambda\mu(\mu+1)J.
-\tag{6}
 ```
 
 Bound its two density summands separately.

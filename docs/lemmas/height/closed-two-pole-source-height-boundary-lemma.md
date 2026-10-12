@@ -25,9 +25,11 @@ Then $`(s+c+d)^2\mathscr R'(s)`$ is strictly increasing and
 $`\mathscr R(s)\to b+d`$ at infinity. If
 $`\mathscr R(s_{*})\ge b+d`$, then
 
+**(1)**
+
 ```math
 \mathscr R'(s)<0\quad(0<s\le s_{*}),\qquad
- \mathscr R(s)>\mathscr R(s_{*})\quad(0<s<s_{*}).            \tag{1}
+ \mathscr R(s)>\mathscr R(s_{*})\quad(0<s<s_{*}).
 ```
 
 For the scaled derivative, split the two summands. Match the metric
@@ -73,16 +75,20 @@ and define the normalized full contact ratio
 
 Keep the source balance
 
+**(2)**
+
 ```math
-K+\zeta=b+d.                                             \tag{2}
+K+\zeta=b+d.
 ```
 
 Let $`p_{*}`$ be a finite stationary point of $`V=u\chi`$ with
 $`s_{*}>k`$, and let a positive central comparison point have
 $`0<s<k`$. Then
 
+**(3)**
+
 ```math
-\boxed{V(p)<V(p_{*}).}                                      \tag{3}
+\boxed{V(p)<V(p_{*}).}
 ```
 
 To prove it, stationarity gives

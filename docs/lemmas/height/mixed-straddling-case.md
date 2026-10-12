@@ -68,10 +68,11 @@ monotonicity target.
 
 Set $`x=t-m`$ and $`\delta=m-\mu>0`$. The exact source cubic is
 
+**(2)**
+
 ```math
 \bar C(x):=C/(M_0M)
 =x(x+\delta)[M_0(x+\delta)+Mx]-\delta\rho(m+x).
-\tag{2}
 ```
 
 Its leading coefficient is $`T=M_0+M>0`$, its quadratic coefficient is
@@ -82,10 +83,11 @@ there with positive derivative.
 
 Dividing at this root gives
 
+**(3)**
+
 ```math
 \bar C(x)=(x-\beta)H(x),\qquad
 H(x)=Tx^2+ux+v,
-\tag{3}
 ```
 
 with
@@ -102,26 +104,29 @@ fact holds whether the other two roots of $`C`$ are real or conjugate.
 
 The exact derivative identity for the auxiliary auxiliary ratio is
 
+**(4)**
+
 ```math
 B_{*}:=\rho(R'C-RC')+(\ell_2-\ell_0)RC=\ell_1W.
-\tag{4}
 ```
 
 At $`t=d`$, $`C=0,C'>0,R<0,\ell_1<0`$, so
 
+**(5)**
+
 ```math
 B_{*}(d)=-\rho(d)R(d)C'(d)>0,
 \qquad W(d)<0.
-\tag{5}
 ```
 
 Differentiating (4), then using $`C(d)=0`$, gives
+
+**(6)**
 
 ```math
 \frac{W'}W(d)
 =\frac{C''}{C'}(d)+
 \frac{\rho'-\ell_2+\ell_0}{\rho}(d)-\frac1{d-m}.
-\tag{6}
 ```
 
 The terms containing $`R'`$ cancel. This cancellation is why the endpoint
@@ -129,9 +134,10 @@ argument does not require monotonicity of $`R/C`$ on the whole interval.
 
 Let $`\beta=d-m`$. From (3),
 
+**(7)**
+
 ```math
 \frac{C''}{C'}(d)=2\frac{H'(\beta)}{H(\beta)}<\frac4\beta,
-\tag{7}
 ```
 
 because
@@ -145,11 +151,12 @@ From (2) evaluated at its root,
 
 Consequently
 
+**(8)**
+
 ```math
 \frac{\ell_0(d)}{\rho(d)}
 =\frac{M_0\delta}{\beta[M_0(\beta+\delta)+M\beta]}
 <\frac1\beta.
-\tag{8}
 ```
 
 Also $`\ell_2(d)>0`$ and
@@ -160,10 +167,11 @@ Also $`\ell_2(d)>0`$ and
 
 Combining these strict bounds with (6),
 
+**(9)**
+
 ```math
 \boxed{\frac{W'}W(d)<\frac5\beta},\qquad
 \boxed{(d-r)\frac{W'}W(d)<5},
-\tag{9}
 ```
 
 since $`0<d-r<\beta`$.
@@ -186,9 +194,10 @@ to negative: $`R(0)=ac(c-a)>0`$ and
 $`R(1)=-b\nu(b+\nu)<0`$. Therefore $`R'(r)\le0`$, including a possible
 triple root. Using (4), $`C(r)<0`$ and $`\ell_1(r)<0`$, gives
 
+**(10)**
+
 ```math
 W(r)=\rho(r)R'(r)C(r)/\ell_1(r)\le0.
-\tag{10}
 ```
 
 Suppose $`W`$ had five distinct roots in $`(r,d)`$. If $`W(r)<0`$,
@@ -199,9 +208,10 @@ six roots in $`[r,d)`$. In either case degree at most six forces all six
 roots, counted with multiplicity, into $`[r,d)`$, contradicting (9).
 Thus
 
+**(11)**
+
 ```math
 \boxed{W\text{ has at most four distinct zeros on }(r,d).}
-\tag{11}
 ```
 
 ## Original-row root count without regularization
@@ -222,9 +232,10 @@ Every positive late critical point lies in $`(r,d)`$ and solves
 
 Its exact derivative identity is
 
+**(12)**
+
 ```math
 \rho\Psi'=-\frac{h_1}{h_0}\frac{\ell_2W}{V^2}.
-\tag{12}
 ```
 
 By (11) and Rolle, any one level of $`\Psi`$ has at most five contacts

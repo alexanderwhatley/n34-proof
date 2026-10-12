@@ -14,9 +14,10 @@ G=c_1-u+c_3v+c_4w,\qquad c_1,c_3,c_4>0,
 where all functions are beta monomials. Write q=w/v, reflect so
 $`\Delta=\det(v,q)>0`$, and suppose
 
+**(1)**
+
 ```math
 u=v^h q^{-m},\qquad H=1-h,\qquad0<h<1,\quad0<m<H.
-\tag{1}
 ```
 
 Then G has fewer than ten distinct roots in $`(0,1)`$, for every
@@ -25,10 +26,11 @@ source scale and every one fixed positive coefficient triple.
 Equivalently, for $`S=u-c_3v-c_4w`$, if the source has nine generic
 critical points $`x_1<\cdots<x_9`$, with alternating maxima and minima,
 
+**(MH-R)**
+
 ```math
 \min\{S(x_1),S(x_3),S(x_5),S(x_7),S(x_9)\}
 \le\max\{0,S(x_2),S(x_4),S(x_6),S(x_8)\}.
-\tag{MH-R}
 ```
 
 This proves the master-height inequality on the whole source region (1).
@@ -128,9 +130,10 @@ $`\xi_1<\cdots<\xi_8`$. Odd stationary nodes are maxima above one.
 G' has one additional tail zero, so these are the first eight of its
 nine critical points; in particular
 
+**(2)**
+
 ```math
 G(\xi_7)<0.
-\tag{2}
 ```
 
 The positive S_v is strictly log concave on $`(0,x_v)`$, tends to
@@ -170,10 +173,11 @@ The source derivative core P_v is positive before alpha and negative
 on $`(\alpha,x_v)`$, by strict log concavity of S_v. The lemma in
 [physical derivative core auxiliary ratio lemma](derivative-polynomial-signs.md) now gives
 
+**(3)**
+
 ```math
 P_v>0\text{ before }\alpha,\qquad P_v<0\text{ after }\alpha
 \quad\text{throughout }(0,1).
-\tag{3}
 ```
 
 For completeness, its only extra argument is physical. On $`(x_v,x_u)`$,
@@ -217,9 +221,10 @@ section 1 would place all six W roots there and force Wraw(x_w)>0.
 Equality y=x_w is impossible because both S_v' and S_w' are negative
 there. Therefore
 
+**(4)**
+
 ```math
 y>\max\{\alpha,x_w\},\qquad y<x_v.
-\tag{4}
 ```
 
 Introduce the exact projective chart
@@ -263,9 +268,10 @@ Qv=mC-pE>0 forces E(y)>0.
 Because C(-1),C(0),C(r3)>0 and C(y)<0, its cubic degree gives exactly
 the three simple roots
 
+**(5)**
+
 ```math
 -1<\gamma_1<\gamma_2<0<r_3<\gamma_3.
-\tag{5}
 ```
 
 The quadratic E has exactly one root $`\epsilon_-\in(-1,0)`$
@@ -300,10 +306,11 @@ S_+(y)-S_+(\xi_7)<M_P\{u(y)-u(\xi_7)\}.
 At y, solving the two derivative-contact equations gives
 $`V(y)=u(y)-S_+(y)/M_P`$. With (2),
 
+**(6)**
+
 ```math
 \boxed{c_1<u(\xi_7)-S_+(\xi_7)
 <u(\xi_7)-S_+(\xi_7)/M_P<V(y).}
-\tag{6}
 ```
 
 This witness is a positive central value. The point y is not asserted to
@@ -317,10 +324,11 @@ and Qv=-pE>0 at gamma2. By the physical signs (3), alpha is on the
 right branch between these points. Thus Qv>0 on the entire left ray,
 so E(gamma3)<0. The source signs and cubic degree give
 
+**(7)**
+
 ```math
 \delta_1<\gamma_1<\epsilon_-<\alpha_p<\delta_2<\gamma_2
 <r_3<\delta_3<\gamma_3,
-\tag{7}
 ```
 
 where the deltas are the D roots. For the refined alpha/delta2 order,
@@ -386,9 +394,10 @@ tt''-2(t')^2
 Hence $`\mathcal R>0`$. At a stationary point the exact source
 cancellation is
 
+**(8)**
+
 ```math
 \frac{V_{pp}}u=-\frac{\chi C a_3a_4}{\mathcal P^3t}-t\mathcal R.
-\tag{8}
 ```
 
 This identity has a short direct derivation. Since u_p/u=T/Pi with

@@ -97,27 +97,30 @@ z'=\rho(1-x,-x),\quad p_i'=\rho p_i\lambda_i,
 
  The mean score is zero. Its cubic polynomial therefore gives $`\sum p_i\lambda_i^3=\Lambda V+\Pi`$. Use $`V=V_0+\tau V_1`$, $`C=C_0+\tau C_1`$ and $`V(1-\rho V_1)=V_0`$ to obtain
 
+**(A1)**
+
 ```math
 V_0\rho'=3C_0\rho+\mathcal B\rho^2+\Pi V_1\rho^3,
  \quad\mathcal B=3C_1V_0-3C_0V_1-\Lambda V_0-\Pi.
-                                                               \tag{A1}
 ```
 
  On a zero-free $`V_0`$ interval, $`d=\rho-1/w`$ obeys
 
+**(A2)**
+
 ```math
 d'=A(x)d+\frac{T(x)}{V_0w^3},\qquad
  T=3C_0w^2+\mathcal B w+\Pi V_1+V_0(1-2x)w.
-                                                               \tag{A2}
 ```
 
  The coefficient $`A`$ is analytic, including at $`d=0`$. The degrees $`\deg V_0\le2`$, $`\deg V_1\le3`$, $`\deg C_0\le1`$, $`\deg C_1\le2`$ give $`\deg T\le6`$ directly. A positive integrating factor and weighted Rolle give at most seven weights of $`d`$ when $`T`$ is nonzero. The identities
+
+**(A3)**
 
 ```math
 H=\log\frac{x}{1-x}-z_1+z_2,
  \quad H'=-d,
  \quad \frac{d}{dx}q(z(x))=\rho e^{z_2}x(e^{-H}-1)
-                                                               \tag{A3}
 ```
 
  give the normal contact budget. If $`T\equiv0`$, (A2) is homogeneous: $`d`$ is zero-free or identically zero. The latter gives constant $`H`$; each geometry below treats this alternative explicitly.
@@ -161,17 +164,20 @@ u_C'=\frac{j u_C(1-Pu_C)}{B+Hu_C},\qquad
 
  The physical denominator is positive. Moreover the elasticity $`e_C=r u_C'/u_C`$ satisfies
 
+**(A4)**
+
 ```math
 e_C'=-\frac{(1-Pu_C)(r-Qu_C)
  \{u_C(H+K_{*}r)^2+K_{*}r^2(1+r-K_{*}u_C)\}}{(B+Hu_C)^3}<0.
-                                                               \tag{A4}
 ```
 
  Away from a wall compare $`u_C`$ with $`u_0=Y/H`$. Their difference obeys
 
+**(A5)**
+
 ```math
 (u_C-u_0)'=a(r)(u_C-u_0)-\frac{W}{H^2R},
- \quad W=R(HY'-H'Y)-Y(H-PY)j,\qquad\deg W\le6.          \tag{A5}
+ \quad W=R(HY'-H'Y)-Y(H-PY)j,\qquad\deg W\le6.
 ```
 
  The coefficient $`a`$ is analytic throughout each wall interval, even where $`u_0`$ lies outside the physical probability caps. Thus a positive integrating factor bounds contact weight by the forcing weight plus one.
@@ -885,13 +891,15 @@ a=y+p,\quad e=y-q,\quad c=y+r,\qquad
 
  Here the Newton coefficients $`k_i`$ are the coefficients of $`\widehat K(t)`$ in the odds coordinate defined in the main theorem; an overall source normalization does not change their ratios. Then $`B=b+d=A(M+yr)/\lambda`$ and $`G_T/e=(M+W)/\lambda-2`$ exactly. Literal source jets give $`c_i=\lambda^ik_i/k_0`$ and
 
+**(A6)**
+
 ```math
 \begin{aligned}
  H=c_1&=6M+Z,\\
  c_2&=h\lambda+15M^2+M(5Z-2h)-hD_{*}-Y,\\
  c_3&=20M^3+(10Z-7h-9)M^2-[(4h+6)D_{*}+4Y]M\\
  &\quad-D_{*}^2-Y(h^2+h-2+2Z)+3(\Delta M+D_{*})\lambda-2\lambda^2.
-\end{aligned}                                                     \tag{A6}
+\end{aligned}
 ```
 
  The lower bound $`\lambda>M+yr`$ is exactly the strict sum inequality $`a-b>e+d`$ in this canonical chart. The qualified both-nonreal event order $`1320`$ bridge supplies $`pr>qy`$, $`D_\lambda=M^2+MD_{*}+Y(\Delta-1)>0`$ and
@@ -932,10 +940,12 @@ E_{GT}=5Z^2+12Y+12hD_{*}-6hW-3hZ.
 
  The exact integer identity is
 
+**(A7)**
+
 ```math
 -v^2E_{GT}=R_{\mathrm{new}}
  +6v^3\left[\left(v+\frac32S\right)^2-1
-                         +Sv^2+\frac{11}{4}S^2\right].       \tag{A7}
+                         +Sv^2+\frac{11}{4}S^2\right].
 ```
 
  Here $`v+3S/2=A-1+E/2>1`$. To display the whole remainder compactly, put
@@ -992,9 +1002,11 @@ v_{*}^3F_1(\tau)=p(\lambda+v_{*})v_{*}-(pr-qy)qy(y+p)A.
 
  Combine this strict upper bound on $`\lambda`$ with $`\lambda\ge\lambda_G=(M+W)/2`$ to obtain
 
+**(A8)**
+
 ```math
 T_G=2(pr-qy)qy(y+p)A
-                 -p(qy+m)[-m+W+2qy+2m]>0.                 \tag{A8}
+                 -p(qy+m)[-m+W+2qy+2m]>0.
 ```
 
  As $`h\le0`$, $`c_2(\lambda)\le c_2(\lambda_G)=C_{2G}`$, where

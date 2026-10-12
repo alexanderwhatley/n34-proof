@@ -11,10 +11,11 @@ t^\alpha(1+t)^{\beta-\alpha}(t+y)(t-P)(t-S)},
 
 with
 
+**(1)**
+
 ```math
 0<\alpha<1,\quad\beta>2,\quad0<x<1,\quad y,C>0,
 \quad0<P<Q<S<R,\quad P>{2\over\beta-1}.
-\tag{1}
 ```
 
 Then its terminal component has exactly one simple maximum, and every
@@ -26,9 +27,10 @@ This holds for every $`\beta>2`$ in the stated domain, either ordering of the ne
 Write $`k=\beta-1>1`$, $`\delta=\beta-\alpha>k`$. For every
 $`t>2/k`$,
 
+**(2)**
+
 ```math
 {x\over(t+x)^2}<{\delta\over(1+t)^2}.
-\tag{2}
 ```
 
 Indeed, if $`t\ge1`$, the function $`s/(t+s)^2`$ is increasing for
@@ -36,11 +38,12 @@ $`0<s<1`$, so
 $`x(1+t)^2/(t+x)^2<1<\delta`$. If $`t<1`$, then $`k>2`$, and
 the scalar maximum at $`s=t`$ gives
 
+**(3)**
+
 ```math
 {x(1+t)^2\over(t+x)^2}
  \le{(1+t)^2\over4t}
  <{(k+2)^2\over8k}<k<\delta.
-\tag{3}
 ```
 
 The middle strict inequality follows because
@@ -63,11 +66,12 @@ E_T=t(\log Z_T)'=
 
 For every $`t>Q>P>2/k`$,
 
+**(4)**
+
 ```math
 E_T'={x\over(t+x)^2}-{y\over(t+y)^2}
 -{(Q-P)(t^2-PQ)\over(t-Q)^2(t-P)^2}
 -{\delta\over(1+t)^2}<0
-\tag{4}
 ```
 
 by (2). It decreases from positive infinity to $`-\beta`$, hence has a

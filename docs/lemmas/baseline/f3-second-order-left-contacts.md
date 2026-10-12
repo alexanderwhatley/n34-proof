@@ -591,9 +591,10 @@ N_{\rm loc}(0)=\frac{\xi}{\delta}N_{\rm num},\qquad
 
 with $`\delta,\xi>0`$. Therefore the local inequality just proved is precisely
 
+**(*)**
+
 ```math
 N'(t)=0,\quad N(t)\ge0\quad\Longrightarrow\quad N''(t)>0
-\tag{*}
 ```
 
 for the single global phase throughout $`J_+`$.

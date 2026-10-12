@@ -40,9 +40,10 @@ D=HC-Hh p^2-2Hnp+n(n-1),\qquad Q=D/C,
 
 Retain the following closed signed cell: $`C`$ has two simple physical roots $`\gamma_1<\gamma_2`$, and $`D`$ has two simple roots satisfying
 
+**(1)**
+
 ```math
 \gamma_1\le\delta_1<\delta_2<\gamma_2.
-\tag{1}
 ```
 
 Thus $`Q>0`$ on the exterior component $`(-\infty,\gamma_1)`$ and on the central component $`(\delta_1,\delta_2)`$. The physical C roots are negative: for $`0\le p<r_1`$, $`p(p+1)-\Pi>0`$, while (1) places both roots in the physical interval. The parameter inequalities in (1) gives the needed nonpositive-left, positive-right residue signs and the positive central dome. Equality $`\delta_1=\gamma_1`$ permits simultaneous cancellation of the left pole. This inequality must not be removed.
@@ -51,10 +52,11 @@ Thus $`Q>0`$ on the exterior component $`(-\infty,\gamma_1)`$ and on the central
 
 For every finite positive exterior critical point $`p_{*}<\gamma_1`$ of $`V`$,
 
+**(2)**
+
 ```math
 \boxed{\quad V(p)<V(p_{*})\quad
 \text{for every }\delta_1<p<\delta_2.\quad}
-\tag{2}
 ```
 
 The same original beta weight $`u`$ is retained throughout the comparison.
@@ -115,12 +117,13 @@ Consequently
 =\frac{s+a}{(s+R_1)(s+R_2)}\{K-\mathcal R(s)\},
 ```
 
+**(3)**
+
 ```math
 \mathcal R(s)=\frac{b(s+R_1)(s+R_2)}{(s+a)s(s+b)}
 =\frac bs
  \left(1+\frac{R_1-a}{s+a}\right)
  \left(1+\frac{R_2-b}{s+b}\right).
-\tag{3}
 ```
 
 Each positive factor on the right is nonincreasing in $`s>0`$, and the factor $`b/s`$ strictly decreases. Thus $`\mathcal R`$ strictly decreases in $`s`$, and hence strictly increases in $`p`$.

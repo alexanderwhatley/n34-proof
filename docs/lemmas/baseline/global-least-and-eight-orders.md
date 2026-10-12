@@ -6,10 +6,12 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 
 The preliminary four-atom ceiling ten, its monotone-anchor saturation, the signed cofactor endpoint formulas, and the component/contact count are those proved in the manuscript. We retain the old global-least theorem only at its original scope
 
+**(GL-c)**
+
 ```math
 1+\alpha m_u-\beta m_v-\gamma m_w,\qquad
 u,v,w\ge0,\quad v\le w,
-\qquad Z\le8.                                      \tag{GL-c}
+\qquad Z\le8.
 ```
 
  Its lower-fork and comparable-negative operator dependencies remain. We also retain the analytic disjoint-curvature lemma. The new comparable-atom theorem (Cross) replaces the separate F1 localization and the other cross cell’s two-inequality/regular-flag complement; its proof uses the existing endpoint operator and interior-root interpolation. No F2, F3, F4, or full chamber theorem is used in the following result.

@@ -10,18 +10,20 @@ with two exact positive coefficient expansions.
 
 In addition to the strict parameter inequalities, assume
 
+**(1)**
+
 ```math
 A:=p+q>4,\qquad \lambda>A(M+yr).
-\tag{1}
 ```
 
 If
+
+**(2)**
 
 ```math
 E_1,E_2,E_3>0,\qquad
 8E_2^2-15E_1E_3\ge0,\qquad
 9E_3^2-16E_2E_4\ge0,
-\tag{2}
 ```
 
 then $`h>0`$. There is no assumption about the ordering of the events,
@@ -85,16 +87,18 @@ F(n)=15n^2+\{v(A-2)-5Z\}n-v(Ayr-D)-Y.
 
 The exact identity
 
+**(3)**
+
 ```math
 F(n)-E_2=v\{\lambda-A(yr-n)\}\ge0
-\tag{3}
 ```
 
 shows that $`F(n)>0`$. Two positive expressions will establish
 
+**(4)**
+
 ```math
 n>11N/15,\qquad A_\sharp:=15nE_1-14E_2>0.
-\tag{4}
 ```
 
 For completeness, the required polynomial identities are given here.
@@ -196,13 +200,14 @@ The symbol $`F`$ now denotes this endpoint value, not the quadratic
 $`F(n)`$ as a variable function. These are the same quantity after
 fixing $`n`$. Exact expansion gives
 
+**(5)**
+
 ```math
 \begin{aligned}
 E_2&=F-v\ell,\\
 E_3&=E_{30}+D_3\ell+2\ell^2,\\
 L:=2E_4-nE_3&=L_0+\sigma\ell,
 \end{aligned}
-\tag{5}
 ```
 
 where
@@ -220,11 +225,12 @@ proves $`L_0>0`$. Its full list of 342 terms is in
 [height-floor.json](../../../calculation-data/reciprocal/height-floor.json).
 It states
 
+**(6)**
+
 ```math
 L_0=\sum_i c_i p^{\alpha_i}q^{\beta_i}
  e^{\gamma_i}t^{\tau_i}\delta^{\kappa_i}g_i,
 \qquad c_i>0.
-\tag{6}
 ```
 
 The possible factors $`g_i`$ are
@@ -242,9 +248,10 @@ the identity in the data file.
 
 Let $`N_2=8E_2^2-15E_1E_3`$. Throughout the interval where $`E_2>0`$,
 
+**(7)**
+
 ```math
 N_2'=-16vE_2-15E_1(4\ell+D_3)<0.
-\tag{7}
 ```
 
 Thus $`N_2`$ decreases strictly with the scale parameter. We will show
@@ -269,9 +276,10 @@ Since $`e,t>0`$, $`u>0`$. Direct expansion gives
 yr=N+U,\quad Y=N(N+U),\quad D=(3-v)N+\Delta U,
 ```
 
+**(8)**
+
 ```math
 uA>|(u+4)\Delta+2v-6|.
-\tag{8}
 ```
 
 For the last inequality, let $`\omega=e-t=2\Delta+v-3`$.
@@ -287,6 +295,8 @@ give $`-U/q<\omega<U/p`$. Rewriting these two inequalities gives
 
 Here are normalized formulas for the endpoint quantities. They also
 define the polynomial whose sign will finish the proof:
+
+**(9)**
 
 ```math
 \begin{aligned}
@@ -309,16 +319,16 @@ f_L&=2e_4-\nu f_3,\\
 \overline{Q_R}&=-14f_L^2
  +\bar\sigma f_L(4\nu v+7\bar d)+\bar\sigma^2\bar r.
 \end{aligned}
-\tag{9}
 ```
 
 Here $`N=(A^2-\Delta^2)/4`$. Substitution in the definitions of the
 coefficients gives
 
+**(10)**
+
 ```math
 F=Nf_2,\quad E_{30}=N^2f_3,\quad L_0=N^3f_L,
 \quad \sigma=N^2\bar\sigma,\quad D_3=N\bar d.
-\tag{10}
 ```
 
 We need the useful bound $`u<3/4`$. Because $`f_2>0`$, it suffices
@@ -343,13 +353,14 @@ P_0&=b_{*}\{16a_{*}+40(1-k)\}-900(1-k)^2.
 
 The exact identity is
 
+**(11)**
+
 ```math
 \begin{aligned}
 4b_{*}\{-4f_2(3/4)-a_{*}(A^2-16)-(4k+3)(A-4)v\}
 ={}&\{2b_{*}\Delta+d_{*}v-60(1-k)\}^2\\
 &+P_qv^2+4P_1v+4P_0.
 \end{aligned}
-\tag{11}
 ```
 
 All five polynomials are strictly positive for $`0\le k\le4/15`$.
@@ -370,9 +381,10 @@ are nonnegative and sum to one. Equation (11) therefore has a strictly
 positive right side. Since $`A\ge4`$, it implies $`f_2(3/4)<0`$,
 and hence
 
+**(12)**
+
 ```math
 0<u<3/4.
-\tag{12}
 ```
 
 ## 5. The exact sign identity
@@ -408,11 +420,12 @@ The complete table
 [full-height-bernstein.json](../../../calculation-data/reciprocal/full-height-bernstein.json)
 states the exact polynomial identity
 
+**(13)**
+
 ```math
 -(u+4)^4\overline{Q_R}
 =\sum c_{j,i,l,m,n}a^j
 B_i^{11}(\theta)B_l^8(\eta)B_m^4(w)B_n^4(\rho).
-\tag{13}
 ```
 
 For each $`j=0,1,2,3,4`$, its array has 2,625 positive coefficients
@@ -434,9 +447,10 @@ The first and last factors are positive because $`\theta,\rho<1`$,
 the second because $`0<\eta<1`$, and the brace because it equals
 $`(1-w)^4+w^4>0`$. All other terms in (13) are nonnegative. Thus
 
+**(14)**
+
 ```math
 \overline{Q_R}<0.
-\tag{14}
 ```
 
 The calculation program
@@ -476,9 +490,10 @@ Q_R=\sigma^2\{4nE_2(\ell_L)-7E_3(\ell_L)\}.
 Substitution in (5) and (9) gives
 $`Q_R=N^6\overline{Q_R}<0`$. The exact identity
 
+**(15)**
+
 ```math
 15E_1Q_R=7Q+4J\{15nE_1\sigma-14J\}
-\tag{15}
 ```
 
 compares the needed Newton expression with this negative quantity.

@@ -14,9 +14,11 @@ In particular every actual curve satisfies $`\theta_C'<0`$ and $`\eta_C'<0`$ on 
 
 Assume
 
+**(1)**
+
 ```math
 Y=R-r(1+r)=k(r+l)(r-c_1)(r-c_2),\qquad
-k,l>0,\quad0<c_1<c_2<\xi.                           \tag{1}
+k,l>0,\quad0<c_1<c_2<\xi.
 ```
 
 Then at every actual level, the entire exterior $`(\xi,\infty)`$ has at most **two curvature contact weights**. No restriction on $`l/h`$, no negative-wall residue sign, and no simple-contact hypothesis is required.
@@ -25,11 +27,13 @@ This factorization follows automatically if the positive wall is strict low, $`Y
 
 For the positive exterior source $`\theta_0=Y/H`$, its elasticity is
 
+**(2)**
+
 ```math
 \eta_0=p-q,\qquad
 p=\frac r{r-c_1}+\frac r{r+l}-\frac r{r+h}>0,
 \quad
-q=\frac{r(\xi-c_2)}{(r-\xi)(r-c_2)}>0.              \tag{2}
+q=\frac{r(\xi-c_2)}{(r-\xi)(r-c_2)}>0.
 ```
 
 Indeed, if $`l\le h`$ both terms after the first in $`p`$ have nonnegative sum. If $`l>h`$, their sum is greater than $`-1`$, whereas the first term exceeds one. More explicitly
@@ -41,11 +45,13 @@ N=r^2+2hr+lh+(l-h)c_1>0.
 
 Let $`\lambda_p=p'/p`$ and $`\lambda_q=q'/q`$. Then $`\lambda_q<0`$, and
 
+**(3)**
+
 ```math
 \lambda_p-\lambda_q
 =\frac{N'}N-\frac1{r+l}
  +\left[\frac1{r-\xi}-\frac1{r+h}\right]
- +\left[\frac1{r-c_2}-\frac1{r-c_1}\right]>0.         \tag{3}
+ +\left[\frac1{r-c_2}-\frac1{r-c_1}\right]>0.
 ```
 
 The first bracket-free difference is positive because
@@ -58,15 +64,19 @@ N'(r+l)-N
 
 Consequently
 
+**(4)**
+
 ```math
 \eta_0'=p(\lambda_p-\lambda_q)+(p-q)\lambda_q>0
-\quad\hbox{whenever }\eta_0\le0.                    \tag{4}
+\quad\hbox{whenever }\eta_0\le0.
 ```
 
 At a stationary point of source entropy $`J_0(r)=J(r,\theta_0(r))`$, the source is tangent to its actual level graph, so $`\eta_0=\eta_C<0`$. The derivative of the ODE discrepancy at that point gives
 
+**(5)**
+
 ```math
-J_0''=J_\theta\frac{\theta_0}r(\eta_0'-\eta_C')<0.    \tag{5}
+J_0''=J_\theta\frac{\theta_0}r(\eta_0'-\eta_C')<0.
 ```
 
 Thus every exterior stationary point is a strict, nondegenerate maximum.
@@ -98,10 +108,12 @@ k,l>0,\quad0<c_1<\xi<c_2.
 
 The source is negative on $`(\xi,c_2)`$, so no actual positive curve contacts it there. For $`r>c_2`$,
 
+**(6)**
+
 ```math
 \eta_0=\frac r{r+l}
  +\frac{r(c_1+h)}{(r-c_1)(r+h)}
- +\frac{r(c_2-\xi)}{(r-c_2)(r-\xi)}>0.               \tag{6}
+ +\frac{r(c_2-\xi)}{(r-c_2)(r-\xi)}>0.
 ```
 
 Hence $`\theta_0'>0`$, while $`\theta_C'<0`$. At $`c_2`$ the source is zero and the actual curve is positive; at infinity the source grows linearly while the actual curve tends to zero. There is exactly **one** exterior contact, and its nonzero derivative difference makes it simple. This holds for every finite actual entropy level and requires only positive cubic coefficients.

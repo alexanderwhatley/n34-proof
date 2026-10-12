@@ -20,17 +20,19 @@ f=1-E_-M_- -E_+M_+ -E'_+M'_+,
 
 where each M is a beta function $`x^a(1-x)^b`$ and $`\prec`$ means strict comparison in both exponent coordinates. Multiplication by $`-1/M_-`$ gives
 
+**(1)**
+
 ```math
 G=c_1-u+c_3v+c_4w,
 \quad(c_1,c_3,c_4)=(E_-,E_+,E'_+),
-\tag{1}
 ```
+
+**(2)**
 
 ```math
 u=1/M_-,\quad v=M_+/M_-,\quad w=M'_+/M_-,
 \quad0\prec\operatorname{supp}u\prec\operatorname{supp}v
 \prec\operatorname{supp}w.
-\tag{2}
 ```
 
 All three beta functions vanish at both endpoints. No coefficient has been absorbed differently at different nodes.
@@ -43,26 +45,29 @@ q=w/v,\qquad F=(u-c_1)/v.
 
 Then the same row has two representations
 
+**(3)**
+
 ```math
 G/v=c_3+c_4q-F,
 \qquad
 G/w=c_4+c_3/q-F/q.
-\tag{3}
 ```
 
 Define
 
+**(4)**
+
 ```math
 L_4=\frac{dF}{dq},\qquad
 L_3=\frac{d(F/q)}{d(1/q)}=F-qL_4.
-\tag{4}
 ```
 
 Away from the single mode of q, zeros of $`(G/v)'`$ are exactly hits $`L_4=c_4`$, and zeros of $`(G/w)'`$ are exactly hits $`L_3=c_3`$. The derivative relation is
 
+**(5)**
+
 ```math
 \boxed{(L_3)_x=-q(L_4)_x.}
-\tag{5}
 ```
 
 The notation L3,L4 labels the original coefficients c3,c4. Both functions in (4) depend on the same c1 and the same support triple.
@@ -85,23 +90,25 @@ Set
 
 There are unique real h,n such that $`u=v^h q^n`$; put $`m=h-1`$, $`H=1-h`$, and $`L_u=hL_v+nL_q`$. The raw polynomial cores are
 
+**(6)**
+
 ```math
 \begin{aligned}
 C_0&=L_v(L_v+L_q)L_q-\Delta\omega,\\
 D_0&=(L_u-L_v)(L_u-L_v-L_q)L_q+m\Delta\omega,\\
 K_0&=c_1C_0-uD_0.
 \end{aligned}
-\tag{6}
 ```
 
 C0 and D0 have degree at most three. K0 is a beta function times a cubic subtracted from a cubic. Direct differentiation, without using a fitted p-coordinate model, gives
+
+**(7)**
 
 ```math
 \boxed{
 (L_4)_x=-\frac{K_0}{v q\omega L_q^2},
 \qquad
 (L_3)_x=\frac{K_0}{v\omega L_q^2}.}
-\tag{7}
 ```
 
 At x=0 and x=1 the signs of C0 are respectively positive and negative:
@@ -117,16 +124,18 @@ The imported distinct-root theorem of El Hilany–Tavenas bounds K0 by eight roo
 
 **Theorem 1 (global shared-height saturation).** Suppose (1)–(2) have ten simple roots and the auxiliary data are generic. Then K0 has exactly seven simple roots $`z_1<\cdots<z_7`$. Both L4 and L3 have exactly nine hits of their respective common positive levels c4 and c3. At these seven nodes,
 
+**(8)**
+
 ```math
 \max\{0,L_4(z_1),L_4(z_3),L_4(z_5),L_4(z_7)\}
 <c_4<\min\{L_4(z_2),L_4(z_4),L_4(z_6)\},
-\tag{8}
 ```
+
+**(9)**
 
 ```math
 \max\{0,L_3(z_2),L_3(z_4),L_3(z_6)\}
 <c_3<\min\{L_3(z_1),L_3(z_3),L_3(z_5),L_3(z_7)\}.
-\tag{9}
 ```
 
 **Proof.** Rolle applied separately to the two expressions (3) gives at least nine hits of each derivative ratio. Both ratios have one common generic simple pole, at the mode of q. Their stationary points away from that pole are precisely the zeros of K0, by (7). Nine hits on one side of the pole would require at least eight stationary points and is impossible. On the two sides together, nine hits require at least seven stationary points. The preceding bound therefore forces exactly seven.
@@ -143,16 +152,19 @@ p=L_v/L_q,\qquad
 =\lambda\prod_{i=1}^3(p-r_i),
 ```
 
+**(10)**
+
 ```math
 0<r_1<r_2<r_3,
 \quad(r_1,r_2,r_3)=
 \left(\frac b{b_q},\frac{a+b}{a_q+b_q},\frac a{a_q}\right).
-\tag{10}
 ```
 
 The left original branch has $`r_3<p<\infty`$, $`q_x>0`$, $`\Pi>0`$. The right original branch has $`-\infty<p<r_1`$, $`q_x<0`$, $`\Pi<0`$. In each branch p increases with x. The two infinities represent the same q-mode seam.
 
 Retain exactly the predecessor's polynomials
+
+**(11)**
 
 ```math
 \begin{aligned}
@@ -161,28 +173,29 @@ E&=mhp^2+2mnp+n(n-1),&D&=E-mC,\\
 A&=nC+pE,&B&=(h-n)C-(p+1)E,\\
 J&=\Pi(EC'-E'C)-(p+k)CD.
 \end{aligned}
-\tag{11}
 ```
 
 Here primes mean p derivatives. One has $`C_0=L_q^3C`$, $`D_0=L_q^3D`$. At every generic critical node of Theorem 1,
+
+**(12)**
 
 ```math
 \boxed{
 c_1=V:=uD/C>0,
 \quad L_4=(u/w)A/C,
 \quad L_3=(u/v)B/C.}
-\tag{12}
 ```
 
 Thus **C>0 at one of these nodes automatically entails D>0**. This supplies the height condition missing from the preceding derivative-maxima argument, because it uses the original c1 before eliminating the other two coefficients.
 
 Two further exact identities are
 
+**(13)**
+
 ```math
 V_p=-\frac{uJ}{\Pi C^2},
 \qquad
 (L_4)_x=\frac{Cq_x}{vq^2}(V-c_1)
-\tag{13}
 ```
 
 where the denominators are nonzero. Since $`(L_3)_x=-q(L_4)_x`$, a crossing of V through c1 determines which ratio has a maximum:
