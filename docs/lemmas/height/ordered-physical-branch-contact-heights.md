@@ -122,8 +122,8 @@ Here are proofs of all four claims.
 First, $`z\coth z`$ strictly increases on $`z\gt0`$, giving $`\eta\gt0`$. The function $`z/(e^{2dz}-1)`$ strictly decreases in $`z\gt0`$, giving $`\eta\lt1`$. Also
 
 ```math
-\eta_d=r^2\operatorname{csch}^2(rd)
- -(r+1)^2\operatorname{csch}^2((r+1)d)\gt0,
+\eta_d=r^2\mathop{\mathrm{csch}}\nolimits ^2(rd)
+ -(r+1)^2\mathop{\mathrm{csch}}\nolimits ^2((r+1)d)\gt0,
 ```
 
 since $`z/\sinh z`$ strictly decreases. As $`d_s\lt0`$, this proves $`\eta_s\lt0`$.
@@ -139,11 +139,11 @@ For the final claim it suffices to prove $`(d^2)_{ss}\gt0`$, since
 Define
 
 ```math
-g(z)=\coth z+z\operatorname{csch}^2z,qquad
+g(z)=\coth z+z\mathop{\mathrm{csch}}\nolimits ^2z,qquad
 P(z)=z^2g(z).
 ```
 
-The function $`P(z)/z=z\coth z+z^2\operatorname{csch}^2z`$ strictly increases. Multiplying its derivative by $`\sinh^3z`$ gives
+The function $`P(z)/z=z\coth z+z^2\mathop{\mathrm{csch}}\nolimits ^2z`$ strictly increases. Multiplying its derivative by $`\sinh^3z`$ gives
 
 ```math
 N(z)=\cosh z\sinh^2z+z\sinh z-2z^2\cosh z.
@@ -276,7 +276,7 @@ Its derivative is strictly positive, because
 \frac1\kappa\left(\frac{\pi_\kappa}{J_\kappa}\right)_s
 =(u_{0,s}+v_{0,s})
  +u_{0,s}\{\coth(\kappa d)-1\}
- +\kappa u_0^2\operatorname{csch}^2(\kappa d)\gt0.
+ +\kappa u_0^2\mathop{\mathrm{csch}}\nolimits ^2(\kappa d)\gt0.
 ```
 
 The first term is $`t_{L,ss}\gt0`$. Hence
@@ -323,7 +323,7 @@ No earlier one-crossing theorem is needed for $`\mathcal I`$. Indeed
 The last sign follows because the hazard $`\kappa\{u_0\coth(\kappa d)+v_0\}`$ strictly increases in $`\kappa`$: its derivative is
 
 ```math
-u_0\{\coth w-w\operatorname{csch}^2w\}+v_0\gt0.
+u_0\{\coth w-w\mathop{\mathrm{csch}}\nolimits ^2w\}+v_0\gt0.
 ```
 
 Consequently

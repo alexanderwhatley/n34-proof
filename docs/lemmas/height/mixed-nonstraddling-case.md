@@ -98,7 +98,7 @@ $`u'(r)=-v(r)k_+'(r)`$. The source derivative identity
 $`u'=-(h_0/h_2)V/[t(1-t)\ell_2^2]`$ proves
 
 ```math
-\operatorname{sign}V(r)=\operatorname{sign}k_+'(r).
+\mathop{\mathrm{sign}}\nolimits V(r)=\mathop{\mathrm{sign}}\nolimits k_+'(r).
 ```
 
 Thus (1) means $`d\lt r`$. Before $`d`$, both positive factors $`v`$ and

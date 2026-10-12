@@ -97,7 +97,7 @@ has a right side of exact order one at $`r_B`$, both polynomials cannot have ord
 **(6)**
 
 ```math
-\min(\operatorname{ord}_{r_B}P,\operatorname{ord}_{r_B}G)=1.
+\min(\mathop{\mathrm{ord}}\nolimits _{r_B}P,\mathop{\mathrm{ord}}\nolimits _{r_B}G)=1.
 ```
 
 Set $`S=P-\kappa h_1G`$. As $`x\to0+`$, $`h_1\to+\infty`$, while
@@ -118,7 +118,7 @@ Y'=\frac{-LK}{w h_1G^2},
 with their original multiplicities. Such contacts lie away from every numerator zero and pole.
 
 Count odd- and even-order physical $`G`$ poles by $`o,e`$. Classify an even pole by the sign of $`Y`$ on its two sides, giving $`e_+,e_-`$, and put
-$`d=\sum_g(\operatorname{ord}_gG-1)`$. Let $`a_+,a_-`$ count even numerator roots by the sign of $`Y`$ on either side. Each such root is double.
+$`d=\sum_g(\mathop{\mathrm{ord}}\nolimits _gG-1)`$. Let $`a_+,a_-`$ count even numerator roots by the sign of $`Y`$ on either side. Each such root is double.
 
 First ignore the even numerator events in the sign sweep. They do not change its signs. The positive signs at both physical endpoints, the sole odd numerator sign flip, and the $`o`$ odd pole flips give
 
@@ -165,7 +165,7 @@ Combining (8)–(9) gives the single divisor budget
 &\ge N-q_0+d+t_0\\
 &=N-2+(d-e)+2e_-\\
 &=N-2+2\sum_g\left\lfloor
-       \frac{\operatorname{ord}_gG-1}{2}\right\rfloor+2e_-
+       \frac{\mathop{\mathrm{ord}}\nolimits _gG-1}{2}\right\rfloor+2e_-
 \ge N-2.
 \end{aligned}
 ```

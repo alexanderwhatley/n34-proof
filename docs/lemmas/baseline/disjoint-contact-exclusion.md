@@ -41,8 +41,8 @@ The determinant cofactors have the following signs at both endpoints:
 **(5.3)**
 
 ```math
-(\operatorname{sgn}e_0,\operatorname{sgn}e_1,
-  \operatorname{sgn}e_2,\operatorname{sgn}e_3)=(-,-,+,+).
+(\mathop{\mathrm{sgn}}\nolimits e_0,\mathop{\mathrm{sgn}}\nolimits e_1,
+  \mathop{\mathrm{sgn}}\nolimits e_2,\mathop{\mathrm{sgn}}\nolimits e_3)=(-,-,+,+).
 ```
 
 The two endpoint signs of K are opposite, so there are at most five physical K roots. The complementary useful sets for the three monotone pairs among u,v,w are $`U_{01},U_{02},U_{03}`$.
@@ -77,8 +77,8 @@ The exact contact identity for k=2,l=3, at a zero of e_3, reduces to
 Since $`\lambda_u\gt0`$ and $`e_2\gt0`$ there, $`K(r_1)\lt0\lt K(r_2)`$. A K root lies between them. But throughout that interval
 
 ```math
-\operatorname{sgn}(c_2e_2)=-1,
- \qquad \operatorname{sgn}(c_3e_3)=+1.
+\mathop{\mathrm{sgn}}\nolimits (c_2e_2)=-1,
+ \qquad \mathop{\mathrm{sgn}}\nolimits (c_3e_3)=+1.
 ```
 
 Regardless of the sign of $`c_0e_0`$, that K root cannot belong to **both** $`U_{02}`$ and $`U_{03}`$. This contradicts the five jointly useful contacts forced above.

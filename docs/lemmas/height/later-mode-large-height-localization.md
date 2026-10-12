@@ -11,8 +11,8 @@ Let
 ```math
 G=c_1-u+c_3v+c_4w,
 \quad c_1,c_3,c_4\gt0,
-\quad0\prec\operatorname{supp}u\prec\operatorname{supp}v
-\prec\operatorname{supp}w,
+\quad0\prec\mathop{\mathrm{supp}}\nolimits u\prec\mathop{\mathrm{supp}}\nolimits v
+\prec\mathop{\mathrm{supp}}\nolimits w,
 ```
 
 with beta functions on (0,1). Reflect so that q=w/v has mode before w and v, and write u=v^h q^n in the nondegenerate chart. If h>=1 and n<0, then G has at most nine distinct roots. There is no bound restriction on lambda.
@@ -28,7 +28,7 @@ R=G/u=c_1/u-1+c_3a+c_4b.
 Both a and b are positive-exponent beta functions. Let rho_a,rho_b,rho_u be their modes. The determinant identity
 
 ```math
-\det(\operatorname{supp}(v-u),\operatorname{supp}q)
+\det(\mathop{\mathrm{supp}}\nolimits (v-u),\mathop{\mathrm{supp}}\nolimits q)
 =(1-h)\Delta\le0
 ```
 

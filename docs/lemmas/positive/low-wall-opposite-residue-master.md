@@ -102,7 +102,7 @@ u_0(g)\gt u_0(c).
 
 The actual common entropy curve imposes the opposite order. It cannot meet both the central seam component and the chosen outer seam component. This proves the required empty-component inequality with **no condition on the degree difference, remainder slope or contrast size**.
 
-For unequal $`P,Q`$, put $`\varepsilon=\operatorname{sgn}(Q-P)`$, and choose the smaller-wall-probability tail $`\varepsilon y\gt\delta`$. After reflecting if necessary, the affine quotient has slope $`\varepsilon b`$. Hence (4) follows whenever $`\varepsilon b\ge0`$. The source metric gives
+For unequal $`P,Q`$, put $`\varepsilon=\mathop{\mathrm{sgn}}\nolimits (Q-P)`$, and choose the smaller-wall-probability tail $`\varepsilon y\gt\delta`$. After reflecting if necessary, the affine quotient has slope $`\varepsilon b`$. Hence (4) follows whenever $`\varepsilon b\ge0`$. The source metric gives
 
 ```math
 \gamma^2NKb=(d_3-d_1)(a_3-a_1)(b_3-b_1),

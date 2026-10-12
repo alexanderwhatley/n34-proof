@@ -158,7 +158,7 @@ Evaluating the short identity at $`-1/x`$ gives $`T_1-T_2/x\gt0`$, since $`\bar 
 The exact formal degree-three/degree-two identity is
 
 ```math
-\operatorname{Res}(\bar A,\bar D)
+\mathop{\mathrm{Res}}\nolimits (\bar A,\bar D)
 =\frac{\bar D(0)^2T_2^2}{S^2}\bar D(-T_1/T_2)\lt0.
 ```
 
@@ -179,7 +179,7 @@ D_q(\alpha)=\frac{(W-Pz)B(\alpha)}{P+W\alpha}\gt0.
 The denominators are positive: $`\alpha\gt0`$ because the contact point lies before all physical cofactor roots, and $`W-Pz=A(0)+P(L+P)\gt0`$. Evaluating the degree-three/degree-two resultant at A's roots gives
 
 ```math
-\operatorname{Res}(A,D_q)=a_{\rm lead}^2D_q(\alpha)|D_q(\zeta)|^2\ge0.
+\mathop{\mathrm{Res}}\nolimits (A,D_q)=a_{\rm lead}^2D_q(\alpha)|D_q(\zeta)|^2\ge0.
 ```
 
 This contradiction excludes $`F\le0`$, so every postmode contact is a nondegenerate phase maximum.

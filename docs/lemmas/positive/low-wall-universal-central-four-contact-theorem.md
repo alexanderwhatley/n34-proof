@@ -34,7 +34,7 @@ the positive projective transform has coefficient signs
 ```math
 \begin{array}{c|ccccccc}
 i&0&1&2&3&4&5&6\\\hline
-\operatorname{sign}C_i&+&+&*&*&*&-&-
+\mathop{\mathrm{sign}}\nolimits C_i&+&+&*&*&*&-&-
 \end{array}
 ```
 

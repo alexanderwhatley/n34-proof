@@ -182,7 +182,7 @@ As a function of scale,
 ```math
 q(\delta)=\frac{B(\eta)-\delta S(\eta)}
 {B(\xi)-\delta S(\xi)},\qquad
-\operatorname{sgn}q'=\operatorname{sgn}[f(\xi)-f(\eta)].
+\mathop{\mathrm{sgn}}\nolimits q'=\mathop{\mathrm{sgn}}\nolimits [f(\xi)-f(\eta)].
 ```
 
 At zero scale,

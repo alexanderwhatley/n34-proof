@@ -10,7 +10,7 @@ For an original strict comparable row
 
 ```math
 G=c_1-u+c_3v+c_4w,\quad c_1,c_3,c_4\gt0,
-\quad0\prec\operatorname{supp}u\prec\operatorname{supp}v\prec\operatorname{supp}w,
+\quad0\prec\mathop{\mathrm{supp}}\nolimits u\prec\mathop{\mathrm{supp}}\nolimits v\prec\mathop{\mathrm{supp}}\nolimits w,
 ```
 
 let q=w/v and reflect so that rho_q<rho_w<rho_v. Write u=v^h q^n. If
@@ -28,7 +28,7 @@ then G has at most nine distinct roots. This covers all h>=1, and also 0<h<1,n<=
 The h>=1 part is already proved in *hge1 exclusion*. The new proof below assumes 0<h<1 and n<=h-1. The key equivalent geometric condition is rho_{v/u}<=rho_w. Indeed
 
 ```math
-\det(\operatorname{supp}(v/u),\operatorname{supp}w)
+\det(\mathop{\mathrm{supp}}\nolimits (v/u),\mathop{\mathrm{supp}}\nolimits w)
 =(1-h+n)\Delta.
 ```
 

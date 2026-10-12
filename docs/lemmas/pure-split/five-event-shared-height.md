@@ -196,7 +196,7 @@ i is odd and strictly increases when i is even. In either case,
 **(12)**
 
 ```math
-\operatorname{sgn}(W(v)-W(u))=(-1)^i.
+\mathop{\mathrm{sgn}}\nolimits (W(v)-W(u))=(-1)^i.
 ```
 
 But (3) demands W(v)>tau>W(u) for odd i and W(v)<tau<W(u) for even

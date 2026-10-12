@@ -37,7 +37,7 @@ First suppose the sole odd P3 event is simple and there is no even P3
 root. The previously independently verified pole-divisor formula gives
 
 ```math
-\operatorname{weight}_{\rm physical}K\ge N-2
+\mathop{\mathrm{weight}}\nolimits _{\rm physical}K\ge N-2
 +(d_G-e_G)+2e_{G,-}\ge N-2.
 ```
 
@@ -99,7 +99,7 @@ Rolle on at most three occupied intervals supplies at least M-3
 physical Khat weight. The fixed common factor adds two K weights, giving
 
 ```math
-\operatorname{weight}_{\rm physical}K\ge M-3+2=N-2.
+\mathop{\mathrm{weight}}\nolimits _{\rm physical}K\ge M-3+2=N-2.
 ```
 
 If a Khat critical occurs at q, its multiplicity adds to the fixed two

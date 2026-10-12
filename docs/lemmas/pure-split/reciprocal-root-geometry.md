@@ -150,7 +150,7 @@ Evaluate (3) at `E`.  Since `ell2(E)<0`, `T(E)<0`, and `-E>0`,
 Consequently
 
 ```math
-\operatorname{sgn}P(E)=\operatorname{sgn}(1+E).
+\mathop{\mathrm{sgn}}\nolimits P(E)=\mathop{\mathrm{sgn}}\nolimits (1+E).
 ```
 
 At `E`, the Pluecker identity in (2) becomes `JP=ell2 H`.
@@ -159,8 +159,8 @@ Both `J(E)` and `ell2(E)` are negative, so
 **(6)**
 
 ```math
-\boxed{\operatorname{sgn}P(E)=\operatorname{sgn}H(E)
-       =\operatorname{sgn}(1+E).}
+\boxed{\mathop{\mathrm{sgn}}\nolimits P(E)=\mathop{\mathrm{sgn}}\nolimits H(E)
+       =\mathop{\mathrm{sgn}}\nolimits (1+E).}
 ```
 
 The second fixed point is `L0=-F/Delta<0`, the zero of the reciprocal
@@ -182,8 +182,8 @@ Their nonzero bracket factors are positive.  Since
 **(8)**
 
 ```math
-\boxed{\operatorname{sgn}P(L_0)=\operatorname{sgn}H(L_0)
-       =-\operatorname{sgn}(1+L_0).}
+\boxed{\mathop{\mathrm{sgn}}\nolimits P(L_0)=\mathop{\mathrm{sgn}}\nolimits H(L_0)
+       =-\mathop{\mathrm{sgn}}\nolimits (1+L_0).}
 ```
 
 ```math

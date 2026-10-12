@@ -57,7 +57,7 @@ A root `x<0` maps to `z<-1`, and a root `x>1` maps to `-1<z<0`. Also
 **(4)**
 
 ```math
-\bar P(0)=P(1)\lt0,\quad \operatorname{lc}(\bar P)=P(0)\gt0,
+\bar P(0)=P(1)\lt0,\quad \mathop{\mathrm{lc}}\nolimits (\bar P)=P(0)\gt0,
 ```
 
 and the same identities hold for `G`. Thus
@@ -272,17 +272,17 @@ two variations; it adds two exactly if
 **(16)**
 
 ```math
-\operatorname{sgn}c_{i-1}=\operatorname{sgn}c_i
-=-\operatorname{sgn}A_i.
+\mathop{\mathrm{sgn}}\nolimits c_{i-1}=\mathop{\mathrm{sgn}}\nolimits c_i
+=-\mathop{\mathrm{sgn}}\nolimits A_i.
 ```
 
 All three insertions cannot add two. If they did, their common neighbors
 would force
 
 ```math
-\operatorname{sgn}A_1=\operatorname{sgn}A_2
-=\operatorname{sgn}A_3
-=-\operatorname{sgn}c_0.
+\mathop{\mathrm{sgn}}\nolimits A_1=\mathop{\mathrm{sgn}}\nolimits A_2
+=\mathop{\mathrm{sgn}}\nolimits A_3
+=-\mathop{\mathrm{sgn}}\nolimits c_0.
 ```
 
 But `A3<0` and `c0<0`, a contradiction. At most two insertions add two;

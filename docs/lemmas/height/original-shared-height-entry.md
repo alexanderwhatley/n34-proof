@@ -14,8 +14,8 @@ f=1-E_-M_- -E_+M_+ -E'_+M'_+,
 ```
 
 ```math
-\operatorname{supp}M_-\prec0\prec\operatorname{supp}M_+
-\prec\operatorname{supp}M'_+,
+\mathop{\mathrm{supp}}\nolimits M_-\prec0\prec\mathop{\mathrm{supp}}\nolimits M_+
+\prec\mathop{\mathrm{supp}}\nolimits M'_+,
 ```
 
 where each M is a beta function $`x^a(1-x)^b`$ and $`\prec`$ means strict comparison in both exponent coordinates. Multiplication by $`-1/M_-`$ gives
@@ -31,8 +31,8 @@ G=c_1-u+c_3v+c_4w,
 
 ```math
 u=1/M_-,\quad v=M_+/M_-,\quad w=M'_+/M_-,
-\quad0\prec\operatorname{supp}u\prec\operatorname{supp}v
-\prec\operatorname{supp}w.
+\quad0\prec\mathop{\mathrm{supp}}\nolimits u\prec\mathop{\mathrm{supp}}\nolimits v
+\prec\mathop{\mathrm{supp}}\nolimits w.
 ```
 
 All three beta functions vanish at both endpoints. No coefficient has been absorbed differently at different nodes.

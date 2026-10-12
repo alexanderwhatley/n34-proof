@@ -8,8 +8,8 @@ Retain the actual original row
 
 ```math
 G=c_1-u+c_3v+c_4w,\qquad c_1,c_3,c_4\gt0,
-\qquad 0\prec\operatorname{supp}u\prec\operatorname{supp}v
-\prec\operatorname{supp}w,
+\qquad 0\prec\mathop{\mathrm{supp}}\nolimits u\prec\mathop{\mathrm{supp}}\nolimits v
+\prec\mathop{\mathrm{supp}}\nolimits w,
 ```
 
 with beta functions on $`0\lt x\lt1`$, $`q=w/v`$, and

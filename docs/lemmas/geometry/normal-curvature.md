@@ -202,7 +202,7 @@ minimum of q on the convex compact sublevel $`K=\{G\le\ell\}`$. The
 minimum is unique by strict convexity, is on the boundary because
 $`\nabla q\ne0`$, and satisfies $`\nabla q=-c\nabla G`$, $`c\gt0`$.
 The constrained tangent Hessian is
-$`\operatorname{Hess}q+c\operatorname{Hess}G`$, strictly positive.
+$`\mathop{\mathrm{Hess}}\nolimits q+c\mathop{\mathrm{Hess}}\nolimits G`$, strictly positive.
 This critical is nondegenerate and its derivative weight is one.
 Mixed and axis normals cannot be proportional to the strictly positive
 gradient of q, so have no q criticals.

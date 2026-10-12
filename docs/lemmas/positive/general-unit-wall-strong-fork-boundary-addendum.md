@@ -27,7 +27,7 @@ The actual $`d`$ is analytic throughout $`I`$. The strong-fork origin quadratic 
 
 ```math
 d(c)=\frac{1-\sigma}{\sigma w(c)},\qquad
-\operatorname{res}_c A=\frac{\sigma(3-\sigma)}2.
+\mathop{\mathrm{res}}\nolimits _c A=\frac{\sigma(3-\sigma)}2.
 ```
 
 At a unit wall, $`d(c)=0`$ and $`A=1/(x-c)+A_0`$, where $`A_0`$ is analytic. Write $`d=(x-c)v`$. Then

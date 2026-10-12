@@ -90,7 +90,7 @@ The leading term of $`Q`$ is
 
 It is nonzero, so this pole supplies exactly $`r-1`$ physical $`K`$ weights.
 
-Let $`o,e`$ count odd- and even-order physical poles, let $`e_+,e_-`$ classify even poles by the sign of $`Y`$ on their sides, and put $`d=\sum_g(\operatorname{ord}_gG-1)`$. Let $`n_+,n_-`$ count the even numerator events by the sign of $`Y`$ on their sides. There is at most one such event, a double $`P`$ root, and write $`n=n_++n_-`$.
+Let $`o,e`$ count odd- and even-order physical poles, let $`e_+,e_-`$ classify even poles by the sign of $`Y`$ on their sides, and put $`d=\sum_g(\mathop{\mathrm{ord}}\nolimits _gG-1)`$. Let $`n_+,n_-`$ count the even numerator events by the sign of $`Y`$ on their sides. There is at most one such event, a double $`P`$ root, and write $`n=n_++n_-`$.
 
 Ignoring an even numerator event, the odd $`P`$ event and the odd $`G`$ poles flip the positive endpoint sign. Even poles split a region without changing its sign. An even positive numerator event splits one additional positive component. Thus the number of positive components is
 
@@ -113,7 +113,7 @@ Contacts totaling $`N_i`$ on one occupied positive component give at least $`N_i
 Z_{(0,1),\mathrm{mult}}(K)
 &\ge N-q_++d+t+n\\
 &\ge N-2+(d-e)+2e_-\\
-&=N-2+2\sum_g\left\lfloor\frac{\operatorname{ord}_gG-1}{2}\right\rfloor+2e_-\\
+&=N-2+2\sum_g\left\lfloor\frac{\mathop{\mathrm{ord}}\nolimits _gG-1}{2}\right\rfloor+2e_-\\
 &\ge N-2.
 \end{aligned}
 ```
@@ -173,8 +173,8 @@ $`L_0=-F/\Delta\lt0`$. At the leftmost reciprocal $`\bar P_1`$ root, $`\bar P_1'
 Both reciprocal linears $`(a_2-a_1)E-(b_2-b_1)`$ and $`a_2E-b_2`$ are negative. The Pluecker identity therefore gives
 
 ```math
-\operatorname{sgn}\bar P(E)=\operatorname{sgn}\bar G(E)
-=\operatorname{sgn}(1+E).
+\mathop{\mathrm{sgn}}\nolimits \bar P(E)=\mathop{\mathrm{sgn}}\nolimits \bar G(E)
+=\mathop{\mathrm{sgn}}\nolimits (1+E).
 ```
 
 Exact evaluation at the zero $`L_0`$ of the reciprocal $`L`$ gives
@@ -186,7 +186,7 @@ Exact evaluation at the zero $`L_0`$ of the reciprocal $`L`$ gives
 \end{aligned}
 ```
 
-Thus both signs there are $`-\operatorname{sgn}(1+L_0)`$.
+Thus both signs there are $`-\mathop{\mathrm{sgn}}\nolimits (1+L_0)`$.
 Neither point is $`-1`$, because
 
 ```math

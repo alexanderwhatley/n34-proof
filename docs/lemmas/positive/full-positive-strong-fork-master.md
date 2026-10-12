@@ -27,7 +27,7 @@ R=\frac{(d_1+rd_3)(a_1+ra_3)(b_1+rb_3)}{\gamma^2},\quad Y=R-B.
 
 The roots of $`H`$ are $`0\lt\eta\lt\xi`$, and their source ratios are $`\sigma=B/R\gt0`$. At every one original coefficient tuple and level there is one actual common-entropy curve. Its normal-curvature contacts are zeros of $`B+H u_C-R`$, with their analytic orders preserved. Two normal-Rolle stages add at most two original weights.
 
-Write the sign pair as $`(\operatorname{sgn}Y(\eta),\operatorname{sgn}Y(\xi))`$.
+Write the sign pair as $`(\mathop{\mathrm{sgn}}\nolimits Y(\eta),\mathop{\mathrm{sgn}}\nolimits Y(\xi))`$.
 
 | Sign pair | theorem | Curvature ceiling | Original ceiling |
 |---|---|---:|---:|

@@ -1,6 +1,6 @@
 # C3 inequalities at the lower endpoints
 
-Read [the appendix terminology](../../appendix.md#terminology) before this lemma. Its variables are local. The notation comes from [the C45 argument](upper-low-band-c45-blended-cap-theorem.md). The cubic $`\operatorname{LinN3}`$ is explicitly defined in the final section below.
+Read [the appendix terminology](../../appendix.md#terminology) before this lemma. Its variables are local. The notation comes from [the C45 argument](upper-low-band-c45-blended-cap-theorem.md). The cubic $`\mathop{\mathrm{LinN3}}\nolimits `$ is explicitly defined in the final section below.
 
 Let
 
@@ -15,7 +15,7 @@ Let
 Define the numerator at the largest permitted scale by
 
 ```math
-Z=L\operatorname{LinN3}+2\Gamma G(L^2y-M^2x).
+Z=L\mathop{\mathrm{LinN3}}\nolimits +2\Gamma G(L^2y-M^2x).
 ```
 
 For the one-wall parameters in that argument, positive coefficients of $`R`$ imply $`kd^2L\lt G`$. If $`L^2y-M^2x\le0`$, the value of $`C_3/(kd\gamma)`$ at this scale is $`Z/(\Gamma L)`$. Thus positivity of $`Z`$ at the following lower endpoints supplies the required inequality.
@@ -77,7 +77,7 @@ Put
 \end{aligned}
 ```
 
-Then $`\operatorname{LinN3}/d=F(X)`$, where
+Then $`\mathop{\mathrm{LinN3}}\nolimits /d=F(X)`$, where
 
 ```math
 F(X)=A_3X^3+A_2X^2-A_1X+A_0,

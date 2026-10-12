@@ -73,8 +73,8 @@ odd and has `X(r_i)<0`.  Thus `1-kappa/X(r_i)>0` there as well.  Consequently
 **(5)**
 
 ```math
-\boxed{\operatorname {sgn}S_\kappa(r_i)
- =\operatorname {sgn}P_3(r_i)(-1)^{i+1}.}
+\boxed{\mathop{\mathrm{sgn}}\nolimits S_\kappa(r_i)
+ =\mathop{\mathrm{sgn}}\nolimits P_3(r_i)(-1)^{i+1}.}
 ```
 
 All signs in (5) are strict.
@@ -99,8 +99,8 @@ Hence `sgn G(p)=-sgn P1(p)` and therefore
 **(6)**
 
 ```math
-\boxed{\operatorname {sgn}S_\kappa(p)
- =\operatorname {sgn}P_1(p).}
+\boxed{\mathop{\mathrm{sgn}}\nolimits S_\kappa(p)
+ =\mathop{\mathrm{sgn}}\nolimits P_1(p).}
 ```
 
 The endpoint signs are also fixed.  Since `a1<0`, `h1(0+)=infinity`, and
@@ -170,8 +170,8 @@ Reflection followed by exchange of the outer labels sends a word to
 **(9)**
 
 ```math
-\mathcal R(w)=\operatorname {swap}_{1\leftrightarrow3}
-                 (\operatorname {reverse}w),
+\mathcal R(w)=\mathop{\mathrm{swap}}\nolimits _{1\leftrightarrow3}
+                 (\mathop{\mathrm{reverse}}\nolimits w),
 ```
 
 and gives

@@ -15,7 +15,7 @@ y=M_{[:,1:k]}v_{1:k}
 is nonzero and has sign
 
 ```math
-\boxed{\operatorname{sign}(y_i)=(-1)^{k+1}.}
+\boxed{\mathop{\mathrm{sign}}\nolimits (y_i)=(-1)^{k+1}.}
 ```
 
 In particular, a strictly totally positive $`4\times5`$ block-collocation matrix annihilating $`(1,-1,1,-1,1)`$ has **strictly negative first-two complete-block prefix at every one of its four nodes**. Its first-three complete-block prefix is strictly positive at every node.
