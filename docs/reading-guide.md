@@ -2,7 +2,7 @@
 
 The aim is to count solutions of two polynomial equations with very few terms. The difficulty is that the exponents can be very large. A degree bound therefore gives little useful information. The proof instead uses the number of terms and the way their derivatives interact.
 
-The reduction in the main proof gives four positive functions of the form $x^a(1-x)^b$ on $0<x<1$. Their coefficients may have either sign. If all coefficients have the same sign, the sum has no zeros. After changing the overall sign if necessary, the substantive cases are two positive and two negative coefficients, and three positive and one negative coefficient.
+The reduction in the main proof gives four positive functions of the form $`x^a(1-x)^b`$ on $`0<x<1`$. Their coefficients may have either sign. If all coefficients have the same sign, the sum has no zeros. After changing the overall sign if necessary, the substantive cases are two positive and two negative coefficients, and three positive and one negative coefficient.
 
 The supporting arguments turn a hypothetical excess of zeros into an excess of derivative zeros or tangencies. Polynomial identities and height comparisons then rule out that excess. The example at the end establishes that nine is attainable.
 
@@ -14,17 +14,17 @@ Standard mathematical words are retained when they are needed, and their meaning
 
 | Term | Meaning here |
 | --- | --- |
-| Monomial term | A coefficient times a product of powers, such as $cX^uY^v$. |
+| Monomial term | A coefficient times a product of powers, such as $`cX^uY^v`$. |
 | Trinomial / quadrinomial | A polynomial with at most three / four nonzero monomial terms. |
 | Support | The set of exponent pairs belonging to the nonzero terms of a polynomial. |
-| Exponent vector | The ordered pair $(a,b)$ in $x^a(1-x)^b$. |
-| Beta monomial; atom in some supporting proofs | The positive function $x^a(1-x)^b$ on $(0,1)$. The word does not introduce an additional object. |
+| Exponent vector | The ordered pair $`(a,b)`$ in $`x^a(1-x)^b`$. |
+| Beta monomial; atom in some supporting proofs | The positive function $`x^a(1-x)^b`$ on $`(0,1)`$. The word does not introduce an additional object. |
 | Nonidentity | A function that is not identically zero. This matters because the zero function has infinitely many zeros. |
 | Distinct zeros | Different zero locations, each counted once. |
 | Multiplicity; root weight | The order to which a function vanishes. Some derivative arguments count this order even though the final theorem counts distinct solutions. |
 | Nondegenerate solution | A solution at which the Jacobian determinant is nonzero. Locally the two equations intersect without tangency. |
-| Sign case; coefficient-sign chamber | A case specifying which coefficients are positive and which are negative. For example, $(2,2)$ means two of each. |
-| Coordinatewise order | $(a,b)\preceq(c,d)$ means $a\leq c$ and $b\leq d$. |
+| Sign case; coefficient-sign chamber | A case specifying which coefficients are positive and which are negative. For example, $`(2,2)`$ means two of each. |
+| Coordinatewise order | $`(a,b)\preceq(c,d)`$ means $`a\leq c`$ and $`b\leq d`$. |
 | Comparable / incomparable vectors | Two vectors are comparable if one is coordinatewise no larger than the other. Strictly incomparable vectors have one coordinate larger and the other smaller. |
 | Generic parameters | Parameters avoiding the particular equalities and repeated roots excluded in an argument. The proof separately explains how to pass back to the excluded cases. |
 | Boundary; wall; equality face | A parameter equality separating strict cases, rather than a new geometric object. |
@@ -38,7 +38,7 @@ Standard mathematical words are retained when they are needed, and their meaning
 | Contact | A point where a curve is tangent to a level or where a derivative vanishes, as defined in the local argument. |
 | Useful contact | A contact in an interval contributing to the original zero count, rather than every root of an auxiliary polynomial. |
 | Physical root or interval | A root or interval inside the domain corresponding to the original problem. Roots elsewhere may be used in the argument but are not original solutions. |
-| Event; event order; event word | A designated root, and the left-to-right order of designated roots. A digit string such as $1320$ lists their labels in order; it is not a number. |
+| Event; event order; event word | A designated root, and the left-to-right order of designated roots. A digit string such as $`1320`$ lists their labels in order; it is not a number. |
 | Cap | An upper bound on a count. The documents prefer the phrase “at most” when possible. |
 | Source | The original linked functions or polynomials from which an auxiliary calculation is derived. Their relations cannot be dropped when applying a lemma. |
 | Gate | A necessary inequality restricting the parameters. It is an assumption or consequence to establish, not a proof by itself. |

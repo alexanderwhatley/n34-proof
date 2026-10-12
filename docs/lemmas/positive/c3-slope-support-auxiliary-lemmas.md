@@ -86,10 +86,10 @@ K3=(T-s²)(4laS-2G)
 4laS-2G=2[2a²+(2l-1)(a+b)+4h(a+l)]>0.
 ```
 
-Therefore $K_3>0$, so together with the endpoint shape statements the cubic increases on the unbounded interval.
+Therefore $`K_3>0`$, so together with the endpoint shape statements the cubic increases on the unbounded interval.
 
 ## Scope of the complete support argument
 
-For $T<s^2$, the condition $D_3\le0$ restricts $X$ to the interval from $\max(B,t_H/e)$ to $X_0=s(2T+sS)/(s^2-T)$. The boundary lemma proves $Z(X_0)>0$ because the slope term vanishes there. Positivity at the lower endpoint and the no-interior-minimum argument then give $Z>0$ throughout the interval. When $t_H/e$ is the lower endpoint, the [native endpoint lemma](c3-native-lower-endpoint-and-derivative-lemmas.md) supplies $Z'(t_H/e)>0$, including equality of the two possible lower endpoints.
+For $`T<s^2`$, the condition $`D_3\le0`$ restricts $`X`$ to the interval from $`\max(B,t_H/e)`$ to $`X_0=s(2T+sS)/(s^2-T)`$. The boundary lemma proves $`Z(X_0)>0`$ because the slope term vanishes there. Positivity at the lower endpoint and the no-interior-minimum argument then give $`Z>0`$ throughout the interval. When $`t_H/e`$ is the lower endpoint, the [native endpoint lemma](c3-native-lower-endpoint-and-derivative-lemmas.md) supplies $`Z'(t_H/e)>0`$, including equality of the two possible lower endpoints.
 
-For $T\ge s^2$, the positive leading-coefficient identity and the endpoint shape statements give positivity on the whole unbounded interval. With $kd^2L<G$, this proves $C_3>0$ whenever $D_3\le0$. The [full support theorem](c3-upper-tail-quadratic-slope-support-theorem.md) combines these auxiliary statements and the native endpoint signs.
+For $`T\ge s^2`$, the positive leading-coefficient identity and the endpoint shape statements give positivity on the whole unbounded interval. With $`kd^2L<G`$, this proves $`C_3>0`$ whenever $`D_3\le0`$. The [full support theorem](c3-upper-tail-quadratic-slope-support-theorem.md) combines these auxiliary statements and the native endpoint signs.

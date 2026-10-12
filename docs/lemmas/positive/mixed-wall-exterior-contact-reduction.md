@@ -27,7 +27,7 @@ one. Then, uniformly over every actual positive coefficient tuple and level:
 No regularity of source seam endpoints or simplicity of original, curvature,
 or forcing contacts is assumed. The reflected orientation exchanges the
 outer labels and the two exterior intervals. The remaining central interval
-is not counted by this theorem. The [complete mixed-wall theorem](mixed-wall-full-eight-master.md) proves at most three central weights. Together the counts are $2+3+1=6$ curvature weights and hence at most eight original roots. This document supplies only the two exterior counts.
+is not counted by this theorem. The [complete mixed-wall theorem](mixed-wall-full-eight-master.md) proves at most three central weights. Together the counts are $`2+3+1=6`$ curvature weights and hence at most eight original roots. This document supplies only the two exterior counts.
 
 ## Residues of the source seam
 

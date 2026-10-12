@@ -1,8 +1,8 @@
 # Only two orders of the four physical cofactor roots are possible
 
-Use the F3 family and determinant signs in [the real exterior-pair lemma](f3-real-exterior-pairs.md). Suppose every signed cofactor has one simple physical root $r_i$, and no two such roots coincide. The label string $0231$ means $r_0<r_2<r_3<r_1$; $1320$ means $r_1<r_3<r_2<r_0$. These are root orders, distinct from the exponent-sum orders.
+Use the F3 family and determinant signs in [the real exterior-pair lemma](f3-real-exterior-pairs.md). Suppose every signed cofactor has one simple physical root $`r_i`$, and no two such roots coincide. The label string $`0231`$ means $`r_0<r_2<r_3<r_1`$; $`1320`$ means $`r_1<r_3<r_2<r_0`$. These are root orders, distinct from the exponent-sum orders.
 
-Here $A_{\rm gap}=a-e$, $B_{\rm gap}=b+d$, $r_{\rm gap}=c-a$, and $q=b-f$. A mode is the zero of the beta factor's logarithmic derivative. The mode of $m_2$ is $x=e/(e+d)$, or $t=e/d$ in the positive coordinate $t=x/(1-x)$.
+Here $`A_{\rm gap}=a-e`$, $`B_{\rm gap}=b+d`$, $`r_{\rm gap}=c-a`$, and $`q=b-f`$. A mode is the zero of the beta factor's logarithmic derivative. The mode of $`m_2`$ is $`x=e/(e+d)`$, or $`t=e/d`$ in the positive coordinate $`t=x/(1-x)`$.
 
 ## Lemma 1: variable cofactors have no physical root before the m2 mode
 

@@ -21,11 +21,11 @@ More generally, the same inequality holds for any such ordered alternating nine 
 
 The uniform original-row consequence is
 
-$$
+```math
 G=c_1-u+c_3v+c_4w
-$$
+```
 
-has at most eight distinct roots in $(0,1)$ for every $c_1,c_3,c_4>0$ under the stated strict coordinatewise support chain.
+has at most eight distinct roots in $`(0,1)`$ for every $`c_1,c_3,c_4>0`$ under the stated strict coordinatewise support chain.
 
 ## 1. One positive common level is the obstruction
 
@@ -59,9 +59,9 @@ If n>0, these imply h<1. If h<=0, positivity implies n>0 and consequently n>h. I
 
 | Region | Exact chart | Uniform original-row proof |
 |---|---|---|
-| Earlier u | n>h | The earlier-mode height theorem; it includes $h<0$ and $0<h<n$. |
+| Earlier u | n>h | The earlier-mode height theorem; it includes $`h<0`$ and $`0<h<n`$. |
 | Middle u | 0<n<h<1 | The origin-interior curvature theorem. |
-| Larger rightmost gap | n<0, h-n>=1 | The large-gap theorem, with its analytical coefficient proof when $h\ge1$. |
+| Larger rightmost gap | n<0, h-n>=1 | The large-gap theorem, with its analytical coefficient proof when $`h\ge1`$. |
 | Smaller rightmost gap | 0<h<1, h-1<n<0 | The smaller-rightmost-gap height theorem. |
 
 The proof uses this finite coverage to apply four complete regional theorems. It does not reintroduce the original scale/discriminant/auxiliary ratio dispatch within either newly completed middle or smaller-gap region.
@@ -72,7 +72,7 @@ The module [left of w regional master height theorem](earlier-mode-height.md) pr
 
 ### Middle u
 
-For the entire region $0<n<h<1$, the [origin-interior curvature proof](middle-height-by-convexity.md) gives at most eight roots of the original equation. Its convex level curve has a positive-normal curvature equation of degree at most six. Weighted Rolle and the closed-curve endpoint count give eight, including multiplicities at strict affinely independent supports. The distinct-root boundary argument covers finite support equalities. This direct proof replaces the earlier local birth and scale-orientation calculations throughout this middle region.
+For the entire region $`0<n<h<1`$, the [origin-interior curvature proof](middle-height-by-convexity.md) gives at most eight roots of the original equation. Its convex level curve has a positive-normal curvature equation of degree at most six. Weighted Rolle and the closed-curve endpoint count give eight, including multiplicities at strict affinely independent supports. The distinct-root boundary argument covers finite support equalities. This direct proof replaces the earlier local birth and scale-orientation calculations throughout this middle region.
 
 ### Larger rightmost gap
 
@@ -95,7 +95,7 @@ Suppose a strict source row has ten distinct roots, possibly multiple. The analy
 
 Small perturbations of the original supports and coefficients preserve all those brackets and the strict support inequalities. They first make Delta nonzero if necessary, so the h,n chart is defined after reflection. The standing generic-root reduction also avoids proper auxiliary algebraic coincidences and the mode faces n=0,n=h,h=0 while preserving the original coefficients as one common triple for every resulting row. If desired h-n=1 may remain in its directly covered module; no separate contact-level perturbation is used. The perturbed noncollinear row lies in one of the four complete regions and contradicts that region's theorem.
 
-Thus every strict comparable row has fewer than ten distinct roots. To obtain the stated bound of eight, suppose a row had nine selected distinct roots. The [original-root regularization](../baseline/limiting-cases.md) changes the single positive coefficient $c_1$ slightly and retains at least nine simple crossings. A small generic support perturbation preserves their compact sign-changing brackets and the strict support chain. The preliminary derivative bound gives a finite simple-root count, and the two positive endpoint signs make that count even. Hence the perturbed row would have at least ten roots, contrary to the four proved regions. Therefore every such row has at most eight distinct roots. Section 1 proves the height inequality MH. Reflection, internal coincident-mode faces and auxiliary double faces are all covered as stated. Weak support chains or a support on the coordinate axes are outside this theorem's stated strict scope; the other original sign chambers continue to supply their own proof.
+Thus every strict comparable row has fewer than ten distinct roots. To obtain the stated bound of eight, suppose a row had nine selected distinct roots. The [original-root regularization](../baseline/limiting-cases.md) changes the single positive coefficient $`c_1`$ slightly and retains at least nine simple crossings. A small generic support perturbation preserves their compact sign-changing brackets and the strict support chain. The preliminary derivative bound gives a finite simple-root count, and the two positive endpoint signs make that count even. Hence the perturbed row would have at least ten roots, contrary to the four proved regions. Therefore every such row has at most eight distinct roots. Section 1 proves the height inequality MH. Reflection, internal coincident-mode faces and auxiliary double faces are all covered as stated. Weak support chains or a support on the coordinate axes are outside this theorem's stated strict scope; the other original sign chambers continue to supply their own proof.
 
 ## Scope
 

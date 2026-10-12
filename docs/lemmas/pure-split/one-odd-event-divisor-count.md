@@ -4,10 +4,10 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 
 Retain the strict actual mixed source and its exact identity
 
-$$
+```math
 Q=w(P_3'G-P_3G')-\lambda_1P_3G=-L_{32}K,
 \quad \deg K\le6,\quad K(0)<0,\quad L_{32}>0.
-$$
+```
 
 The residual `S=P3-kappa h1 G`, kappa>0, is analytic, nonidentity,
 negative near both endpoints, and has finite even total physical root
@@ -36,10 +36,10 @@ critical weights inside sign components.
 First suppose the sole odd P3 event is simple and there is no even P3
 root. The previously independently verified pole-divisor formula gives
 
-$$
+```math
 \operatorname{weight}_{\rm physical}K\ge N-2
 +(d_G-e_G)+2e_{G,-}\ge N-2.
-$$
+```
 
 This depends on one numerator **sign flip**, not on its order relative
 to P1 roots or on the sign of G at that event. If the sole odd P3 root
@@ -72,19 +72,19 @@ every physical P3/G common root is q=rB, and there is at most one.
 Also its minimum common multiplicity is one, since otherwise P1 would
 be multiple. Factor
 
-$$
+```math
 P_3=(x-q)A,\qquad G=(x-q)B.
-$$
+```
 
 The degree-at-most-two polynomials A,B have negative values at both
 endpoints and no common physical root. Exact common-factor cancellation
 gives
 
-$$
+```math
 Q=(x-q)^2\widehat Q,\qquad
 K=(x-q)^2\widehat K,\qquad
 \deg\widehat K\le4.
-$$
+```
 
 Set `T=A-kappa h1 B`, and let M be its total physical root multiplicity.
 Its endpoint signs are positive and negative, so M is finite and odd.
@@ -98,9 +98,9 @@ have no common physical root, so no T root can be a pole. Weighted
 Rolle on at most three occupied intervals supplies at least M-3
 physical Khat weight. The fixed common factor adds two K weights, giving
 
-$$
+```math
 \operatorname{weight}_{\rm physical}K\ge M-3+2=N-2.
-$$
+```
 
 If a Khat critical occurs at q, its multiplicity adds to the fixed two
 weights; the accounting does not require distinct critical positions.

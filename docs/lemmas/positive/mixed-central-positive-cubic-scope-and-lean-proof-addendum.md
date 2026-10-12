@@ -6,39 +6,39 @@ The mixed central-three proof extends from negative-rooted positive cubics to EV
 
 Retain its wall/projective notation eta<xi, Delta=xi-eta,
 
-$$
+```math
 G(x)=(1+x)^3R\left(\frac{\eta+\xi x}{1+x}\right)
 =g_0+g_1x+g_2x^2+g_3x^3.
-$$
+```
 
 All gi>0, and direct expansion gives
 
-$$
+```math
 g_2-g_1=\Delta[R_1+(\eta+\xi)R_2+3\eta\xi R_3]>0,
-$$
+```
 
-$$
+```math
 g_3+g_1-g_2-g_0=\Delta^3R_3>0.
-$$
+```
 
 For strict mixed walls g0>a=B(eta) and g3<b=B(xi), define
 
-$$
+```math
 E=(g_3+g_1)^2-(g_2+g_0)^2>0,
-$$
+```
 
-$$
+```math
 J=(g_2+g_0)^2+2g_1g_3-g_1^2
 =(g_2-g_1)(g_2+g_1)+2g_0g_2+g_0^2+2g_1g_3>0.
-$$
+```
 
 The original normalized four-term decomposition is equivalent to
 
-$$
+```math
 \boxed{g_3(C_2+C_4)
 =b g_3(b-g_3)+bE+(b-g_3)J
 +g_3(g_0-a)(4g_2+g_0+a)>0.}
-$$
+```
 
 Every term has a strict positive sign. This proves C2+C4>0 directly from the original cubic coefficients, without negative roots, elementary symmetric root functions, or a computer-algebra sign certificate.
 

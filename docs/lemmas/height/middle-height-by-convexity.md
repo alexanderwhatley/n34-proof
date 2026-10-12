@@ -87,6 +87,6 @@ boundary observation is not used to prove it.
 
 ## Scope and height consequence
 
-The theorem proves the entire region $0<n<h<1$ directly from the convex level curve. The earlier-mode, larger-rightmost-gap, and smaller-rightmost-gap arguments remain separate: their origin barycentric coefficients do not all have the required positive signs. The smaller-gap central orientation identity is therefore still needed there.
+The theorem proves the entire region $`0<n<h<1`$ directly from the convex level curve. The earlier-mode, larger-rightmost-gap, and smaller-rightmost-gap arguments remain separate: their origin barycentric coefficients do not all have the required positive signs. The smaller-gap central orientation identity is therefore still needed there.
 
 The nine-sample height inequality follows directly. A strict violation chooses one positive common level between the four minima and five maxima. The zero endpoint limits give ten disjoint original sign-changing brackets, contrary to the eight-root bound proved above.

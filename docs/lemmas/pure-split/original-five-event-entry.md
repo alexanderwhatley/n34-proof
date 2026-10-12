@@ -6,24 +6,24 @@ Read [the appendix terminology](../../appendix.md#terminology) before this techn
 
 Work in the strict mixed score quadrant
 
-$$
+```math
 C=b_1-b_2<0<\Delta=a_3-a_2
-$$
+```
 
 and retain
 
-$$
+```math
 R=h_1P_1+\rho h_3P_3,\qquad
  Y={P_3\over h_1G},\qquad
  S_\kappa=P_3-\kappa h_1G.                         \tag{1}
-$$
+```
 
 The six possible strict physical event orders are
 
-$$
+```math
 113,\quad131,\quad11333,\quad13133,\quad
  13313,\quad13331.                                 \tag{2}
-$$
+```
 
 > **Universal eight-root bridge.**  If a hypothetical nine-hit auxiliary ratio
 > equality has seven transverse roots of `R` in any word in (2), then its
@@ -38,34 +38,34 @@ event-sign calculation works uniformly in all six words.
 
 Reflection gives the identical theorem in `Delta<0<C` for
 
-$$
+```math
 133,\quad313,\quad11133,\quad13113,\quad
  11313,\quad31113.                                  \tag{3}
-$$
+```
 
 ## 2. Signs at selected roots
 
 Let the seven roots of `R` be
 
-$$
+```math
 r_1<\cdots<r_7.
-$$
+```
 
 At such a root, the Pluecker identity gives `X(r_i)=Y(r_i)`.  The
 hypothetical auxiliary ratio window has
 
-$$
+```math
 X(r_i)>\kappa\quad(i\text{ odd and useful}),
  \qquad 0<X(r_i)<\kappa\quad(i\text{ even}).       \tag{4}
-$$
+```
 
 The unique possible non-useful root in the three-pole equality phase is
 odd and has `X(r_i)<0`.  Thus `1-kappa/X(r_i)>0` there as well.  Consequently
 
-$$
+```math
 \boxed{\operatorname {sgn}S_\kappa(r_i)
  =\operatorname {sgn}P_3(r_i)(-1)^{i+1}.}          \tag{5}
-$$
+```
 
 All signs in (5) are strict.
 
@@ -73,41 +73,41 @@ All signs in (5) are strict.
 
 Every physical `P3` event lies to the right of
 
-$$
+```math
 c={a_2\over a_2+b_2}.
-$$
+```
 
 In this quadrant `L32>0` throughout the physical interval, while
 `lambda2<0` to the right of `c`.  At a strict `P3` event `p`,
 
-$$
+```math
 L_{32}(p)P_1(p)=\lambda _2(p)G(p).
-$$
+```
 
 Hence `sgn G(p)=-sgn P1(p)` and therefore
 
-$$
+```math
 \boxed{\operatorname {sgn}S_\kappa(p)
  =\operatorname {sgn}P_1(p).}                    \tag{6}
-$$
+```
 
 The endpoint signs are also fixed.  Since `a1<0`, `h1(0+)=infinity`, and
 
-$$
+```math
 G(0)=(a_2-a_1)\Delta\{(a_2-a_1)+\Delta\}>0,
-$$
+```
 
 one has
 
-$$
+```math
 S_\kappa(0+)<0.
-$$
+```
 
 Since `b1>0`, `h1(1-)=0`, whereas `P3(1)<0`, so
 
-$$
+```math
 \boxed{S_\kappa(0+)<0,\qquad S_\kappa(1-)<0.}     \tag{7}
-$$
+```
 
 No sign in (6)--(7) uses `B(c)`.
 
@@ -138,10 +138,10 @@ This proves the theorem on the transverse strict chart.
 
 For the old word-`131` notation with allocation `(n,m)`, the trace contains
 
-$$
+```math
 S_\kappa(r_n)>0>S_\kappa(p),\qquad
  S_\kappa(p)<0<S_\kappa(r_{n+1}),                 \tag{8}
-$$
+```
 
 whenever `m>0`.  The second interval in (8) is the formerly omitted eighth
 gap.  Its first terminal root has even global index, is necessarily useful,
@@ -151,14 +151,14 @@ and lies where `P3<0`, so its displayed positive sign is unconditional.
 
 Reflection followed by exchange of the outer labels sends a word to
 
-$$
+```math
 \mathcal R(w)=\operatorname {swap}_{1\leftrightarrow3}
                  (\operatorname {reverse}w),       \tag{9}
-$$
+```
 
 and gives
 
-$$
+```math
 \begin{array}{cc}
 113 & \leftrightarrow 133\\
 11333 & \leftrightarrow 11133\\
@@ -167,20 +167,20 @@ $$
 13313 & \leftrightarrow 13113\\
 13331 & \leftrightarrow 31113
 \end{array}                                       \tag{10}
-$$
+```
 
 It reverses the allocation and the sign of `B(c)`.  At an `R` root,
 
-$$
+```math
 Y_1=-{P_1\over h_3G}=\rho X.
-$$
+```
 
 Thus the reflected common-level equation is, up to a harmless overall
 sign,
 
-$$
+```math
 -P_1-\kappa_1h_3G=0,\qquad \kappa_1=\rho\kappa,  \tag{11}
-$$
+```
 
 and (9)--(10) carry the eight disjoint forced gaps to the reflected word.
 
@@ -188,28 +188,28 @@ and (9)--(10) carry the eight disjoint forced gaps to the reflected word.
 
 Put
 
-$$
+```math
 U=-a_1>0,\qquad v=b_1>0,\qquad y={x\over1-x}.
-$$
+```
 
 Then
 
-$$
+```math
 h_1(y)=y^{-U}(1+y)^{U-v}.                         \tag{12}
-$$
+```
 
 If
 
-$$
+```math
 0<U<1,\qquad0<v<1,                               \tag{13}
-$$
+```
 
 this is a strict Stieltjes function with infinite-support positive measure.
 After cubic homogenization, `S_kappa=0` has the form
 
-$$
+```math
 A_3+h_1B_3=0,\qquad \deg A_3,\deg B_3\le3.
-$$
+```
 
 The standard AT orthogonality argument forbids eight positive roots counted
 with multiplicity; equivalently, the ceiling is seven.  The universal bridge
@@ -218,9 +218,9 @@ is closed at the no-nine-hit-equality scope throughout (13).
 
 The reflected statement holds when
 
-$$
+```math
 0<-b_3<1,\qquad0<a_3<1,                          \tag{14}
-$$
+```
 
 using reciprocal odds and `h3`.
 
@@ -231,9 +231,9 @@ events: the four five-event orders are obtained from `113` or `131` by such
 an insertion, and the table still forces exactly eight common-level roots.
 Thus any support-global theorem
 
-$$
+```math
 Z(P_3-\kappa h_1G)\le7\qquad(\kappa>0)            \tag{15}
-$$
+```
 
 automatically deletes every mixed word, not just the base word used to
 discover it.

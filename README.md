@@ -1,23 +1,23 @@
 # N(3,4) = 9
 
-Fewnomial theory asks how the number of terms in polynomial equations limits their number of solutions, independently of their degrees. The case $N(3,4)$ concerns two equations in two variables: one with at most three monomial terms and the other with at most four.
+Fewnomial theory asks how the number of terms in polynomial equations limits their number of solutions, independently of their degrees. The case $`N(3,4)`$ concerns two equations in two variables: one with at most three monomial terms and the other with at most four.
 
-This repository proves **$N(3,4)=9$**: nine is the largest possible number of isolated solutions with $x,y>0$. The [main proof](docs/proof.md) states the precise counting conventions. The result combines a bound that applies to every such system with an explicit example attaining nine.
+This repository proves **$`N(3,4)=9`$**: nine is the largest possible number of isolated solutions with $`x,y>0`$. The [main proof](docs/proof.md) states the precise counting conventions. The result combines a bound that applies to every such system with an explicit example attaining nine.
 
 ## The problem and prior results
 
-In one variable, Descartes' rule of signs gives a bound from the number of terms, even when the polynomial's degree is large. Obtaining sharp bounds for systems in several variables is much harder. A key earlier exact result is $N(3,3)=5$, proved by [Li, Rojas, and Wang](https://arxiv.org/abs/math/0212178): two equations with three terms each can have five solutions under the same counting convention.
+In one variable, Descartes' rule of signs gives a bound from the number of terms, even when the polynomial's degree is large. Obtaining sharp bounds for systems in several variables is much harder. A key earlier exact result is $`N(3,3)=5`$, proved by [Li, Rojas, and Wang](https://arxiv.org/abs/math/0212178): two equations with three terms each can have five solutions under the same counting convention.
 
 For the three-term/four-term case, the following results set the context:
 
-| Work | Result for $N(3,4)$ |
+| Work | Result for $`N(3,4)`$ |
 | --- | --- |
-| [Li, Rojas, and Wang (2003)](https://arxiv.org/abs/math/0212178) | Their bound $N(3,m)\le 2^m-2$ gives an upper bound of fourteen. |
+| [Li, Rojas, and Wang (2003)](https://arxiv.org/abs/math/0212178) | Their bound $`N(3,m)\le 2^m-2`$ gives an upper bound of fourteen. |
 | [Gomez, Niles, and Rojas (2007 preprint)](https://arxiv.org/abs/0709.2405) | A system attaining seven gives a lower bound of seven. |
 | [El Hilany and Tavenas (2024 preprint)](https://arxiv.org/abs/2409.01651) | Their improved fewnomial bound gives an upper bound of eleven. |
 | This repository | A universal upper bound of nine and a nine-solution example give the exact value. |
 
-The value nine closes the gap between those lower and upper bounds. It advances a basic case beyond $N(3,3)=5$ from an estimate to a sharp answer: the number of terms alone determines the maximum, without a restriction on polynomial degree. Both parts matter. An upper bound rules out a tenth solution; the example shows that the bound cannot be lowered.
+The value nine closes the gap between those lower and upper bounds. It advances a basic case beyond $`N(3,3)=5`$ from an estimate to a sharp answer: the number of terms alone determines the maximum, without a restriction on polynomial degree. Both parts matter. An upper bound rules out a tenth solution; the example shows that the bound cannot be lowered.
 
 ## Reading the proof
 
@@ -32,9 +32,9 @@ Start with the [reading guide](docs/reading-guide.md), then read the main argume
 
 The reduction turns the system into a four-term function
 
-$$
+```math
 F(x)=\sum_{i=0}^{3}c_i x^{a_i}(1-x)^{b_i},\qquad 0<x<1.
-$$
+```
 
 The proof shows that a nonzero function of this form has at most nine distinct zeros for arbitrary real coefficients and exponents, then transfers that bound back to the polynomial system. The appendix supplies the specialized inequalities needed in the argument, including their parameter restrictions.
 
